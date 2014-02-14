@@ -1,0 +1,84 @@
+\documentclass[a4paper,12pt,bibliography=totoc,index=totoc,twoside,francais]{scrbook}
+%\documentclass[a4paper,12pt,DIVcalc,bibliography=totoc,index=totoc,twoside,francais]{scrbook}
+\KOMAoptions{titlepage,chapterprefix,open=right}
+%\KOMAoptions{bibliography=totoc,index=totoc}
+%\addtokomafont{chapter}{\rmfamily}
+%\addtokomafont{section}{\rmfamily}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage[automark,headsepline]{scrpage2}
+\usepackage[style=numeric,sorting=none,backend=biber]{biblatex}
+\usepackage{csquotes}
+\usepackage{xspace}
+\usepackage[autolanguage]{numprint}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage[table,svgnames,dvipsnames]{xcolor}
+\usepackage[final]{pdfpages} 
+\clubpenalty=5000
+\widowpenalty=5000
+
+%\usepackage{lipsum}
+
+\usepackage{makeidx}
+\makeindex
+\usepackage[xindy={language=french,codepage=utf8},acronym,toc=true,nonumberlist]{glossaries}
+\makeglossaries
+\newacronym{rtfm}{RTFM}{Read the f\dots manual}
+
+\usepackage[english,francais]{babel}
+\frenchbsetup{og=«, fg=»}
+%\bibliography{biblio}
+
+\usepackage[backend=biber]{biblatex}
+\addbibresource{biblio.bib}
+
+\usepackage[pdfauthor={Cynthia Lopes do Sacramento}, pdftitle={SDN : Software-Defined Networking}]{hyperref}
+
+\pagestyle{scrheadings}
+
+\begin{document}
+\includepdf[pages={1-2}]{couverture-ebt.pdf}
+
+\frontmatter
+\begin{flushright}
+Chaque fois que les gens découvrent son mensonge,\\
+Le châtiment lui vient, par la colère accru.\\
+« Je suis cuit, je suis cuit ! » gémit-il comme en songe.\\
+~\\
+Le menteur n'est jamais cru.\\
+\end{flushright}
+
+\tableofcontents
+\listoftables
+\listoffigures
+
+\mainmatter
+%\addchap{Introduction}
+\include{intro}
+
+\include{chap1}
+\include{chap2}
+\include{chap3}
+
+\include{concl}
+
+\appendix
+\include{ann1}
+%\include{ann2}
+\gls{rtfm}
+
+\backmatter
+\nocite{*}
+\printbibliography
+\printindex
+
+%\printglossary[type=\acronymtype]
+\printglossaries
+
+\cleardoublepage
+\includepdf[pages={3-4}]{couverture-ebt.pdf}
+\end{document}

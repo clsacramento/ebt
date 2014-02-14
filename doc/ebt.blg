@@ -1,0 +1,14 @@
+[0] Config.pm:300> INFO - This is Biber 0.9.9
+[0] Config.pm:303> INFO - Logfile is 'ebt.blg'
+[1] biber:145> INFO - === ven. fÃ©vr. 14, 2014, 14:56:41
+[1] Biber.pm:271> INFO - Reading 'ebt.bcf'
+[14] Biber.pm:570> INFO - Using all citekeys in bib section 0
+[23] Biber.pm:2585> INFO - Processing bib section 0
+[39] Biber.pm:2677> INFO - Looking for bibtex format file 'biblio.bib' for section 0
+[40] bibtex.pm:829> INFO - Decoding LaTeX character macros into UTF-8
+[57] bibtex.pm:833> INFO - Finished Decoding LaTeX character macros into UTF-8
+[58] bibtex.pm:704> INFO - Found BibTeX data source 'biblio.bib'
+[97] Biber.pm:2480> INFO - Sorting list 'MAIN' keys
+[111] Biber.pm:2480> INFO - Sorting list 'SHORTHANDS' keys
+[120] bbl.pm:427> INFO - Writing 'ebt.bbl' with encoding 'UTF-8'
+[121] bbl.pm:498> INFO - Output to ebt.bbl
