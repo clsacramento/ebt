@@ -1,0 +1,82 @@
+\documentclass[12pt]{article}
+
+\usepackage{sbc-template}
+
+\usepackage{graphicx,url}
+
+\usepackage{geometry}
+\geometry{a4paper,top=2.5cm,bottom=2.5cm}
+
+
+\usepackage[english,francais]{babel}   
+\usepackage[latin1]{inputenc}  
+\usepackage{fancyvrb}
+\usepackage[stable]{footmisc}
+\usepackage{type1cm}
+
+\usepackage{listings}
+\usepackage{hyperref}
+
+     
+\sloppy
+
+\title{Résumé de l'Article \\[0.5cm]
+\large A Survey of Software-Defined Networking: Past, Present, and Future of Programmable Networks}
+
+\author{Cynthia Lopes do Sacramento\\
+  {\tt clsacramento@gmail.com}}
+  
+\address{}
+
+\begin{document} 
+
+\maketitle
+
+%====================================================================================
+\begin{center}
+{\em hal-00825087, version 5\\
+http://hal.inria.fr/hal-00825087/}
+\end{center}
+
+%====================================================================================
+\section{Objectifs du Texte}
+\label{objectifs}
+
+Le texte a pour but de réaliser un état de l'art sur les réseaux programmables avec
+l'accent sur SDN. 
+
+%====================================================================================
+\section{Pertinence du Texte}
+\label{pertinence}
+Texte publié par le laboratoire INRIA Sophia Antipolis et rédigé par cinq auteurs de
+différentes origines. L'article a également été accepté par le IEEE Communications 
+Surveys \& Tutorials. Sa pertinence est donc assez conséquente.
+
+%====================================================================================
+\section{Idées Principales}
+\label{idees_principale}
+L'architecture SDN découpe la logique du contrôle (control plane) du hardware de commutation (data plane). Cela permet la consolidation des middleboxes, d'une politique de management plus simple et nouvelles fonctionnalités.
+OpenFlow, inspiré de ce principe, uniformise les échanges entre ces deux plains. Cette architecture se base sur la définition des flux qui classent les paquets et déterminent comment il sont traités et commutés.\par
+Les choix faits lors de l'implémentation d'une architecture avec telle superposition de couches peuvent influencer considérablement la performance et l'évolutivité du réseau. À partir de l'identification les préoccupations liés, divers designs du contrôleur ont été proposés pour surmonter ces challenges. Ces propositions : contrôle centralisé vs distribué; niveau de granularité des flux de contrôles; politiques réactives vs pro-actives.\par
+L'article fait un tour des principaux outils et environnements pour le développement des services et protocoles basés sur SDN. Les outils d'émulation et simulation permettent de tester les applications et protocoles dans un environnement anticipé avant de déployer dans le hardware réel. Plusieurs switchs logiciel SDN sont en disposition pour exécuter un banc d'essais lors du développement des services sur SDN. La disponibilité des switchs avec SDN natif dans le marché est une évidence claire du fort engagement à SDN par l'industrie.
+
+%====================================================================================
+\section{Méthodologie utilisée}
+\label{methodologie}
+Le texte commence par la présentation d'une perspective historique du domaine et la description en détails de l'architecture SDN ainsi que du standard OpenFlow. 
+Ensuite diverses implémentations de SDN et plate-formes de tests on été présentées 
+suivi d'un examen des services et applications réseaux qui ont été développés selon le
+paradigme SDN.
+%====================================================================================
+\section{Conclusions}
+\label{conclusions}
+Les réseaux programmables sont applicables dans une large variété d'environnements en réseau. Le découpage des plains de contrôles et données permet un contrôle personnalisé, la possibilité d'éliminer les middleboxes ainsi que la simplification du déploiement des nouveaux services et protocoles réseaux.
+%====================================================================================
+\section{Travaux futures}
+\label{travaux_futures}
+Les différents challenges posés par le paradigme SDN : le design du contrôleur et du switch; l'évolutivité et la performance; l'interface entre contrôleur et services, le système d'exploitation réseau. Les lignes directrices de recherches futures : les applications en virtualisation et cloud; les réseaux centrés dans l'information; la gestion des réseaux hétérogènes avec SDN.
+%\bibliographystyle{plain}
+%\bibliography{referencia}
+
+
+\end{document}

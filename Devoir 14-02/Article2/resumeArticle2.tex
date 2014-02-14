@@ -1,0 +1,80 @@
+\documentclass[12pt]{article}
+
+\usepackage{sbc-template}
+
+\usepackage{graphicx,url}
+
+\usepackage{geometry}
+\geometry{a4paper,top=2.5cm,bottom=2.5cm}
+
+
+\usepackage[english,francais]{babel}   
+\usepackage[latin1]{inputenc}  
+\usepackage{fancyvrb}
+\usepackage[stable]{footmisc}
+\usepackage{type1cm}
+
+\usepackage{listings}
+\usepackage{hyperref}
+
+
+\renewcommand{\figurename}{Figura}
+\renewcommand{\tablename}{Tabela}
+     
+\sloppy
+
+\title{Résumé de l'Article \\[0.5cm]
+\large OpenFlow : Enabling Innovation in Campus Networks}
+
+\author{Cynthia Lopes do Sacramento\\
+  {\tt clsacramento@gmail.com}}
+  
+\address{}
+
+\begin{document} 
+
+\maketitle
+
+%====================================================================================
+\begin{center}
+{\em ISSN: 0146-4833, 14 Mars 2008\\
+http://dl.acm.org/citation.cfm?id=1355746
+}
+\end{center}
+
+%====================================================================================
+\section{Objectifs du Texte}
+L'objectif de cet article est de proposer OpenFlow, une architecture qui permet aux chercheurs d'exécuter des protocoles en expérimentation dans le réseau de leur campus. Les auteurs cherchent à encourager les vendeurs des switchs à rajouter OpenFlow à leurs produits  ainsi qu'à encourager d'autres universités à le déployer.
+\label{objectifs}
+
+%====================================================================================
+\section{Pertinence du Texte}
+\label{pertinence}
+Le document a été rédigé par une équipe composé de chercheurs de renommées universités aux États-Unis comme Stanford en majorité mais aussi les universités Princeton, California, Washington et le MIT. L'article fait partie d'une publication ACM SIGCOMM Computer Communication Review. Il s'agit d'un texte de seulement 5 pages et il date de 2008, mais son intérêt réside dans ses origines considérées comme propulseur du paradigme SDN.
+
+%====================================================================================
+\section{Idées Principales}
+\label{idees_principale}
+Il y a une extrêmement haute barrière pour l'entrée de nouvelles idées dans le domaine des réseaux à cause de l'énorme base d'équipements et de protocoles installée ainsi qu'une  réluctance d'expérimenter avec le trafique de production. Finalement, il ne reste pratiquement pas de moyen pratique pour expérimenter des nouveaux protocoles réseau dans une configuration assez réaliste pour assurer et distribuer leurs déploiements. Comme résultat, la majorité des nouvelles idées de la recherche en réseau finissent sans essais et sans tests, ce qui apporte la croyance répandue que l'infrastructure réseau "s'est ossifiée". \par
+Pour répondre à cette problematique les auteurs proposent le switch OpenFlow. Le switch OpenFlow consiste d'au moins trois parties : un tableaux de flux, avec une action associée à chaque flux déterminant comment le switch doit le traiter; un lien sécurisé entre le switch et un contrôleur remote permettant les échanges des commandes et des paquets; le protocole OpenFlow qui fourni un standard ouvert pour qu'un contrôleur puisse communiquer avec un switch. Avec la spécification de cette interface standard (le protocole OpenFlow), les entrées du tableau de flux peuvent être définis de l'exterieur évitant la nécessité que les chercheurs programment le switch. \par
+Diverses exemples d'application pratique d'OpenFlow ont été proposés mais d'autres expériments sont encore à être évoqués. Management du Réseau et Contrôle d'Accès : l'association des flux aux groupes d'utilisateur permettant de définir les politques d'accès à différents services. VLANs : OpenFlow est capable de fournir aux utilisateurs leurs propes réseaux isolés comme les VLANs. Clients mobiles sans fils VoIP : Le contrôleur est implémenté pour tracer la localisation des clients et rédiriger ses connections, avec la reprogrammation des tableaux de flux lors que l'utilisateur bouge à travers les réseaux.
+
+
+%====================================================================================
+\section{Méthodologie utilisée}
+\label{methodologie}
+L'article commence par définir les besoins des réseaux programmables avec la formulation et le soulèvement des questions qui identifient ses challenges. Ensuite, le switch OpenFlow est présenté et défini comme réponse à ces besoins. Après, différents exemples d'utilisation d'OpenFlow sont décrits et les auteurs re-explicitent les avantages de ce standard et ses objectifs de le vulgariser.
+
+%====================================================================================
+\section{Conclusions}
+\label{conclusions}
+Openflow est un compromis qui permet les chercheurs d'exécuter leurs expériences sur des switchs et routeurs hétérogènes d'une façon uniforme sans le besoin que les vendeurs exposent l'architecture interne de leurs produits. 
+%====================================================================================
+\section{Travaux futures}
+\label{travaux_futures}
+Développement et adoption de OpenFlow dans nombreuses institutions.
+%\bibliographystyle{plain}
+%\bibliography{referencia}
+
+
+\end{document}
