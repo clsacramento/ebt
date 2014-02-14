@@ -1,4 +1,4 @@
-ebt
+EBT
 ===
 
 Épreuve Bibilographique Tutorée
