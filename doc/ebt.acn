@@ -1,1 +1,3 @@
-(indexentry :tkey (("RTFM" "\\glossaryentryfield{rtfm}{\\glsnamefont{RTFM}}{Read the f\\dots manual}{\\relax }") ) :locref "{}{12}" :attr "pageglsnumberformat" ) 
+(indexentry :tkey (("SDN" "\\glossentry{sdn}") ) :locref "{}{1}" :attr "pageglsnumberformat" ) 
+(indexentry :tkey (("SDN" "\\glossentry{sdn}") ) :locref "{}{1}" :attr "pageglsnumberformat" ) 
+(indexentry :tkey (("SDN" "\\glossentry{sdn}") ) :locref "{}{12}" :attr "pageglsnumberformat" ) 

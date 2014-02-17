@@ -1,14 +1,17 @@
-[0] Config.pm:300> INFO - This is Biber 0.9.9
-[0] Config.pm:303> INFO - Logfile is 'ebt.blg'
-[1] biber:145> INFO - === ven. fÃ©vr. 14, 2014, 14:56:41
-[1] Biber.pm:271> INFO - Reading 'ebt.bcf'
-[14] Biber.pm:570> INFO - Using all citekeys in bib section 0
-[23] Biber.pm:2585> INFO - Processing bib section 0
-[39] Biber.pm:2677> INFO - Looking for bibtex format file 'biblio.bib' for section 0
-[40] bibtex.pm:829> INFO - Decoding LaTeX character macros into UTF-8
-[57] bibtex.pm:833> INFO - Finished Decoding LaTeX character macros into UTF-8
-[58] bibtex.pm:704> INFO - Found BibTeX data source 'biblio.bib'
-[97] Biber.pm:2480> INFO - Sorting list 'MAIN' keys
-[111] Biber.pm:2480> INFO - Sorting list 'SHORTHANDS' keys
-[120] bbl.pm:427> INFO - Writing 'ebt.bbl' with encoding 'UTF-8'
-[121] bbl.pm:498> INFO - Output to ebt.bbl
+[0] Config.pm:318> INFO - This is Biber 1.8
+[0] Config.pm:321> INFO - Logfile is 'ebt.blg'
+[112] biber:275> INFO - === Fri Feb 14, 2014, 20:32:20
+[112] Biber.pm:333> INFO - Reading 'ebt.bcf'
+[185] Biber.pm:607> INFO - Using all citekeys in bib section 0
+[232] Biber.pm:3053> INFO - Processing section 0
+[287] Biber.pm:3190> INFO - Looking for bibtex format file 'biblio.bib' for section 0
+[289] bibtex.pm:933> INFO - Decoding LaTeX character macros into UTF-8
+[301] bibtex.pm:808> INFO - Found BibTeX data source 'biblio.bib'
+[394] Utils.pm:169> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[394] Utils.pm:169> WARN - BibTeX subsystem: author, warning: comma(s) at end of name (removing)
+[479] Biber.pm:2939> INFO - Overriding locale 'en_GB.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[479] Biber.pm:2945> INFO - Sorting 'entry' list 'none' keys
+[479] Biber.pm:2949> INFO - No sort tailoring available for locale 'en_GB.UTF-8'
+[503] bbl.pm:482> INFO - Writing 'ebt.bbl' with encoding 'UTF-8'
+[505] bbl.pm:555> INFO - Output to ebt.bbl
+[505] Biber.pm:105> INFO - WARNINGS: 2

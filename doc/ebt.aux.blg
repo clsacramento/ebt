@@ -1,5 +1,0 @@
-[0] Config.pm:300> INFO - This is Biber 0.9.9
-[0] Config.pm:303> INFO - Logfile is 'ebt.aux.blg'
-[1] biber:145> INFO - === ven. fÃ©vr. 14, 2014, 14:16:56
-[23] Utils.pm:184> ERROR - Cannot find control file 'ebt.aux.bcf'! - did you pass the "backend=biber" option to BibLaTeX?
-[23] Biber.pm:110> INFO - ERRORS: 1
