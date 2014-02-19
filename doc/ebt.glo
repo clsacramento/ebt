@@ -1,2 +1,13 @@
-(indexentry :tkey (("Paradigme" "\\glossentry{paradigme}") ) :locref "{}{1}" :attr "pageglsnumberformat" ) 
-(indexentry :tkey (("Paradigme" "\\glossentry{paradigme}") ) :locref "{}{12}" :attr "pageglsnumberformat" ) 
+\glossaryentry{Big Data?\glossentry{bigdata}|setentrycounter[]{page}\glsnumberformat}{1}
+\glossaryentry{Cloud Computing?\glossentry{cloudcomputing}|setentrycounter[]{page}\glsnumberformat}{1}
+\glossaryentry{Virtualisation?\glossentry{virtualisation}|setentrycounter[]{page}\glsnumberformat}{1}
+\glossaryentry{TI?\glossentry{ti}|setentrycounter[]{page}\glsnumberformat}{1}
+\glossaryentry{SDN?\glossentry{sdn}|setentrycounter[]{page}\glsnumberformat}{1}
+\glossaryentry{SDN?\glossentry{sdn}|setentrycounter[]{page}\glsnumberformat}{1}
+\glossaryentry{Paradigme?\glossentry{paradigme}|setentrycounter[]{page}\glsnumberformat}{1}
+\glossaryentry{SDN?\glossentry{sdn}|setentrycounter[]{page}\glsnumberformat}{1}
+\glossaryentry{SDN?\glossentry{sdn}|setentrycounter[]{page}\glsnumberformat}{3}
+\glossaryentry{SDN?\glossentry{sdn}|setentrycounter[]{page}\glsnumberformat}{3}
+\glossaryentry{Paradigme?\glossentry{paradigme}|setentrycounter[]{page}\glsnumberformat}{3}
+\glossaryentry{SDN?\glossentry{sdn}|setentrycounter[]{page}\glsnumberformat}{12}
+\glossaryentry{Paradigme?\glossentry{paradigme}|setentrycounter[]{page}\glsnumberformat}{12}

@@ -1,4 +1,4 @@
-This is makeindex, version 2.15 [TeX Live 2009] (kpathsea + Thai support).
+This is makeindex, version 2.15 [TeX Live 2013] (kpathsea + Thai support).
 Scanning input file ebt.tex...
 !! Input index error (file = ebt.tex, line = 1):
    -- Unknown index keyword \documentclass[a4paper,12pt,bibliography=totoc,index=totoc,twoside,francais].
@@ -25,7 +25,7 @@ Scanning input file ebt.tex...
 !! Input index error (file = ebt.tex, line = 13):
    -- Unknown index keyword \usepackage[style=numeric,sorting=none,backend=biber].
 !! Input index error (file = ebt.tex, line = 14):
-   -- Unknown index keyword %\usepackage.
+   -- Unknown index keyword \usepackage.
 !! Input index error (file = ebt.tex, line = 15):
    -- Unknown index keyword \usepackage.
 !! Input index error (file = ebt.tex, line = 16):
@@ -69,82 +69,82 @@ Scanning input file ebt.tex...
 !! Input index error (file = ebt.tex, line = 39):
    -- Unknown index keyword \newacronym.
 !! Input index error (file = ebt.tex, line = 40):
-   -- Unknown index keyword \newglossaryentry.
+   -- Unknown index keyword \newacronym.
 !! Input index error (file = ebt.tex, line = 41):
-   -- Missing arguments -- need two (premature LFD).
-!! Input index error (file = ebt.tex, line = 42):
-   -- Missing arguments -- need two (premature LFD).
+   -- Unknown index keyword \newacronym.
 !! Input index error (file = ebt.tex, line = 43):
-   -- Unknown index keyword description=.
+   -- Unknown index keyword \newglossaryentry.
 !! Input index error (file = ebt.tex, line = 44):
-   -- Unknown index keyword Sagenèseetcontinuationdelatraditionderecherchesontconditionnéesàl'engagementetauconsensusquiendécoule.\cite.
+   -- Missing arguments -- need two (premature LFD).
 !! Input index error (file = ebt.tex, line = 45):
-   -- Unknown index keyword D'aprèsDosi\cite.
+   -- Missing arguments -- need two (premature LFD).
 !! Input index error (file = ebt.tex, line = 46):
-   -- Missing arguments -- need two (premature LFD).
+   -- Unknown index keyword description=.
+!! Input index error (file = ebt.tex, line = 47):
+   -- Unknown index keyword Sagenèseetcontinuationdelatraditionderecherchesontconditionnéesàl'engagementetauconsensusquiendécoule.\cite.
 !! Input index error (file = ebt.tex, line = 48):
-   -- Unknown index keyword \usepackage[english,francais].
+   -- Unknown index keyword D'aprèsDosi\cite.
 !! Input index error (file = ebt.tex, line = 49):
-   -- Unknown index keyword \frenchbsetup.
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = ebt.tex, line = 52):
+   -- Unknown index keyword \newglossaryentry.
 !! Input index error (file = ebt.tex, line = 53):
-   -- Unknown index keyword \pagestyle.
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = ebt.tex, line = 54):
+   -- Missing arguments -- need two (premature LFD).
 !! Input index error (file = ebt.tex, line = 55):
-   -- Unknown index keyword \begin.
+   -- Unknown index keyword description=.
 !! Input index error (file = ebt.tex, line = 56):
-   -- Unknown index keyword \includepdf[pages=.
-!! Input index error (file = ebt.tex, line = 58):
+   -- Unknown index keyword \cite.
+!! Input index error (file = ebt.tex, line = 57):
    -- Missing arguments -- need two (premature LFD).
-!! Input index error (file = ebt.tex, line = 59):
-   -- Unknown index keyword \begin.
 !! Input index error (file = ebt.tex, line = 60):
-   -- Missing arguments -- need two (premature LFD).
+   -- Unknown index keyword \newglossaryentry.
 !! Input index error (file = ebt.tex, line = 61):
    -- Missing arguments -- need two (premature LFD).
 !! Input index error (file = ebt.tex, line = 62):
    -- Missing arguments -- need two (premature LFD).
 !! Input index error (file = ebt.tex, line = 63):
-   -- Missing arguments -- need two (premature LFD).
+   -- Unknown index keyword description=.
 !! Input index error (file = ebt.tex, line = 64):
    -- Missing arguments -- need two (premature LFD).
 !! Input index error (file = ebt.tex, line = 65):
-   -- Unknown index keyword \end.
+   -- Unknown index keyword \newglossaryentry.
+!! Input index error (file = ebt.tex, line = 66):
+   -- Missing arguments -- need two (premature LFD).
 !! Input index error (file = ebt.tex, line = 67):
    -- Missing arguments -- need two (premature LFD).
 !! Input index error (file = ebt.tex, line = 68):
-   -- Missing arguments -- need two (premature LFD).
+   -- Unknown index keyword description=.
 !! Input index error (file = ebt.tex, line = 69):
    -- Missing arguments -- need two (premature LFD).
-!! Input index error (file = ebt.tex, line = 71):
-   -- Missing arguments -- need two (premature LFD).
 !! Input index error (file = ebt.tex, line = 72):
-   -- Unknown index keyword %\addchap.
+   -- Unknown index keyword \usepackage[english,francais].
 !! Input index error (file = ebt.tex, line = 73):
-   -- Unknown index keyword \include.
-!! Input index error (file = ebt.tex, line = 75):
-   -- Unknown index keyword \include.
-!! Input index error (file = ebt.tex, line = 76):
-   -- Unknown index keyword \include.
+   -- Unknown index keyword \frenchbsetup.
 !! Input index error (file = ebt.tex, line = 77):
-   -- Unknown index keyword \include.
+   -- Unknown index keyword \pagestyle.
 !! Input index error (file = ebt.tex, line = 79):
-   -- Unknown index keyword \include.
-!! Input index error (file = ebt.tex, line = 81):
-   -- Missing arguments -- need two (premature LFD).
+   -- Unknown index keyword \begin.
+!! Input index error (file = ebt.tex, line = 80):
+   -- Unknown index keyword \includepdf[pages=.
 !! Input index error (file = ebt.tex, line = 82):
-   -- Unknown index keyword \include.
+   -- Missing arguments -- need two (premature LFD).
 !! Input index error (file = ebt.tex, line = 83):
-   -- Unknown index keyword %\include.
+   -- Unknown index keyword \begin.
 !! Input index error (file = ebt.tex, line = 84):
-   -- Unknown index keyword \gls.
+   -- Missing arguments -- need two (premature LFD).
 !! Input index error (file = ebt.tex, line = 85):
-   -- Unknown index keyword \gls.
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = ebt.tex, line = 86):
+   -- Missing arguments -- need two (premature LFD).
 !! Input index error (file = ebt.tex, line = 87):
    -- Missing arguments -- need two (premature LFD).
 !! Input index error (file = ebt.tex, line = 88):
-   -- Unknown index keyword \nocite.
-!! Input index error (file = ebt.tex, line = 89):
    -- Missing arguments -- need two (premature LFD).
-!! Input index error (file = ebt.tex, line = 90):
+!! Input index error (file = ebt.tex, line = 89):
+   -- Unknown index keyword \end.
+!! Input index error (file = ebt.tex, line = 91):
    -- Missing arguments -- need two (premature LFD).
 !! Input index error (file = ebt.tex, line = 92):
    -- Missing arguments -- need two (premature LFD).
@@ -153,9 +153,43 @@ Scanning input file ebt.tex...
 !! Input index error (file = ebt.tex, line = 95):
    -- Missing arguments -- need two (premature LFD).
 !! Input index error (file = ebt.tex, line = 96):
-   -- Unknown index keyword \includepdf[pages=.
+   -- Unknown index keyword %\addchap.
 !! Input index error (file = ebt.tex, line = 97):
+   -- Unknown index keyword \include.
+!! Input index error (file = ebt.tex, line = 99):
+   -- Unknown index keyword \include.
+!! Input index error (file = ebt.tex, line = 100):
+   -- Unknown index keyword \include.
+!! Input index error (file = ebt.tex, line = 101):
+   -- Unknown index keyword \include.
+!! Input index error (file = ebt.tex, line = 103):
+   -- Unknown index keyword \include.
+!! Input index error (file = ebt.tex, line = 105):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = ebt.tex, line = 106):
+   -- Unknown index keyword \include.
+!! Input index error (file = ebt.tex, line = 107):
+   -- Unknown index keyword %\include.
+!! Input index error (file = ebt.tex, line = 108):
+   -- Unknown index keyword \gls.
+!! Input index error (file = ebt.tex, line = 109):
+   -- Unknown index keyword \gls.
+!! Input index error (file = ebt.tex, line = 111):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = ebt.tex, line = 112):
+   -- Unknown index keyword \nocite.
+!! Input index error (file = ebt.tex, line = 113):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = ebt.tex, line = 114):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = ebt.tex, line = 116):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = ebt.tex, line = 118):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = ebt.tex, line = 119):
+   -- Unknown index keyword \includepdf[pages=.
+!! Input index error (file = ebt.tex, line = 120):
    -- Unknown index keyword \end.
-done (0 entries accepted, 78 rejected).
+done (0 entries accepted, 95 rejected).
 Nothing written in ebt.ind.
 Transcript written in ebt.ilg.

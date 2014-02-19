@@ -1941,10 +1941,18 @@
     <bcf:datasource type="file" datatype="bibtex">biblio.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">OpenFlowStanford</bcf:citekey>
+    <bcf:citekey order="1">InternetGlobalGrowth</bcf:citekey>
+    <bcf:citekey order="2">CiscoVNI2013</bcf:citekey>
+    <bcf:citekey order="3">InternetSustainGrowth</bcf:citekey>
+    <bcf:citekey order="4">deuxAnsInstagram</bcf:citekey>
+    <bcf:citekey order="5">IMBigData</bcf:citekey>
+    <bcf:citekey order="6">CloudComputingIntelVision</bcf:citekey>
+    <bcf:citekey order="7">OpenFlowStanford</bcf:citekey>
+    <bcf:citekey order="8">OpenFlowStanford</bcf:citekey>
     <bcf:citekey order="0">*</bcf:citekey>
-    <bcf:citekey order="2">paradigmdef</bcf:citekey>
-    <bcf:citekey order="3">newparadigm</bcf:citekey>
+    <bcf:citekey order="9">IMBigData</bcf:citekey>
+    <bcf:citekey order="10">paradigmdef</bcf:citekey>
+    <bcf:citekey order="11">newparadigm</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" type="entry" label="none">
   <bcf:sorting>

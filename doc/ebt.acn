@@ -1,3 +1,7 @@
+(indexentry :tkey (("TI" "\\glossentry{ti}") ) :locref "{}{1}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("SDN" "\\glossentry{sdn}") ) :locref "{}{1}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("SDN" "\\glossentry{sdn}") ) :locref "{}{1}" :attr "pageglsnumberformat" ) 
+(indexentry :tkey (("SDN" "\\glossentry{sdn}") ) :locref "{}{1}" :attr "pageglsnumberformat" ) 
+(indexentry :tkey (("SDN" "\\glossentry{sdn}") ) :locref "{}{3}" :attr "pageglsnumberformat" ) 
+(indexentry :tkey (("SDN" "\\glossentry{sdn}") ) :locref "{}{3}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("SDN" "\\glossentry{sdn}") ) :locref "{}{12}" :attr "pageglsnumberformat" ) 
