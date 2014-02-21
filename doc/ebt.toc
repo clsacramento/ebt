@@ -27,3 +27,7 @@
 \contentsline {chapter}{\numberline {A}Premi\IeC {\`e}re annexe}{11}{appendix.A}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\nonumberline Bibliographie}{13}{appendix*.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Glossaire}{15}{section*.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Acronyms}{17}{section*.9}

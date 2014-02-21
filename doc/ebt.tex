@@ -33,13 +33,17 @@
 \usepackage{makeidx}
 \makeindex
 %\usepackage[xindy={language=french,codepage=utf8},acronym,toc=true,nonumberlist]{glossaries}
-\usepackage{glossaries}
+%\usepackage[acronym,toc=true,nonumberlist]{glossaries}
+\usepackage[toc,acronym,nopostdot]{glossaries}
 \makeglossaries
 
 
 \newacronym{rtfm}{RTFM}{Read the f\dots manual}
+
 \newacronym{sdn}{SDN}{Software-Defined Networking, Réseau Informatique Défini par Logiciel}
+
 \newacronym{ti}{TI}{Technologie de l'Information}
+
 \newacronym{si}{SI}{Système d'Information}
 
 \newglossaryentry{paradigme}
@@ -107,14 +111,16 @@ Le menteur n'est jamais cru.\\
 \appendix
 \include{ann1}
 %\include{ann2}
-\gls{sdn}
-\gls{paradigme}
+%\gls{sdn}
+%\gls{paradigme}
+\gls{ti}
 
 \backmatter
 \nocite{*}
 \printbibliography
 \printindex
 
+\glsaddall
 \printglossaries
 
 \cleardoublepage
