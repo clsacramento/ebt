@@ -22,8 +22,19 @@
 \providecommand*\glsXpageXhypersc[2]{\setentrycounter[#1]{page}\hypersc{#2}}
 \providecommand*\glsXpageXhyperemph[2]{\setentrycounter[#1]{page}\hyperemph{#2}}
 \begin{theglossary}\glossaryheader
+\glsgroupheading{R}\relax\glsresetentrylist
+\glossaryentryfield{rtfm}{\glsnamefont{RTFM}}{Read the f\dots manual}{\relax }{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{14}}}\glsgroupskip
 \glsgroupheading{S}\relax\glsresetentrylist
-\glossentry{sdn}{\glossaryentrynumbers{\relax 
+\glossaryentryfield{sdn}{\glsnamefont{SDN}}{Software-Defined Networking, Réseau Informatique Défini par Logiciel}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{1}\delimN 
-\glsXpageXglsnumberformat{}{12}}}%
+\glsXpageXglsnumberformat{}{4}\delimN 
+\glsXpageXglsnumberformat{}{14}}}\relax\glsresetentrylist
+\glossaryentryfield{si}{\glsnamefont{SI}}{Système d'Information}{\relax }{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{14}}}\glsgroupskip
+\glsgroupheading{T}\relax\glsresetentrylist
+\glossaryentryfield{ti}{\glsnamefont{TI}}{Technologie de l'Information}{\relax }{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{1}\delimN 
+\glsXpageXglsnumberformat{}{12}\delimN 
+\glsXpageXglsnumberformat{}{14}}}%
 \end{theglossary}\glossarypostamble

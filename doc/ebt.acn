@@ -1,11 +1,11 @@
-\glossaryentry{TI?\glossentry{ti}|setentrycounter[]{page}\glsnumberformat}{1}
-\glossaryentry{SDN?\glossentry{sdn}|setentrycounter[]{page}\glsnumberformat}{1}
-\glossaryentry{SDN?\glossentry{sdn}|setentrycounter[]{page}\glsnumberformat}{1}
-\glossaryentry{SDN?\glossentry{sdn}|setentrycounter[]{page}\glsnumberformat}{1}
-\glossaryentry{SDN?\glossentry{sdn}|setentrycounter[]{page}\glsnumberformat}{3}
-\glossaryentry{SDN?\glossentry{sdn}|setentrycounter[]{page}\glsnumberformat}{3}
-\glossaryentry{TI?\glossentry{ti}|setentrycounter[]{page}\glsnumberformat}{12}
-\glossaryentry{RTFM?\glossentry{rtfm}|setentrycounter[]{page}\glsnumberformat}{14}
-\glossaryentry{SDN?\glossentry{sdn}|setentrycounter[]{page}\glsnumberformat}{14}
-\glossaryentry{TI?\glossentry{ti}|setentrycounter[]{page}\glsnumberformat}{14}
-\glossaryentry{SI?\glossentry{si}|setentrycounter[]{page}\glsnumberformat}{14}
+(indexentry :tkey (("TI" "\\glossaryentryfield{ti}{\\glsnamefont{TI}}{Technologie de l'Information}{\\relax }") ) :locref "{}{1}" :attr "pageglsnumberformat" ) 
+(indexentry :tkey (("SDN" "\\glossaryentryfield{sdn}{\\glsnamefont{SDN}}{Software-Defined Networking, Réseau Informatique Défini par Logiciel}{\\relax }") ) :locref "{}{1}" :attr "pageglsnumberformat" ) 
+(indexentry :tkey (("SDN" "\\glossaryentryfield{sdn}{\\glsnamefont{SDN}}{Software-Defined Networking, Réseau Informatique Défini par Logiciel}{\\relax }") ) :locref "{}{1}" :attr "pageglsnumberformat" ) 
+(indexentry :tkey (("SDN" "\\glossaryentryfield{sdn}{\\glsnamefont{SDN}}{Software-Defined Networking, Réseau Informatique Défini par Logiciel}{\\relax }") ) :locref "{}{1}" :attr "pageglsnumberformat" ) 
+(indexentry :tkey (("SDN" "\\glossaryentryfield{sdn}{\\glsnamefont{SDN}}{Software-Defined Networking, Réseau Informatique Défini par Logiciel}{\\relax }") ) :locref "{}{4}" :attr "pageglsnumberformat" ) 
+(indexentry :tkey (("SDN" "\\glossaryentryfield{sdn}{\\glsnamefont{SDN}}{Software-Defined Networking, Réseau Informatique Défini par Logiciel}{\\relax }") ) :locref "{}{4}" :attr "pageglsnumberformat" ) 
+(indexentry :tkey (("TI" "\\glossaryentryfield{ti}{\\glsnamefont{TI}}{Technologie de l'Information}{\\relax }") ) :locref "{}{12}" :attr "pageglsnumberformat" ) 
+(indexentry :tkey (("RTFM" "\\glossaryentryfield{rtfm}{\\glsnamefont{RTFM}}{Read the f\\dots manual}{\\relax }") ) :locref "{}{14}" :attr "pageglsnumberformat" ) 
+(indexentry :tkey (("SDN" "\\glossaryentryfield{sdn}{\\glsnamefont{SDN}}{Software-Defined Networking, Réseau Informatique Défini par Logiciel}{\\relax }") ) :locref "{}{14}" :attr "pageglsnumberformat" ) 
+(indexentry :tkey (("TI" "\\glossaryentryfield{ti}{\\glsnamefont{TI}}{Technologie de l'Information}{\\relax }") ) :locref "{}{14}" :attr "pageglsnumberformat" ) 
+(indexentry :tkey (("SI" "\\glossaryentryfield{si}{\\glsnamefont{SI}}{Système d'Information}{\\relax }") ) :locref "{}{14}" :attr "pageglsnumberformat" ) 

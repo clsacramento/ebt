@@ -1,10 +1,11 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.3 $
+% $ biblatex version 1.7 $
+% $ biber version 0.9.9 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
 % This file may safely be deleted. It will be recreated by
-% biber as required.
+% biber or bibtex as required.
 %
 \begingroup
 \makeatletter
@@ -18,383 +19,383 @@
 
 
 \refsection{0}
-  \sortlist{entry}{none}
-    \entry{InternetGlobalGrowth}{misc}{}
-      \name{labelname}{1}{}{%
-        {{hash=d448a7a032d64cf137ae602a8a42247b}{Kende}{K\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=d448a7a032d64cf137ae602a8a42247b}{Kende}{K\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{d448a7a032d64cf137ae602a8a42247b}
-      \strng{fullhash}{d448a7a032d64cf137ae602a8a42247b}
-      \field{sortinit}{0}
-      \field{labeltitle}{Internet global growth: lessons for the future}
-      \field{month}{09}
-      \field{note}{Analysys Mason Limited, London, United Kingdom}
-      \field{title}{Internet global growth: lessons for the future}
-      \field{year}{2012}
-    \endentry
-    \entry{CiscoVNI2013}{misc}{}
-      \field{sortinit}{0}
-      \field{labeltitle}{Cisco Visual Networking Index: Global Mobile Data Traffic Forecast Update, 2012–2017}
-      \field{howpublished}{White Paper}
-      \field{month}{02}
-      \field{note}{The Cisco® Visual Networking Index (VNI) Global Mobile Data Traffic Forecast Update is part of the comprehensive Cisco VNI Forecast, an ongoing initiative to track and forecast the impact of visual networking applications on global networks. This paper presents some of Cisco’s major global mobile data traffic projections and growth trends.}
-      \field{title}{Cisco Visual Networking Index: Global Mobile Data Traffic Forecast Update, 2012–2017}
-      \field{year}{2013}
-    \endentry
-    \entry{InternetSustainGrowth}{misc}{}
-      \name{labelname}{1}{}{%
-        {{hash=d448a7a032d64cf137ae602a8a42247b}{Kende}{K\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=d448a7a032d64cf137ae602a8a42247b}{Kende}{K\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{d448a7a032d64cf137ae602a8a42247b}
-      \strng{fullhash}{d448a7a032d64cf137ae602a8a42247b}
-      \field{sortinit}{0}
-      \field{labeltitle}{How Internet continues to sustain growth and Innovation}
-      \field{issn}{35128-362}
-      \field{month}{10}
-      \field{note}{Analysys Mason Limited and Internet Society (ISOC), London, United Kingdom}
-      \field{title}{How Internet continues to sustain growth and Innovation}
-      \field{year}{2012}
-    \endentry
-    \entry{deuxAnsInstagram}{misc}{}
-      \field{sortinit}{0}
-      \field{labeltitle}{2 Years Later: The First Instagram Photo}
-      \field{howpublished}{Postage d'un le blog officiel}
-      \field{title}{2 Years Later: The First Instagram Photo}
-      \field{year}{2013}
-    \endentry
-    \entry{IMBigData}{misc}{}
-      \field{sortinit}{0}
-      \field{labeltitle}{Information Management and Big Data A Reference Architecture}
-      \field{howpublished}{An Oracle White Paper}
-      \field{month}{02}
-      \field{title}{Information Management and Big Data A Reference Architecture}
-      \field{year}{2013}
-    \endentry
-    \entry{CloudComputingIntelVision}{misc}{}
-      \field{sortinit}{0}
-      \field{labeltitle}{Intel's Vision of Open Cloud Computing}
-      \field{howpublished}{White Paper}
-      \field{note}{Intel IT Center}
-      \field{title}{Intel's Vision of Open Cloud Computing}
-      \field{year}{2013}
-    \endentry
-    \entry{OpenFlowStanford}{article}{}
-      \name{labelname}{8}{}{%
-        {{hash=de88a212b707ac15b1fde53c8cb71017}{McKeown}{M\bibinitperiod}{Nick}{N\bibinitperiod}{}{}{}{}}%
-        {{hash=ed0d7310b4cdeb1e22acbd4775f2dfe8}{Anderson}{A\bibinitperiod}{Tom}{T\bibinitperiod}{}{}{}{}}%
-        {{hash=ec394c5150bcaf5dac455aa9e3221f4e}{Balakrishnan}{B\bibinitperiod}{Hari}{H\bibinitperiod}{}{}{}{}}%
-        {{hash=a565f54c21ae66e7423228b8676a61b6}{Parulkar}{P\bibinitperiod}{Guru}{G\bibinitperiod}{}{}{}{}}%
-        {{hash=3f3af29945f3176e9dd1a4ed829664ce}{Peterson}{P\bibinitperiod}{Larry}{L\bibinitperiod}{}{}{}{}}%
-        {{hash=6a657c57b5943bdc829427bef740483f}{Rexford}{R\bibinitperiod}{Jennifer}{J\bibinitperiod}{}{}{}{}}%
-        {{hash=8d2fd528d2484047352789c731e250a5}{Shenker}{S\bibinitperiod}{Scott}{S\bibinitperiod}{}{}{}{}}%
-        {{hash=b2d099aa0eb055883af0c116987070a9}{Turner}{T\bibinitperiod}{Jonathan}{J\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{8}{}{%
-        {{hash=de88a212b707ac15b1fde53c8cb71017}{McKeown}{M\bibinitperiod}{Nick}{N\bibinitperiod}{}{}{}{}}%
-        {{hash=ed0d7310b4cdeb1e22acbd4775f2dfe8}{Anderson}{A\bibinitperiod}{Tom}{T\bibinitperiod}{}{}{}{}}%
-        {{hash=ec394c5150bcaf5dac455aa9e3221f4e}{Balakrishnan}{B\bibinitperiod}{Hari}{H\bibinitperiod}{}{}{}{}}%
-        {{hash=a565f54c21ae66e7423228b8676a61b6}{Parulkar}{P\bibinitperiod}{Guru}{G\bibinitperiod}{}{}{}{}}%
-        {{hash=3f3af29945f3176e9dd1a4ed829664ce}{Peterson}{P\bibinitperiod}{Larry}{L\bibinitperiod}{}{}{}{}}%
-        {{hash=6a657c57b5943bdc829427bef740483f}{Rexford}{R\bibinitperiod}{Jennifer}{J\bibinitperiod}{}{}{}{}}%
-        {{hash=8d2fd528d2484047352789c731e250a5}{Shenker}{S\bibinitperiod}{Scott}{S\bibinitperiod}{}{}{}{}}%
-        {{hash=b2d099aa0eb055883af0c116987070a9}{Turner}{T\bibinitperiod}{Jonathan}{J\bibinitperiod}{}{}{}{}}%
-      }
-      \list{location}{1}{%
-        {New York, NY, USA}%
-      }
-      \list{publisher}{1}{%
-        {ACM}%
-      }
-      \strng{namehash}{1f89effe15693b59fe7e6d580c1d7d98}
-      \strng{fullhash}{a94c43bbce4938a2285255f72b21faf4}
-      \field{sortinit}{0}
-      \field{labeltitle}{OpenFlow: Enabling Innovation in Campus Networks}
-      \field{issn}{0146-4833}
-      \field{journaltitle}{SIGCOMM Comput. Commun. Rev.}
-      \field{month}{03}
-      \field{number}{2}
-      \field{title}{OpenFlow: Enabling Innovation in Campus Networks}
-      \field{volume}{38}
-      \field{year}{2008}
-      \field{pages}{69\bibrangedash 74}
-      \verb{doi}
-      \verb 10.1145/1355734.1355746
-      \endverb
-      \verb{url}
-      \verb http://doi.acm.org/10.1145/1355734.1355746
-      \endverb
-      \keyw{ethernet switch,flow-based,virtualization}
-    \endentry
-    \entry{SurveySDN}{misc}{}
-      \name{labelname}{5}{}{%
-        {{hash=a8f753998bb69afcd3eafd651df9762f}{Astuto}{A\bibinitperiod}{Bruno\bibnamedelima Nunes}{B\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
-        {{hash=1717b0d02e88e1a3514167a894aa8f39}{Mendonça}{M\bibinitperiod}{Marc}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=c0f9e5641a2135649c8019a5b9a1149f}{Nguyen}{N\bibinitperiod}{Xuan\bibnamedelima Nam}{X\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
-        {{hash=fb64084065efc78474c0bcea76f8416b}{Obraczka}{O\bibinitperiod}{Katia}{K\bibinitperiod}{}{}{}{}}%
-        {{hash=9387aafb8050ad590125dd423f60a2f5}{Turletti}{T\bibinitperiod}{Thierry}{T\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{5}{}{%
-        {{hash=a8f753998bb69afcd3eafd651df9762f}{Astuto}{A\bibinitperiod}{Bruno\bibnamedelima Nunes}{B\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
-        {{hash=1717b0d02e88e1a3514167a894aa8f39}{Mendonça}{M\bibinitperiod}{Marc}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=c0f9e5641a2135649c8019a5b9a1149f}{Nguyen}{N\bibinitperiod}{Xuan\bibnamedelima Nam}{X\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
-        {{hash=fb64084065efc78474c0bcea76f8416b}{Obraczka}{O\bibinitperiod}{Katia}{K\bibinitperiod}{}{}{}{}}%
-        {{hash=9387aafb8050ad590125dd423f60a2f5}{Turletti}{T\bibinitperiod}{Thierry}{T\bibinitperiod}{}{}{}{}}%
-      }
-      \list{language}{1}{%
-        {Anglais}%
-      }
-      \strng{namehash}{10760f02b82bff52a683ffca5569f8b8}
-      \strng{fullhash}{f90573fac01829071a39782c7a32d495}
-      \field{sortinit}{0}
-      \field{labeltitle}{A Survey of Software-Defined Networking: Past, Present, and Future of Programmable Networks}
-      \field{month}{01}
-      \field{title}{A Survey of Software-Defined Networking: Past, Present, and Future of Programmable Networks}
-      \field{year}{2014}
-      \verb{file}
-      \verb http://hal.inria.fr/hal-00825087/PDF/hal\_final.pdf
-      \endverb
-      \keyw{Programmable Networks,Software Defined Networking (SDN).}
-    \endentry
-    \entry{paradigmdef}{article}{}
-      \name{labelname}{2}{}{%
-        {{hash=9f457e84fab3527a576716a803bfd2d4}{S.\bibnamedelimi Cvetanovi}{S\bibinitperiod\bibinitdelim C\bibinitperiod}{D.\bibnamedelimi Despotovi}{D\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=f67709aa5fabf6dff4efe3dc49fe0fad}{Mladenovi}{M\bibinitperiod}{I.}{I\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{2}{}{%
-        {{hash=9f457e84fab3527a576716a803bfd2d4}{S.\bibnamedelimi Cvetanovi}{S\bibinitperiod\bibinitdelim C\bibinitperiod}{D.\bibnamedelimi Despotovi}{D\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=f67709aa5fabf6dff4efe3dc49fe0fad}{Mladenovi}{M\bibinitperiod}{I.}{I\bibinitperiod}{}{}{}{}}%
-      }
-      \list{language}{1}{%
-        {english}%
-      }
-      \strng{namehash}{d2683bbd922dde2b96b225a976a50956}
-      \strng{fullhash}{d2683bbd922dde2b96b225a976a50956}
-      \field{sortinit}{0}
-      \field{labeltitle}{The concept of technological paradigm and the cyclical movements of the economy}
-      \field{issn}{330.342.143}
-      \field{journaltitle}{Facta universitatis - series: Economics and Organization}
-      \field{number}{2}
-      \field{title}{The concept of technological paradigm and the cyclical movements of the economy}
-      \field{volume}{9}
-      \field{year}{2012}
-      \field{pages}{149\bibrangedash 159}
-    \endentry
-    \entry{newparadigm}{book}{}
-      \name{labelname}{1}{}{%
-        {{hash=4725b87f179d0bdd24fc06fc2563351f}{Dosi}{D\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=4725b87f179d0bdd24fc06fc2563351f}{Dosi}{D\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
-      }
-      \list{language}{1}{%
-        {english}%
-      }
-      \strng{namehash}{4725b87f179d0bdd24fc06fc2563351f}
-      \strng{fullhash}{4725b87f179d0bdd24fc06fc2563351f}
-      \field{sortinit}{0}
-      \field{labeltitle}{Technological paradigms and technological trajectories, Research Policy}
-      \field{booktitle}{Technological paradigms and technological trajectories, Research Policy}
-      \field{title}{Technological paradigms and technological trajectories, Research Policy}
-      \field{year}{1982}
-    \endentry
-    \entry{ComposingSDN}{inproceedings}{}
-      \name{labelname}{5}{}{%
-        {{hash=ce0e35fefa6c4ff084d96f93f3cb3220}{Monsanto}{M\bibinitperiod}{Christopher}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=05c748ba46b23197af776e88c33009ae}{Reich}{R\bibinitperiod}{Joshua}{J\bibinitperiod}{}{}{}{}}%
-        {{hash=1272e86faa763606ae4dc6b2fbedae2a}{Foster}{F\bibinitperiod}{Nate}{N\bibinitperiod}{}{}{}{}}%
-        {{hash=6a657c57b5943bdc829427bef740483f}{Rexford}{R\bibinitperiod}{Jennifer}{J\bibinitperiod}{}{}{}{}}%
-        {{hash=f6ebee077ea6f2c8f67f01d541cad379}{Walker}{W\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{5}{}{%
-        {{hash=ce0e35fefa6c4ff084d96f93f3cb3220}{Monsanto}{M\bibinitperiod}{Christopher}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=05c748ba46b23197af776e88c33009ae}{Reich}{R\bibinitperiod}{Joshua}{J\bibinitperiod}{}{}{}{}}%
-        {{hash=1272e86faa763606ae4dc6b2fbedae2a}{Foster}{F\bibinitperiod}{Nate}{N\bibinitperiod}{}{}{}{}}%
-        {{hash=6a657c57b5943bdc829427bef740483f}{Rexford}{R\bibinitperiod}{Jennifer}{J\bibinitperiod}{}{}{}{}}%
-        {{hash=f6ebee077ea6f2c8f67f01d541cad379}{Walker}{W\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
-      }
-      \list{location}{1}{%
-        {Lombard, IL}%
-      }
-      \list{publisher}{1}{%
-        {USENIX}%
-      }
-      \strng{namehash}{cb45efa875b01a13ec050055e41a95cf}
-      \strng{fullhash}{f1582f40a2acf1b4863a24d38476f331}
-      \field{sortinit}{0}
-      \field{labeltitle}{Composing Software Defined Networks}
-      \field{booktitle}{Presented as part of the 10th USENIX Symposium on Networked Systems Design and Implementation}
-      \field{isbn}{978-1-931971-00-3}
-      \field{title}{Composing Software Defined Networks}
-      \field{year}{2013}
-      \field{pages}{1\bibrangedash 13}
-      \verb{url}
-      \verb https://www.usenix.org/conference/nsdi13/composing-software-defined-networks
-      \endverb
-    \endentry
-    \entry{fabric}{inproceedings}{}
-      \name{labelname}{4}{}{%
-        {{hash=0fb6f28a8534be6adff8778bd2dda1de}{Casado}{C\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=4b4b1c19e65a22e44c8491e7046d6666}{Koponen}{K\bibinitperiod}{Teemu}{T\bibinitperiod}{}{}{}{}}%
-        {{hash=8d2fd528d2484047352789c731e250a5}{Shenker}{S\bibinitperiod}{Scott}{S\bibinitperiod}{}{}{}{}}%
-        {{hash=fcc62c4e0713dc79b333520f4dfc49d0}{Tootoonchian}{T\bibinitperiod}{Amin}{A\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{4}{}{%
-        {{hash=0fb6f28a8534be6adff8778bd2dda1de}{Casado}{C\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=4b4b1c19e65a22e44c8491e7046d6666}{Koponen}{K\bibinitperiod}{Teemu}{T\bibinitperiod}{}{}{}{}}%
-        {{hash=8d2fd528d2484047352789c731e250a5}{Shenker}{S\bibinitperiod}{Scott}{S\bibinitperiod}{}{}{}{}}%
-        {{hash=fcc62c4e0713dc79b333520f4dfc49d0}{Tootoonchian}{T\bibinitperiod}{Amin}{A\bibinitperiod}{}{}{}{}}%
-      }
-      \list{location}{1}{%
-        {Helsinki, Finland}%
-      }
-      \list{publisher}{1}{%
-        {ACM}%
-      }
-      \strng{namehash}{4c0a8ce5999513249566e77135bcf2ad}
-      \strng{fullhash}{683e0c576b719befd3f966fb522fb209}
-      \field{sortinit}{0}
-      \field{labeltitle}{Fabric: A Retrospective on Evolving SDN}
-      \field{booktitle}{Proceedings of the First Workshop on Hot Topics in Software Defined Networks}
-      \field{isbn}{978-1-4503-1477-0}
-      \field{series}{HotSDN '12}
-      \field{title}{Fabric: A Retrospective on Evolving SDN}
-      \field{year}{2012}
-      \field{pages}{85\bibrangedash 90}
-      \verb{doi}
-      \verb 10.1145/2342441.2342459
-      \endverb
-      \verb{url}
-      \verb http://doi.acm.org/10.1145/2342441.2342459
-      \endverb
-      \keyw{network architecture}
-    \endentry
-    \entry{ImplementationChallengesForSDN}{article}{}
-      \name{labelname}{9}{}{%
-        {{hash=b6cea6bdc21430c2853492a6aa80ecee}{Sezer}{S\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
-        {{hash=ff7959cf78f11aa9b9282d3f17d97704}{Scott-Hayward}{S\bibinithyphendelim H\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
-        {{hash=09f3f685a25fd4316926a2da26851b68}{Chouhan}{C\bibinitperiod}{P.K.}{P\bibinitperiod}{}{}{}{}}%
-        {{hash=b1c93c20eec78e3e02e9e5ee0df5dee7}{Fraser}{F\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
-        {{hash=5f1d08c0cc0429e72731f2feba427643}{Lake}{L\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
-        {{hash=6e3d59ac85e4715c445c0616c651c96b}{Finnegan}{F\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
-        {{hash=0ab27e39f687ea1246b03f89bd846de0}{Viljoen}{V\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
-        {{hash=e216a59e7c6beded03b974b7e2e71e95}{Miller}{M\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=58b72d2f11b8b9933b306c3285fb6fdb}{Rao}{R\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{9}{}{%
-        {{hash=b6cea6bdc21430c2853492a6aa80ecee}{Sezer}{S\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
-        {{hash=ff7959cf78f11aa9b9282d3f17d97704}{Scott-Hayward}{S\bibinithyphendelim H\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
-        {{hash=09f3f685a25fd4316926a2da26851b68}{Chouhan}{C\bibinitperiod}{P.K.}{P\bibinitperiod}{}{}{}{}}%
-        {{hash=b1c93c20eec78e3e02e9e5ee0df5dee7}{Fraser}{F\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
-        {{hash=5f1d08c0cc0429e72731f2feba427643}{Lake}{L\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
-        {{hash=6e3d59ac85e4715c445c0616c651c96b}{Finnegan}{F\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
-        {{hash=0ab27e39f687ea1246b03f89bd846de0}{Viljoen}{V\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
-        {{hash=e216a59e7c6beded03b974b7e2e71e95}{Miller}{M\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=58b72d2f11b8b9933b306c3285fb6fdb}{Rao}{R\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{95a538f10dbf5ae9e67772628244a40a}
-      \strng{fullhash}{e8fe385cfe037228cbf1cc467b9355e5}
-      \field{sortinit}{0}
-      \field{labeltitle}{Are we ready for SDN? Implementation challenges for software-defined networks}
-      \field{abstract}{Cloud services are exploding, and organizations are converging their data centers in order to take advantage of the predictability, continuity, and quality of service delivered by virtualization technologies. In parallel, energy-efficient and high-security networking is of increasing importance. Network operators, and service and product providers require a new network solution to efficiently tackle the increasing demands of this changing network landscape. Software-defined networking has emerged as an efficient network technology capable of supporting the dynamic nature of future network functions and intelligent applications while lowering operating costs through simplified hardware, software, and management. In this article, the question of how to achieve a successful carrier grade network with software-defined networking is raised. Specific focus is placed on the challenges of network performance, scalability, security, and interoperability with the proposal of potential solution directions.}
-      \field{issn}{0163-6804}
-      \field{journaltitle}{Communications Magazine, IEEE}
-      \field{month}{07}
-      \field{number}{7}
-      \field{title}{Are we ready for SDN? Implementation challenges for software-defined networks}
-      \field{volume}{51}
-      \field{year}{2013}
-      \field{pages}{36\bibrangedash 43}
-      \verb{doi}
-      \verb 10.1109/MCOM.2013.6553676
-      \endverb
-      \keyw{cloud computing;computer centres;computer network management;computer network performance evaluation;computer network security;open systems;quality of service;software radio;virtual private networks;virtualisation;SDN;carrier grade network;cloud service;data center;energy efficient networking;interoperability;network operator;network performance;network scalability;network security;quality of service;software defined network;virtualization technology;Cloud computing;Data centers;Network security;Quality of service;Routing;Switches}
-    \endentry
-    \entry{LanguagesForSDN}{article}{}
-      \name{labelname}{12}{}{%
-        {{hash=16da39d5cf0600d2616042fa1694f771}{Foster}{F\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
-        {{hash=cc85cbc163a0dfd83ad1e878baf7798d}{Guha}{G\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
-        {{hash=3671334dff6a7be2f05f7961e6aebc54}{Reitblatt}{R\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=385517082032e8ce0908ef85f3c1c493}{Story}{S\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
-        {{hash=29c9642626b48779a0aad88b4d4337b3}{Freedman}{F\bibinitperiod}{M.J.}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=f4c04d1d18feb07e5edefe580c57d8dc}{Katta}{K\bibinitperiod}{N.P.}{N\bibinitperiod}{}{}{}{}}%
-        {{hash=493c8ce395ca2b62c37fdfb8f0e77484}{Monsanto}{M\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=142a2136c98c6fb4f81997d8fe41764f}{Reich}{R\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
-        {{hash=42c66db167b5aafd7efd0dc601bbdbfd}{Rexford}{R\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
-        {{hash=b8a76f4dfd5750955d6be6140c8d291b}{Schlesinger}{S\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=50c5c1f622951d00c785aa70efccd3d7}{Walker}{W\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
-        {{hash=8ab320059b4659aa39e4c3cfae98271a}{Harrison}{H\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{12}{}{%
-        {{hash=16da39d5cf0600d2616042fa1694f771}{Foster}{F\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
-        {{hash=cc85cbc163a0dfd83ad1e878baf7798d}{Guha}{G\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
-        {{hash=3671334dff6a7be2f05f7961e6aebc54}{Reitblatt}{R\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=385517082032e8ce0908ef85f3c1c493}{Story}{S\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
-        {{hash=29c9642626b48779a0aad88b4d4337b3}{Freedman}{F\bibinitperiod}{M.J.}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=f4c04d1d18feb07e5edefe580c57d8dc}{Katta}{K\bibinitperiod}{N.P.}{N\bibinitperiod}{}{}{}{}}%
-        {{hash=493c8ce395ca2b62c37fdfb8f0e77484}{Monsanto}{M\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=142a2136c98c6fb4f81997d8fe41764f}{Reich}{R\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
-        {{hash=42c66db167b5aafd7efd0dc601bbdbfd}{Rexford}{R\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
-        {{hash=b8a76f4dfd5750955d6be6140c8d291b}{Schlesinger}{S\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=50c5c1f622951d00c785aa70efccd3d7}{Walker}{W\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
-        {{hash=8ab320059b4659aa39e4c3cfae98271a}{Harrison}{H\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{6f37536e13ae5e89750214c35a23c173}
-      \strng{fullhash}{8677993e3980d9d3763b29e2142bf88b}
-      \field{sortinit}{0}
-      \field{labeltitle}{Languages for software-defined networks}
-      \field{abstract}{Modern computer networks perform a bewildering array of tasks, from routing and traffic monitoring, to access control and server load balancing. However, managing these networks is unnecessarily complicated and error-prone, due to a heterogeneous mix of devices (e.g., routers, switches, firewalls, and middleboxes) with closed and proprietary configuration interfaces. Softwaredefined networks are poised to change this by offering a clean and open interface between networking devices and the software that controls them. In particular, many commercial switches support the OpenFlow protocol, and a number of campus, data center, and backbone networks have deployed the new technology. However, while SDNs make it possible to program the network, they does not make it easy. Today's OpenFlow controllers offer low-level APIs that mimic the underlying switch hardware. To reach SDNs full potential, we need to identify the right higher-level abstractions for creating (and composing) applications. In the Frenetic project, we are designing simple and intuitive abstractions for programming the three main stages of network management: monitoring network traffic, specifying and composing packet forwarding policies, and updating policies in a consistent way. Overall, these abstractions make it dramatically easier for programmers to write and reason about SDN applications.}
-      \field{issn}{0163-6804}
-      \field{journaltitle}{Communications Magazine, IEEE}
-      \field{month}{02}
-      \field{number}{2}
-      \field{title}{Languages for software-defined networks}
-      \field{volume}{51}
-      \field{year}{2013}
-      \field{pages}{128\bibrangedash 134}
-      \verb{doi}
-      \verb 10.1109/MCOM.2013.6461197
-      \endverb
-      \keyw{application program interfaces;computer network management;high level languages;protocols;software radio;telecommunication traffic;Frenetic project;OpenFlow controllers;OpenFlow protocol;SDN;access control;backbone networks;computer networks;data center;higher-level abstractions;intuitive abstractions;low-level API;network management;network traffic monitoring;networking devices;packet forwarding policies;proprietary configuration interfaces;server load balancing;software-defined networks;switch hardware;Control systems;IP networks;Languages;Monitoring;Ports (Computers);Repeaters;Runtime;Software radio}
-    \endentry
-    \entry{InternetEvolutionRoleSoftwareEngineering}{incollection}{}
-      \name{labelname}{1}{}{%
-        {{hash=42f79bfbeee9a0a56775e92e552aa9d5}{Zave}{Z\bibinitperiod}{Pamela}{P\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=42f79bfbeee9a0a56775e92e552aa9d5}{Zave}{Z\bibinitperiod}{Pamela}{P\bibinitperiod}{}{}{}{}}%
-      }
-      \name{editor}{1}{}{%
-        {{hash=0b03bc9ba71ef88823c5d274744817fa}{Nanz}{N\bibinitperiod}{Sebastian}{S\bibinitperiod}{}{}{}{}}%
-      }
-      \list{language}{1}{%
-        {English}%
-      }
-      \list{publisher}{1}{%
-        {Springer Berlin Heidelberg}%
-      }
-      \strng{namehash}{42f79bfbeee9a0a56775e92e552aa9d5}
-      \strng{fullhash}{42f79bfbeee9a0a56775e92e552aa9d5}
-      \field{sortinit}{0}
-      \field{labeltitle}{Internet Evolution and the Role of Software Engineering}
-      \field{booktitle}{The Future of Software Engineering}
-      \field{isbn}{978-3-642-15186-6}
-      \field{title}{Internet Evolution and the Role of Software Engineering}
-      \field{year}{2011}
-      \field{pages}{152\bibrangedash 172}
-      \verb{doi}
-      \verb 10.1007/978-3-642-15187-3_12
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1007/978-3-642-15187-3_12
-      \endverb
-    \endentry
-  \endsortlist
+  \entry{SurveySDN}{misc}{}
+    \name{labelname}{5}{}{%
+      {{hash=a8f753998bb69afcd3eafd651df9762f}{Astuto}{A\bibinitperiod}{Bruno\bibnamedelima Nunes}{B\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+      {{hash=1717b0d02e88e1a3514167a894aa8f39}{Mendonça}{M\bibinitperiod}{Marc}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=c0f9e5641a2135649c8019a5b9a1149f}{Nguyen}{N\bibinitperiod}{Xuan\bibnamedelima Nam}{X\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+      {{hash=fb64084065efc78474c0bcea76f8416b}{Obraczka}{O\bibinitperiod}{Katia}{K\bibinitperiod}{}{}{}{}}%
+      {{hash=9387aafb8050ad590125dd423f60a2f5}{Turletti}{T\bibinitperiod}{Thierry}{T\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{5}{}{%
+      {{hash=a8f753998bb69afcd3eafd651df9762f}{Astuto}{A\bibinitperiod}{Bruno\bibnamedelima Nunes}{B\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+      {{hash=1717b0d02e88e1a3514167a894aa8f39}{Mendonça}{M\bibinitperiod}{Marc}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=c0f9e5641a2135649c8019a5b9a1149f}{Nguyen}{N\bibinitperiod}{Xuan\bibnamedelima Nam}{X\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+      {{hash=fb64084065efc78474c0bcea76f8416b}{Obraczka}{O\bibinitperiod}{Katia}{K\bibinitperiod}{}{}{}{}}%
+      {{hash=9387aafb8050ad590125dd423f60a2f5}{Turletti}{T\bibinitperiod}{Thierry}{T\bibinitperiod}{}{}{}{}}%
+    }
+    \list{language}{1}{%
+      {Anglais}%
+    }
+    \strng{namehash}{10760f02b82bff52a683ffca5569f8b8}
+    \strng{fullhash}{f90573fac01829071a39782c7a32d495}
+    \field{sortinit}{0}
+    \field{month}{01}
+    \field{title}{A Survey of Software-Defined Networking: Past, Present, and Future of Programmable Networks}
+    \field{year}{2014}
+    \verb{file}
+    \verb http://hal.inria.fr/hal-00825087/PDF/hal\_final.pdf
+    \endverb
+    \keyw{Programmable Networks, Software Defined Networking (SDN).}
+  \endentry
+
+  \entry{OpenFlowStanford}{article}{}
+    \name{labelname}{8}{}{%
+      {{hash=de88a212b707ac15b1fde53c8cb71017}{McKeown}{M\bibinitperiod}{Nick}{N\bibinitperiod}{}{}{}{}}%
+      {{hash=ed0d7310b4cdeb1e22acbd4775f2dfe8}{Anderson}{A\bibinitperiod}{Tom}{T\bibinitperiod}{}{}{}{}}%
+      {{hash=ec394c5150bcaf5dac455aa9e3221f4e}{Balakrishnan}{B\bibinitperiod}{Hari}{H\bibinitperiod}{}{}{}{}}%
+      {{hash=a565f54c21ae66e7423228b8676a61b6}{Parulkar}{P\bibinitperiod}{Guru}{G\bibinitperiod}{}{}{}{}}%
+      {{hash=3f3af29945f3176e9dd1a4ed829664ce}{Peterson}{P\bibinitperiod}{Larry}{L\bibinitperiod}{}{}{}{}}%
+      {{hash=6a657c57b5943bdc829427bef740483f}{Rexford}{R\bibinitperiod}{Jennifer}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=8d2fd528d2484047352789c731e250a5}{Shenker}{S\bibinitperiod}{Scott}{S\bibinitperiod}{}{}{}{}}%
+      {{hash=b2d099aa0eb055883af0c116987070a9}{Turner}{T\bibinitperiod}{Jonathan}{J\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{8}{}{%
+      {{hash=de88a212b707ac15b1fde53c8cb71017}{McKeown}{M\bibinitperiod}{Nick}{N\bibinitperiod}{}{}{}{}}%
+      {{hash=ed0d7310b4cdeb1e22acbd4775f2dfe8}{Anderson}{A\bibinitperiod}{Tom}{T\bibinitperiod}{}{}{}{}}%
+      {{hash=ec394c5150bcaf5dac455aa9e3221f4e}{Balakrishnan}{B\bibinitperiod}{Hari}{H\bibinitperiod}{}{}{}{}}%
+      {{hash=a565f54c21ae66e7423228b8676a61b6}{Parulkar}{P\bibinitperiod}{Guru}{G\bibinitperiod}{}{}{}{}}%
+      {{hash=3f3af29945f3176e9dd1a4ed829664ce}{Peterson}{P\bibinitperiod}{Larry}{L\bibinitperiod}{}{}{}{}}%
+      {{hash=6a657c57b5943bdc829427bef740483f}{Rexford}{R\bibinitperiod}{Jennifer}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=8d2fd528d2484047352789c731e250a5}{Shenker}{S\bibinitperiod}{Scott}{S\bibinitperiod}{}{}{}{}}%
+      {{hash=b2d099aa0eb055883af0c116987070a9}{Turner}{T\bibinitperiod}{Jonathan}{J\bibinitperiod}{}{}{}{}}%
+    }
+    \list{location}{1}{%
+      {New York, NY, USA}%
+    }
+    \list{publisher}{1}{%
+      {ACM}%
+    }
+    \strng{namehash}{1f89effe15693b59fe7e6d580c1d7d98}
+    \strng{fullhash}{a94c43bbce4938a2285255f72b21faf4}
+    \field{sortinit}{0}
+    \field{issn}{0146-4833}
+    \field{journaltitle}{SIGCOMM Comput. Commun. Rev.}
+    \field{month}{03}
+    \field{number}{2}
+    \field{title}{OpenFlow: Enabling Innovation in Campus Networks}
+    \field{volume}{38}
+    \field{year}{2008}
+    \field{pages}{69\bibrangedash 74}
+    \verb{doi}
+    \verb 10.1145/1355734.1355746
+    \endverb
+    \verb{url}
+    \verb http://doi.acm.org/10.1145/1355734.1355746
+    \endverb
+    \keyw{ethernet switch, flow-based, virtualization}
+  \endentry
+
+  \entry{paradigmdef}{article}{}
+    \name{labelname}{2}{}{%
+      {{hash=9f457e84fab3527a576716a803bfd2d4}{S.\bibnamedelimi Cvetanovi}{S\bibinitperiod\bibinitdelim C\bibinitperiod}{D.\bibnamedelimi Despotovi}{D\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      {{hash=f67709aa5fabf6dff4efe3dc49fe0fad}{Mladenovi}{M\bibinitperiod}{I.}{I\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{2}{}{%
+      {{hash=9f457e84fab3527a576716a803bfd2d4}{S.\bibnamedelimi Cvetanovi}{S\bibinitperiod\bibinitdelim C\bibinitperiod}{D.\bibnamedelimi Despotovi}{D\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      {{hash=f67709aa5fabf6dff4efe3dc49fe0fad}{Mladenovi}{M\bibinitperiod}{I.}{I\bibinitperiod}{}{}{}{}}%
+    }
+    \list{language}{1}{%
+      {english}%
+    }
+    \strng{namehash}{d2683bbd922dde2b96b225a976a50956}
+    \strng{fullhash}{d2683bbd922dde2b96b225a976a50956}
+    \field{sortinit}{0}
+    \field{issn}{330.342.143}
+    \field{journaltitle}{Facta universitatis - series: Economics and Organization}
+    \field{number}{2}
+    \field{title}{The concept of technological paradigm and the cyclical movements of the economy}
+    \field{volume}{9}
+    \field{year}{2012}
+    \field{pages}{149\bibrangedash 159}
+  \endentry
+
+  \entry{newparadigm}{book}{}
+    \name{labelname}{1}{}{%
+      {{hash=4725b87f179d0bdd24fc06fc2563351f}{Dosi}{D\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=4725b87f179d0bdd24fc06fc2563351f}{Dosi}{D\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+    }
+    \list{language}{1}{%
+      {english}%
+    }
+    \strng{namehash}{4725b87f179d0bdd24fc06fc2563351f}
+    \strng{fullhash}{4725b87f179d0bdd24fc06fc2563351f}
+    \field{sortinit}{0}
+    \field{booktitle}{Technological paradigms and technological trajectories, Research Policy}
+    \field{title}{Technological paradigms and technological trajectories, Research Policy}
+    \field{year}{1982}
+  \endentry
+
+  \entry{CiscoVNI2013}{misc}{}
+    \field{sortinit}{0}
+    \field{howpublished}{White Paper}
+    \field{month}{02}
+    \field{note}{The Cisco® Visual Networking Index (VNI) Global Mobile Data Traffic Forecast Update is part of the comprehensive Cisco VNI Forecast, an ongoing initiative to track and forecast the impact of visual networking applications on global networks. This paper presents some of Cisco’s major global mobile data traffic projections and growth trends.}
+    \field{title}{Cisco Visual Networking Index: Global Mobile Data Traffic Forecast Update, 2012–2017}
+    \field{year}{2013}
+  \endentry
+
+  \entry{deuxAnsInstagram}{misc}{}
+    \field{sortinit}{0}
+    \field{howpublished}{Postage d'un le blog officiel}
+    \field{title}{2 Years Later: The First Instagram Photo}
+    \field{year}{2013}
+  \endentry
+
+  \entry{CloudComputingIntelVision}{misc}{}
+    \field{sortinit}{0}
+    \field{howpublished}{White Paper}
+    \field{note}{Intel IT Center}
+    \field{title}{Intel's Vision of Open Cloud Computing}
+    \field{year}{2013}
+  \endentry
+
+  \entry{ComposingSDN}{inproceedings}{}
+    \name{labelname}{5}{}{%
+      {{hash=ce0e35fefa6c4ff084d96f93f3cb3220}{Monsanto}{M\bibinitperiod}{Christopher}{C\bibinitperiod}{}{}{}{}}%
+      {{hash=05c748ba46b23197af776e88c33009ae}{Reich}{R\bibinitperiod}{Joshua}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=1272e86faa763606ae4dc6b2fbedae2a}{Foster}{F\bibinitperiod}{Nate}{N\bibinitperiod}{}{}{}{}}%
+      {{hash=6a657c57b5943bdc829427bef740483f}{Rexford}{R\bibinitperiod}{Jennifer}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=f6ebee077ea6f2c8f67f01d541cad379}{Walker}{W\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{5}{}{%
+      {{hash=ce0e35fefa6c4ff084d96f93f3cb3220}{Monsanto}{M\bibinitperiod}{Christopher}{C\bibinitperiod}{}{}{}{}}%
+      {{hash=05c748ba46b23197af776e88c33009ae}{Reich}{R\bibinitperiod}{Joshua}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=1272e86faa763606ae4dc6b2fbedae2a}{Foster}{F\bibinitperiod}{Nate}{N\bibinitperiod}{}{}{}{}}%
+      {{hash=6a657c57b5943bdc829427bef740483f}{Rexford}{R\bibinitperiod}{Jennifer}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=f6ebee077ea6f2c8f67f01d541cad379}{Walker}{W\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+    }
+    \list{location}{1}{%
+      {Lombard, IL}%
+    }
+    \list{publisher}{1}{%
+      {USENIX}%
+    }
+    \strng{namehash}{cb45efa875b01a13ec050055e41a95cf}
+    \strng{fullhash}{f1582f40a2acf1b4863a24d38476f331}
+    \field{sortinit}{0}
+    \field{booktitle}{Presented as part of the 10th USENIX Symposium on Networked Systems Design and Implementation}
+    \field{isbn}{978-1-931971-00-3}
+    \field{title}{Composing Software Defined Networks}
+    \field{year}{2013}
+    \field{pages}{1\bibrangedash 13}
+    \verb{url}
+    \verb https://www.usenix.org/conference/nsdi13/composing-software-defined-networks
+    \endverb
+    \warn{\item Field 'address' is aliased to field 'location' but both are defined in entry with key 'ComposingSDN' - skipping alias}
+  \endentry
+
+  \entry{fabric}{inproceedings}{}
+    \name{labelname}{4}{}{%
+      {{hash=0fb6f28a8534be6adff8778bd2dda1de}{Casado}{C\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=4b4b1c19e65a22e44c8491e7046d6666}{Koponen}{K\bibinitperiod}{Teemu}{T\bibinitperiod}{}{}{}{}}%
+      {{hash=8d2fd528d2484047352789c731e250a5}{Shenker}{S\bibinitperiod}{Scott}{S\bibinitperiod}{}{}{}{}}%
+      {{hash=fcc62c4e0713dc79b333520f4dfc49d0}{Tootoonchian}{T\bibinitperiod}{Amin}{A\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{4}{}{%
+      {{hash=0fb6f28a8534be6adff8778bd2dda1de}{Casado}{C\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=4b4b1c19e65a22e44c8491e7046d6666}{Koponen}{K\bibinitperiod}{Teemu}{T\bibinitperiod}{}{}{}{}}%
+      {{hash=8d2fd528d2484047352789c731e250a5}{Shenker}{S\bibinitperiod}{Scott}{S\bibinitperiod}{}{}{}{}}%
+      {{hash=fcc62c4e0713dc79b333520f4dfc49d0}{Tootoonchian}{T\bibinitperiod}{Amin}{A\bibinitperiod}{}{}{}{}}%
+    }
+    \list{location}{1}{%
+      {Helsinki, Finland}%
+    }
+    \list{publisher}{1}{%
+      {ACM}%
+    }
+    \strng{namehash}{4c0a8ce5999513249566e77135bcf2ad}
+    \strng{fullhash}{683e0c576b719befd3f966fb522fb209}
+    \field{sortinit}{0}
+    \field{booktitle}{Proceedings of the First Workshop on Hot Topics in Software Defined Networks}
+    \field{isbn}{978-1-4503-1477-0}
+    \field{series}{HotSDN '12}
+    \field{title}{Fabric: A Retrospective on Evolving SDN}
+    \field{year}{2012}
+    \field{pages}{85\bibrangedash 90}
+    \verb{doi}
+    \verb 10.1145/2342441.2342459
+    \endverb
+    \verb{url}
+    \verb http://doi.acm.org/10.1145/2342441.2342459
+    \endverb
+    \keyw{network architecture}
+    \warn{\item Field 'address' is aliased to field 'location' but both are defined in entry with key 'fabric' - skipping alias}
+  \endentry
+
+  \entry{ImplementationChallengesForSDN}{article}{}
+    \name{labelname}{9}{}{%
+      {{hash=b6cea6bdc21430c2853492a6aa80ecee}{Sezer}{S\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      {{hash=ff7959cf78f11aa9b9282d3f17d97704}{Scott-Hayward}{S\bibinithyphendelim H\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      {{hash=09f3f685a25fd4316926a2da26851b68}{Chouhan}{C\bibinitperiod}{P.K.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=b1c93c20eec78e3e02e9e5ee0df5dee7}{Fraser}{F\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+      {{hash=5f1d08c0cc0429e72731f2feba427643}{Lake}{L\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+      {{hash=6e3d59ac85e4715c445c0616c651c96b}{Finnegan}{F\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=0ab27e39f687ea1246b03f89bd846de0}{Viljoen}{V\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+      {{hash=e216a59e7c6beded03b974b7e2e71e95}{Miller}{M\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=58b72d2f11b8b9933b306c3285fb6fdb}{Rao}{R\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{9}{}{%
+      {{hash=b6cea6bdc21430c2853492a6aa80ecee}{Sezer}{S\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      {{hash=ff7959cf78f11aa9b9282d3f17d97704}{Scott-Hayward}{S\bibinithyphendelim H\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      {{hash=09f3f685a25fd4316926a2da26851b68}{Chouhan}{C\bibinitperiod}{P.K.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=b1c93c20eec78e3e02e9e5ee0df5dee7}{Fraser}{F\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+      {{hash=5f1d08c0cc0429e72731f2feba427643}{Lake}{L\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+      {{hash=6e3d59ac85e4715c445c0616c651c96b}{Finnegan}{F\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=0ab27e39f687ea1246b03f89bd846de0}{Viljoen}{V\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+      {{hash=e216a59e7c6beded03b974b7e2e71e95}{Miller}{M\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=58b72d2f11b8b9933b306c3285fb6fdb}{Rao}{R\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{95a538f10dbf5ae9e67772628244a40a}
+    \strng{fullhash}{e8fe385cfe037228cbf1cc467b9355e5}
+    \field{sortinit}{0}
+    \field{abstract}{Cloud services are exploding, and organizations are converging their data centers in order to take advantage of the predictability, continuity, and quality of service delivered by virtualization technologies. In parallel, energy-efficient and high-security networking is of increasing importance. Network operators, and service and product providers require a new network solution to efficiently tackle the increasing demands of this changing network landscape. Software-defined networking has emerged as an efficient network technology capable of supporting the dynamic nature of future network functions and intelligent applications while lowering operating costs through simplified hardware, software, and management. In this article, the question of how to achieve a successful carrier grade network with software-defined networking is raised. Specific focus is placed on the challenges of network performance, scalability, security, and interoperability with the proposal of potential solution directions.}
+    \field{issn}{0163-6804}
+    \field{journaltitle}{Communications Magazine, IEEE}
+    \field{month}{07}
+    \field{number}{7}
+    \field{title}{Are we ready for SDN? Implementation challenges for software-defined networks}
+    \field{volume}{51}
+    \field{year}{2013}
+    \field{pages}{36\bibrangedash 43}
+    \verb{doi}
+    \verb 10.1109/MCOM.2013.6553676
+    \endverb
+    \keyw{cloud computing;computer centres;computer network management;computer network performance evaluation;computer network security;open systems;quality of service;software radio;virtual private networks;virtualisation;SDN;carrier grade network;cloud service;data center;energy efficient networking;interoperability;network operator;network performance;network scalability;network security;quality of service;software defined network;virtualization technology;Cloud computing;Data centers;Network security;Quality of service;Routing;Switches}
+  \endentry
+
+  \entry{LanguagesForSDN}{article}{}
+    \name{labelname}{12}{}{%
+      {{hash=16da39d5cf0600d2616042fa1694f771}{Foster}{F\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+      {{hash=cc85cbc163a0dfd83ad1e878baf7798d}{Guha}{G\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+      {{hash=3671334dff6a7be2f05f7961e6aebc54}{Reitblatt}{R\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=385517082032e8ce0908ef85f3c1c493}{Story}{S\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+      {{hash=29c9642626b48779a0aad88b4d4337b3}{Freedman}{F\bibinitperiod}{M.J.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=f4c04d1d18feb07e5edefe580c57d8dc}{Katta}{K\bibinitperiod}{N.P.}{N\bibinitperiod}{}{}{}{}}%
+      {{hash=493c8ce395ca2b62c37fdfb8f0e77484}{Monsanto}{M\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+      {{hash=142a2136c98c6fb4f81997d8fe41764f}{Reich}{R\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=42c66db167b5aafd7efd0dc601bbdbfd}{Rexford}{R\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=b8a76f4dfd5750955d6be6140c8d291b}{Schlesinger}{S\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+      {{hash=50c5c1f622951d00c785aa70efccd3d7}{Walker}{W\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+      {{hash=8ab320059b4659aa39e4c3cfae98271a}{Harrison}{H\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{12}{}{%
+      {{hash=16da39d5cf0600d2616042fa1694f771}{Foster}{F\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+      {{hash=cc85cbc163a0dfd83ad1e878baf7798d}{Guha}{G\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+      {{hash=3671334dff6a7be2f05f7961e6aebc54}{Reitblatt}{R\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=385517082032e8ce0908ef85f3c1c493}{Story}{S\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+      {{hash=29c9642626b48779a0aad88b4d4337b3}{Freedman}{F\bibinitperiod}{M.J.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=f4c04d1d18feb07e5edefe580c57d8dc}{Katta}{K\bibinitperiod}{N.P.}{N\bibinitperiod}{}{}{}{}}%
+      {{hash=493c8ce395ca2b62c37fdfb8f0e77484}{Monsanto}{M\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+      {{hash=142a2136c98c6fb4f81997d8fe41764f}{Reich}{R\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=42c66db167b5aafd7efd0dc601bbdbfd}{Rexford}{R\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=b8a76f4dfd5750955d6be6140c8d291b}{Schlesinger}{S\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+      {{hash=50c5c1f622951d00c785aa70efccd3d7}{Walker}{W\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+      {{hash=8ab320059b4659aa39e4c3cfae98271a}{Harrison}{H\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{6f37536e13ae5e89750214c35a23c173}
+    \strng{fullhash}{8677993e3980d9d3763b29e2142bf88b}
+    \field{sortinit}{0}
+    \field{abstract}{Modern computer networks perform a bewildering array of tasks, from routing and traffic monitoring, to access control and server load balancing. However, managing these networks is unnecessarily complicated and error-prone, due to a heterogeneous mix of devices (e.g., routers, switches, firewalls, and middleboxes) with closed and proprietary configuration interfaces. Softwaredefined networks are poised to change this by offering a clean and open interface between networking devices and the software that controls them. In particular, many commercial switches support the OpenFlow protocol, and a number of campus, data center, and backbone networks have deployed the new technology. However, while SDNs make it possible to program the network, they does not make it easy. Today's OpenFlow controllers offer low-level APIs that mimic the underlying switch hardware. To reach SDNs full potential, we need to identify the right higher-level abstractions for creating (and composing) applications. In the Frenetic project, we are designing simple and intuitive abstractions for programming the three main stages of network management: monitoring network traffic, specifying and composing packet forwarding policies, and updating policies in a consistent way. Overall, these abstractions make it dramatically easier for programmers to write and reason about SDN applications.}
+    \field{issn}{0163-6804}
+    \field{journaltitle}{Communications Magazine, IEEE}
+    \field{month}{02}
+    \field{number}{2}
+    \field{title}{Languages for software-defined networks}
+    \field{volume}{51}
+    \field{year}{2013}
+    \field{pages}{128\bibrangedash 134}
+    \verb{doi}
+    \verb 10.1109/MCOM.2013.6461197
+    \endverb
+    \keyw{application program interfaces;computer network management;high level languages;protocols;software radio;telecommunication traffic;Frenetic project;OpenFlow controllers;OpenFlow protocol;SDN;access control;backbone networks;computer networks;data center;higher-level abstractions;intuitive abstractions;low-level API;network management;network traffic monitoring;networking devices;packet forwarding policies;proprietary configuration interfaces;server load balancing;software-defined networks;switch hardware;Control systems;IP networks;Languages;Monitoring;Ports (Computers);Repeaters;Runtime;Software radio}
+  \endentry
+
+  \entry{InternetGlobalGrowth}{misc}{}
+    \name{labelname}{1}{}{%
+      {{hash=d448a7a032d64cf137ae602a8a42247b}{Kende}{K\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=d448a7a032d64cf137ae602a8a42247b}{Kende}{K\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{d448a7a032d64cf137ae602a8a42247b}
+    \strng{fullhash}{d448a7a032d64cf137ae602a8a42247b}
+    \field{sortinit}{0}
+    \field{month}{09}
+    \field{note}{Analysys Mason Limited, London, United Kingdom}
+    \field{title}{Internet global growth: lessons for the future}
+    \field{year}{2012}
+  \endentry
+
+  \entry{InternetSustainGrowth}{misc}{}
+    \name{labelname}{1}{}{%
+      {{hash=d448a7a032d64cf137ae602a8a42247b}{Kende}{K\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=d448a7a032d64cf137ae602a8a42247b}{Kende}{K\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{d448a7a032d64cf137ae602a8a42247b}
+    \strng{fullhash}{d448a7a032d64cf137ae602a8a42247b}
+    \field{sortinit}{0}
+    \field{issn}{35128-362}
+    \field{month}{10}
+    \field{note}{Analysys Mason Limited and Internet Society (ISOC), London, United Kingdom}
+    \field{title}{How Internet continues to sustain growth and Innovation}
+    \field{year}{2012}
+  \endentry
+
+  \entry{IMBigData}{misc}{}
+    \field{sortinit}{0}
+    \field{howpublished}{An Oracle White Paper}
+    \field{month}{02}
+    \field{title}{Information Management and Big Data A Reference Architecture}
+    \field{year}{2013}
+  \endentry
+
+  \entry{InternetEvolutionRoleSoftwareEngineering}{incollection}{}
+    \name{labelname}{1}{}{%
+      {{hash=42f79bfbeee9a0a56775e92e552aa9d5}{Zave}{Z\bibinitperiod}{Pamela}{P\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=42f79bfbeee9a0a56775e92e552aa9d5}{Zave}{Z\bibinitperiod}{Pamela}{P\bibinitperiod}{}{}{}{}}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=0b03bc9ba71ef88823c5d274744817fa}{Nanz}{N\bibinitperiod}{Sebastian}{S\bibinitperiod}{}{}{}{}}%
+    }
+    \list{language}{1}{%
+      {English}%
+    }
+    \list{publisher}{1}{%
+      {Springer Berlin Heidelberg}%
+    }
+    \strng{namehash}{42f79bfbeee9a0a56775e92e552aa9d5}
+    \strng{fullhash}{42f79bfbeee9a0a56775e92e552aa9d5}
+    \field{sortinit}{0}
+    \field{booktitle}{The Future of Software Engineering}
+    \field{isbn}{978-3-642-15186-6}
+    \field{title}{Internet Evolution and the Role of Software Engineering}
+    \field{year}{2011}
+    \field{pages}{152\bibrangedash 172}
+    \verb{doi}
+    \verb 10.1007/978-3-642-15187-3_12
+    \endverb
+    \verb{url}
+    \verb http://dx.doi.org/10.1007/978-3-642-15187-3_12
+    \endverb
+  \endentry
+
 \endrefsection
 \endinput
 
