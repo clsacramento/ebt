@@ -1,42 +1,20 @@
 \glossarysection[\glossarytoctitle]{\glossarytitle}\glossarypreamble
-\providecommand*\glsXpageXglsnumberformat[2]{\setentrycounter[#1]{page}\glsnumberformat{#2}}
-\providecommand*\glsXpageXtextrm[2]{\setentrycounter[#1]{page}\textrm{#2}}
-\providecommand*\glsXpageXtextsf[2]{\setentrycounter[#1]{page}\textsf{#2}}
-\providecommand*\glsXpageXtexttt[2]{\setentrycounter[#1]{page}\texttt{#2}}
-\providecommand*\glsXpageXtextbf[2]{\setentrycounter[#1]{page}\textbf{#2}}
-\providecommand*\glsXpageXtextmd[2]{\setentrycounter[#1]{page}\textmd{#2}}
-\providecommand*\glsXpageXtextit[2]{\setentrycounter[#1]{page}\textit{#2}}
-\providecommand*\glsXpageXtextup[2]{\setentrycounter[#1]{page}\textup{#2}}
-\providecommand*\glsXpageXtextsl[2]{\setentrycounter[#1]{page}\textsl{#2}}
-\providecommand*\glsXpageXtextsc[2]{\setentrycounter[#1]{page}\textsc{#2}}
-\providecommand*\glsXpageXemph[2]{\setentrycounter[#1]{page}\emph{#2}}
-\providecommand*\glsXpageXglshypernumber[2]{\setentrycounter[#1]{page}\glshypernumber{#2}}
-\providecommand*\glsXpageXhyperrm[2]{\setentrycounter[#1]{page}\hyperrm{#2}}
-\providecommand*\glsXpageXhypersf[2]{\setentrycounter[#1]{page}\hypersf{#2}}
-\providecommand*\glsXpageXhypertt[2]{\setentrycounter[#1]{page}\hypertt{#2}}
-\providecommand*\glsXpageXhyperbf[2]{\setentrycounter[#1]{page}\hyperbf{#2}}
-\providecommand*\glsXpageXhypermd[2]{\setentrycounter[#1]{page}\hypermd{#2}}
-\providecommand*\glsXpageXhyperit[2]{\setentrycounter[#1]{page}\hyperit{#2}}
-\providecommand*\glsXpageXhyperup[2]{\setentrycounter[#1]{page}\hyperup{#2}}
-\providecommand*\glsXpageXhypersl[2]{\setentrycounter[#1]{page}\hypersl{#2}}
-\providecommand*\glsXpageXhypersc[2]{\setentrycounter[#1]{page}\hypersc{#2}}
-\providecommand*\glsXpageXhyperemph[2]{\setentrycounter[#1]{page}\hyperemph{#2}}
 \begin{theglossary}\glossaryheader
-\glsgroupheading{B}\relax\glsresetentrylist
+\glsgroupheading{B}\relax \glsresetentrylist %
 \glossaryentryfield{bigdata}{\glsnamefont{Big Data}}{Big Data est un terme appliqué aux ensemble de données dont la taille est au-delà de la capacités des outils logiciels communs de les capturer, gérer et traiter. Une nouvelle classe de technologies et outils ont été développés pour surmonter le challenge de créer valeur commercial à partir la complexe analyse de ces donnés. Le terme est employé pour référer ce type de données ainsi que les technologies utilisées pour les stocker et traiter \cite {IMBigData} }{\relax }{\glossaryentrynumbers{\relax 
-\glsXpageXglsnumberformat{}{1}\delimN 
-\glsXpageXglsnumberformat{}{14}}}\glsgroupskip
-\glsgroupheading{C}\relax\glsresetentrylist
-\glossaryentryfield{cloudcomputing}{\glsnamefont{Cloud Computing}}{ zzz }{\relax }{\glossaryentrynumbers{\relax 
-\glsXpageXglsnumberformat{}{1}\delimN 
-\glsXpageXglsnumberformat{}{14}}}\glsgroupskip
-\glsgroupheading{P}\relax\glsresetentrylist
+		\setentrycounter[]{page}\glsnumberformat{1}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{13}}}\glsgroupskip
+\glsgroupheading{C}\relax \glsresetentrylist %
+\glossaryentryfield{cloudcomputing}{\glsnamefont{Cloud Computing}}{ Le Cloud Computing est x }{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{1}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{13}}}\glsgroupskip
+\glsgroupheading{P}\relax \glsresetentrylist %
 \glossaryentryfield{paradigme}{\glsnamefont{Paradigme}}{Un paradigme dénote une collection de règles, standards et exemples de pratiques scientifiques, partagés par un groupe de scientifiques. Sa genèse et continuation de la tradition de recherche sont conditionnées à l'engagement et au consensus qui en découle. \cite {paradigmdef} D'après Dosi \cite {newparadigm}, quand un nouveau paradigme technologique apparaît, il représente une discontinuité ou un changement de la manière de penser. Ce changement apporté par le paradigme est souvent lié à une sorte d'innovation radicale qui applique une nouvelle technologie. Dans ce document, le terme paradigme sera employé dans ce sens d'innovation et application de nouvelle technologie }{\relax }{\glossaryentrynumbers{\relax 
-\glsXpageXglsnumberformat{}{1}\delimN 
-\glsXpageXglsnumberformat{}{4}\delimN 
-\glsXpageXglsnumberformat{}{14}}}\glsgroupskip
-\glsgroupheading{V}\relax\glsresetentrylist
-\glossaryentryfield{virtualisation}{\glsnamefont{Virtualisation}}{ xxx }{\relax }{\glossaryentrynumbers{\relax 
-\glsXpageXglsnumberformat{}{1}\delimN 
-\glsXpageXglsnumberformat{}{14}}}%
+		\setentrycounter[]{page}\glsnumberformat{1}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{4}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{13}}}\glsgroupskip
+\glsgroupheading{V}\relax \glsresetentrylist %
+\glossaryentryfield{virtualisation}{\glsnamefont{Virtualisation}}{ La Virtualisation est y }{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{1}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{13}}}%
 \end{theglossary}\glossarypostamble
