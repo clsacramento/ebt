@@ -1,0 +1,13 @@
+@ARTICLE{6553676, 
+author={Sezer, S. and Scott-Hayward, S. and Chouhan, P.K. and Fraser, B. and Lake, D. and Finnegan, J. and Viljoen, N. and Miller, M. and Rao, N.}, 
+journal={Communications Magazine, IEEE}, 
+title={Are we ready for SDN? Implementation challenges for software-defined networks}, 
+year={2013}, 
+month={July}, 
+volume={51}, 
+number={7}, 
+pages={36-43}, 
+abstract={Cloud services are exploding, and organizations are converging their data centers in order to take advantage of the predictability, continuity, and quality of service delivered by virtualization technologies. In parallel, energy-efficient and high-security networking is of increasing importance. Network operators, and service and product providers require a new network solution to efficiently tackle the increasing demands of this changing network landscape. Software-defined networking has emerged as an efficient network technology capable of supporting the dynamic nature of future network functions and intelligent applications while lowering operating costs through simplified hardware, software, and management. In this article, the question of how to achieve a successful carrier grade network with software-defined networking is raised. Specific focus is placed on the challenges of network performance, scalability, security, and interoperability with the proposal of potential solution directions.}, 
+keywords={cloud computing;computer centres;computer network management;computer network performance evaluation;computer network security;open systems;quality of service;software radio;virtual private networks;virtualisation;SDN;carrier grade network;cloud service;data center;energy efficient networking;interoperability;network operator;network performance;network scalability;network security;quality of service;software defined network;virtualization technology;Cloud computing;Data centers;Network security;Quality of service;Routing;Switches}, 
+doi={10.1109/MCOM.2013.6553676}, 
+ISSN={0163-6804},}
