@@ -5,10 +5,29 @@
 
 %\section{Deuxième section}\label{sec-1-2}
 
+Ce chapitre va reprendre les problèmes réseaux rencontrés pour définir quels sont les besoins actuels dans le domaine. Dans ce chapitre je vais proposer une liste de requis pour une architecture réseau idéalement adapté aux applications actuels.
+En connaissant les problèmes de l'architecture en place, la question que se pose est : si on repartait de zéro, comment on le ferrait ?
+
 \section{Ossification de l'Internet}
 
 
-Ayant habilité et même encouragé les utilisateurs a innover sur son architecture, l'internet s'est faite obsolète par son propre succès. La croissance explosive des utilisateurs, trafique, applications et menaces a apporté tout une gamme de problèmes. L'internet a été créée dans une époque plus simple, parmi peu d'intervenant en coopération. Dès l'internet devient partie de plus en plus aspects de la société, plusieurs demandes et déficiences apparaissent dans différents aspects. En début des années 2000, la communauté de chercheurs en réseau était dominé par une conviction de qu'un travail n'est utile que si ses résultats puissent être facilement adoptés dans l'architecture existante. En essayant de travailler avec cette contrainte, le personnel a réalisé que l'architecture courante rend la résolution de certains problèmes impossible. \cite{InternetEvolutionRoleSoftwareEngineering}
+\subsection*{Brain storming *}
+Difficile d'innover, parce que on ne veut pas tester sur le trafique de production; on a différents équipements distribué exécutant des tâches spécifiques = complixité; administration compliquée à cause de la manque d'une vue globale du réseau,  configuration de chaque équipement un à un et très attachée au vendeur et au logiciel qui tourne dans l'équipement;  
+\par
+Ça c'est vrai pour l'internet, mais pareil pour les réseaux LAN dès qu'ils deviennent un peu plus grands.
+\par
+Coûts opérationnels. 
+
+\subsubsection{principles and priority *}
+Complexity matters. The trouble with software is that it can do anything, no matter how complex, convoluted, fragile, incomprehensible, and ill-judged.
+Software engineers understand the cost of such complexity. Because the networking community underestimates the cost of complexity, it pays no attention to one of the most important problems of the current Internet, which is that it is much too difficult to build, deploy, and maintain networked applications.
+
+
+From the viewpoint of Internet users and application programmers, there are requirements that sometimes equal or exceed performance, availability, and efficiency in priority. These include ease of use, correctness, predictability, and modularity. The use of functional modeling and formal reasoning to help meet such requirements is all-but-unknown in the networking community.
+
+
+\subsection*{Fin brain storming *}
+Ayant habilité et même encouragé les utilisateurs à innover sur son architecture, l'internet s'est faite obsolète par son propre succès. La croissance explosive des utilisateurs, trafique, applications et menaces a apporté toute une gamme de problèmes. L'internet a été créée dans une époque plus simple, parmi peu d'intervenants en coopération. Dès que l'internet devient partie de plus en plus aspects de la société, plusieurs demandes et déficiences apparaissent dans différents aspects. En début des années 2000, la communauté de chercheurs en réseau était dominé par une conviction de qu'un travail n'est utile que si ses résultats puissent être facilement adoptés dans l'architecture existante. En essayant de travailler avec cette contrainte, le personnel a réalisé que l'architecture courante rend la résolution de certains problèmes impossible. \cite{InternetEvolutionRoleSoftwareEngineering}
 
 %"The classic Internet architecture is a victim of its own success. Having succeeded so well at empowering users and encouraging innovation, it has been made obsolete by explosive growth in users, traffic, applications, and threats." The range of problems observed today is not surprising.
 
@@ -22,30 +41,24 @@ Ayant habilité et même encouragé les utilisateurs a innover sur son architect
 On aperçoit cette haute barrière pour l'entrée de nouvelles idées dans le domaine des réseaux à cause de l'énorme base d'équipements et de protocoles installée ainsi qu'une résistance d'expérimenter avec le trafique de production. Finalement, il ne reste pratiquement pas de moyen pratique pour expérimenter des nouveaux protocoles réseau dans une configuration assez réaliste pour assurer et distribuer leurs déploiements. Comme résultat, la majorité des nouvelles idées de la recherche en réseau finissent sans essais et sans tests, ce qui apporte la croyance répandue que l'infrastructure réseau "s'est ossifiée". \cite{OpenFlowStanford} 
 
 
-principles and priority
-Complexity matters. The trouble with software is that it can do anything,
-no matter how complex, convoluted, fragile, incomprehensible, and ill-judged.
-Software engineers understand the cost of such complexity. Because the net-
-working community underestimates the cost of complexity, it pays no attention
-to one of the most important problems of the current Internet, which is that it
-is much too difficult to build, deploy, and maintain networked applications.
 
 
-From the viewpoint of Internet users and application programmers, there
-are requirements that sometimes equal or exceed performance, availability, and
-efficiency in priority. These include ease of use, correctness, predictability, and
-modularity. The use of functional modeling and formal reasoning to help meet
-such requirements is all-but-unknown in the networking community.
+\section{Configuration d'équipements distribués et spécifiques}
 
+\subsection*{Brain storming *}
+
+Même dans un réseau LAN de porte moyen,  on compte avec plusieurs équipements qui réalisent des fonctions spécifiques. Ces équipement doivent être configurable un à un donc pour atteindre à un objectif pour le réseau, tous la configuration de chaque équipement doit être orchestrée pour aboutir ce besoin. Il est difficile de mettre un place une configuration centralisée.
+
+\par
+Chaque équipement a été conçu pour réaliser une fonctionnalité spécifique. Pour toute correction de bug ou extension de ces fonctions,  il est nécessaire que le vendeur mette en place une mis à jour logiciel tenant en compte les modifications souhaités ou alors il faut acheter un nouveau équipement. 
+
+\subsection*{Fin brain storming *}
 
 
 
+\section{Clean-slate Internet}
 
-
-
-clean-slate internet
-
-
+Re-partir de zéro. En le faisant, quels sont les caractéristique de l'architecture ?
 
 
 Cette problématique a amené scientistes et tout le personnel impliqué à concevoir \gls{sdn}. \gls{sdn} est un nouveau \glslink{paradigme}{paradigme} réseau qu'on fait actuellement l'effort développer pour adapter l'infrastructure existante au nouveau scénario.
