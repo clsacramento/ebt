@@ -11,7 +11,7 @@
 \usepackage{graphicx}
 \usepackage[automark,headsepline]{scrpage2}
 \usepackage[style=numeric,sorting=none,backend=biber]{biblatex}
-%\usepackage{csquotes}
+\usepackage{csquotes}
 \usepackage{xspace}
 \usepackage[autolanguage]{numprint}
 \usepackage{array}
@@ -32,18 +32,48 @@
 
 \usepackage{makeidx}
 \makeindex
-\usepackage[xindy={language=french,codepage=utf8},acronym,toc=true,nonumberlist]{glossaries}
-%\usepackage[toc]{glossaries}
+%\usepackage[xindy={language=french,codepage=utf8},acronym,toc=true,nonumberlist]{glossaries}
+%\usepackage[acronym,toc=true,nonumberlist]{glossaries}
+\usepackage[toc=true,acronym,nopostdot]{glossaries}
 \makeglossaries
+
+
 \newacronym{rtfm}{RTFM}{Read the f\dots manual}
+
 \newacronym{sdn}{SDN}{Software-Defined Networking, Réseau Informatique Défini par Logiciel}
+
+\newacronym{ti}{TI}{Technologie de l'Information}
+
+\newacronym{si}{SI}{Système d'Information}
+
 \newglossaryentry{paradigme}
 {
   name=Paradigme,
-  description={Un paradigme dénote une collection de règles, standards et exemples de pratiques scientifiques, partagés par un groupe de scientistes. 
+  description={Un paradigme dénote une collection de règles, standards et exemples de pratiques scientifiques, partagés par un groupe de scientifiques. 
   Sa genèse et continuation de la tradition de recherche sont conditionnées à l'engagement et au consensus qui en découle. \cite{paradigmdef}
-  D'après Dosi \cite{newparadigm}, quand un nouveau paradigme technologique apparaît, il représente une discontinuité ou un changement de la manière de penser. Ce changement apporté par le paradigme est souvent lié à une sorte d'innovation radicale qui applique une nouvelle technologie. Dans ce document, le terme paradigme sera employé dans ce sens d'innovation et application de nouvelle technologie.    }
+  D'après Dosi \cite{newparadigm}, quand un nouveau paradigme technologique apparaît, il représente une discontinuité ou un changement de la manière de penser. Ce changement apporté par le paradigme est souvent lié à une sorte d'innovation radicale qui applique une nouvelle technologie. Dans ce document, le terme paradigme sera employé dans ce sens d'innovation et application de nouvelle technologie    }
 }
+
+
+\newglossaryentry{bigdata}
+{
+  name=Big Data,
+  description={Big Data est un terme appliqué aux ensemble de données dont la taille est au-delà de la capacités des outils logiciels communs de les capturer, gérer et traiter. Une nouvelle classe de technologies et outils ont été développés pour surmonter le challenge de créer valeur commercial à partir la complexe analyse de ces donnés. Le terme est employé pour référer ce type de données ainsi que les technologies utilisées pour les stocker et traiter
+  \cite{IMBigData}    }
+}
+
+
+\newglossaryentry{cloudcomputing}
+{
+  name=Cloud Computing,
+  description={  Le  Cloud Computing est x }
+}
+\newglossaryentry{virtualisation}
+{
+  name=Virtualisation,
+  description={  La Virtualisation  est y  }
+}
+
 
 \usepackage[english,francais]{babel}
 \frenchbsetup{og=«, fg=»}
@@ -57,11 +87,8 @@
 
 \frontmatter
 \begin{flushright}
-Chaque fois que les gens découvrent son mensonge,\\
-Le châtiment lui vient, par la colère accru.\\
-« Je suis cuit, je suis cuit ! » gémit-il comme en songe.\\
-~\\
-Le menteur n'est jamais cru.\\
+It is harder to crack a prejudice than an atom.\\
+Albert \bsc{Einstein}\\
 \end{flushright}
 
 \tableofcontents
@@ -81,15 +108,16 @@ Le menteur n'est jamais cru.\\
 \appendix
 \include{ann1}
 %\include{ann2}
-\gls{sdn}
-\gls{paradigme}
+%\gls{sdn}
+%\gls{paradigme}
+\gls{ti}
 
 \backmatter
 \nocite{*}
 \printbibliography
 \printindex
 
-\printglossary[type=\acronymtype]
+\glsaddall
 \printglossaries
 
 \cleardoublepage

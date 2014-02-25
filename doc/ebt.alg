@@ -1,13 +1,7 @@
-;; This logfile was generated automatically by `xindy'
-;; at 14.02.2014  20:32:17
-;; Indexstyle: "/tmp/MX1fvk3pw2", Rawindex: "/tmp/11pVfMi6H3", Output: "ebt.acr"
-
-
-Building indexentry-tree:
-Hierdepth of index is :TREE
-
-sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
-
-Forming letter-groups:
-sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
-Letter-group: "Ð¼" -> "S"
+This is makeindex, version 2.15 [TeX Live 2013] (kpathsea + Thai support).
+Scanning style file ./ebt.ist.............................done (29 attributes redefined, 0 ignored).
+Scanning input file ebt.acn....done (11 entries accepted, 0 rejected).
+Sorting entries....done (38 comparisons).
+Generating output file ebt.acr....done (17 lines written, 0 warnings).
+Output written in ebt.acr.
+Transcript written in ebt.alg.

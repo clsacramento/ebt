@@ -1,13 +1,7 @@
-;; This logfile was generated automatically by `xindy'
-;; at 14.02.2014  20:32:16
-;; Indexstyle: "/tmp/zSuz3I713A", Rawindex: "/tmp/TzWlawCRAB", Output: "ebt.gls"
-
-
-Building indexentry-tree:
-Hierdepth of index is :TREE
-
-sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
-
-Forming letter-groups:
-sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
-Letter-group: "È€Ë€¨»—" -> "P"
+This is makeindex, version 2.15 [TeX Live 2013] (kpathsea + Thai support).
+Scanning style file ./ebt.ist.............................done (29 attributes redefined, 0 ignored).
+Scanning input file ebt.glo....done (9 entries accepted, 0 rejected).
+Sorting entries....done (26 comparisons).
+Generating output file ebt.gls....done (20 lines written, 0 warnings).
+Output written in ebt.gls.
+Transcript written in ebt.glg.
