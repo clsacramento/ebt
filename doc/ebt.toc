@@ -54,7 +54,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.6}Juniper MetaFabric Architecture}{11}{section.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.7}Citrix NetScaler, plate-forme ouverte dirig\IeC {\'e} par app }{11}{section.4.7}
+\contentsline {section}{\numberline {4.7}Citrix NetScaler, plate-forme ouverte dirig\IeC {\'e} par app}{11}{section.4.7}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Applicabilit\IeC {\'e} de SDN et possibilit\IeC {\'e}s}{13}{chapter.5}
 \defcounter {refsection}{0}\relax 

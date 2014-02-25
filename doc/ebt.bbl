@@ -35,15 +35,6 @@
       \field{title}{Internet global growth: lessons for the future}
       \field{year}{2012}
     \endentry
-    \entry{CiscoVNI2013}{misc}{}
-      \field{sortinit}{0}
-      \field{labeltitle}{Cisco Visual Networking Index: Global Mobile Data Traffic Forecast Update, 2012–2017}
-      \field{howpublished}{White Paper}
-      \field{month}{02}
-      \field{note}{The Cisco® Visual Networking Index (VNI) Global Mobile Data Traffic Forecast Update is part of the comprehensive Cisco VNI Forecast, an ongoing initiative to track and forecast the impact of visual networking applications on global networks. This paper presents some of Cisco’s major global mobile data traffic projections and growth trends.}
-      \field{title}{Cisco Visual Networking Index: Global Mobile Data Traffic Forecast Update, 2012–2017}
-      \field{year}{2013}
-    \endentry
     \entry{InternetSustainGrowth}{misc}{}
       \name{labelname}{1}{}{%
         {{hash=d448a7a032d64cf137ae602a8a42247b}{Kende}{K\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
@@ -234,6 +225,15 @@
       \field{booktitle}{Technological paradigms and technological trajectories, Research Policy}
       \field{title}{Technological paradigms and technological trajectories, Research Policy}
       \field{year}{1982}
+    \endentry
+    \entry{CiscoVNI2013}{misc}{}
+      \field{sortinit}{0}
+      \field{labeltitle}{Cisco Visual Networking Index: Global Mobile Data Traffic Forecast Update, 2012–2017}
+      \field{howpublished}{White Paper}
+      \field{month}{02}
+      \field{note}{The Cisco® Visual Networking Index (VNI) Global Mobile Data Traffic Forecast Update is part of the comprehensive Cisco VNI Forecast, an ongoing initiative to track and forecast the impact of visual networking applications on global networks. This paper presents some of Cisco’s major global mobile data traffic projections and growth trends.}
+      \field{title}{Cisco Visual Networking Index: Global Mobile Data Traffic Forecast Update, 2012–2017}
+      \field{year}{2013}
     \endentry
     \entry{ComposingSDN}{inproceedings}{}
       \name{labelname}{5}{}{%
