@@ -8,15 +8,11 @@
 Ce chapitre va reprendre les problèmes réseaux rencontrés pour définir quels sont les besoins actuels dans le domaine. Dans ce chapitre je vais proposer une liste de requis pour une architecture réseau idéalement adapté aux applications actuels.
 En connaissant les problèmes de l'architecture en place, la question que se pose est : si on repartait de zéro, comment on le ferrait ?
 
-\section{Ossification de l'Internet}
+%\section{Pression pour l'expansion de l'architecture réseau }
 
+\section{Ossification de l'Internet incompatible à l'actuelle demande pour expansion}
 
 \subsection*{Brain storming *}
-Difficile d'innover, parce que on ne veut pas tester sur le trafique de production; on a différents équipements distribué exécutant des tâches spécifiques = complixité; administration compliquée à cause de la manque d'une vue globale du réseau,  configuration de chaque équipement un à un et très attachée au vendeur et au logiciel qui tourne dans l'équipement;  
-\par
-Ça c'est vrai pour l'internet, mais pareil pour les réseaux LAN dès qu'ils deviennent un peu plus grands.
-\par
-Coûts opérationnels. 
 
 \subsubsection{principles and priority *}
 Complexity matters. The trouble with software is that it can do anything, no matter how complex, convoluted, fragile, incomprehensible, and ill-judged.
@@ -27,7 +23,12 @@ From the viewpoint of Internet users and application programmers, there are requ
 
 
 \subsection*{Fin brain storming *}
-A vouloir autoriser et même encourager les utilisateurs à innover sur son architecture, l'internet s'est fait dépasser par son propre succès. La croissance explosive des utilisateurs, du trafic, des applications et des menaces a apporté toute une série de problèmes. L'internet a été créé à une époque où les choses étaient plus simples, avec peu d'intervenants en coopération. Dès qu'il est devenu partie intégrante en plusieurs aspects de la société, diverses réclamations et défaillances sont apparues dans différents aspects. En début des années 2000, la communauté de chercheurs en réseau était dominé par une conviction de qu'un travail n'est utile que si ses résultats peuvent être facilement adoptés dans l'architecture existante. En essayant de travailler avec cette contrainte, les concepteurs ont réalisé que l'architecture courante rend la résolution de certains problèmes impossible. \cite{InternetEvolutionRoleSoftwareEngineering}
+
+
+
+
+
+À vouloir autoriser et même encourager les utilisateurs à innover sur son architecture, l'internet s'est fait dépasser par son propre succès. La croissance explosive des utilisateurs, du trafic, des applications et des menaces a apporté toute une série de problèmes. L'internet a été créé à une époque où les choses étaient plus simples, avec peu d'intervenants en coopération. Dès qu'il est devenu partie intégrante en plusieurs aspects de la société, diverses réclamations et défaillances sont apparues dans différents aspects. En début des années 2000, la communauté de chercheurs en réseau était dominée par une conviction de qu'un travail n'est utile que si ses résultats peuvent être facilement adoptés dans l'architecture existante. En essayant de travailler avec cette contrainte, les concepteurs ont réalisé que l'architecture courante rend la résolution de certains problèmes impossible. \cite{InternetEvolutionRoleSoftwareEngineering}
 
 %"The classic Internet architecture is a victim of its own success. Having succeeded so well at empowering users and encouraging innovation, it has been made obsolete by explosive growth in users, traffic, applications, and threats." The range of problems observed today is not surprising.
 
@@ -38,12 +39,16 @@ A vouloir autoriser et même encourager les utilisateurs à innover sur son arch
 
 
 \par
-On se rend compte qu'il y q une haute barrière pour l'adoption de nouvelles idées dans le domaines des réseaux à cause de l'énorme base d'équipements et de protocoles installée ainsi qu'en raision d'une certaine résistence à les expérimenter en parrallele au trafic du mode de production. Finalement, il ne reste pratiquement pas de moyen concret pour tester de nouveaux protocoles réseau dans une configuration assez réaliste pour assurer et distribuer leurs déploiements. Par conséquant, la majorité des nouvelles idées émises dans le cadre de la recherche en "réseaux informatiques" finissent sans essais et sans tests, ce qui confirme la croyance répandue que l'infrastructure réseau "s'est ossifiée". \cite{OpenFlowStanford} 
+On se rend compte qu'il y a une haute barrière pour l'adoption de nouvelles idées dans le domaine des réseaux à cause de l'énorme base d'équipements et de protocoles installée ainsi qu'en raison d'une certaine résistance à les expérimenter en parallèle au trafic du mode de production. Finalement, il ne reste pratiquement pas de moyen concret pour tester de nouveaux protocoles réseau dans une configuration assez réaliste pour assurer et distribuer leurs déploiements. Par conséquent, la majorité des nouvelles idées émises dans le cadre de la recherche en "réseaux informatiques" finissent sans essais et sans tests, ce qui confirme la croyance répandue que l'infrastructure réseau "s'est ossifiée". \cite{OpenFlowStanford} 
 
+Cependant, cette stase vient contre la rapide croissance de l'internet qui impose une expansion de l'architecture réseau. 
 
+Figure 1: The need for network capabilities and bandwidth is expanding at a faster rate than either bandwidth availability or revenue to grow.
 
+Le plus une entreprise dépend d'un nombre croissant de dispositifs et gros volumes de données, les plus importante est la demande pour débit et expansion de l'infrastructure. La complexité de cette expansion des réseaux augmente la probabilité des interruptions de service dues à une faille humaine ou autre problème. Ce fait met en évidence l'importance de la disponibilité, fiabilité, performance et sécurité. L'efficacité et la réduction des coûts deviennent cruciales pour aboutir la mis en échelle de ces besoins, et donc le management assume en rôle primordial dans ce contexte.
+ 
 
-\section{Configuration d'équipements distribués et spécifiques}
+\section{Management réseau de plus en plus complexe et pénible }
 
 \subsection*{Brain storming *}
 
@@ -52,8 +57,14 @@ Même dans un réseau LAN de porte moyen,  on compte avec plusieurs équipements
 \par
 Chaque équipement a été conçu pour réaliser une fonctionnalité spécifique. Pour toute correction de bug ou extension de ces fonctions,  il est nécessaire que le vendeur mette en place une mis à jour logiciel tenant en compte les modifications souhaités ou alors il faut acheter un nouveau équipement. 
 
+\par Difficulté de faire évoluer (lack of scalability or inability to scale) ; Complexité générant une résistance à l'innovation ; Dépendance du vendeur ; politiques inconsistantes
+
+Even with the help of autonomous and intelligent agents and network management software, the job of a network administrator is important and complicated. They must balance the different network 
+management areas to make sure their system is properly configured and maintained. 
+
 \subsection*{Fin brain storming *}
 
+Malgré l'assistance des agents autonomes et intelligents ainsi que des logiciels pour le management réseau, la mission de l'administrateur réseau reste importante et compliquée. Il doit équilibrer les différentes tâches du management pour assurer que le \gls{si} soit proprement configuré et maintenu.
 
 
 \section{Clean-slate Internet}
@@ -62,3 +73,5 @@ Re-partir de zéro. En le faisant, quels sont les caractéristique de l'architec
 
 
 Cette problématique a amené scientistes et les ingénieurs impliqués à concevoir \gls{sdn}. \gls{sdn} est un nouveau \glslink{paradigme}{paradigme} réseau qu'on fait actuellement en cours de développer pour adapter l'infrastructure existante au nouveau scénario.
+
+\section{Les requis d'un réseau idéalement adapté aux besoins courants}
