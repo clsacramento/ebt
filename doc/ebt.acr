@@ -12,6 +12,7 @@
 		\setentrycounter[]{page}\glsnumberformat{5}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{20}}}%
 \glossaryentryfield{si}{\glsnamefont{SI}}{Système d'Information}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{5}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{20}}}\glsgroupskip
 \glsgroupheading{T}\relax \glsresetentrylist %
 \glossaryentryfield{ti}{\glsnamefont{TI}}{Technologie de l'Information}{\relax }{\glossaryentrynumbers{\relax 

@@ -19,7 +19,7 @@
 
 \refsection{0}
   \sortlist{entry}{none}
-    \entry{InternetGlobalGrowth}{misc}{}
+    \entry{InternetGlobalGrowthImpactDevelopingCountries}{misc}{}
       \name{labelname}{1}{}{%
         {{hash=d448a7a032d64cf137ae602a8a42247b}{Kende}{K\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
       }
@@ -31,11 +31,27 @@
       \field{sortinit}{0}
       \field{labeltitle}{Internet global growth: lessons for the future}
       \field{month}{09}
-      \field{note}{Analysys Mason Limited, London, United Kingdom}
+      \field{note}{Analysys Mason Limited, London, United Kingdom, section 4.3 Impact on developing countries}
       \field{title}{Internet global growth: lessons for the future}
       \field{year}{2012}
     \endentry
-    \entry{InternetSustainGrowth}{misc}{}
+    \entry{CiscoVNI2013}{misc}{}
+      \field{sortinit}{0}
+      \field{labeltitle}{Cisco Visual Networking Index: Global Mobile Data Traffic Forecast Update, 2012–2017}
+      \field{howpublished}{White Paper}
+      \field{month}{02}
+      \field{note}{The Cisco® Visual Networking Index (VNI) Global Mobile Data Traffic Forecast Update is part of the comprehensive Cisco VNI Forecast, an ongoing initiative to track and forecast the impact of visual networking applications on global networks. This paper presents some of Cisco’s major global mobile data traffic projections and growth trends.}
+      \field{title}{Cisco Visual Networking Index: Global Mobile Data Traffic Forecast Update, 2012–2017}
+      \field{year}{2013}
+    \endentry
+    \entry{deuxAnsInstagram}{misc}{}
+      \field{sortinit}{0}
+      \field{labeltitle}{2 Years Later: The First Instagram Photo}
+      \field{howpublished}{Postage d'un le blog officiel}
+      \field{title}{2 Years Later: The First Instagram Photo}
+      \field{year}{2013}
+    \endentry
+    \entry{InternetSustainGrowthIntro}{misc}{}
       \name{labelname}{1}{}{%
         {{hash=d448a7a032d64cf137ae602a8a42247b}{Kende}{K\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
       }
@@ -48,16 +64,9 @@
       \field{labeltitle}{How Internet continues to sustain growth and Innovation}
       \field{issn}{35128-362}
       \field{month}{10}
-      \field{note}{Analysys Mason Limited and Internet Society (ISOC), London, United Kingdom}
+      \field{note}{Analysys Mason Limited and Internet Society (ISOC), London, United Kingdomm, section 1 Introduction}
       \field{title}{How Internet continues to sustain growth and Innovation}
       \field{year}{2012}
-    \endentry
-    \entry{deuxAnsInstagram}{misc}{}
-      \field{sortinit}{0}
-      \field{labeltitle}{2 Years Later: The First Instagram Photo}
-      \field{howpublished}{Postage d'un le blog officiel}
-      \field{title}{2 Years Later: The First Instagram Photo}
-      \field{year}{2013}
     \endentry
     \entry{IMBigData}{misc}{}
       \field{sortinit}{0}
@@ -75,7 +84,7 @@
       \field{title}{Intel's Vision of Open Cloud Computing}
       \field{year}{2013}
     \endentry
-    \entry{InternetEvolutionRoleSoftwareEngineering}{incollection}{}
+    \entry{InternetEvolutionRoleSoftwareEngineeringConclusion}{incollection}{}
       \name{labelname}{1}{}{%
         {{hash=42f79bfbeee9a0a56775e92e552aa9d5}{Zave}{Z\bibinitperiod}{Pamela}{P\bibinitperiod}{}{}{}{}}%
       }
@@ -97,6 +106,7 @@
       \field{labeltitle}{Internet Evolution and the Role of Software Engineering}
       \field{booktitle}{The Future of Software Engineering}
       \field{isbn}{978-3-642-15186-6}
+      \field{note}{Section 7 Conclusion}
       \field{title}{Internet Evolution and the Role of Software Engineering}
       \field{year}{2011}
       \field{pages}{152\bibrangedash 172}
@@ -153,6 +163,114 @@
       \verb http://doi.acm.org/10.1145/1355734.1355746
       \endverb
       \keyw{ethernet switch, flow-based, virtualization}
+    \endentry
+    \entry{InternetEvolutionRoleSoftwareEngineeringRealInternet}{incollection}{}
+      \name{labelname}{1}{}{%
+        {{hash=42f79bfbeee9a0a56775e92e552aa9d5}{Zave}{Z\bibinitperiod}{Pamela}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=42f79bfbeee9a0a56775e92e552aa9d5}{Zave}{Z\bibinitperiod}{Pamela}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=0b03bc9ba71ef88823c5d274744817fa}{Nanz}{N\bibinitperiod}{Sebastian}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{42f79bfbeee9a0a56775e92e552aa9d5}
+      \strng{fullhash}{42f79bfbeee9a0a56775e92e552aa9d5}
+      \field{sortinit}{0}
+      \field{labeltitle}{Internet Evolution and the Role of Software Engineering}
+      \field{booktitle}{The Future of Software Engineering}
+      \field{isbn}{978-3-642-15186-6}
+      \field{note}{Section 3 The Real Internet et 4 Internet trends and evolution}
+      \field{title}{Internet Evolution and the Role of Software Engineering}
+      \field{year}{2011}
+      \field{pages}{152\bibrangedash 172}
+      \verb{doi}
+      \verb 10.1007/978-3-642-15187-3_12
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/978-3-642-15187-3_12
+      \endverb
+    \endentry
+    \entry{OpenFlowStanfordOssification}{article}{}
+      \name{labelname}{8}{}{%
+        {{hash=de88a212b707ac15b1fde53c8cb71017}{McKeown}{M\bibinitperiod}{Nick}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=ed0d7310b4cdeb1e22acbd4775f2dfe8}{Anderson}{A\bibinitperiod}{Tom}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=ec394c5150bcaf5dac455aa9e3221f4e}{Balakrishnan}{B\bibinitperiod}{Hari}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=a565f54c21ae66e7423228b8676a61b6}{Parulkar}{P\bibinitperiod}{Guru}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=3f3af29945f3176e9dd1a4ed829664ce}{Peterson}{P\bibinitperiod}{Larry}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=6a657c57b5943bdc829427bef740483f}{Rexford}{R\bibinitperiod}{Jennifer}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=8d2fd528d2484047352789c731e250a5}{Shenker}{S\bibinitperiod}{Scott}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=b2d099aa0eb055883af0c116987070a9}{Turner}{T\bibinitperiod}{Jonathan}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{8}{}{%
+        {{hash=de88a212b707ac15b1fde53c8cb71017}{McKeown}{M\bibinitperiod}{Nick}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=ed0d7310b4cdeb1e22acbd4775f2dfe8}{Anderson}{A\bibinitperiod}{Tom}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=ec394c5150bcaf5dac455aa9e3221f4e}{Balakrishnan}{B\bibinitperiod}{Hari}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=a565f54c21ae66e7423228b8676a61b6}{Parulkar}{P\bibinitperiod}{Guru}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=3f3af29945f3176e9dd1a4ed829664ce}{Peterson}{P\bibinitperiod}{Larry}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=6a657c57b5943bdc829427bef740483f}{Rexford}{R\bibinitperiod}{Jennifer}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=8d2fd528d2484047352789c731e250a5}{Shenker}{S\bibinitperiod}{Scott}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=b2d099aa0eb055883af0c116987070a9}{Turner}{T\bibinitperiod}{Jonathan}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{1f89effe15693b59fe7e6d580c1d7d98}
+      \strng{fullhash}{a94c43bbce4938a2285255f72b21faf4}
+      \field{sortinit}{0}
+      \field{labeltitle}{OpenFlow: Enabling Innovation in Campus Networks}
+      \field{issn}{0146-4833}
+      \field{journaltitle}{SIGCOMM Comput. Commun. Rev.}
+      \field{month}{03}
+      \field{note}{Section 1. THE NEED FOR PROGRAMMABLE NETWORKS}
+      \field{number}{2}
+      \field{title}{OpenFlow: Enabling Innovation in Campus Networks}
+      \field{volume}{38}
+      \field{year}{2008}
+      \field{pages}{69\bibrangedash 74}
+      \verb{doi}
+      \verb 10.1145/1355734.1355746
+      \endverb
+      \verb{url}
+      \verb http://doi.acm.org/10.1145/1355734.1355746
+      \endverb
+      \keyw{ethernet switch, flow-based, virtualization}
+    \endentry
+    \entry{IBMManagingGrowingPainsNeed}{misc}{}
+      \field{sortinit}{0}
+      \field{labeltitle}{Managing the growing pains in today's expanding networks}
+      \field{howpublished}{White Paper}
+      \field{month}{01}
+      \field{note}{Section The need for management in an expanding network}
+      \field{title}{Managing the growing pains in today's expanding networks}
+      \field{year}{2012}
+    \endentry
+    \entry{CentralIssuesNetworkManagementConclusion}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=a04d86331516877fd251ddaeba3df936}{Lowman}{L\bibinitperiod}{Sarah}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=a04d86331516877fd251ddaeba3df936}{Lowman}{L\bibinitperiod}{Sarah}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Citeseer}%
+      }
+      \strng{namehash}{a04d86331516877fd251ddaeba3df936}
+      \strng{fullhash}{a04d86331516877fd251ddaeba3df936}
+      \field{sortinit}{0}
+      \field{labeltitle}{Central issues in network management}
+      \field{note}{Section Conclusion}
+      \field{title}{Central issues in network management}
+      \field{year}{2010}
     \endentry
     \entry{SurveySDN}{misc}{}
       \name{labelname}{5}{}{%
@@ -225,15 +343,6 @@
       \field{booktitle}{Technological paradigms and technological trajectories, Research Policy}
       \field{title}{Technological paradigms and technological trajectories, Research Policy}
       \field{year}{1982}
-    \endentry
-    \entry{CiscoVNI2013}{misc}{}
-      \field{sortinit}{0}
-      \field{labeltitle}{Cisco Visual Networking Index: Global Mobile Data Traffic Forecast Update, 2012–2017}
-      \field{howpublished}{White Paper}
-      \field{month}{02}
-      \field{note}{The Cisco® Visual Networking Index (VNI) Global Mobile Data Traffic Forecast Update is part of the comprehensive Cisco VNI Forecast, an ongoing initiative to track and forecast the impact of visual networking applications on global networks. This paper presents some of Cisco’s major global mobile data traffic projections and growth trends.}
-      \field{title}{Cisco Visual Networking Index: Global Mobile Data Traffic Forecast Update, 2012–2017}
-      \field{year}{2013}
     \endentry
     \entry{ComposingSDN}{inproceedings}{}
       \name{labelname}{5}{}{%
@@ -393,6 +502,39 @@
       \verb 10.1109/MCOM.2013.6461197
       \endverb
       \keyw{application program interfaces;computer network management;high level languages;protocols;software radio;telecommunication traffic;Frenetic project;OpenFlow controllers;OpenFlow protocol;SDN;access control;backbone networks;computer networks;data center;higher-level abstractions;intuitive abstractions;low-level API;network management;network traffic monitoring;networking devices;packet forwarding policies;proprietary configuration interfaces;server load balancing;software-defined networks;switch hardware;Control systems;IP networks;Languages;Monitoring;Ports (Computers);Repeaters;Runtime;Software radio}
+    \endentry
+    \entry{InternetGlobalGrowth}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=d448a7a032d64cf137ae602a8a42247b}{Kende}{K\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=d448a7a032d64cf137ae602a8a42247b}{Kende}{K\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{d448a7a032d64cf137ae602a8a42247b}
+      \strng{fullhash}{d448a7a032d64cf137ae602a8a42247b}
+      \field{sortinit}{0}
+      \field{labeltitle}{Internet global growth: lessons for the future}
+      \field{month}{09}
+      \field{note}{Analysys Mason Limited, London, United Kingdom}
+      \field{title}{Internet global growth: lessons for the future}
+      \field{year}{2012}
+    \endentry
+    \entry{InternetSustainGrowth}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=d448a7a032d64cf137ae602a8a42247b}{Kende}{K\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=d448a7a032d64cf137ae602a8a42247b}{Kende}{K\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{d448a7a032d64cf137ae602a8a42247b}
+      \strng{fullhash}{d448a7a032d64cf137ae602a8a42247b}
+      \field{sortinit}{0}
+      \field{labeltitle}{How Internet continues to sustain growth and Innovation}
+      \field{issn}{35128-362}
+      \field{month}{10}
+      \field{note}{Analysys Mason Limited and Internet Society (ISOC), London, United Kingdom}
+      \field{title}{How Internet continues to sustain growth and Innovation}
+      \field{year}{2012}
     \endentry
   \endsortlist
 \endrefsection
