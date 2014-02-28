@@ -32,6 +32,8 @@
 
 \usepackage{makeidx}
 \makeindex
+
+
 %\usepackage[xindy={language=french,codepage=utf8},acronym,toc=true,nonumberlist]{glossaries}
 %\usepackage[acronym,toc=true,nonumberlist]{glossaries}
 \usepackage[toc=true,acronym,nopostdot,nonumberlist]{glossaries}
@@ -39,6 +41,23 @@
 
 \makeglossaries
 
+
+\let\Oldgls\gls%Transformation de la commande \gls en \Oldgls
+\let\Oldglslink\glslink%Transformation de la commande \gls en \Oldgls
+\let\Oldglspl\glspl%Transformation de la commande \gls en \Oldgls
+
+% Création de la nouvelle commande \gls
+\renewcommand{\gls}[1]{%
+\textbf{ \Oldgls{#1}} 
+}
+% Création de la nouvelle commande \gls
+\renewcommand{\glslink}[2]{%
+\textbf{ \Oldglslink{#1}{#2}} 
+}
+% Création de la nouvelle commande \gls
+\renewcommand{\glspl}[1]{%
+\textbf{ \Oldglspl{#1}} 
+}
 
 \newacronym{rtfm}{RTFM}{Read the f\dots manual}
 
