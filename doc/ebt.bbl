@@ -576,6 +576,15 @@
       \field{title}{How Internet continues to sustain growth and Innovation}
       \field{year}{2012}
     \endentry
+    \entry{IBMManagingGrowingPainsFigure1}{misc}{}
+      \field{sortinit}{0}
+      \field{labeltitle}{Managing the growing pains in today's expanding networks}
+      \field{howpublished}{White Paper}
+      \field{month}{01}
+      \field{note}{Figure 1}
+      \field{title}{Managing the growing pains in today's expanding networks}
+      \field{year}{2012}
+    \endentry
   \endsortlist
 \endrefsection
 \endinput

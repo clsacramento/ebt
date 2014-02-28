@@ -1,7 +1,7 @@
 \BOOKMARK [0][-]{chapter*.4}{Introduction}{}% 1
 \BOOKMARK [0][-]{chapter.1}{Probl\351matique R\351seau et SDN}{}% 2
 \BOOKMARK [1][-]{section.1.1}{Ossification de l'internet face au besoin d'expansion}{chapter.1}% 3
-\BOOKMARK [1][-]{section.1.2}{Complexification et P\351nibilit\351 du Management R\351seau}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.2}{Management R\351seau : P\351nible et Complexe}{chapter.1}% 4
 \BOOKMARK [1][-]{section.1.3}{Clean-slate Internet}{chapter.1}% 5
 \BOOKMARK [1][-]{section.1.4}{Les requis d'un r\351seau id\351alement adapt\351 aux besoins courants}{chapter.1}% 6
 \BOOKMARK [0][-]{chapter.2}{R\351seaux programmables avec SDN}{}% 7
@@ -28,8 +28,8 @@
 \BOOKMARK [1][-]{section.5.1}{Management du R\351seau et Contr\364le d'Acc\350s}{chapter.5}% 28
 \BOOKMARK [1][-]{section.5.2}{VLANs}{chapter.5}% 29
 \BOOKMARK [1][-]{section.5.3}{Clients mobiles sans fil VoIP}{chapter.5}% 30
-\BOOKMARK [0][-]{chapter*.7}{Conclusion}{}% 31
+\BOOKMARK [0][-]{chapter*.5}{Conclusion}{}% 31
 \BOOKMARK [0][-]{appendix.A}{Premi\350re annexe}{}% 32
-\BOOKMARK [0][-]{appendix*.8}{Bibliographie}{}% 33
-\BOOKMARK [0][-]{section*.9}{Glossaire}{}% 34
-\BOOKMARK [0][-]{section*.11}{Acronyms}{}% 35
+\BOOKMARK [0][-]{appendix*.6}{Bibliographie}{}% 33
+\BOOKMARK [0][-]{section*.7}{Glossaire}{}% 34
+\BOOKMARK [0][-]{section*.9}{Acronyms}{}% 35

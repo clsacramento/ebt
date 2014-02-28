@@ -5,8 +5,8 @@
 
 %\section{Deuxième section}\label{sec-1-2}
 
-Ce chapitre va reprendre les problèmes réseaux rencontrés pour définir les besoins actuels dans le domaine. Une liste de requis pour une architecture réseau idéalement adapté aux applications actuelles sera proposée.
-En connaissant les problèmes de l'architecture en place, la question que se pose est : si on repartait de zéro, comment on le ferrait ?
+%Ce chapitre va reprendre les problèmes réseaux rencontrés pour définir les besoins actuels dans le domaine. Une liste de requis pour une architecture réseau idéalement adapté aux applications actuelles sera proposée.
+%En connaissant les problèmes de l'architecture en place, la question que se pose est : si on repartait de zéro, comment on le ferrait ?
 
 %\section{Pression pour l'expansion de l'architecture réseau }
 
@@ -46,28 +46,39 @@ On se rend compte que l'adoption de nouvelles idées dans le domaine des réseau
 
 %quantifier enorme.
 
-\section{Complexification et Pénibilité du Management Réseau }
+\section{Management Réseau : Pénible et Complexe}
 
-\subsection*{Brain storming *}
+%\subsection*{Brain storming *}
 
-Même dans un réseau LAN de porte moyen,  on compte avec plusieurs équipements qui réalisent des fonctions spécifiques. Ces équipement doivent être configurable un à un donc pour atteindre à un objectif pour le réseau, tous la configuration de chaque équipement doit être orchestrée pour aboutir ce besoin. Il est difficile de mettre un place une configuration centralisée.
+%Même dans un réseau LAN de porte moyen,  on compte avec plusieurs équipements qui réalisent des fonctions spécifiques. Ces équipement doivent être configurable un à un donc pour atteindre à un objectif pour le réseau, tous la configuration de chaque équipement doit être orchestrée pour aboutir ce besoin. Il est difficile de mettre un place une configuration centralisée.
 
-\par
-Chaque équipement a été conçu pour réaliser une fonctionnalité spécifique. Pour toute correction de bug ou extension de ces fonctions,  il est nécessaire que le vendeur mette en place une mis à jour logiciel tenant en compte les modifications souhaités ou alors il faut acheter un nouveau équipement. 
+%\par Chaque équipement a été conçu pour réaliser une fonctionnalité spécifique. Pour toute correction de bug ou extension de ces fonctions,  il est nécessaire que le vendeur mette en place une mis à jour logiciel tenant en compte les modifications souhaités ou alors il faut acheter un nouveau équipement. 
 
-\par Difficulté de faire évoluer (lack of scalability or inability to scale) ; Complexité générant une résistance à l'innovation ; Dépendance du vendeur ; politiques inconsistantes
+%\par Difficulté de faire évoluer (lack of scalability or inability to scale) ; Complexité générant une résistance à l'innovation ; Dépendance du vendeur ; politiques inconsistantes
 
 %Even with the help of autonomous and intelligent agents and network management software, the job of a network administrator is important and complicated. They must balance the different network management areas to make sure their system is properly configured and maintained. 
 
-The Internet was not designed with management in mind, yet the administrators of today’s networks face critical problems of configuration, traffic engineering, routing policy, and failure diagnosis. Their tools for understanding network traf- fic are poor, and their mechanisms for controlling network operations do not offer a predictable relationship between cause and effect.
+%The Internet was not designed with management in mind, yet the administrators of today’s networks face critical problems of configuration, traffic engineering, routing policy, and failure diagnosis. Their tools for understanding network traf- fic are poor, and their mechanisms for controlling network operations do not offer a predictable relationship between cause and effect.
 
-Internet routing is beginning to have serious problems of scale. The routing table in a typical router now has 300,000 entries, and these must be stored in the fastest, most expensive types of memory to maintain routing speed.2 There are efforts to move toward a scheme in which a typical routing table has one entry per autonomous system, which points to a router that can route to all the addresses for which that autonomous system is responsible.
+%Internet routing is beginning to have serious problems of scale. The routing table in a typical router now has 300,000 entries, and these must be stored in the fastest, most expensive types of memory to maintain routing speed.2 There are efforts to move toward a scheme in which a typical routing table has one entry per autonomous system, which points to a router that can route to all the addresses for which that autonomous system is responsible.
 
-\subsection*{Fin brain storming *}
+%\subsection*{Fin brain storming *}
 
-Cette stase empêchant l'innovation vient contre la rapide croissance de l'internet qui impose une expansion de l'architecture réseau. 
+Cette résistance empêchant l'innovation est contradictoire à la rapide croissance de l'internet qui impose une expansion de l'architecture réseau. 
+Le besoin pour des services réseau et débit augmente à un taux plus rapide que la disponibilité ou les revenues.
 
-Figure 1: The need for network capabilities and bandwidth is expanding at a faster rate than either bandwidth availability or revenue to grow.
+
+
+\begin{figure}[!h] %on ouvre l'environnement figure
+\includegraphics[width=15cm]{images/IncreasingPressureOnNetworkInfra.png} %ou image.png, .jpeg etc.
+\caption{ Pression croissante sur l'infrastructure réseau \cite{IBMManagingGrowingPainsNeed}} %la légende
+\label{image_soleil} %l'étiquette pour faire référence à cette image
+\end{figure} %on ferme l'environnement figure
+
+
+% Figure 1: The need for network capabilities and bandwidth is expanding at a faster rate than either bandwidth availability or revenue to grow
+
+\clearpage
 
 Le plus une entreprise dépend d'un nombre croissant de dispositifs et gros volumes de données, les plus importante est la demande pour débit et expansion de l'infrastructure. La complexité de cette expansion des réseaux augmente la probabilité des interruptions de service dues à une faille humaine ou autre problème. Ce fait met en évidence l'importance de la disponibilité, fiabilité, performance et sécurité. L'efficacité et la réduction des coûts deviennent cruciales pour aboutir la mis en échelle de ces besoins, et donc le management assume en rôle primordial dans ce contexte. \cite{IBMManagingGrowingPainsNeed}
  

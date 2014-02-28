@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.24)  28 FEB 2014 22:36
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.24)  28 FEB 2014 23:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1355,7 +1355,16 @@ Chapitre 1.
 
 
 
-] [4]) [5]
+]
+<images/IncreasingPressureOnNetworkInfra.png, id=313, 541.02126pt x 588.1975pt>
+File: images/IncreasingPressureOnNetworkInfra.png Graphic file (type png)
+<use images/IncreasingPressureOnNetworkInfra.png>
+Package pdftex.def Info: images/IncreasingPressureOnNetworkInfra.png used on in
+put line 73.
+(pdftex.def)             Requested size: 426.79134pt x 464.01575pt.
+ [4 <./images/IncreasingPressureOnNetworkInfra.png>]) [5
+
+]
 \openout2 = `chap2.aux'.
 
  (./chap2.tex [6
@@ -1466,7 +1475,7 @@ No file ebt.ind.
 
 
 ]
-<couverture-ebt.pdf, id=462, page=3, 597.50829pt x 845.0471pt>
+<couverture-ebt.pdf, id=469, page=3, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 3>
@@ -1491,7 +1500,7 @@ File: couverture-ebt.pdf Graphic file (type pdf)
 Package pdftex.def Info: couverture-ebt.pdf, page3 used on input line 162.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [27 <./couverture-ebt.pdf>]
-<couverture-ebt.pdf, id=468, page=4, 597.50829pt x 845.0471pt>
+<couverture-ebt.pdf, id=475, page=4, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 4>
@@ -1515,19 +1524,19 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 163.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 163.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 163.
 Package rerunfilecheck Info: File `ebt.out' has not changed.
-(rerunfilecheck)             Checksum: F2EEF47BB0F6EDD6832092CFBBD1F7F2;2668.
+(rerunfilecheck)             Checksum: 3C51FB94D19A90296FF4969D1F4E157A;2652.
 Package logreq Info: Writing requests to 'ebt.run.xml'.
 \openout1 = `ebt.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19628 strings out of 493315
- 309149 string characters out of 6137904
- 837365 words of memory out of 5000000
- 22540 multiletter control sequences out of 15000+600000
+ 19642 strings out of 493315
+ 309527 string characters out of 6137904
+ 837471 words of memory out of 5000000
+ 22551 multiletter control sequences out of 15000+600000
  48977 words of font info for 38 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 57i,18n,51p,1453b,2354s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,18n,51p,1453b,2400s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/local/texlive/20
 13/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2013/texmf-d
@@ -1540,10 +1549,10 @@ ive/2013/texmf-dist/fonts/type1/public/lm/lmro12.pfb></usr/local/texlive/2013/t
 exmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2013/texmf-dis
 t/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
 pe1/public/lm/lmtt12.pfb>
-Output written on ebt.pdf (38 pages, 461960 bytes).
+Output written on ebt.pdf (38 pages, 557052 bytes).
 PDF statistics:
- 543 PDF objects out of 1000 (max. 8388607)
- 476 compressed objects within 5 object streams
+ 550 PDF objects out of 1000 (max. 8388607)
+ 480 compressed objects within 5 object streams
  113 named destinations out of 1000 (max. 500000)
- 321 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 326 words of extra memory for PDF output out of 10000 (max. 10000000)
 
