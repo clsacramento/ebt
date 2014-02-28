@@ -8,11 +8,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Probl\IeC {\'e}matique R\IeC {\'e}seau et SDN}{3}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Ossification de l'Internet et besoin d'expansion}{3}{section.1.1}
+\contentsline {section}{\numberline {1.1}Ossification de l'internet face au besoin d'expansion}{3}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{principles and priority *}{3}{section*.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Management r\IeC {\'e}seau de plus en plus complexe et p\IeC {\'e}nible}{4}{section.1.2}
+\contentsline {section}{\numberline {1.2}Complexification et P\IeC {\'e}nibilit\IeC {\'e} du Management R\IeC {\'e}seau}{4}{section.1.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.3}Clean-slate Internet}{5}{section.1.3}
 \defcounter {refsection}{0}\relax 
@@ -26,7 +24,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}Contr\IeC {\^o}leur}{7}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}O\IeC {\`u} on en est}{7}{section.2.4}
+\contentsline {section}{\numberline {2.4}Un point sur la situation}{7}{section.2.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4.1}ONF}{7}{subsection.2.4.1}
 \defcounter {refsection}{0}\relax 
@@ -34,11 +32,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Enjeux de SDN}{9}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Contr\IeC {\^o}le centralis\IeC {\'e} vs distribu\IeC {\'e}}{9}{section.3.1}
+\contentsline {section}{\numberline {3.1}Contr\IeC {\^o}le : centralis\IeC {\'e} ou distribu\IeC {\'e}}{9}{section.3.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}Niveau de granularit\IeC {\'e}}{9}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Politiques r\IeC {\'e}actives vs pro-actives}{9}{section.3.3}
+\contentsline {section}{\numberline {3.3}Politiques : r\IeC {\'e}actives ou pro-actives}{9}{section.3.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.4}Fonctions de Virtualisation du R\IeC {\'e}seau}{9}{section.3.4}
 \defcounter {refsection}{0}\relax 
@@ -52,26 +50,26 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.4}Brocade Ethernet Fabric, Fibre Channel support over Ethernet}{11}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}VMWare NSX, from physical to logical services}{11}{section.4.5}
+\contentsline {section}{\numberline {4.5}VMWare NSX, from physical to logical services}{12}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}Juniper MetaFabric Architecture}{11}{section.4.6}
+\contentsline {section}{\numberline {4.6}Juniper MetaFabric Architecture}{12}{section.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.7}Citrix NetScaler, plate-forme ouverte dirig\IeC {\'e} par app}{11}{section.4.7}
+\contentsline {section}{\numberline {4.7}Citrix NetScaler, plate-forme ouverte dirig\IeC {\'e}e par app}{12}{section.4.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Applicabilit\IeC {\'e} de SDN et possibilit\IeC {\'e}s}{13}{chapter.5}
+\contentsline {chapter}{\numberline {5}Des Applications de SDN et leurs possibilit\IeC {\'e}s}{13}{chapter.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.1}Management du R\IeC {\'e}seau et Contr\IeC {\^o}le d'Acc\IeC {\`e}s}{13}{section.5.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.2}VLANs}{13}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Clients mobiles sans fils VoIP}{13}{section.5.3}
+\contentsline {section}{\numberline {5.3}Clients mobiles sans fil VoIP}{13}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion}{15}{chapter*.10}
+\contentsline {chapter}{Conclusion}{15}{chapter*.7}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {A}Premi\IeC {\`e}re annexe}{17}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliographie}{19}{appendix*.11}
+\contentsline {chapter}{Bibliographie}{19}{appendix*.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Glossaire}{21}{section*.12}
+\contentsline {chapter}{Glossaire}{23}{section*.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Acronyms}{23}{section*.14}
+\contentsline {chapter}{Acronyms}{25}{section*.11}

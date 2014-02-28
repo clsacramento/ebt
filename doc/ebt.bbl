@@ -197,6 +197,15 @@
       \verb http://dx.doi.org/10.1007/978-3-642-15187-3_12
       \endverb
     \endentry
+    \entry{ICANNIPv6Important}{misc}{}
+      \field{sortinit}{0}
+      \field{labeltitle}{IPv6 - What is it, why is it important, and who is in charge?}
+      \field{howpublished}{Paper}
+      \field{month}{10}
+      \field{note}{A factual paper prepared for and endorsed by the Chief Executive Officers of ICANN and all the Regional Internet Registries}
+      \field{title}{IPv6 - What is it, why is it important, and who is in charge?}
+      \field{year}{2009}
+    \endentry
     \entry{OpenFlowStanfordOssification}{article}{}
       \name{labelname}{8}{}{%
         {{hash=de88a212b707ac15b1fde53c8cb71017}{McKeown}{M\bibinitperiod}{Nick}{N\bibinitperiod}{}{}{}{}}%
@@ -244,6 +253,37 @@
       \verb http://doi.acm.org/10.1145/1355734.1355746
       \endverb
       \keyw{ethernet switch, flow-based, virtualization}
+    \endentry
+    \entry{SurveySDNIntro}{misc}{}
+      \name{labelname}{5}{}{%
+        {{hash=a8f753998bb69afcd3eafd651df9762f}{Astuto}{A\bibinitperiod}{Bruno\bibnamedelima Nunes}{B\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=1717b0d02e88e1a3514167a894aa8f39}{Mendonça}{M\bibinitperiod}{Marc}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=c0f9e5641a2135649c8019a5b9a1149f}{Nguyen}{N\bibinitperiod}{Xuan\bibnamedelima Nam}{X\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=fb64084065efc78474c0bcea76f8416b}{Obraczka}{O\bibinitperiod}{Katia}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=9387aafb8050ad590125dd423f60a2f5}{Turletti}{T\bibinitperiod}{Thierry}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=a8f753998bb69afcd3eafd651df9762f}{Astuto}{A\bibinitperiod}{Bruno\bibnamedelima Nunes}{B\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=1717b0d02e88e1a3514167a894aa8f39}{Mendonça}{M\bibinitperiod}{Marc}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=c0f9e5641a2135649c8019a5b9a1149f}{Nguyen}{N\bibinitperiod}{Xuan\bibnamedelima Nam}{X\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=fb64084065efc78474c0bcea76f8416b}{Obraczka}{O\bibinitperiod}{Katia}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=9387aafb8050ad590125dd423f60a2f5}{Turletti}{T\bibinitperiod}{Thierry}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {Anglais}%
+      }
+      \strng{namehash}{10760f02b82bff52a683ffca5569f8b8}
+      \strng{fullhash}{f90573fac01829071a39782c7a32d495}
+      \field{sortinit}{0}
+      \field{labeltitle}{A Survey of Software-Defined Networking: Past, Present, and Future of Programmable Networks}
+      \field{month}{01}
+      \field{note}{Section 1. Introduction}
+      \field{title}{A Survey of Software-Defined Networking: Past, Present, and Future of Programmable Networks}
+      \field{year}{2014}
+      \verb{file}
+      \verb http://hal.inria.fr/hal-00825087/PDF/hal\_final.pdf
+      \endverb
+      \keyw{Programmable Networks, Software Defined Networking (SDN).}
     \endentry
     \entry{IBMManagingGrowingPainsNeed}{misc}{}
       \field{sortinit}{0}
