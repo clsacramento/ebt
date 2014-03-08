@@ -24,6 +24,8 @@
 À vouloir autoriser et même encourager les utilisateurs à innover sur son architecture, l'internet s'est fait dépasser par son propre succès. La croissance explosive des utilisateurs, du trafic et des applications a apporté toute une série de problèmes, 
 %L'internet a été créé à une époque où les choses étaient plus simples, avec peu d'intervenants en coopération. Dès qu'il est devenu partie intégrante en plusieurs aspects de la société, diverses réclamations et défaillances sont apparues, 
 tant que l'exhaustion des adresses IPv4 disponibles et les menaces aux réseaux locaux privés. 
+
+%One of the main reasons for these security vulnerabilities is that the Internet architecture and its supporting protocols were primarily designed for a benign and trustworthy environment, with little or no consideration for security issues. This assumption is clearly no longer valid for today’s Internet, which connects millions of people, computers, and corporations in a complex web that spans the entire globe.
 \par
 En réponse à ces questions, on a introduit dans l'architecture des \glspl{middlebox}, par exemple les NATs et les Firewalls, à un prix : la complexité. Le logiciel dans ces systèmes est capable d'atteindre n'importe quel objectif sous réserve de devenir excessivement complexe, fragile, incompréhensible et mal jugé. Parce que les coûts de la complexité ont été négligés lors de l'évolution de l'internet, les applications en réseau sortantes ont été rendues difficiles à concevoir, à mettre en place et à maintenir. \cite{InternetEvolutionRoleSoftwareEngineeringRealInternet}
 
@@ -64,6 +66,11 @@ On se rend compte que l'adoption de nouvelles idées dans le domaine des réseau
 
 %Network configuration and installation requires highly-skilled personnel adept at configuration of many network elements. Where interactions between network nodes (e.g. switches, routers, etc.) are complex, a more systems-based approach encompassing elements of simulation is required. With the current programming interfaces on much of today’s networking equipment, this is difficult to achieve. In addition, operational costs involved in provisioning and managing large, multi-vendor networks covering multiple technologies have been increasing over recent years, whilst the pre- dominant trend in revenue for operations has been decreasing.
 
+%It was noted that network operation and management is a major source of operating costs, and as well a source of failures and disruptions due to operator error. So we can expect major changes in this area, and we can expect this to be a major focus of a future architecture design.
+
+
+%Perhaps the attributes most critically lacking are those relating to security, including highly resilient and dependable availability, and a trustworthy environment for people (and their computers) to communicate.
+
 %\subsection*{Fin brain storming *}
 
 Cette résistance empêchant l'innovation est contradictoire à la rapide croissance de l'internet qui impose une expansion de l'architecture réseau. 
@@ -87,14 +94,16 @@ Le plus une entreprise dépend d'un nombre croissant de dispositifs et gros volu
 
 Malgré l'assistance des agents autonomes et intelligents ainsi que des logiciels pour le management réseau, la mission de l'administrateur réseau reste importante et compliquée. Il doit équilibrer les différentes tâches du management pour assurer que le \gls{si} soit proprement configuré et maintenu. \cite{CentralIssuesNetworkManagementConclusion}
 
-Internet n'a pas été conçu pour le management, pourtant les administrateurs des réseaux d'aujourd'hui rencontrent des problèmes critiques de configuration, ingénierie du trafic, politique de routage et diagnostic de failles. Leurs outils pour analyse du trafic sont faibles et leurs mécanismes pour contrôler les opérations réseau ne facilitent pas la prédictibilité entre des relations cause-effet.
+La configuration et l'installation du réseau exigent des techniciens experts hautement qualifiés sur plusieurs éléments le composant. Les interactions entre les nœuds du réseau (switches, routeurs etc.) sont complexes, ce qui provoque le besoin pour une approche système englobant la simulation. Avec l'interface de programmation courante des équipements réseau d'aujourd'hui, cela est difficile d'atteindre. De plus, les coûts opérationnels impliqués à l'approvisionnement et management de réseaux larges et multi-vendeurs  couvrant plusieurs technologies ont augmenté récemment, alors que les revenues se diminuent. \cite{ImplementationChallengesForSDN}
 
-Le routage sur internet a un fort problème d'évolution. La table de routage d'un routeur typique en ce moment compte avec 300000 entrées qui doivent être stockés dans les plus rapides et plus couteux types de mémoire pour assurer la rapidité du routage.
+L'architecture réseau n'a pas été conçue pour le management, pourtant les administrateurs des réseaux d'aujourd'hui rencontrent des problèmes critiques de configuration, ingénierie du trafic, politique de routage et diagnostic de failles. Leurs outils pour analyse du trafic sont faibles et leurs mécanismes pour contrôler les opérations réseau ne facilitent pas la prédictibilité entre les relations de cause-effet. On réalise que l'opération et le management du réseau représentent la source la plus importante des coûts opérationnels, de failles et d'interruptions à cause d'erreurs des opérateurs. Un changement dans ce domaine est requis pour le design de l'architecture. \cite{NGSIManagement}
 
 
 %A new network model is required to support this.
 \section{Un nouveau modèle réseau pour supporter ces évolutions}
 %\section{Clean-slate Internet}
+
+While the overall architecture is an undeniable success, the state of the networking industry and the nature of networking infrastructure is a less inspiring story. It is widely agreed that current networks are too expensive, too complicated to manage, too prone to vendor-lockin, and too hard to change. Moreover, this unfortunate state-of-affairs has remained true for well over a decade. Thus, while much of the research community has been focusing on “clean-slate” designs of the overall Internet architecture, a more pressing set of problems remain in the design of the underlying network infrastructure. That is, in addition to worrying about the global Internet protocols, the research community should also devote effort to how one could improve the infrastructure over which these protocols are deployed.
 
 Re-partir de zéro. En le faisant, quels sont les caractéristique de l'architecture ?
 
