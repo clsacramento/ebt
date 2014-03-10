@@ -98,14 +98,40 @@ La configuration et l'installation du réseau exigent des techniciens experts ha
 
 L'architecture réseau n'a pas été conçue pour le management, pourtant les administrateurs des réseaux d'aujourd'hui rencontrent des problèmes critiques de configuration, ingénierie du trafic, politique de routage et diagnostic de failles. Leurs outils pour analyse du trafic sont faibles et leurs mécanismes pour contrôler les opérations réseau ne facilitent pas la prédictibilité entre les relations de cause-effet. On réalise que l'opération et le management du réseau représentent la source la plus importante des coûts opérationnels, de failles et d'interruptions à cause d'erreurs des opérateurs. Un changement dans ce domaine est requis pour le design de l'architecture. \cite{NGSIManagement}
 
+%Yet at the same time, society is daring the Internet to face the following set of challenges:
+%Security: The lack of security in the Internet is worrisome to ev- eryone including users, application developers, and network and service operators.
+%Mobility: Currently, application developers find little support for new mobile applications and services.
+%Reliabilityandavailability: ISPsfacethetaskofprovidingaser- vice which meets user expectations of the Internet’s crucial role in both business and private life, in terms of reliability, resilience, and availability, when compared, for example, to the telephone network (five nines1). Furthermore, the service has to be seamless.
+%Problem analysis: The toolset for debugging the Internet is lim- ited, e. g., tools for root cause analysis.
+%Scalability: Questions remain regarding the scalability of some parts of the current Internet architecture, e.g., the routing system.
+%Quality of Service: It is still unclear how and where to integrate different levels of quality of service into the architecture.
+%Economics: Besides these more technical questions, there is also the question of how network and service operators can con- tinue to make a profit.
+
+
 
 %A new network model is required to support this.
 \section{Un nouveau modèle réseau pour supporter ces évolutions}
 %\section{Clean-slate Internet}
 
-While the overall architecture is an undeniable success, the state of the networking industry and the nature of networking infrastructure is a less inspiring story. It is widely agreed that current networks are too expensive, too complicated to manage, too prone to vendor-lockin, and too hard to change. Moreover, this unfortunate state-of-affairs has remained true for well over a decade. Thus, while much of the research community has been focusing on “clean-slate” designs of the overall Internet architecture, a more pressing set of problems remain in the design of the underlying network infrastructure. That is, in addition to worrying about the global Internet protocols, the research community should also devote effort to how one could improve the infrastructure over which these protocols are deployed.
+%While the overall architecture is an undeniable success, the state of the networking industry and the nature of networking infrastructure is a less inspiring story. It is widely agreed that current networks are too expensive, too complicated to manage, too prone to vendor-lockin, and too hard to change. Moreover, this unfortunate state-of-affairs has remained true for well over a decade. Thus, while much of the research community has been focusing on “clean-slate” designs of the overall Internet architecture, a more pressing set of problems remain in the design of the underlying network infrastructure. That is, in addition to worrying about the global Internet protocols, the research community should also devote effort to how one could improve the infrastructure over which these protocols are deployed.
 
-Re-partir de zéro. En le faisant, quels sont les caractéristique de l'architecture ?
+Même si globalement l'architecture réseau d'internet est un succès incontestable, l'état de l'industrie réseau et l'essence de son infrastructure est moins inspirant. Il est partout accepté que les réseaux courants sont excessivement chers, compliqués à gérer, sujets aux blocages des fournisseurs et difficiles à évoluer. En plus, cette condition a bien durée plus d'une décade. \cite{fabricIntro}
+
+%In the past 30 years the Internet has been very successful using an incremental approach. However due to its success, the commu- nity has now reached a point where people are unwilling or unable to experiment on the current architecture. Therefore, it might be time to explore a clean-slate approach
+Dans les dernières 30 années, internet a été bien succédé à utiliser une approche incrémentielle pour répondre aux divers challenges rencontrés. Cependant, grâce à ce succès, la communauté a récemment atteint un point où les personnes sont peu disposées ou incapables d'expérimenter sur cette architecture.  Pour cette raison, il est peut être le moment de d'explorer une nouvelle approche. \cite{InernetCleanSlateDesignApproach}
+
+En résumé, l'infrastructure réseau confronte actuellement ces challenges:
+\begin{itemize}
+\item Sécurité : la manque de sécurité est assez inquiétante à tout niveau : des utilisateurs, aux développeurs aux opérateurs de services.
+\item Mobilité : il existe très peu de support aux applications et services mobiles
+\item Fiabilité et disponibilité : le nouvel usage de l'internet exige de plus en plus haute fiabilité et disponibilité.
+\item Analyse de problèmes : les outils pour déboguer les failles réseau sont assez limités.
+\item Évolution : certaine partis de l'architecture courante semblent être saturés, comme le système de routage.
+\item Qualité de service : il est toujours incertain comment intégrer différents niveaux de qualité de service.
+\item Économique : en outre de tous questions techniques, il reste aussi la question de comment les opérateurs pourront continuer à tirer profit.
+\end{itemize}
+\cite{InernetCleanSlateDesignIntro}
+%Re-partir de zéro. En le faisant, quels sont les caractéristique de l'architecture ?
 
 
 Cette problématique a amené scientistes et les ingénieurs impliqués à concevoir \gls{sdn}. \gls{sdn} est un nouveau \glslink{paradigme}{paradigme} réseau qu'on fait actuellement en cours de développer pour adapter l'infrastructure existante au nouveau scénario.

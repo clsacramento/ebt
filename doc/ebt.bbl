@@ -361,6 +361,109 @@
       \field{title}{A Clean-Slate Design for the Next-Generation Secure Internet, Section 4.4 Network Management}
       \field{year}{2005}
     \endentry
+    \entry{fabricIntro}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=0fb6f28a8534be6adff8778bd2dda1de}{Casado}{C\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=4b4b1c19e65a22e44c8491e7046d6666}{Koponen}{K\bibinitperiod}{Teemu}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=8d2fd528d2484047352789c731e250a5}{Shenker}{S\bibinitperiod}{Scott}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=fcc62c4e0713dc79b333520f4dfc49d0}{Tootoonchian}{T\bibinitperiod}{Amin}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=0fb6f28a8534be6adff8778bd2dda1de}{Casado}{C\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=4b4b1c19e65a22e44c8491e7046d6666}{Koponen}{K\bibinitperiod}{Teemu}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=8d2fd528d2484047352789c731e250a5}{Shenker}{S\bibinitperiod}{Scott}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=fcc62c4e0713dc79b333520f4dfc49d0}{Tootoonchian}{T\bibinitperiod}{Amin}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Helsinki, Finland}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{4c0a8ce5999513249566e77135bcf2ad}
+      \strng{fullhash}{683e0c576b719befd3f966fb522fb209}
+      \field{sortinit}{0}
+      \field{labeltitle}{Fabric: A Retrospective on Evolving SDN, section 1 Introduction}
+      \field{booktitle}{Proceedings of the First Workshop on Hot Topics in Software Defined Networks}
+      \field{isbn}{978-1-4503-1477-0}
+      \field{series}{HotSDN '12}
+      \field{title}{Fabric: A Retrospective on Evolving SDN, section 1 Introduction}
+      \field{year}{2012}
+      \field{pages}{85\bibrangedash 90}
+      \verb{doi}
+      \verb 10.1145/2342441.2342459
+      \endverb
+      \verb{url}
+      \verb http://doi.acm.org/10.1145/2342441.2342459
+      \endverb
+      \keyw{network architecture}
+    \endentry
+    \entry{InernetCleanSlateDesignApproach}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=a2f03739ecbec5fd41971c58f390f197}{Feldmann}{F\bibinitperiod}{Anja}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=a2f03739ecbec5fd41971c58f390f197}{Feldmann}{F\bibinitperiod}{Anja}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{a2f03739ecbec5fd41971c58f390f197}
+      \strng{fullhash}{a2f03739ecbec5fd41971c58f390f197}
+      \field{sortinit}{0}
+      \field{labeltitle}{Internet Clean-slate Design: What and Why?}
+      \field{issn}{0146-4833}
+      \field{journaltitle}{SIGCOMM Comput. Commun. Rev., Section 4. THE CLEAN-SLATE APPROACH}
+      \field{month}{07}
+      \field{number}{3}
+      \field{title}{Internet Clean-slate Design: What and Why?}
+      \field{volume}{37}
+      \field{year}{2007}
+      \field{pages}{59\bibrangedash 64}
+      \verb{doi}
+      \verb 10.1145/1273445.1273453
+      \endverb
+      \verb{url}
+      \verb http://doi.acm.org/10.1145/1273445.1273453
+      \endverb
+      \keyw{clean-slate, internet, network architecture, post-ip}
+    \endentry
+    \entry{InernetCleanSlateDesignIntro}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=a2f03739ecbec5fd41971c58f390f197}{Feldmann}{F\bibinitperiod}{Anja}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=a2f03739ecbec5fd41971c58f390f197}{Feldmann}{F\bibinitperiod}{Anja}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{a2f03739ecbec5fd41971c58f390f197}
+      \strng{fullhash}{a2f03739ecbec5fd41971c58f390f197}
+      \field{sortinit}{0}
+      \field{labeltitle}{Internet Clean-slate Design: What and Why?}
+      \field{issn}{0146-4833}
+      \field{journaltitle}{SIGCOMM Comput. Commun. Rev., Section 1 Introduction}
+      \field{month}{07}
+      \field{number}{3}
+      \field{title}{Internet Clean-slate Design: What and Why?}
+      \field{volume}{37}
+      \field{year}{2007}
+      \field{pages}{59\bibrangedash 64}
+      \verb{doi}
+      \verb 10.1145/1273445.1273453
+      \endverb
+      \verb{url}
+      \verb http://doi.acm.org/10.1145/1273445.1273453
+      \endverb
+      \keyw{clean-slate, internet, network architecture, post-ip}
+    \endentry
     \entry{SurveySDN}{misc}{}
       \name{labelname}{5}{}{%
         {{hash=a8f753998bb69afcd3eafd651df9762f}{Astuto}{A\bibinitperiod}{Bruno\bibnamedelima Nunes}{B\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
@@ -592,6 +695,39 @@
       \field{note}{Figure 1}
       \field{title}{Managing the growing pains in today's expanding networks}
       \field{year}{2012}
+    \endentry
+    \entry{InernetCleanSlateDesign}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=a2f03739ecbec5fd41971c58f390f197}{Feldmann}{F\bibinitperiod}{Anja}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=a2f03739ecbec5fd41971c58f390f197}{Feldmann}{F\bibinitperiod}{Anja}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{a2f03739ecbec5fd41971c58f390f197}
+      \strng{fullhash}{a2f03739ecbec5fd41971c58f390f197}
+      \field{sortinit}{0}
+      \field{labeltitle}{Internet Clean-slate Design: What and Why?}
+      \field{issn}{0146-4833}
+      \field{journaltitle}{SIGCOMM Comput. Commun. Rev.}
+      \field{month}{07}
+      \field{number}{3}
+      \field{title}{Internet Clean-slate Design: What and Why?}
+      \field{volume}{37}
+      \field{year}{2007}
+      \field{pages}{59\bibrangedash 64}
+      \verb{doi}
+      \verb 10.1145/1273445.1273453
+      \endverb
+      \verb{url}
+      \verb http://doi.acm.org/10.1145/1273445.1273453
+      \endverb
+      \keyw{clean-slate, internet, network architecture, post-ip}
     \endentry
   \endsortlist
 \endrefsection

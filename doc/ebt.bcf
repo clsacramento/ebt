@@ -1950,10 +1950,13 @@
     <bcf:citekey order="18">CentralIssuesNetworkManagementConclusion</bcf:citekey>
     <bcf:citekey order="19">ImplementationChallengesForSDN</bcf:citekey>
     <bcf:citekey order="20">NGSIManagement</bcf:citekey>
+    <bcf:citekey order="21">fabricIntro</bcf:citekey>
+    <bcf:citekey order="22">InernetCleanSlateDesignApproach</bcf:citekey>
+    <bcf:citekey order="23">InernetCleanSlateDesignIntro</bcf:citekey>
     <bcf:citekey order="0">*</bcf:citekey>
-    <bcf:citekey order="21">IMBigData</bcf:citekey>
-    <bcf:citekey order="22">paradigmdef</bcf:citekey>
-    <bcf:citekey order="23">newparadigm</bcf:citekey>
+    <bcf:citekey order="24">IMBigData</bcf:citekey>
+    <bcf:citekey order="25">paradigmdef</bcf:citekey>
+    <bcf:citekey order="26">newparadigm</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" type="entry" label="none">
   <bcf:sorting>
