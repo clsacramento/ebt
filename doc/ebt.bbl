@@ -398,6 +398,39 @@
       \endverb
       \keyw{network architecture}
     \endentry
+    \entry{InernetCleanSlateDesignIntro}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=a2f03739ecbec5fd41971c58f390f197}{Feldmann}{F\bibinitperiod}{Anja}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=a2f03739ecbec5fd41971c58f390f197}{Feldmann}{F\bibinitperiod}{Anja}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{a2f03739ecbec5fd41971c58f390f197}
+      \strng{fullhash}{a2f03739ecbec5fd41971c58f390f197}
+      \field{sortinit}{0}
+      \field{labeltitle}{Internet Clean-slate Design: What and Why?}
+      \field{issn}{0146-4833}
+      \field{journaltitle}{SIGCOMM Comput. Commun. Rev., Section 1 Introduction}
+      \field{month}{07}
+      \field{number}{3}
+      \field{title}{Internet Clean-slate Design: What and Why?}
+      \field{volume}{37}
+      \field{year}{2007}
+      \field{pages}{59\bibrangedash 64}
+      \verb{doi}
+      \verb 10.1145/1273445.1273453
+      \endverb
+      \verb{url}
+      \verb http://doi.acm.org/10.1145/1273445.1273453
+      \endverb
+      \keyw{clean-slate, internet, network architecture, post-ip}
+    \endentry
     \entry{InernetCleanSlateDesignApproach}{article}{}
       \name{labelname}{1}{}{%
         {{hash=a2f03739ecbec5fd41971c58f390f197}{Feldmann}{F\bibinitperiod}{Anja}{A\bibinitperiod}{}{}{}{}}%
@@ -431,38 +464,14 @@
       \endverb
       \keyw{clean-slate, internet, network architecture, post-ip}
     \endentry
-    \entry{InernetCleanSlateDesignIntro}{article}{}
-      \name{labelname}{1}{}{%
-        {{hash=a2f03739ecbec5fd41971c58f390f197}{Feldmann}{F\bibinitperiod}{Anja}{A\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=a2f03739ecbec5fd41971c58f390f197}{Feldmann}{F\bibinitperiod}{Anja}{A\bibinitperiod}{}{}{}{}}%
-      }
-      \list{location}{1}{%
-        {New York, NY, USA}%
-      }
-      \list{publisher}{1}{%
-        {ACM}%
-      }
-      \strng{namehash}{a2f03739ecbec5fd41971c58f390f197}
-      \strng{fullhash}{a2f03739ecbec5fd41971c58f390f197}
+    \entry{SDNNewNormONFExecutiveSummary}{misc}{}
       \field{sortinit}{0}
-      \field{labeltitle}{Internet Clean-slate Design: What and Why?}
-      \field{issn}{0146-4833}
-      \field{journaltitle}{SIGCOMM Comput. Commun. Rev., Section 1 Introduction}
-      \field{month}{07}
-      \field{number}{3}
-      \field{title}{Internet Clean-slate Design: What and Why?}
-      \field{volume}{37}
-      \field{year}{2007}
-      \field{pages}{59\bibrangedash 64}
-      \verb{doi}
-      \verb 10.1145/1273445.1273453
-      \endverb
-      \verb{url}
-      \verb http://doi.acm.org/10.1145/1273445.1273453
-      \endverb
-      \keyw{clean-slate, internet, network architecture, post-ip}
+      \field{labeltitle}{Software-Defined Networking: The New Norm for Networks, Section Executive Summary}
+      \field{howpublished}{White Paper}
+      \field{month}{04}
+      \field{note}{Open Networking Foundation}
+      \field{title}{Software-Defined Networking: The New Norm for Networks, Section Executive Summary}
+      \field{year}{2012}
     \endentry
     \entry{SurveySDN}{misc}{}
       \name{labelname}{5}{}{%
