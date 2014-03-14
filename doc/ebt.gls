@@ -23,5 +23,6 @@
 \glsgroupheading{V}\relax \glsresetentrylist %
 \glossaryentryfield{virtualisation}{\glsnamefont{Virtualisation}}{ La Virtualisation est y }{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{1}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{7}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{23}}}%
 \end{theglossary}\glossarypostamble

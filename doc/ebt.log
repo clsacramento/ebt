@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.24)  11 MAR 2014 23:27
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.24)  14 MAR 2014 21:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1131,11 +1131,8 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'french'.
 
-(./ebt.aux (./intro.aux) (./chap1.aux) (./chap2.aux
-
-LaTeX Warning: Label `image_soleil' multiply defined.
-
-) (./chap3.aux) (./chap4.aux) (./chap5.aux) (./concl.aux) (./ann1.aux))
+(./ebt.aux (./intro.aux) (./chap1.aux) (./chap2.aux) (./chap3.aux) (./chap4.aux
+) (./chap5.aux) (./concl.aux) (./ann1.aux))
 \openout1 = `ebt.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 123.
@@ -1220,7 +1217,7 @@ LaTeX Info: Redefining \up on input line 123.
    defining Unicode char U+00AB (decimal 171)
    defining Unicode char U+00BB (decimal 187)
 
-<couverture-ebt.pdf, id=142, page=1, 597.50829pt x 845.0471pt>
+<couverture-ebt.pdf, id=134, page=1, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 1>
@@ -1250,7 +1247,7 @@ Package pdftex.def Info: couverture-ebt.pdf, page1 used on input line 124.
 
  <./couverture-ebt.pdf{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updma
 p/pdftex.map}>]
-<couverture-ebt.pdf, id=168, page=2, 597.50829pt x 845.0471pt>
+<couverture-ebt.pdf, id=160, page=2, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 2>
@@ -1333,17 +1330,17 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ]
 \openout2 = `intro.aux'.
 
- (./intro.tex)pdfTeX warning (ext4): destination with the same identifier (name
-{page.1}) has been already used, duplicate ignored
+ (./intro.texpdfTeX warning (ext4): destination with the same identifier (name{
+page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.138 \include{intro}
-                      [1
+l.34 \par
+          [1
 
 
 
-]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
- been already used, duplicate ignored
+])pdfTeX warning (ext4): destination with the same identifier (name{page.2}) ha
+s been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.138 \include{intro}
@@ -1358,47 +1355,62 @@ Chapitre 1.
 
 
 ]
-<images/IncreasingPressureOnNetworkInfra.png, id=310, 541.02126pt x 588.1975pt>
-File: images/IncreasingPressureOnNetworkInfra.png Graphic file (type png)
-<use images/IncreasingPressureOnNetworkInfra.png>
-Package pdftex.def Info: images/IncreasingPressureOnNetworkInfra.png used on in
-put line 82.
-(pdftex.def)             Requested size: 426.79134pt x 464.01575pt.
- [4 <./images/IncreasingPressureOnNetworkInfra.png>] [5
-
-]) [6]
-\openout2 = `chap2.aux'.
-
- (./chap2.tex
-Chapitre 2.
-<images/ComparaisonArchis.png, id=349, 1027.84pt x 770.88pt>
-File: images/ComparaisonArchis.png Graphic file (type png)
-
-<use images/ComparaisonArchis.png>
-Package pdftex.def Info: images/ComparaisonArchis.png used on input line 20.
-(pdftex.def)             Requested size: 426.79134pt x 320.09744pt.
+<images/IncreasingPressureOnNetworkInfra2.png, id=308, 437.38406pt x 441.14813p
+t>
+File: images/IncreasingPressureOnNetworkInfra2.png Graphic file (type png)
+ <use images/IncreasingPressureOnNetworkInfra2.png>
+Package pdftex.def Info: images/IncreasingPressureOnNetworkInfra2.png used on i
+nput line 86.
+(pdftex.def)             Requested size: 426.79134pt x 430.47108pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[4] [5 <./images/IncreasingPressureOnNetworkInfra2.png>]) [6
+
+]
+\openout2 = `chap2.aux'.
+
+ (./chap2.tex
+Chapitre 2.
 [7
 
 
 
 
-] [8 <./images/ComparaisonArchis.png>]) [9
+] <images/ComparaisonArchis.png, id=363, 1027.84pt x 770.88pt>
+File: images/ComparaisonArchis.png Graphic file (type png)
+
+<use images/ComparaisonArchis.png>
+Package pdftex.def Info: images/ComparaisonArchis.png used on input line 36.
+(pdftex.def)             Requested size: 426.79134pt x 320.09744pt.
+
+<images/TraditionalVsSDN.png, id=365, 1027.84pt x 770.88pt>
+File: images/TraditionalVsSDN.png Graphic file (type png)
+
+<use images/TraditionalVsSDN.png>
+Package pdftex.def Info: images/TraditionalVsSDN.png used on input line 44.
+(pdftex.def)             Requested size: 426.79134pt x 320.09744pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[8
+
+ <./images/ComparaisonArchis.png>] [9 <./images/TraditionalVsSDN.png>])
+[10
 
 ]
 \openout2 = `chap3.aux'.
 
- (./chap3.tex [10
+ (./chap3.tex
+Chapitre 3.
+) [11
 
 
 
 
 ]
-Chapitre 3.
-) [11]
 \openout2 = `chap4.aux'.
 
  (./chap4.tex [12
@@ -1471,12 +1483,11 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 
 
-] [22]
+] [22] [23]
 No file ebt.ind.
-(./ebt.gls [23] [24
+(./ebt.gls [24]) (./ebt.acr [25
 
 
-]) (./ebt.acr [25
 
 
 ] [26
@@ -1489,7 +1500,7 @@ No file ebt.ind.
 
 
 ]
-<couverture-ebt.pdf, id=502, page=3, 597.50829pt x 845.0471pt>
+<couverture-ebt.pdf, id=522, page=3, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 3>
@@ -1514,7 +1525,7 @@ File: couverture-ebt.pdf Graphic file (type pdf)
 Package pdftex.def Info: couverture-ebt.pdf, page3 used on input line 164.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [29 <./couverture-ebt.pdf>]
-<couverture-ebt.pdf, id=507, page=4, 597.50829pt x 845.0471pt>
+<couverture-ebt.pdf, id=527, page=4, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 4>
@@ -1538,23 +1549,19 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 165.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 165.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 165.
 Package rerunfilecheck Info: File `ebt.out' has not changed.
-(rerunfilecheck)             Checksum: F816C86E8A2E19214C8A18957AAAF001;2578.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
+(rerunfilecheck)             Checksum: 40030C9886B89E84A1E6217448655F69;2463.
 Package logreq Info: Writing requests to 'ebt.run.xml'.
 \openout1 = `ebt.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19693 strings out of 493315
- 310536 string characters out of 6137904
- 837757 words of memory out of 5000000
- 22592 multiletter control sequences out of 15000+600000
- 48977 words of font info for 38 fonts, out of 8000000 for 9000
+ 19708 strings out of 493315
+ 310917 string characters out of 6137904
+ 838024 words of memory out of 5000000
+ 22601 multiletter control sequences out of 15000+600000
+ 46209 words of font info for 37 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 57i,18n,51p,1453b,2410s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,18n,51p,1453b,2409s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/local/texlive/20
 13/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2013/texmf-d
@@ -1567,10 +1574,10 @@ ive/2013/texmf-dist/fonts/type1/public/lm/lmro12.pfb></usr/local/texlive/2013/t
 exmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2013/texmf-dis
 t/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
 pe1/public/lm/lmtt12.pfb>
-Output written on ebt.pdf (40 pages, 647894 bytes).
+Output written on ebt.pdf (40 pages, 999569 bytes).
 PDF statistics:
- 585 PDF objects out of 1000 (max. 8388607)
- 510 compressed objects within 6 object streams
- 122 named destinations out of 1000 (max. 500000)
- 323 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 605 PDF objects out of 1000 (max. 8388607)
+ 528 compressed objects within 6 object streams
+ 127 named destinations out of 1000 (max. 500000)
+ 312 words of extra memory for PDF output out of 10000 (max. 10000000)
 
