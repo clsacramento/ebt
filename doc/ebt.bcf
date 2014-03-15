@@ -1959,15 +1959,18 @@
     <bcf:citekey order="28">Ethane</bcf:citekey>
     <bcf:citekey order="29">GENI</bcf:citekey>
     <bcf:citekey order="30">SDNNewNormONFExecutiveSummary</bcf:citekey>
-    <bcf:citekey order="31">SDNNewNormONFExecutiveSummary</bcf:citekey>
-    <bcf:citekey order="32">ImplementationChallengesForSDNBackground</bcf:citekey>
+    <bcf:citekey order="31">ImplementationChallengesForSDNBackground</bcf:citekey>
+    <bcf:citekey order="32">SurveySDNArchi</bcf:citekey>
     <bcf:citekey order="33">SurveySDNArchi</bcf:citekey>
-    <bcf:citekey order="34">SurveySDNArchi</bcf:citekey>
-    <bcf:citekey order="35">ONFOverview</bcf:citekey>
+    <bcf:citekey order="34">SDNNewNormONFExecutiveSummary</bcf:citekey>
+    <bcf:citekey order="35">SurveySDNArchi</bcf:citekey>
+    <bcf:citekey order="36">SurveySDNArchi</bcf:citekey>
+    <bcf:citekey order="37">ONFOverview</bcf:citekey>
+    <bcf:citekey order="38">SurveySDNArchi</bcf:citekey>
     <bcf:citekey order="0">*</bcf:citekey>
-    <bcf:citekey order="36">IMBigData</bcf:citekey>
-    <bcf:citekey order="37">paradigmdef</bcf:citekey>
-    <bcf:citekey order="38">newparadigm</bcf:citekey>
+    <bcf:citekey order="39">IMBigData</bcf:citekey>
+    <bcf:citekey order="40">paradigmdef</bcf:citekey>
+    <bcf:citekey order="41">newparadigm</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" type="entry" label="none">
   <bcf:sorting>

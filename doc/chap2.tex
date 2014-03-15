@@ -17,26 +17,26 @@ SDN est défini au long de cette étude  selon \gls{onf} : Dans l'architecture S
 
 %The control plane is responsible for configuration of the node and programming the paths that will be used for data flows. Once these paths have been determined they are pushed down to the data plane. Data forwarding at the hardware level is based on this control information.
 
-[déf plan de contrôle => intelligence, logique, implémentation des protocoles]. [Déf plan de donnés, flux, commutation]
 Le plan de contrôle est responsable pour la configuration d'un nœud et pour la programmation des chemins qui seront utilisés par les flux de données. Le plan de donnés fourni au hardware les informations nécessaires à la commutation. \cite{ImplementationChallengesForSDNBackground}
 
-\clearpage
 
 
-Dans l'architecture réseau traditionnellement déployée, chaque nœud contient un plan de contrôle et un plan de données à l'intérieur du même matériel. L'ossification d'internet discuté dans le chapitre 1 est largement attribuée à ce fort couplage entre les deux plans provocant que toutes les décisions sur les flux de donnés soient embarqués dans chaque élément réseau. La manque d'une interface de contrôle commune à tous les dispositifs complique toute évolution que cela soit un simple changement de configuration ou le développement d'une nouvelle application.
+Dans l'architecture réseau traditionnellement déployée, chaque équipement actif contient un plan de contrôle et un plan de données à l'intérieur du même matériel. L'ossification d'internet discuté dans le chapitre 1 est largement attribuée à ce fort couplage entre les deux plans provocant que toutes les décisions sur les flux de donnés soient embarquées dans chaque élément réseau. La manque d'une interface de contrôle commune à tous les dispositifs complique toute évolution que cela soit un simple changement de configuration ou le développement d'une nouvelle application. \cite{SurveySDNArchi}
 
 
 
 %As mentioned previously, the so-called Internet “ossifica- tion” [2] is largely attributed to the tight coupling between the data– and control planes which means that decisions about data flowing through the network are made on-board each network element. In this type of environment, the deployment of new network applications or functionality is decidedly non- trivial, as they would need to be implemented directly into the infrastructure. Even straightforward tasks such as config- uration or policy enforcement may require a good amount of effort due to the lack of a common control interface to the various network devices.
 
-Avec SDN, on propose la séparation de ces deux éléments. Un contrôleur centralisé est commun à tous les équipements qui passent à contenir seulement le plan de donnés un plus d'un module de communication. 
-Dans l'image ci-dessous on voit un schéma montrant un nœud du point de vu de ces deux modèles, ensuite on affiche un image présentant l'ensemble de l'architecture dans les deux cas.
+Avec SDN, on propose la séparation de ces deux éléments. Un contrôleur centralisé est commun à tous les équipements qui passent à contenir seulement le plan de donnés un plus d'un module de communication.  La séparation du hardware de commutation de la logique de contrôle permet un déploiement plus facile de nouveaux protocoles et applications. La virtualisation et le management du réseau deviennent plus simples et les nombreux \glspl{middlebox} sont consolidés dans le logiciel de contrôle. \cite{SurveySDNArchi} \cite{SDNNewNormONFExecutiveSummary}
+%the separation of the forwarding hardware from the control logic allows easier deployment of new protocols and applications, straightforward network visualization and management, and consolidation of various middleboxes into software control.
 
-\begin{figure}[!h] %on ouvre l'environnement figure
-\includegraphics[width=15cm]{images/ComparaisonArchis.png} %ou image.png, .jpeg etc.
-\caption{ Un nœud dans l'Architecture Traditionnelle et SDN} %la légende
-\label{imgNodesArchi} %l'étiquette pour faire référence à cette image
-\end{figure} %on ferme l'environnement figure
+Dans l'image ci-dessous on voit un schéma illustrant l'ensemble de l'architecture dans les deux cas.
+
+%\begin{figure}[!h] %on ouvre l'environnement figure
+%\includegraphics[width=15cm]{images/ComparaisonArchis.png} %ou image.png, .jpeg etc.
+%\caption{ Un équipement actif dans l'Architecture Traditionnelle et SDN} %la légende
+%\label{imgNodesArchi} %l'étiquette pour faire référence à cette image
+%\end{figure} %on ferme l'environnement figure
 
 
 
@@ -49,13 +49,6 @@ Dans l'image ci-dessous on voit un schéma montrant un nœud du point de vu de c
 \clearpage
 
 
-\section{Dispositifs de commutation}
-%The basic idea is simple: we exploit the fact that most modern Ethernet switches and routers contain flow-tables (typically built from TCAMs) that run at line-rate to im- plement firewalls, NAT, QoS, and to collect statistics. While each vendor’s flow-table is different, we’ve identified an in- teresting common set of functions that run in many switches and routers. OpenFlow exploits this common set of func- tions.
-
-SDN profite du fait que la majorité des switches et routeurs existants contiennent des tableaux de flux qui exécutent à une fréquence ligne pour implémenter leurs protocoles et collecter des statistiques.
-
-\section{Contrôleur}
-Controllers. A controller adds and removes flow-entries from the Flow Table on behalf of experiments. For example, a static controller might be a simple application running on a PC to statically establish flows to interconnect a set of test computers for the duration of an experiment. In this case the flows resemble VLANs in current networks— providing a simple mechanism to isolate experimental traffic from the production network. Viewed this way, OpenFlow is a generalization of VLANs.
 
 \section{Un point sur la situation}
 %\subsection{ONF}
@@ -68,9 +61,21 @@ Controllers. A controller adds and removes flow-entries from the Flow Table on b
 Open Networking Foudation (\gls{onf}) et une organisation non-profit et axée sur l'utilisateur dédiée à l'accélération de l'adoption ouverte de SDN. Cette organisation voit SDN comme une approche réseau qui va changer comment opère chaque entreprise avec un réseau.
 \gls{onf} a été initiée en 2011 par Deutsche Telekom, Facebook, Google, Microsoft, Verizon et Yahoo! dans le but de repenser en collaboration les réseaux informatiques et rapidement apporter au marché les solutions et les standards SDN. Avec la collaboration de  grands experts mondiaux, ONF accélère la commercialisation de SDN en favorisant un vif marché de produits, services, applications, clients et utilisateurs. ONF compte aujourd'hui avec plus de 100 entreprises membres collaboratives de tout taille et variété. \cite{ONFOverview}
 
-
-%The strong support from industry, research, and academia that the Open Networking Foundation (ONF) and its SDN proposal, OpenFlow, has been able to gather is quite impres- sive. The resulting critical mass from these different sectors has produced a significant number of deliverables in the form of research papers, reference software implementations, and even hardware. So much so that some argue that OpenFlow’s SDN architecture is the current SDN de-facto standard. In line with this trend, the remainder of this section focuses on OpenFlow’s SDN model. 
-
+\gls{onf} a fait des efforts de standardiser le protocole \gls{openflow}. Ce protocole focalise en standardiser les interfaces entre les applications et le contrôleur et les interfaces entre le contrôleur et l'équipement de commutation.\cite{SurveySDNArchi}
 %The Open Network Foundation (ONF) [3] has been trying to standardize the OpenFlow protocol. As the control plane abstracts network applications from underlying hardware infrastructure, they focus on standardizing the inter- faces between: (1) network applications and the controller (i.e. northbound interface) and (2) the controller and the switching infrastructure (i.e., southbound interface) which defines the OpenFlow protocol itself. 
 
+Le for support de l'industrie, de la recherche et des académies que \gls{ONF} et la proposition de \gls{SDN}
+%The strong support from industry, research, and academia that the Open Networking Foundation (ONF) and its SDN proposal, OpenFlow, has been able to gather is quite impres- sive. The resulting critical mass from these different sectors has produced a significant number of deliverables in the form of research papers, reference software implementations, and even hardware. So much so that some argue that OpenFlow’s SDN architecture is the current SDN de-facto standard. In line with this trend, the remainder of this section focuses on OpenFlow’s SDN model. 
+
+
 %\subsection{OpenFlow - Protocoles standardisés}
+%\section{Dispositifs de commutation}
+%The basic idea is simple: we exploit the fact that most modern Ethernet switches and routers contain flow-tables (typically built from TCAMs) that run at line-rate to im- plement firewalls, NAT, QoS, and to collect statistics. While each vendor’s flow-table is different, we’ve identified an in- teresting common set of functions that run in many switches and routers. OpenFlow exploits this common set of func- tions.
+
+SDN profite du fait que la majorité des switches et routeurs existants contiennent des tableaux de flux qui exécutent à une fréquence ligne pour implémenter leurs protocoles et collecter des statistiques.
+
+
+
+%\section{Contrôleur}
+Controllers. A controller adds and removes flow-entries from the Flow Table on behalf of experiments. For example, a static controller might be a simple application running on a PC to statically establish flows to interconnect a set of test computers for the duration of an experiment. In this case the flows resemble VLANs in current networks— providing a simple mechanism to isolate experimental traffic from the production network. Viewed this way, OpenFlow is a generalization of VLANs.
+
