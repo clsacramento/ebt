@@ -601,6 +601,49 @@
       \field{title}{ONF, Open Networking Foundation}
       \field{year}{2013}
     \endentry
+    \entry{sdnbook}{book}{}
+      \name{labelname}{2}{}{%
+        {{hash=463089525392bca7b4ee528c2c9ea4f6}{D.}{D\bibinitperiod}{Thomas\bibnamedelima Nadeau}{T\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=6836d585d826e6523a5e4bc841fa7831}{Gray}{G\bibinitperiod}{Ken}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=463089525392bca7b4ee528c2c9ea4f6}{D.}{D\bibinitperiod}{Thomas\bibnamedelima Nadeau}{T\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=6836d585d826e6523a5e4bc841fa7831}{Gray}{G\bibinitperiod}{Ken}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {O'Reilly Media, Inc.}%
+      }
+      \strng{namehash}{98333f1abf2a197b5c6b9f4edbe1f31f}
+      \strng{fullhash}{98333f1abf2a197b5c6b9f4edbe1f31f}
+      \field{sortinit}{0}
+      \field{labeltitle}{SDN: Software Defined Networks}
+      \field{edition}{1st}
+      \field{isbn}{1449342302, 9781449342302}
+      \field{title}{SDN: Software Defined Networks}
+      \field{year}{2013}
+    \endentry
+    \entry{sdnbookControlDataPlanes}{book}{}
+      \name{labelname}{2}{}{%
+        {{hash=463089525392bca7b4ee528c2c9ea4f6}{D.}{D\bibinitperiod}{Thomas\bibnamedelima Nadeau}{T\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=6836d585d826e6523a5e4bc841fa7831}{Gray}{G\bibinitperiod}{Ken}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=463089525392bca7b4ee528c2c9ea4f6}{D.}{D\bibinitperiod}{Thomas\bibnamedelima Nadeau}{T\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=6836d585d826e6523a5e4bc841fa7831}{Gray}{G\bibinitperiod}{Ken}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {O'Reilly Media, Inc.}%
+      }
+      \strng{namehash}{98333f1abf2a197b5c6b9f4edbe1f31f}
+      \strng{fullhash}{98333f1abf2a197b5c6b9f4edbe1f31f}
+      \field{sortinit}{0}
+      \field{labeltitle}{SDN: Software Defined Networks}
+      \field{edition}{1st}
+      \field{isbn}{1449342302, 9781449342302}
+      \field{note}{Chapitre 2 - Centralized and Distributed Control and Data Planes}
+      \field{title}{SDN: Software Defined Networks}
+      \field{year}{2013}
+    \endentry
     \entry{SurveySDN}{misc}{}
       \name{labelname}{5}{}{%
         {{hash=a8f753998bb69afcd3eafd651df9762f}{Astuto}{A\bibinitperiod}{Bruno\bibnamedelima Nunes}{B\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
@@ -630,6 +673,54 @@
       \verb http://hal.inria.fr/hal-00825087/PDF/hal\_final.pdf
       \endverb
       \keyw{Programmable Networks, Software Defined Networking (SDN).}
+    \endentry
+    \entry{OpenFlowStanfordSwitch}{article}{}
+      \name{labelname}{8}{}{%
+        {{hash=de88a212b707ac15b1fde53c8cb71017}{McKeown}{M\bibinitperiod}{Nick}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=ed0d7310b4cdeb1e22acbd4775f2dfe8}{Anderson}{A\bibinitperiod}{Tom}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=ec394c5150bcaf5dac455aa9e3221f4e}{Balakrishnan}{B\bibinitperiod}{Hari}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=a565f54c21ae66e7423228b8676a61b6}{Parulkar}{P\bibinitperiod}{Guru}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=3f3af29945f3176e9dd1a4ed829664ce}{Peterson}{P\bibinitperiod}{Larry}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=6a657c57b5943bdc829427bef740483f}{Rexford}{R\bibinitperiod}{Jennifer}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=8d2fd528d2484047352789c731e250a5}{Shenker}{S\bibinitperiod}{Scott}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=b2d099aa0eb055883af0c116987070a9}{Turner}{T\bibinitperiod}{Jonathan}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{8}{}{%
+        {{hash=de88a212b707ac15b1fde53c8cb71017}{McKeown}{M\bibinitperiod}{Nick}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=ed0d7310b4cdeb1e22acbd4775f2dfe8}{Anderson}{A\bibinitperiod}{Tom}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=ec394c5150bcaf5dac455aa9e3221f4e}{Balakrishnan}{B\bibinitperiod}{Hari}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=a565f54c21ae66e7423228b8676a61b6}{Parulkar}{P\bibinitperiod}{Guru}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=3f3af29945f3176e9dd1a4ed829664ce}{Peterson}{P\bibinitperiod}{Larry}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=6a657c57b5943bdc829427bef740483f}{Rexford}{R\bibinitperiod}{Jennifer}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=8d2fd528d2484047352789c731e250a5}{Shenker}{S\bibinitperiod}{Scott}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=b2d099aa0eb055883af0c116987070a9}{Turner}{T\bibinitperiod}{Jonathan}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{1f89effe15693b59fe7e6d580c1d7d98}
+      \strng{fullhash}{a94c43bbce4938a2285255f72b21faf4}
+      \field{sortinit}{0}
+      \field{labeltitle}{OpenFlow: Enabling Innovation in Campus Networks}
+      \field{issn}{0146-4833}
+      \field{journaltitle}{SIGCOMM Comput. Commun. Rev.}
+      \field{month}{03}
+      \field{note}{Section 2. THE OPENFLOW SWITCH}
+      \field{number}{2}
+      \field{title}{OpenFlow: Enabling Innovation in Campus Networks}
+      \field{volume}{38}
+      \field{year}{2008}
+      \field{pages}{69\bibrangedash 74}
+      \verb{doi}
+      \verb 10.1145/1355734.1355746
+      \endverb
+      \verb{url}
+      \verb http://doi.acm.org/10.1145/1355734.1355746
+      \endverb
+      \keyw{ethernet switch, flow-based, virtualization}
     \endentry
     \entry{paradigmdef}{article}{}
       \name{labelname}{2}{}{%

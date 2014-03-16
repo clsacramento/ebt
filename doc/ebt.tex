@@ -71,6 +71,8 @@
 
 \newacronym{onf}{ONF}{Open Networking Foundation}
 
+\newacronym{nos}{NOS}{Network Operating System}
+
 
 \newglossaryentry{paradigme}
 {
@@ -115,6 +117,21 @@
 {
   name=OpenFlow,
   description={  Le protocole OpenFlow focalise en standardiser 1) l'interface entre entre les applications et le contrôleur  et 2) entre le contrôleur et les éléments de commutation. }
+}
+
+
+\newglossaryentry{controlplane}
+{
+  name=Plan de Contrôle,
+  description={  Intelligence du réseau, ensemble des données locales utilisées pour établir les entrées des tableaux de commutation, qui sont utilisés par le plan de données pour effectuer la transmission du trafic entre les port d'entrée et sortie du dispositif. \cite{sdnbookControlDataPlanes} },
+  plural={Plans de contrôles}
+}
+
+\newglossaryentry{dataplane}
+{
+  name=Plan de Données,
+  description={  Le plan de donnés traite les data-grammes entrants dans le média à travers une série d'opérations au niveau des liens qui collectent le data-gramme et réalise des tests de cohérence basiques. Ensuite le data-gramme est transféré en accord avec des tableaux pré-remplis par le \gls{controlplane}.  \cite{sdnbookControlDataPlanes} },
+  plural={plans de données}
 }
 
 \usepackage[english,francais]{babel}

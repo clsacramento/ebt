@@ -2,6 +2,9 @@
 \begin{theglossary}\glossaryheader
 \glsgroupheading{N}\relax \glsresetentrylist %
 \glossaryentryfield{nfv}{\glsnamefont{NFV}}{Network Functions Virtualization, Virtualisations des fonctions réseau}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{24}}}%
+\glossaryentryfield{nos}{\glsnamefont{NOS}}{Network Operating System}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{8}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{24}}}\glsgroupskip
 \glsgroupheading{O}\relax \glsresetentrylist %
 \glossaryentryfield{onf}{\glsnamefont{ONF}}{Open Networking Foundation}{\relax }{\glossaryentrynumbers{\relax 
@@ -14,7 +17,7 @@
 \glsgroupheading{S}\relax \glsresetentrylist %
 \glossaryentryfield{sdn}{\glsnamefont{SDN}}{Software-Defined Networking, Réseau Informatique Défini par Logiciel}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{1\delimN 2}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{7}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{7\delimR 9}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{24}}}%
 \glossaryentryfield{si}{\glsnamefont{SI}}{Système d'Information}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{4}\delimN 

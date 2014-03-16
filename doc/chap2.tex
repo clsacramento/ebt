@@ -17,7 +17,7 @@ SDN est défini au long de cette étude  selon \gls{onf} : Dans l'architecture S
 
 %The control plane is responsible for configuration of the node and programming the paths that will be used for data flows. Once these paths have been determined they are pushed down to the data plane. Data forwarding at the hardware level is based on this control information.
 
-Le plan de contrôle est responsable pour la configuration d'un nœud et pour la programmation des chemins qui seront utilisés par les flux de données. Le plan de donnés fourni au hardware les informations nécessaires à la commutation. \cite{ImplementationChallengesForSDNBackground}
+Le \gls{controlplane} est responsable pour la configuration d'un nœud et pour la programmation des chemins qui seront utilisés par les flux de données. Le \gls{dataplane} fourni au hardware les informations nécessaires à la commutation. \cite{ImplementationChallengesForSDNBackground}
 
 
 
@@ -27,7 +27,7 @@ Dans l'architecture réseau traditionnellement déployée, chaque équipement ac
 
 %As mentioned previously, the so-called Internet “ossifica- tion” [2] is largely attributed to the tight coupling between the data– and control planes which means that decisions about data flowing through the network are made on-board each network element. In this type of environment, the deployment of new network applications or functionality is decidedly non- trivial, as they would need to be implemented directly into the infrastructure. Even straightforward tasks such as config- uration or policy enforcement may require a good amount of effort due to the lack of a common control interface to the various network devices.
 
-Avec SDN, on propose la séparation de ces deux éléments. Un contrôleur centralisé est commun à tous les équipements qui passent à contenir seulement le plan de donnés un plus d'un module de communication.  La séparation du hardware de commutation de la logique de contrôle permet un déploiement plus facile de nouveaux protocoles et applications. La virtualisation et le management du réseau deviennent plus simples et les nombreux \glspl{middlebox} sont consolidés dans le logiciel de contrôle. \cite{SurveySDNArchi} \cite{SDNNewNormONFExecutiveSummary}
+Avec SDN, on propose la séparation de ces deux éléments. Le \gls{controlplane} est implémenté par un contrôleur centralisé est commun à tous les équipements qui passent à contenir seulement le \glspl{dataplane} un plus d'un module de communication.  La séparation de la fonction de commutation de la logique de contrôle permet un déploiement plus facile de nouveaux protocoles et applications. La virtualisation et le management du réseau deviennent plus simples et les nombreux \glspl{middlebox} sont consolidés dans le logiciel de contrôle. \cite{SurveySDNArchi} \cite{SDNNewNormONFExecutiveSummary}
 %the separation of the forwarding hardware from the control logic allows easier deployment of new protocols and applications, straightforward network visualization and management, and consolidation of various middleboxes into software control.
 
 Dans l'image ci-dessous on voit un schéma illustrant l'ensemble de l'architecture dans les deux cas.
@@ -45,6 +45,10 @@ Dans l'image ci-dessous on voit un schéma illustrant l'ensemble de l'architectu
 \caption{ L'ensemble de l'Architecture Traditionnelle et SDN \cite{SurveySDNArchi}} %la légende
 \label{imgOverviewArchi} %l'étiquette pour faire référence à cette image
 \end{figure} %on ferme l'environnement figure
+
+Avec l'approche \gls{sdn} les switchees sont contrôles par un \gls{nos} qui fourni un modèle abstrait de la topologie du réseau au contrôleur \gls{sdn} hébergeant les applications. Le contrôleur peut donc exploiter cet vue globale du réseau pour optimiser le management des flux et supporter les requis de 'scalabilité' et de flexibilité.
+
+%From these service-focussed requirements, SDN has emerged. Control is moved out of the individual network nodes and into the separate, centralized controller. SDN switches are con- trolled by a Network Operating System (NOS) that collects information using the API shown in Figure 2B and manipulates their forwarding plane, providing an abstract model of the network topology to the SDN controller hosting the applications.
 
 \clearpage
 
@@ -64,8 +68,10 @@ Open Networking Foudation (\gls{onf}) et une organisation non-profit et axée su
 \gls{onf} a fait des efforts de standardiser le protocole \gls{openflow}. Ce protocole focalise en standardiser les interfaces entre les applications et le contrôleur et les interfaces entre le contrôleur et l'équipement de commutation.\cite{SurveySDNArchi}
 %The Open Network Foundation (ONF) [3] has been trying to standardize the OpenFlow protocol. As the control plane abstracts network applications from underlying hardware infrastructure, they focus on standardizing the inter- faces between: (1) network applications and the controller (i.e. northbound interface) and (2) the controller and the switching infrastructure (i.e., southbound interface) which defines the OpenFlow protocol itself. 
 
-Le for support de l'industrie, de la recherche et des académies que \gls{ONF} et la proposition de \gls{SDN}
+Le fort support de l'industrie, de la recherche et des académies que \gls{onf} et la proposition de \gls{sdn} ont pu recueillir est assez expressif. Les résultats dans ces différents secteurs ont produit un nombre significatif de livrables dans la forme d'articles de recherche, d'implémentations de logiciels de référence et même de hardware. Il y a eu également des efforts de standardisation de SDN de la part d'autres organisations produisant des normes, comme IETF et IRTF. \cite{SurveySDNIntro}
 %The strong support from industry, research, and academia that the Open Networking Foundation (ONF) and its SDN proposal, OpenFlow, has been able to gather is quite impres- sive. The resulting critical mass from these different sectors has produced a significant number of deliverables in the form of research papers, reference software implementations, and even hardware. So much so that some argue that OpenFlow’s SDN architecture is the current SDN de-facto standard. In line with this trend, the remainder of this section focuses on OpenFlow’s SDN model. 
+
+%On the academic side, the OpenFlow Network Research Center [4] has been created with a focus on SDN research. There have also been standardization efforts on SDN at the IETF and IRTF and other standards producing organizations.
 
 
 %\subsection{OpenFlow - Protocoles standardisés}
