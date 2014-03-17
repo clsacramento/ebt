@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.24)  16 MAR 2014 11:26
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.24)  17 MAR 2014 20:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1390,20 +1390,25 @@ File: images/TraditionalVsSDN.png Graphic file (type png)
 <use images/TraditionalVsSDN.png>
 Package pdftex.def Info: images/TraditionalVsSDN.png used on input line 44.
 (pdftex.def)             Requested size: 426.79134pt x 320.08861pt.
- [8 <./images/TraditionalVsSDN.png>]) [9
+ [8 <./images/TraditionalVsSDN.png>] [9]
+Overfull \hbox (8.07574pt too wide) in paragraph at lines 82--83
+[]\T1/lmr/m/n/12 Many large com-pa-nies (such as Cisco, Mi-cro-soft, Google, et
+c.) have pro-du-ced OpenFlow-
+ []
+
+) [10
 
 ]
 \openout2 = `chap3.aux'.
 
-
-(./chap3.tex [10
+ (./chap3.tex
+Chapitre 3.
+) [11
 
 
 
 
 ]
-Chapitre 3.
-) [11]
 \openout2 = `chap4.aux'.
 
  (./chap4.tex [12
@@ -1493,7 +1498,7 @@ No file ebt.ind.
 
 
 ]
-<couverture-ebt.pdf, id=538, page=3, 597.50829pt x 845.0471pt>
+<couverture-ebt.pdf, id=544, page=3, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 3>
@@ -1518,7 +1523,7 @@ File: couverture-ebt.pdf Graphic file (type pdf)
 Package pdftex.def Info: couverture-ebt.pdf, page3 used on input line 185.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [29 <./couverture-ebt.pdf>]
-<couverture-ebt.pdf, id=543, page=4, 597.50829pt x 845.0471pt>
+<couverture-ebt.pdf, id=549, page=4, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 4>
@@ -1548,13 +1553,13 @@ Package logreq Info: Writing requests to 'ebt.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19823 strings out of 493315
- 313124 string characters out of 6137904
- 841849 words of memory out of 5000000
- 22713 multiletter control sequences out of 15000+600000
+ 19829 strings out of 493315
+ 313286 string characters out of 6137904
+ 842891 words of memory out of 5000000
+ 22716 multiletter control sequences out of 15000+600000
  46209 words of font info for 37 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 57i,18n,51p,1453b,2409s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,18n,51p,1453b,2422s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/local/texlive/20
 13/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2013/texmf-d
@@ -1567,10 +1572,10 @@ ive/2013/texmf-dist/fonts/type1/public/lm/lmro12.pfb></usr/local/texlive/2013/t
 exmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2013/texmf-dis
 t/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
 pe1/public/lm/lmtt12.pfb>
-Output written on ebt.pdf (40 pages, 853041 bytes).
+Output written on ebt.pdf (40 pages, 854959 bytes).
 PDF statistics:
- 621 PDF objects out of 1000 (max. 8388607)
- 546 compressed objects within 6 object streams
- 131 named destinations out of 1000 (max. 500000)
+ 628 PDF objects out of 1000 (max. 8388607)
+ 553 compressed objects within 6 object streams
+ 134 named destinations out of 1000 (max. 500000)
  291 words of extra memory for PDF output out of 10000 (max. 10000000)
 

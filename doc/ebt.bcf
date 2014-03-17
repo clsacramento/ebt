@@ -1965,15 +1965,17 @@
     <bcf:citekey order="34">SDNNewNormONFExecutiveSummary</bcf:citekey>
     <bcf:citekey order="35">SurveySDNArchi</bcf:citekey>
     <bcf:citekey order="36">SurveySDNArchi</bcf:citekey>
-    <bcf:citekey order="37">ONFOverview</bcf:citekey>
-    <bcf:citekey order="38">SurveySDNArchi</bcf:citekey>
-    <bcf:citekey order="39">SurveySDNIntro</bcf:citekey>
+    <bcf:citekey order="37">sndChineseBookConceptsApplications</bcf:citekey>
+    <bcf:citekey order="38">WhySDN</bcf:citekey>
+    <bcf:citekey order="39">ONFOverview</bcf:citekey>
+    <bcf:citekey order="40">SurveySDNArchi</bcf:citekey>
+    <bcf:citekey order="41">SurveySDNIntro</bcf:citekey>
     <bcf:citekey order="0">*</bcf:citekey>
-    <bcf:citekey order="40">IMBigData</bcf:citekey>
-    <bcf:citekey order="41">paradigmdef</bcf:citekey>
-    <bcf:citekey order="42">newparadigm</bcf:citekey>
-    <bcf:citekey order="43">sdnbookControlDataPlanes</bcf:citekey>
-    <bcf:citekey order="44">sdnbookControlDataPlanes</bcf:citekey>
+    <bcf:citekey order="42">IMBigData</bcf:citekey>
+    <bcf:citekey order="43">paradigmdef</bcf:citekey>
+    <bcf:citekey order="44">newparadigm</bcf:citekey>
+    <bcf:citekey order="45">sdnbookControlDataPlanes</bcf:citekey>
+    <bcf:citekey order="46">sdnbookControlDataPlanes</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" type="entry" label="none">
   <bcf:sorting>

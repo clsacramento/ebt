@@ -18,7 +18,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}S\IeC {\'e}paration de l'intelligence (contr\IeC {\^o}le) de la commutation (flux de donn\IeC {\'e}es)}{7}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Un point sur la situation}{9}{section.2.2}
+\contentsline {section}{\numberline {2.2}Un point sur la situation}{10}{section.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Enjeux de SDN}{11}{chapter.3}
 \defcounter {refsection}{0}\relax 

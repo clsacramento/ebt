@@ -18,7 +18,7 @@
 		\setentrycounter[]{page}\glsnumberformat{24}}}\glsgroupskip
 \glsgroupheading{O}\relax \glsresetentrylist %
 \glossaryentryfield{openflow}{\glsnamefont{OpenFlow}}{ Le protocole OpenFlow focalise en standardiser 1) l'interface entre entre les applications et le contrôleur et 2) entre le contrôleur et les éléments de commutation. }{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{9}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{10}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{24}}}\glsgroupskip
 \glsgroupheading{P}\relax \glsresetentrylist %
 \glossaryentryfield{paradigme}{\glsnamefont{Paradigme}}{Un paradigme dénote une collection de règles, standards et exemples de pratiques scientifiques, partagés par un groupe de scientifiques. Sa genèse et continuation de la tradition de recherche sont conditionnées à l'engagement et au consensus qui en découle. \cite {paradigmdef} D'après Dosi \cite {newparadigm}, quand un nouveau paradigme technologique apparaît, il représente une discontinuité ou un changement de la manière de penser. Ce changement apporté par le paradigme est souvent lié à une sorte d'innovation radicale qui applique une nouvelle technologie. Dans ce document, le terme paradigme sera employé dans ce sens d'innovation et application de nouvelle technologie }{\relax }{\glossaryentrynumbers{\relax 
