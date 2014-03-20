@@ -1,11 +1,63 @@
-\chapter{Des Applications de SDN et leurs possibilités}
+\chapter{Solutions SDN disponibles}
 
-Ce chapitre a pour but de présenter ce qui apporte SDN, quelles sont les applications pratiques de ce nouvel paradigme. Ce ne sera pas exhaustive, mais c'est pour exemplifier. Cela permettra aussi d'avoir une idée de l'exploitation future de SDN.
+Le but de ce chapitre n'est pas de détailler chaque solution SDN émergeant, mais d'analyser les offres des principales constructeurs du marché et leur positionnement pour les tendances qu'on peut espérer de SDN prochainement.
+Mais d'abord il présente un point sur la situation de SDN, en précisant les standards et protocoles développés par des organisations supportant SDN.
+https://www.opennetworking.org/sdn-resources/onf-products-listing
 
-\section{Management du Réseau et Contrôle d'Accès}
-Association des flux aux groupe d'utilisateur permettant de définir les politiques d'accès à différents services.
+\section{Un point sur la situation}
+%\subsection{ONF}
 
-\section{VLANs}
-Réseaux isolés définis par flux.
+%The Open Networking Foundation (ONF) is a non‑profit, user‑driven organization dedicated to accelerating the adoption of open Software‑Defined Networking (SDN). We view SDN as a disruptive approach to networking that will change how virtually every company with a network operates.
 
-\section{Clients mobiles sans fil VoIP}
+%Launched in 2011 by Deutsche Telekom, Facebook, Google, Microsoft, Verizon, and Yahoo!, ONF is a nonprofit organization dedicated to rethinking networking, and quickly and collaboratively bringing to market SDN standards and solutions. ONF is accelerating the delivery and commercialization of SDN and fostering a vibrant market of products, services, applications, customers, and users. 
+
+
+Open Networking Foudation (\gls{onf}) est une organisation non-profit et axée sur l'utilisateur dédiée à l'accélération de l'adoption ouverte de SDN. Cette organisation voit SDN comme une approche réseau qui va changer comment opère chaque entreprise avec un réseau.
+\gls{onf} a été initiée en 2011 par Deutsche Telekom, Facebook, Google, Microsoft, Verizon et Yahoo! dans le but de repenser en collaboration les réseaux informatiques et rapidement apporter au marché les solutions et les standards SDN. Avec la collaboration de  grands experts mondiaux, ONF accélère la commercialisation de SDN en favorisant un vif marché de produits, services, applications, clients et utilisateurs. ONF compte aujourd'hui avec plus de 100 entreprises membres collaboratives de tout taille et variété. \cite{ONFOverview}
+
+\gls{onf} a fait des efforts de standardiser le protocole \gls{openflow}. Ce protocole focalise en standardiser les interfaces entre les applications et le contrôleur et les interfaces entre le contrôleur et l'équipement de commutation. Grands noms de l'industrie (comme Cisco, Microsoft, Google etc.) ont réalisé des produits supportant OpenFlow, comme des switches. \cite{SurveySDNArchi}
+%The Open Network Foundation (ONF) [3] has been trying to standardize the OpenFlow protocol. As the control plane abstracts network applications from underlying hardware infrastructure, they focus on standardizing the inter- faces between: (1) network applications and the controller (i.e. northbound interface) and (2) the controller and the switching infrastructure (i.e., southbound interface) which defines the OpenFlow protocol itself. 
+%Many large companies (such as Cisco, Microsoft, Google, etc.) have produced OpenFlow-supported products (such as switches).
+
+Le fort support de l'industrie, de la recherche et des académies que \gls{onf} et sa proposition de \gls{sdn}, \gls{openflow}, ont pu recueillir est assez expressif. Les résultats dans ces différents secteurs ont produit un nombre significatif de livrables dans la forme d'articles de recherche, d'implémentations de logiciels de référence et même de hardware. Il y a eu également des efforts de standardisation de SDN de la part d'autres organisations produisant des normes, comme IETF et IRTF. \cite{SurveySDNIntro}
+%The strong support from industry, research, and academia that the Open Networking Foundation (ONF) and its SDN proposal, OpenFlow, has been able to gather is quite impres- sive. The resulting critical mass from these different sectors has produced a significant number of deliverables in the form of research papers, reference software implementations, and even hardware. So much so that some argue that OpenFlow’s SDN architecture is the current SDN de-facto standard. In line with this trend, the remainder of this section focuses on OpenFlow’s SDN model. 
+
+%On the academic side, the OpenFlow Network Research Center [4] has been created with a focus on SDN research. There have also been standardization efforts on SDN at the IETF and IRTF and other standards producing organizations.
+
+
+
+%\subsection{OpenFlow - Protocoles standardisés}
+%\section{Dispositifs de commutation}
+%The basic idea is simple: we exploit the fact that most modern Ethernet switches and routers contain flow-tables (typically built from TCAMs) that run at line-rate to im- plement firewalls, NAT, QoS, and to collect statistics. While each vendor’s flow-table is different, we’ve identified an in- teresting common set of functions that run in many switches and routers. OpenFlow exploits this common set of func- tions.
+
+
+
+
+%\section{Contrôleur}
+%Controllers. A controller adds and removes flow-entries from the Flow Table on behalf of experiments. For example, a static controller might be a simple application running on a PC to statically establish flows to interconnect a set of test computers for the duration of an experiment. In this case the flows resemble VLANs in current networks— providing a simple mechanism to isolate experimental traffic from the production network. Viewed this way, OpenFlow is a generalization of VLANs.
+
+
+
+\section{Solution logiciel open source OpenDaylight}
+
+\section{Écosystème SDN HP, solution virtualisée}
+
+SDN Dev Center.
+SDN App Store.
+
+HP SDN Developer Kit
+
+
+\section{Cisco ONE, hardware différentiel}
+
+Cisco Open Network Environment (ONE) is a comprehensive solution to help networks become more open, programmable, and application-aware. The broad capabilities of Cisco ONE help meet the needs of numerous market segments, including emerging concepts such as software-defined networking (SDN).
+
+\section{Brocade Ethernet Fabric, Fibre Channel support over Ethernet}
+Virtual Cluster Switching
+Pour les architectes du réseau et serveurs de data centre.
+
+\section{VMWare NSX, from physical to logical services}
+
+\section{Juniper MetaFabric Architecture}
+
+%\section{Citrix NetScaler, plate-forme ouverte dirigée par app }
