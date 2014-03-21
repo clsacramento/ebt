@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.24)  21 MAR 2014 15:17
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.24)  21 MAR 2014 16:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1135,21 +1135,21 @@ Package csquotes Info: Redefining alias 'default' -> 'french'.
 ) (./concl.aux) (./ann1.aux))
 \openout1 = `ebt.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 144.
-LaTeX Font Info:    ... okay on input line 144.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 144.
-LaTeX Font Info:    ... okay on input line 144.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 144.
-LaTeX Font Info:    ... okay on input line 144.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 144.
-LaTeX Font Info:    ... okay on input line 144.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 144.
-LaTeX Font Info:    ... okay on input line 144.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 144.
-LaTeX Font Info:    ... okay on input line 144.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 144.
-LaTeX Font Info:    ... okay on input line 144.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 144.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 158.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1191,10 +1191,10 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'ebt.bbl' found.
 
 (./ebt.bbl)
-Package biblatex Info: Reference section=0 on input line 144.
-Package biblatex Info: Reference segment=0 on input line 144.
+Package biblatex Info: Reference section=0 on input line 158.
+Package biblatex Info: Reference segment=0 on input line 158.
 \AtBeginShipoutBox=\box37
-Package hyperref Info: Link coloring OFF on input line 144.
+Package hyperref Info: Link coloring OFF on input line 158.
  (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -1203,43 +1203,43 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count333
 )
-LaTeX Info: Redefining \ref on input line 144.
-LaTeX Info: Redefining \pageref on input line 144.
-LaTeX Info: Redefining \nameref on input line 144.
+LaTeX Info: Redefining \ref on input line 158.
+LaTeX Info: Redefining \pageref on input line 158.
+LaTeX Info: Redefining \nameref on input line 158.
 
 (./ebt.out) (./ebt.out)
 \@outlinefile=\write8
 \openout8 = `ebt.out'.
 
-LaTeX Info: Redefining \degres on input line 144.
-LaTeX Info: Redefining \dots on input line 144.
-LaTeX Info: Redefining \up on input line 144.
+LaTeX Info: Redefining \degres on input line 158.
+LaTeX Info: Redefining \dots on input line 158.
+LaTeX Info: Redefining \up on input line 158.
    defining Unicode char U+00AB (decimal 171)
    defining Unicode char U+00BB (decimal 187)
 
-<couverture-ebt.pdf, id=110, page=1, 597.50829pt x 845.0471pt>
+<couverture-ebt.pdf, id=106, page=1, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 1>
-Package pdftex.def Info: couverture-ebt.pdf, page1 used on input line 145.
+Package pdftex.def Info: couverture-ebt.pdf, page1 used on input line 159.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: couverture-ebt.pdf Graphic file (type pdf)
  <use couverture-ebt.pdf, page 1>
-Package pdftex.def Info: couverture-ebt.pdf, page1 used on input line 145.
+Package pdftex.def Info: couverture-ebt.pdf, page1 used on input line 159.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 1>
-Package pdftex.def Info: couverture-ebt.pdf, page1 used on input line 145.
+Package pdftex.def Info: couverture-ebt.pdf, page1 used on input line 159.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: couverture-ebt.pdf Graphic file (type pdf)
  <use couverture-ebt.pdf, page 1>
-Package pdftex.def Info: couverture-ebt.pdf, page1 used on input line 145.
+Package pdftex.def Info: couverture-ebt.pdf, page1 used on input line 159.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 1>
-Package pdftex.def Info: couverture-ebt.pdf, page1 used on input line 145.
+Package pdftex.def Info: couverture-ebt.pdf, page1 used on input line 159.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [1
 
@@ -1247,52 +1247,52 @@ Package pdftex.def Info: couverture-ebt.pdf, page1 used on input line 145.
 
  <./couverture-ebt.pdf{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updma
 p/pdftex.map}>]
-<couverture-ebt.pdf, id=136, page=2, 597.50829pt x 845.0471pt>
+<couverture-ebt.pdf, id=132, page=2, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 2>
-Package pdftex.def Info: couverture-ebt.pdf, page2 used on input line 145.
+Package pdftex.def Info: couverture-ebt.pdf, page2 used on input line 159.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: couverture-ebt.pdf Graphic file (type pdf)
  <use couverture-ebt.pdf, page 2>
-Package pdftex.def Info: couverture-ebt.pdf, page2 used on input line 145.
+Package pdftex.def Info: couverture-ebt.pdf, page2 used on input line 159.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 2>
-Package pdftex.def Info: couverture-ebt.pdf, page2 used on input line 145.
+Package pdftex.def Info: couverture-ebt.pdf, page2 used on input line 159.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [2 <./couverture-ebt.pdf>]
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 153.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 167.
 
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 153.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 167.
 
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 153
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 167
 .
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 153
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 167
 .
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 153.
+(Font)              <12> on input line 167.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 153.
+(Font)              <8> on input line 167.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 153.
+(Font)              <6> on input line 167.
  [1
 
 
@@ -1300,7 +1300,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 
 ]
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 153.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 167.
 
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/lm/t1lmss.fd
@@ -1343,7 +1343,7 @@ l.34 \par
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.159 \include{intro}
+l.173 \include{intro}
                       [2]
 \openout2 = `chap1.aux'.
 
@@ -1355,7 +1355,7 @@ Chapitre 1.
 
 
 ]
-<images/IncreasingPressureOnNetworkInfra2.png, id=276, 437.38406pt x 441.14813p
+<images/IncreasingPressureOnNetworkInfra2.png, id=271, 437.38406pt x 441.14813p
 t>
 File: images/IncreasingPressureOnNetworkInfra2.png Graphic file (type png)
  <use images/IncreasingPressureOnNetworkInfra2.png>
@@ -1384,7 +1384,7 @@ Overfull \hbox (9.10292pt too wide) in paragraph at lines 24--25
 
 
 
-] <images/TraditionalVsSDN.png, id=340, 770.88pt x 578.16pt>
+] <images/TraditionalVsSDN.png, id=335, 770.88pt x 578.16pt>
 File: images/TraditionalVsSDN.png Graphic file (type png)
 
 <use images/TraditionalVsSDN.png>
@@ -1434,26 +1434,26 @@ Annexe A.
 ) [19] [20
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 178.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 192.
 
  (/usr/local/texlive/2013/texmf-dist/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 178.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 192.
 
-Overfull \hbox (22.63345pt too wide) in paragraph at lines 179--179
+Overfull \hbox (22.63345pt too wide) in paragraph at lines 193--193
 []\T1/lmr/m/it/12 Cisco Vi-sual Net-wor-king In-dex: Glo-bal Mo-bile Data Traf-
 fic Fo-re-cast Up-date, 2012^^U2017\T1/lmr/m/n/12 .
  []
 
 
-Overfull \hbox (0.85542pt too wide) in paragraph at lines 179--179
+Overfull \hbox (0.85542pt too wide) in paragraph at lines 193--193
 []\T1/lmr/m/it/12 Information Ma-na-ge-ment and Big Data A Re-fe-rence Ar-chi-t
 ec-ture\T1/lmr/m/n/12 . An Oracle White
  []
 
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 178.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 192.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1463,103 +1463,102 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 
 ] [22]
-Overfull \hbox (238.14626pt too wide) in paragraph at lines 179--179
+Overfull \hbox (238.14626pt too wide) in paragraph at lines 193--193
 []\T1/lmr/m/it/12 Thinking about SDN? Here are 42 ven-dors that of-fer SDN pro-
 ducts\T1/lmr/m/n/12 . http://searchsdn.techtarget.com/news/2240212374/Thinking-
 
  []
 
 
-Overfull \hbox (3.29308pt too wide) in paragraph at lines 179--179
+Overfull \hbox (3.29308pt too wide) in paragraph at lines 193--193
 \T1/lmr/m/n/12 about-SDN-Here-are-42-vendors-that-offer-SDN-products. Ethan Ban
 ks. Jan. 2014. 
  []
 
 
-Overfull \hbox (24.04268pt too wide) in paragraph at lines 179--179
+Overfull \hbox (24.04268pt too wide) in paragraph at lines 193--193
 []\T1/lmr/m/it/12 SDN Pro-duct Di-rec-tory\T1/lmr/m/n/12 . https://www.opennetw
 orking.org/sdn-resources/onf-products-
  []
 
 [23]
 No file ebt.ind.
-(./ebt.gls [24]) (./ebt.acr [25
+(./ebt.gls [24] [25
 
 
 
 
-] [26
+]) (./ebt.acr [26]) [27
 
 
-]) [27
 
 
 ] [28
 
 
 ]
-<couverture-ebt.pdf, id=534, page=3, 597.50829pt x 845.0471pt>
+<couverture-ebt.pdf, id=541, page=3, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 3>
-Package pdftex.def Info: couverture-ebt.pdf, page3 used on input line 185.
+Package pdftex.def Info: couverture-ebt.pdf, page3 used on input line 199.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: couverture-ebt.pdf Graphic file (type pdf)
  <use couverture-ebt.pdf, page 3>
-Package pdftex.def Info: couverture-ebt.pdf, page3 used on input line 185.
+Package pdftex.def Info: couverture-ebt.pdf, page3 used on input line 199.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 3>
-Package pdftex.def Info: couverture-ebt.pdf, page3 used on input line 185.
+Package pdftex.def Info: couverture-ebt.pdf, page3 used on input line 199.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: couverture-ebt.pdf Graphic file (type pdf)
  <use couverture-ebt.pdf, page 3>
-Package pdftex.def Info: couverture-ebt.pdf, page3 used on input line 185.
+Package pdftex.def Info: couverture-ebt.pdf, page3 used on input line 199.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 3>
-Package pdftex.def Info: couverture-ebt.pdf, page3 used on input line 185.
+Package pdftex.def Info: couverture-ebt.pdf, page3 used on input line 199.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [29 <./couverture-ebt.pdf>]
-<couverture-ebt.pdf, id=539, page=4, 597.50829pt x 845.0471pt>
+<couverture-ebt.pdf, id=546, page=4, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 4>
-Package pdftex.def Info: couverture-ebt.pdf, page4 used on input line 185.
+Package pdftex.def Info: couverture-ebt.pdf, page4 used on input line 199.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: couverture-ebt.pdf Graphic file (type pdf)
  <use couverture-ebt.pdf, page 4>
-Package pdftex.def Info: couverture-ebt.pdf, page4 used on input line 185.
+Package pdftex.def Info: couverture-ebt.pdf, page4 used on input line 199.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 4>
-Package pdftex.def Info: couverture-ebt.pdf, page4 used on input line 185.
+Package pdftex.def Info: couverture-ebt.pdf, page4 used on input line 199.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [30 <./couverture-ebt.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 186.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 186.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 200.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 200.
  (./ebt.aux
 (./intro.aux) (./chap1.aux) (./chap2.aux) (./chap4.aux) (./chap5.aux)
 (./concl.aux) (./ann1.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 186.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 186.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 200.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 200.
 Package rerunfilecheck Info: File `ebt.out' has not changed.
-(rerunfilecheck)             Checksum: 8F44622BD0285A91203BD755C559F817;2057.
+(rerunfilecheck)             Checksum: DAF561197A8F93F9EB3E51CA3D65E702;1968.
 Package logreq Info: Writing requests to 'ebt.run.xml'.
 \openout1 = `ebt.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19822 strings out of 493315
- 313390 string characters out of 6137904
- 839494 words of memory out of 5000000
- 22714 multiletter control sequences out of 15000+600000
+ 19914 strings out of 493315
+ 315235 string characters out of 6137904
+ 841061 words of memory out of 5000000
+ 22802 multiletter control sequences out of 15000+600000
  46209 words of font info for 37 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 57i,18n,51p,1453b,2418s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,18n,51p,1453b,2411s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/local/texlive/20
 13/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2013/texmf-d
@@ -1572,10 +1571,10 @@ ive/2013/texmf-dist/fonts/type1/public/lm/lmro12.pfb></usr/local/texlive/2013/t
 exmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2013/texmf-dis
 t/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
 pe1/public/lm/lmtt12.pfb>
-Output written on ebt.pdf (40 pages, 861482 bytes).
+Output written on ebt.pdf (40 pages, 863282 bytes).
 PDF statistics:
- 618 PDF objects out of 1000 (max. 8388607)
- 543 compressed objects within 6 object streams
- 136 named destinations out of 1000 (max. 500000)
- 259 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 626 PDF objects out of 1000 (max. 8388607)
+ 551 compressed objects within 6 object streams
+ 140 named destinations out of 1000 (max. 500000)
+ 251 words of extra memory for PDF output out of 10000 (max. 10000000)
 

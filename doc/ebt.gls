@@ -10,6 +10,7 @@
 		\setentrycounter[]{page}\glsnumberformat{24}}}\glsgroupskip
 \glsgroupheading{D}\relax \glsresetentrylist %
 \glossaryentryfield{datacenter}{\glsnamefont{Data Center}}{ Centre de données. }{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{14}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{24}}}\glsgroupskip
 \glsgroupheading{M}\relax \glsresetentrylist %
 \glossaryentryfield{middlebox}{\glsnamefont{Middlebox}}{Boîtier intermédiaire. Un middlebox est un serveur gardant des états au milieu de la communication entre deux hôtes. Ils se différencient des hôtes qui représentent les 'endpoints' de la communication. Ils sont encore différents des routeurs qui ne gardent pas d'états concernant les instances de communications.}{\relax }{\glossaryentrynumbers{\relax 
@@ -17,11 +18,16 @@
 		\setentrycounter[]{page}\glsnumberformat{8}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{24}}}\glsgroupskip
 \glsgroupheading{O}\relax \glsresetentrylist %
+\glossaryentryfield{opendaylight}{\glsnamefont{Open Daylight}}{ Association provoqué par Linux Foundation pour l'union des géants du marché réseau dans le but de développer un contrôleur SDN open source }{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{13}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{24}}}%
+\glossaryentryfield{open source}{\glsnamefont{Open Source}}{ Logiciel avec code source ouvert... }{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{24}}}%
 \glossaryentryfield{openflow}{\glsnamefont{OpenFlow}}{ Le protocole OpenFlow focalise en standardiser 1) l'interface entre entre les applications et le contrôleur et 2) entre le contrôleur et les éléments de commutation. }{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{13}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{24}}}\glsgroupskip
 \glsgroupheading{P}\relax \glsresetentrylist %
-\glossaryentryfield{paradigme}{\glsnamefont{Paradigme}}{Un paradigme dénote une collection de règles, standards et exemples de pratiques scientifiques, partagés par un groupe de scientifiques. Sa genèse et continuation de la tradition de recherche sont conditionnées à l'engagement et au consensus qui en découle. \cite {paradigmdef} D'après Dosi \cite {newparadigm}, quand un nouveau paradigme technologique apparaît, il représente une discontinuité ou un changement de la manière de penser. Ce changement apporté par le paradigme est souvent lié à une sorte d'innovation radicale qui applique une nouvelle technologie. Dans ce document, le terme paradigme sera employé dans ce sens d'innovation et application de nouvelle technologie }{\relax }{\glossaryentrynumbers{\relax 
+\glossaryentryfield{paradigme}{\glsnamefont{Paradigme}}{Un paradigme dénote une collection de règles, standards et exemples de pratiques scientifiques, partagés par un groupe de scientifiques. Sa genèse et continuation de la tradition de recherche sont conditionnées à l'engagement et au consensus qui en découle. \cite {paradigmdef} D'après Dosi \cite {newparadigm}, quand un nouveau paradigme technologique apparaît, il représente une discontinuité ou un changement de la manière de penser. Ce changement apporté par le paradigme est souvent lié à une sorte d'innovation radicale qui applique une nouvelle technologie. Dans ce document, le terme paradigme sera employé dans ce sens d'innovation et application de nouvelle technologie . }{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{1}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{7}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{24}}}%

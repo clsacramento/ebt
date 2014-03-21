@@ -1970,16 +1970,18 @@
     <bcf:citekey order="39">ONFOverview</bcf:citekey>
     <bcf:citekey order="40">SurveySDNArchi</bcf:citekey>
     <bcf:citekey order="41">SurveySDNIntro</bcf:citekey>
-    <bcf:citekey order="42">42Vendors</bcf:citekey>
-    <bcf:citekey order="43">ProductDirectory</bcf:citekey>
-    <bcf:citekey order="44">2013GuideSDNNVEcosystem</bcf:citekey>
-    <bcf:citekey order="45">ExecutiveGuideToSDNLinux</bcf:citekey>
+    <bcf:citekey order="42">ExecutiveGuideToSDNLinux</bcf:citekey>
+    <bcf:citekey order="43">42Vendors</bcf:citekey>
+    <bcf:citekey order="44">ProductDirectory</bcf:citekey>
+    <bcf:citekey order="45">2013GuideSDNNVEcosystem</bcf:citekey>
+    <bcf:citekey order="46">ExecutiveGuideToSDNHP</bcf:citekey>
+    <bcf:citekey order="47">ExecutiveGuideToSDNHPFabric</bcf:citekey>
     <bcf:citekey order="0">*</bcf:citekey>
-    <bcf:citekey order="46">IMBigData</bcf:citekey>
-    <bcf:citekey order="47">paradigmdef</bcf:citekey>
-    <bcf:citekey order="48">newparadigm</bcf:citekey>
-    <bcf:citekey order="49">sdnbookControlDataPlanes</bcf:citekey>
-    <bcf:citekey order="50">sdnbookControlDataPlanes</bcf:citekey>
+    <bcf:citekey order="48">IMBigData</bcf:citekey>
+    <bcf:citekey order="49">paradigmdef</bcf:citekey>
+    <bcf:citekey order="50">newparadigm</bcf:citekey>
+    <bcf:citekey order="51">sdnbookControlDataPlanes</bcf:citekey>
+    <bcf:citekey order="52">sdnbookControlDataPlanes</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" type="entry" label="none">
   <bcf:sorting>

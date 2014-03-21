@@ -661,6 +661,18 @@
       \field{title}{ONF, Open Networking Foundation}
       \field{year}{2013}
     \endentry
+    \entry{ExecutiveGuideToSDNLinux}{misc}{}
+      \list{publisher}{1}{%
+        {TechRepublic}%
+      }
+      \field{sortinit}{0}
+      \field{labeltitle}{Executive’s guide to software- defined networking}
+      \field{howpublished}{White Paper}
+      \field{month}{06}
+      \field{note}{Pages 17 et 18, The Linux Foundation unifies software- defined networking powers}
+      \field{title}{Executive’s guide to software- defined networking}
+      \field{year}{2013}
+    \endentry
     \entry{42Vendors}{misc}{}
       \field{sortinit}{0}
       \field{labeltitle}{Thinking about SDN? Here are 42 vendors that offer SDN products}
@@ -690,7 +702,7 @@
       \field{title}{The 2013 Guide to Network Virtualization and SDN}
       \field{year}{2013}
     \endentry
-    \entry{ExecutiveGuideToSDNLinux}{misc}{}
+    \entry{ExecutiveGuideToSDNHP}{misc}{}
       \list{publisher}{1}{%
         {TechRepublic}%
       }
@@ -698,7 +710,19 @@
       \field{labeltitle}{Executive’s guide to software- defined networking}
       \field{howpublished}{White Paper}
       \field{month}{06}
-      \field{note}{Page 17 et 16, The Linux Foundation unifies software- defined networking powers}
+      \field{note}{Pages 15 et 16, HP predicts SDN will go mainstream in 2015}
+      \field{title}{Executive’s guide to software- defined networking}
+      \field{year}{2013}
+    \endentry
+    \entry{ExecutiveGuideToSDNHPFabric}{misc}{}
+      \list{publisher}{1}{%
+        {TechRepublic}%
+      }
+      \field{sortinit}{0}
+      \field{labeltitle}{Executive’s guide to software- defined networking}
+      \field{howpublished}{White Paper}
+      \field{month}{06}
+      \field{note}{Page 23, HP boasts its SDN fabric cuts provisioning down from months to minutes}
       \field{title}{Executive’s guide to software- defined networking}
       \field{year}{2013}
     \endentry

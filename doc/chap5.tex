@@ -27,6 +27,12 @@ Le fort support de l'industrie, de la recherche et des académies que \gls{onf} 
 
 %On the academic side, the OpenFlow Network Research Center [4] has been created with a focus on SDN research. There have also been standardization efforts on SDN at the IETF and IRTF and other standards producing organizations.
 
+%\section{Solution logiciel open source OpenDaylight}
+%The Linux Foundation and—in its OpenDay- light Project—has introduced a community-led and industry-supported open source framework to accelerate SDN adoption, foster new innovation, and give it a more open and transparent approach.
+%OpenDaylight has the support it needs to transform SDN. Big Switch Networks, Brocade, Cisco, Citrix, Ericsson, IBM, Juniper Networks, Microsoft, NEC, Red Hat, and VMware are all founding Platinum and Gold members of the project. It will donate software and engineering resources for this open source framework, and help define the future of an open SDN platform. Yes, that’s right: Cisco and Juniper, Microsoft and Red Hat, and other major industry rivals are all joining forces.
+
+La fondation Linux avec son projet \gls{opendaylight} a introduit une plateforme open source guidée par la communauté et supporté par l'industrie. Le but du projet est d'accélérer l'adoption de SDN, d'encourager l'innovation et de présenter une proche plus ouverte et transparente. OpenDaylight a le support dont il a besoin pour transformer SDN. Big Switch Networks, Brocade, Cisco, Citrix, Ericsson, IBM, Juniper Networks, Microsoft, NEC, Red Hat et VMware sont tous de fondateurs Platinum et membres Gold du projet. Ces acteurs vont donner de ressources d'ingénierie logiciel et il vont aider à définir le future de cette plateforme SDN ouverte. Le point important à noter est l'union de forces des rivales de l'industrie. \cite{ExecutiveGuideToSDNLinux}
+
 
 
 %\subsection{OpenFlow - Protocoles standardisés}
@@ -48,28 +54,25 @@ Ensuite ce document présente des principales solutions construites par des plus
 
 
 
-\section{Solution logiciel open source OpenDaylight}
-%The Linux Foundation and—in its OpenDay- light Project—has introduced a community-led and industry-supported open source framework to accelerate SDN adoption, foster new innovation, and give it a more open and transparent approach.
-%OpenDaylight has the support it needs to transform SDN. Big Switch Networks, Brocade, Cisco, Citrix, Ericsson, IBM, Juniper Networks, Microsoft, NEC, Red Hat, and VMware are all founding Platinum and Gold members of the project. It will donate software and engineering resources for this open source framework, and help define the future of an open SDN platform. Yes, that’s right: Cisco and Juniper, Microsoft and Red Hat, and other major industry rivals are all joining forces.
-
-La fondation Linux avec son projet OpenDaylight a introduit une plateforme open source guidée par la communauté et supporté par l'industrie. Le but du projet est d'accélérer l'adoption de SDN, d'encourager l'innovation et de présenter une proche plus ouverte et transparente. OpenDaylight a le support dont il a besoin pour transformer SDN. Big Switch Networks, Brocade, Cisco, Citrix, Ericsson, IBM, Juniper Networks, Microsoft, NEC, Red Hat et VMware sont tous de fondateurs Platinum et membres Gold du projet. Ces acteurs vont donner de ressources d'ingénierie logiciel et il vont aider à définir le future de cette plateforme SDN ouverte. Le point important à noter est l'union de forces des rivales de l'industrie. \cite{ExecutiveGuideToSDNLinux}
-
 \section{Écosystème SDN HP, solution virtualisée}
 
-Hewlett-Packard executives outlined their software-defined networking (SDN) strategy and position in the market and made a few bets on when the technology will go mainstream. The bet: SDNs will be deployed enterprise-wide in 2015 and represent a \$2 billion market in 2016.
-HP’s argument is that its specialty in automating the data center, as well as a large footprint of customers, make it a leading SDN player.
+%Hewlett-Packard executives outlined their software-defined networking (SDN) strategy and position in the market and made a few bets on when the technology will go mainstream. The bet: SDNs will be deployed enterprise-wide in 2015 and represent a \$2 billion market in 2016.
+%HP’s argument is that its specialty in automating the data center, as well as a large footprint of customers, make it a leading SDN player.
 
-SDN Dev Center.
-SDN App Store.
-HP SDN Developer Kit
+Les exécutives de Hewlett-Packard exposent les grandes lignes pour de stratégie SDN et de leur position face au marché en pariant sur l'adoption dominante de la technologie. HP attend que SDN sera largement déployé dans les entreprises en 2015 et qu'il représentera un marché de 2 milliard de dollars en 2016. La société investit dans sa spécialité d'automatisation de \gls{datacenter} pour argumenter sa position d'acteur SDN en premier plan. \cite{ExecutiveGuideToSDNHP}
 
-Hewlett-Packard is stepping up its data center game with a recent announcement of a new suite of solutions for software-defined networking. Built on its FlexNetwork converged networking architecture, HP boasts that it can offer up to two times greater scalability with “75 percent less complexity” compared to other networking fabrics on the market. Furthermore, HP asserted that its data center fabric will reduce provisioning timeframes all the way down from months to mere minutes.
-HP’s portfolio of SDN services is quite substantial, with products aimed at addressing various issues, from dealing with legacy infrastructures to simplifying operations. For example, the HP Virtualized Services Router is designed to cut back data center footprints by delivering services on a virtual machine, which should eliminate “unnecessary hardware.”
-In addition, the HP HSR 6800 Router Series aims to simplify network service delivery by consolidating routing, firewall, switching, and security onto one device that supports thousands of users.
+
+HP a récemment annoncé sa nouvelle gamme de solutions SDN. Avec l'architecture réseau convergé FlexNetwork, HP se vante d'offrir jusqu'à deux fois plus d'évolutivité avec 75\% de complexité en moins si comparé à les autres solutions fabric dans le marché. En outre, HP affirme que sa solution fabric va reduire les délais de provisionnement de \gls{datacenter} tout le long de quelques mois à seulement quelques minutes. Le porfolio des services SDN proposés par HP est assez solide, avec des produits ciblant des différents points qui vont du traitement des infrastructures existantes à la simplification d'opérations. Par exemple, le HP Virtualized Services Router a été conçu pour éliminer le hardware pouvant être remplacé par des services dans les \glspl{vm}  \cite{ExecutiveGuideToSDNHPFabric}
+
+%Hewlett-Packard is stepping up its data center game with a recent announcement of a new suite of solutions for software-defined networking. Built on its FlexNetwork converged networking architecture, HP boasts that it can offer up to two times greater scalability with “75 percent less complexity” compared to other networking fabrics on the market. Furthermore, HP asserted that its data center fabric will reduce provisioning timeframes all the way down from months to mere minutes.
+HP’s portfolio of SDN services is quite substantial, with products aimed at addressing various issues, from dealing with legacy infrastructures to simplifying operations. For example, the HP Virtualized Services Router is designed to cut back data center footprints by delivering services on a virtual machine, which should eliminate “unnecessary hardware.” In addition, the HP HSR 6800 Router Series aims to simplify network service delivery by consolidating routing, firewall, switching, and security onto one device that supports thousands of users.
 
 HP’s suite of SDN offerings will be rolling out over the course of the year. Only the HSR 6800 Router Series is available worldwide now, and it holds a starting price of \$46,000.
 
 
+SDN Dev Center.
+SDN App Store.
+HP SDN Developer Kit
 
 \section{Cisco ONE, hardware différentiel}
 

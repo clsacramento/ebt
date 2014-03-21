@@ -27,5 +27,9 @@
 \glossaryentryfield{ti}{\glsnamefont{TI}}{Technologie de l'Information}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{1}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{20}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{24}}}\glsgroupskip
+\glsgroupheading{V}\relax \glsresetentrylist %
+\glossaryentryfield{vm}{\glsnamefont{VM}}{Virtual Machine, Machine Virtuelle}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{14}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{24}}}%
 \end{theglossary}\glossarypostamble
