@@ -11,29 +11,31 @@
 %\section{Évolution de l'utilisation Internet pendant une décade}
 
 
-On cherche à concevoir une architecture plus adaptée aux enjeux de la communication de l'actualité. Cette problématique a amené les scientifiques et les ingénieurs impliqués à concevoir \gls{sdn}. \gls{sdn} est un nouveau \glslink{paradigme}{paradigme} réseau qu'on est actuellement en cours de développer pour adapter l'infrastructure existante au nouveau scénario. Au long de l'article ce nouveau scénario sera discuté et SDN sera présenté en réponse à ses besoins.
+On cherche à concevoir une architecture plus adaptée aux enjeux de la communication actuelle. Cette problématique a amené les scientifiques et les ingénieurs impliqués à concevoir \gls{sdn}. \gls{sdn} est un nouveau \glslink{paradigme}{paradigme} réseau qu'on est actuellement en cours de développer pour adapter l'infrastructure existante aux nouveaux scénarios. \cite{OpenFlowStanford}
+%Au long de cette étude ce nouveau scénario sera discuté et SDN sera présenté en réponse à ses besoins.
 
-L'internet a évolué de trois manières importantes dans les dix dernières années. 
+Internet a évolué de trois manières importantes dans les dix dernières années. 
 \begin{itemize}
 \item Le contenu a évolué de texte et pages web relativement statiques, il a progressé vers un contenu multimédia haut-débit exigeant une latence réduite. 
 \item L'utilisation s'est rapidement mondialisée; par exemple le débit international servant l'Afrique a augmenté de 1.21Gbit/s en 2001 à 570.92Gbit/s en 2011 \cite{InternetGlobalGrowthImpactDevelopingCountries}.
-\item  L'accès a étendu des ordinateurs de bureau à une variété de nouveaux dispositifs, comme pour les téléphones mobiles dont le trafic global des donnés a augmenté de 70\% en 2012. \cite{CiscoVNI2013}. 
+\item  L'accès s'est étendu des ordinateurs de bureau à une variété de nouveaux dispositifs, comme pour les téléphones mobiles dont le trafic global des données a augmenté de 70\% en 2012. \cite{CiscoVNI2013}. 
 \end{itemize}
-Fait important: la rapidité d'une telle évolution technologique et son adoption est sans précédent dans l'histoire de l'humanité. 
+Fait important: la rapidité d'une telle évolution technologique et son adoption sont sans précédent dans l'histoire de l'humanité. \cite{InternetGlobalGrowthImpactDevelopingCountries}.
 
 
 \par
-La capacité d'évolution pour s'adapter aux nouvelles exigences des usagers est recourrente dans l'histoire de l'Internet. 
+La capacité d'évolution pour s'adapter aux nouvelles exigences des usagers est récurrente dans l'histoire d'internet. 
 %La croissance accélérée de l'accès de partout, notamment dans les pays en développement et la rapide augmentation de l'utilisation par les utilisateurs existants, dirigées par les contenus multimédias et application machine-à-machine sont des 
-En revanche, dans le scénario actuel on voit poindre une croissance accélérée de l'accès de partout, notamment dans les pays en développement, ainsi qu'une rapide augmentation de l'utilisation en général, engendrée par les contenus multimédias et les applications machine-à-machine. Par exemple, en moins de deux ans depuis la parution d'Instagram, plus de 50 millions de personnes on partagé plus d'un milliard de photos desssus. \cite{deuxAnsInstagram}.
+En revanche, dans le scénario actuel on voit poindre de partout une croissance accélérée de l'accès, notamment dans les pays en développement, ainsi qu'une rapide augmentation de l'utilisation en général, engendrée par les contenus multimédias et les applications machine-à-machine. Par exemple, en moins de deux ans depuis la parution d'Instagram, plus de 50 millions de personnes on partagé dessus plus d'un milliard de photos. \cite{deuxAnsInstagram}.
 Dans ce contexte, on met en cause la capacité d'internet, comme il est, de continuer à fournir l'infrastructure nécessaire. \cite{InternetSustainGrowthIntro}
 \par
-De nouvelles technologies et concepts émergent pour répondre aux nouveaux besoins de ces utilisateurs qui exigent de plus en plus haut-débit et une latence réduite. Le \gls{bigdata} a modifié le traitement des données pour permettre les entreprises de gérer la quantité massive de données manipulées. \cite{IMBigData} Le \gls{cloudcomputing} et la \gls{virtualisation} ont apporté une nouvelle approche pour le management et l'hébergement de ressources de \gls{ti} dans le but de les rendre plus agiles, plus efficaces, plus sécurisés et plus flexibles tout en réduisant les coûts. \cite{CloudComputingIntelVision}. Pour accompagner ces évolutions, une innovation technologique dans le domaine des réseaux informatiques est requise. \cite{InternetEvolutionRoleSoftwareEngineeringConclusion}
+De nouvelles technologies et concepts émergent pour répondre aux nouveaux besoins de ces utilisateurs qui exigent de plus en plus du haut-débit et une latence réduite. Le \gls{bigdata} a modifié le traitement des données pour permettre les entreprises de gérer la quantité massive de données manipulées. \cite{IMBigData} Le \gls{cloudcomputing} et la \gls{virtualisation} ont apporté une nouvelle approche pour le management et l'hébergement de ressources de \gls{ti} dans le but de les rendre plus agiles, plus efficaces, plus sécurisés et plus flexibles tout en réduisant les coûts. \cite{CloudComputingIntelVision}. Pour accompagner ces évolutions, une innovation technologique dans le domaine des réseaux informatiques est requise. \cite{InternetEvolutionRoleSoftwareEngineeringConclusion}
 \par
-Cette problématique a amené scientifiques et tout les ingénieurs impliqués dans ce secteur à la conception de \gls{sdn}. \gls{sdn} est un nouveau \glslink{paradigme}{paradigme} réseau qui est actuellement développé en collaboration pour adapter l'infrastructure existante au nouveau scénario.\cite{OpenFlowStanford} Le présent document a donc pour but d'explorer cette solution et analyser les approches qui ont été faites dans ce domaine. Il propose un état de l'art des technologies parues pour déployer \gls{sdn} ainsi que divers cas d'utilisation dont les enjeux seront présentés.
+Les acteurs impliqués dans ce secteur se sont unifiés pour à la conception et proposition de \gls{sdn}, en réponse à ces nouveaux besoins émergeant. 
+%\gls{sdn} est un nouveau \glslink{paradigme}{paradigme} réseau qui est actuellement développé en collaboration pour adapter l'infrastructure existante au nouveau scénario.\cite{OpenFlowStanford} 
+Le présent document a donc pour but d'explorer cette solution et analyser les approches qui ont été faites dans ce domaine. Il propose un état de l'art des technologies parues pour déployer \gls{sdn} ainsi que divers cas d'utilisation dont les enjeux seront présentés.
 \par
 [un paragraphe pour le plan du texte (de quoi parle chaque section)]
-\par
-[Un paragraphe pour conclure l'intro et laisser les pistes de mon point de vue et les conclusions trouvées].
+
 
 

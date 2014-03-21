@@ -12,6 +12,9 @@
 \glossaryentryfield{datacenter}{\glsnamefont{Data Center}}{ Centre de données. }{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{14}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{24}}}\glsgroupskip
+\glsgroupheading{F}\relax \glsresetentrylist %
+\glossaryentryfield{fabric}{\glsnamefont{fabric}}{ }{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{24}}}\glsgroupskip
 \glsgroupheading{M}\relax \glsresetentrylist %
 \glossaryentryfield{middlebox}{\glsnamefont{Middlebox}}{Boîtier intermédiaire. Un middlebox est un serveur gardant des états au milieu de la communication entre deux hôtes. Ils se différencient des hôtes qui représentent les 'endpoints' de la communication. Ils sont encore différents des routeurs qui ne gardent pas d'états concernant les instances de communications.}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{3}\delimN 
@@ -21,7 +24,8 @@
 \glossaryentryfield{opendaylight}{\glsnamefont{Open Daylight}}{ Association provoqué par Linux Foundation pour l'union des géants du marché réseau dans le but de développer un contrôleur SDN open source }{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{13}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{24}}}%
-\glossaryentryfield{open source}{\glsnamefont{Open Source}}{ Logiciel avec code source ouvert... }{\relax }{\glossaryentrynumbers{\relax 
+\glossaryentryfield{opensource}{\glsnamefont{Open Source}}{ Logiciel avec code source ouvert... }{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{13}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{24}}}%
 \glossaryentryfield{openflow}{\glsnamefont{OpenFlow}}{ Le protocole OpenFlow focalise en standardiser 1) l'interface entre entre les applications et le contrôleur et 2) entre le contrôleur et les éléments de commutation. }{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{13}\delimN 
@@ -33,7 +37,8 @@
 		\setentrycounter[]{page}\glsnumberformat{24}}}%
 \glossaryentryfield{controlplane}{\glsnamefont{Plan de Contrôle}}{Intelligence du réseau, ensemble des données locales utilisées pour établir les entrées des tableaux de commutation, qui sont utilisés par le plan de données pour effectuer la transmission du trafic entre les port d'entrée et sortie du dispositif. \cite {sdnbookControlDataPlanes}}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{7}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{24\delimN 25}}}%
+		\setentrycounter[]{page}\glsnumberformat{24}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{26}}}%
 \glossaryentryfield{dataplane}{\glsnamefont{Plan de Données}}{Le plan de donnés traite les data-grammes entrants dans le média à travers une série d'opérations au niveau des liens qui collectent le data-gramme et réalise des tests de cohérence basiques. Ensuite le data-gramme est transféré en accord avec des tableaux pré-remplis par le \gls {controlplane}. \cite {sdnbookControlDataPlanes}}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{7\delimN 8}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{24}}}\glsgroupskip

@@ -6,12 +6,12 @@
 %\section{Deuxième section}\label{sec-1-2}
 
 Ce chapitre reprend les problèmes réseaux rencontrés pour définir les besoins actuels dans le domaine. 
-Une liste de requis pour une architecture réseau idéalement adapté aux applications actuelles est proposée.
+Une liste de requis pour une architecture réseau idéalement adaptée aux applications actuelles est proposée.
 %En connaissant les problèmes de l'architecture en place, la question que se pose est : si on repartait de zéro, comment on le ferrait ?
 
 %\section{Pression pour l'expansion de l'architecture réseau }
 
-\section{Ossification de l'internet face au besoin d'expansion}
+\section{Ossification d'internet face au besoin d'expansion}
 
 
 
@@ -22,21 +22,21 @@ Une liste de requis pour une architecture réseau idéalement adapté aux applic
 %In the first half of the 2000s, the research climate was dominated by the belief that research is pointless unless its results can be adopted easily within the existing Internet. Attempting to work within this constraint, people realized that the current architecture makes solving some problems impossible.
 
 
-À vouloir autoriser et même encourager les utilisateurs à innover sur son architecture, l'internet s'est fait dépasser par son propre succès. La croissance explosive des utilisateurs, du trafic et des applications a apporté toute une série de problèmes, 
+À vouloir autoriser et même encourager les utilisateurs à innover sur son architecture, internet s'est fait dépasser par son propre succès. La croissance explosive des utilisateurs, du trafic et des applications a apporté toute une série de problèmes, 
 %L'internet a été créé à une époque où les choses étaient plus simples, avec peu d'intervenants en coopération. Dès qu'il est devenu partie intégrante en plusieurs aspects de la société, diverses réclamations et défaillances sont apparues, 
-tant que l'exhaustion des adresses IPv4 disponibles et les menaces aux réseaux locaux privés. 
+tant que la saturation des adresses IPv4 disponibles et les menaces aux réseaux locaux privés. 
 
 %One of the main reasons for these security vulnerabilities is that the Internet architecture and its supporting protocols were primarily designed for a benign and trustworthy environment, with little or no consideration for security issues. This assumption is clearly no longer valid for today’s Internet, which connects millions of people, computers, and corporations in a complex web that spans the entire globe.
 \par
 En réponse à ces questions, on a introduit dans l'architecture des \glspl{middlebox}, par exemple les NATs et les Firewalls, à un prix : la complexité. Le logiciel dans ces systèmes est capable d'atteindre n'importe quel objectif sous réserve de devenir excessivement complexe, fragile, incompréhensible et mal jugé. Parce que les coûts de la complexité ont été négligés lors de l'évolution de l'internet, les applications en réseau sortantes ont été rendues difficiles à concevoir, à mettre en place et à maintenir. \cite{InternetEvolutionRoleSoftwareEngineeringRealInternet}
 
-L'internet est vu aujourd'hui comme une infrastructure critique de la société, tel que le transport ou l'électricité.  Cela provoque une résistance aux essais des nouvelles applications en parallèle à celles en mode de production. 
-Ce fait a mené la communauté de chercheurs en réseau à se faire dominée par une conviction de qu'un travail n'est utile que si ses résultats peuvent être facilement adoptés dans l'architecture existante. En essayant de travailler avec cette contrainte, les concepteurs ont réalisé que l'architecture courante rend la résolution de certains problèmes impossible. \cite{OpenFlowStanfordOssification} \cite{SurveySDNIntro}
+Internet est vu aujourd'hui comme une infrastructure critique de la société, tels que le transport et l'électricité.  Cela provoque une résistance aux essais des nouvelles applications en parallèle à celles en mode de production. 
+Ce fait a mené la communauté de chercheurs en réseau à être convaincus qu'un travail n'est utile que si ses résultats peuvent être facilement adoptés dans l'architecture existante. En essayant de travailler avec cette contrainte, les concepteurs ont réalisé que l'architecture courante rend la résolution de certains problèmes impossible. \cite{OpenFlowStanfordOssification} \cite{SurveySDNIntro}
 
-Actuellement l'internet compte avec une énorme base d'équipements et de protocoles installée. Avec le système d'adressage IPv4 ce réseau peut interconnecter jusqu'à quatre milliards d'équipements. Capacité dont le limite est proche d'être atteint, confirmé par le développement du protocole IPv6 qui nous permettrait d'augmenter l'espace d'adressage par des centaines de milliards de fois. \cite{ICANNIPv6Important} 
+Actuellement internet compte avec une énorme base d'équipements et de protocoles installée. Avec le système d'adressage IPv4 ce réseau peut interconnecter jusqu'à quatre milliards d'équipements. Capacité dont la limite est proche d'être atteinte, fait confirmé par le développement du protocole IPv6 qui a été conçu pour permettre d'augmenter l'espace d'adressage par des centaines de milliards de fois. \cite{ICANNIPv6Important} 
 
 
-En revanche, les réseaux de communication des données consistent typiquement de dispositifs des utilisateurs finaux ou d'hôtes inter-connectés à travers l'infrastructure du réseau. Cette infrastructure est partagée par les hôtes et elle emploi des éléments de commutation comme switches et routeurs ainsi que de liens de communication pour porter des données entre les hôtes. Les routeurs et les switches sont souvent des systèmes "fermés", avec des limitations interfaces de contrôle spécifiques à leurs vendeurs. Par conséquent, une fois déployés et en production, il est assez difficile dans cette infrastructure courante d'évoluer les protocoles et services existantes et encore plus difficiles de mis en place des nouveaux. Internet étant un réseau de réseaux est plus concerné par ce point. \cite{SurveySDNArchi}
+En revanche, les réseaux de communication des données consistent typiquement à des dispositifs utilisateurs finaux, d'hôtes inter-connectés à travers l'infrastructure du réseau. Cette infrastructure est partagée par les hôtes et elle emploie des éléments de commutation comme switches et routeurs ainsi que de liens de communication pour porter des données entre les hôtes. Les routeurs et les switches sont souvent des systèmes "fermés", avec des limitations et des interfaces de contrôle spécifiques à leurs vendeurs. Par conséquent, une fois déployés et en production, il est assez difficile dans cette infrastructure courante de faire évoluer les protocoles et services existants et encore plus difficiles d'en mettre en place des nouveaux. Internet étant un réseau de réseaux est plus concerné par ce point. \cite{SurveySDNArchi}
 %Data communication networks typically consist of end- user devices, or hosts interconnected by the network infras- tructure. This infrastructure is shared by hosts and employs switching elements such as routers and switches as well as communication links to carry data between hosts. Routers and switches are usually “closed” systems, often with limited- and vendor-specific control interfaces. Therefore, once de- ployed and in production, it is quite difficult for current network infrastructure to evolve; in other words, deploying new versions of existing protocols (e.g., IPv6), not to mention deploying completely new protocols and services is an almost insurmountable obstacle in current networks. The Internet, being a network of networks, is no exception.
 
 %illustrer les problèmes, donner un apperçu
@@ -49,7 +49,7 @@ En revanche, les réseaux de communication des données consistent typiquement d
 
 %The routing table in a typical router now has 300,000 entries, and these must be stored in the fastest, most expensive types of memory to maintain routing speed.
 
-On se rend compte que l'adoption de nouvelles idées dans le domaine des réseaux reste complexe.  Finalement, les ingénieurs comptent avec peu de moyen concret pour tester de nouveaux protocoles réseau dans une configuration assez réaliste pour assurer et distribuer leurs déploiements. Par conséquent, la majorité des nouvelles idées émises dans le cadre de la recherche en "réseaux informatiques" finissent sans essais et sans tests. Cette barrière à l'évolution en face des besoins d'expansion des utilisateurs actuels confirme la croyance répandue que l'infrastructure réseau "est en phase d'ossification". \cite{OpenFlowStanfordOssification} 
+On se rend compte que l'adoption de nouvelles idées dans le domaine des réseaux reste complexe.  Finalement, les ingénieurs comptent avec peu de moyens concrets pour tester de nouveaux protocoles réseau dans une configuration assez réaliste pour assurer et distribuer leurs déploiements. Par conséquent, la majorité des nouvelles idées émises dans le cadre de la recherche en "réseaux informatiques" finissent sans essai et sans test. Cette barrière à l'évolution en face des besoins d'expansion des utilisateurs actuels confirme la croyance répandue que l'infrastructure réseau "est en phase d'ossification". \cite{OpenFlowStanfordOssification} 
 
 %quantifier enorme.
 
@@ -78,8 +78,8 @@ On se rend compte que l'adoption de nouvelles idées dans le domaine des réseau
 
 %\subsection*{Fin brain storming *}
 
-Cette résistance empêchant l'innovation est contradictoire à la rapide croissance de l'internet qui impose une expansion de l'architecture réseau. 
-Le besoin pour des services réseau et pour haut-débit augmente à un taux plus rapide que la disponibilité ou les revenues, comme on peut visualiser dans le figure 1.1.
+Cette résistance empêchant l'innovation est contradictoire avec la rapide croissance d'internet qui impose une expansion de l'architecture réseau. 
+Le besoin pour des services réseau et pour haut-débit augmente à un taux plus rapide que la disponibilité ou les revenus, comme on peut visualiser dans le figure 1.1.
 
 
 \begin{figure}[!h] %on ouvre l'environnement figure
@@ -88,12 +88,12 @@ Le besoin pour des services réseau et pour haut-débit augmente à un taux plus
 \label{imgPressure} %l'étiquette pour faire référence à cette image
 \end{figure} %on ferme l'environnement figure
 
-Le plus une entreprise dépend d'un nombre croissant de dispositifs et gros volumes de données, les plus importante est la demande pour débit et expansion de l'infrastructure. La complexité de cette expansion des réseaux augmente la probabilité des interruptions de service dues à une faille humaine ou autre problème. Ce fait met en évidence l'importance de la disponibilité, fiabilité, performance et sécurité. L'efficacité et la réduction des coûts deviennent cruciales pour aboutir la mis en échelle de ces besoins, et donc le management assume en rôle primordial dans ce contexte. \cite{IBMManagingGrowingPainsNeed}
+Plus une entreprise dépend d'un nombre croissant de dispositifs et gros volumes de données, plus importante est la demande de débit et d'expansion de l'infrastructure. La complexité de cette expansion des réseaux augmente la probabilité des interruptions de service dues à une faille humaine ou autre problème. Ce fait met en évidence l'importance de la disponibilité, la fiabilité, la performance et la sécurité. L'efficacité et la réduction des coûts deviennent cruciales pour aboutir la mis en échelle de ces besoins, et donc le management assume en rôle primordial dans ce contexte. \cite{IBMManagingGrowingPainsNeed}
  
 
 Malgré l'assistance des agents autonomes et intelligents ainsi que des logiciels pour le management réseau, la mission de l'administrateur réseau reste importante et compliquée. Il doit équilibrer les différentes tâches du management pour assurer que le \gls{si} soit proprement configuré et maintenu. \cite{CentralIssuesNetworkManagementConclusion}
 
-La configuration et l'installation du réseau exigent des techniciens experts hautement qualifiés sur plusieurs éléments le composant. Les interactions entre les nœuds du réseau (switches, routeurs etc.) sont complexes, ce qui provoque le besoin pour une approche système englobant la simulation. Avec l'interface de programmation courante des équipements réseau d'aujourd'hui, cela est difficile d'atteindre. De plus, les coûts opérationnels impliqués à l'approvisionnement et management de réseaux larges et multi-vendeurs  couvrant plusieurs technologies ont augmenté récemment, alors que les revenues se diminuent. \cite{ImplementationChallengesForSDN}
+La configuration et l'installation du réseau exigent des techniciens experts hautement qualifiés sur plusieurs éléments le composant. Les interactions entre les nœuds du réseau (switches, routeurs etc.) sont complexes, ce qui provoque le besoin pour une approche système englobant la simulation. Avec l'interface de programmation courante des équipements réseau d'aujourd'hui, cela est difficile d'atteindre. De plus, les coûts opérationnels impliqués à l'approvisionnement et au management de réseaux larges et multi-vendeurs  couvrant plusieurs technologies ont augmenté récemment, alors que les revenus se diminuent. \cite{ImplementationChallengesForSDN}
 
 
 
@@ -103,7 +103,7 @@ La configuration et l'installation du réseau exigent des techniciens experts ha
 
 %\clearpage
 
-L'architecture réseau n'a pas été conçue pour le management, pourtant les administrateurs des réseaux d'aujourd'hui rencontrent des problèmes critiques de configuration, ingénierie du trafic, politique de routage et diagnostic de failles. Leurs outils pour analyse du trafic sont faibles et leurs mécanismes pour contrôler les opérations réseau ne facilitent pas la prédictibilité entre les relations de cause-effet. On réalise que l'opération et le management du réseau représentent la source la plus importante des coûts opérationnels, de failles et d'interruptions à cause d'erreurs des opérateurs. Un changement dans ce domaine est requis pour le design de l'architecture. \cite{NGSIManagement}
+L'architecture réseau n'a pas été conçue pour le management, pourtant les administrateurs des réseaux d'aujourd'hui rencontrent des problèmes critiques de configuration, d'ingénierie du trafic, de politique de routage et de diagnostic de failles. Leurs outils pour l'analyse du trafic sont faibles et leurs mécanismes pour contrôler les opérations réseau ne facilitent pas la prédictibilité entre les relations de cause-effet. On réalise que l'opération et le management du réseau représentent la source la plus importante des coûts opérationnels, de failles et d'interruptions à cause d'erreurs des opérateurs. Un changement dans ce domaine est requis pour le design de l'architecture. \cite{NGSIManagement}
 
 
 \clearpage
@@ -125,30 +125,41 @@ L'architecture réseau n'a pas été conçue pour le management, pourtant les ad
 
 %While the overall architecture is an undeniable success, the state of the networking industry and the nature of networking infrastructure is a less inspiring story. It is widely agreed that current networks are too expensive, too complicated to manage, too prone to vendor-lockin, and too hard to change. Moreover, this unfortunate state-of-affairs has remained true for well over a decade. Thus, while much of the research community has been focusing on “clean-slate” designs of the overall Internet architecture, a more pressing set of problems remain in the design of the underlying network infrastructure. That is, in addition to worrying about the global Internet protocols, the research community should also devote effort to how one could improve the infrastructure over which these protocols are deployed.
 
-Même si globalement l'architecture réseau d'internet est un succès incontestable, l'état de l'industrie réseau et l'essence de son infrastructure est moins inspirant. Il est partout accepté que les réseaux courants sont excessivement chers, compliqués à gérer, sujets aux blocages des fournisseurs et difficiles à évoluer. En plus, cette condition a bien durée plus d'une décade. \cite{fabricIntro}
+Même si globalement l'architecture réseau d'internet est un succès incontestable, l'état de l'industrie réseau et l'essence de son infrastructure sont moins inspirants. Il est partout accepté que les réseaux courants sont excessivement chers, compliqués à gérer, sujets aux blocages des fournisseurs et difficiles à évoluer. En plus, cette condition a bien durée plus d'une décade. \cite{fabricIntro}
 
 
 
-En résumé, l'infrastructure réseau confronte actuellement ces challenges:
+En résumé, l'infrastructure réseau confronte actuellement aux challenges suivants :
 \begin{itemize}
-\item Sécurité : la manque de sécurité est assez inquiétante à tout niveau : des utilisateurs, aux développeurs aux opérateurs de services.
-\item Mobilité : il existe très peu de support aux applications et services mobiles
-\item Fiabilité et disponibilité : le nouvel usage de l'internet exige de plus en plus haute fiabilité et disponibilité.
-\item Analyse de problèmes : les outils pour déboguer les failles réseau sont assez limités.
-\item Évolution : certaine partis de l'architecture courante semblent être saturés, comme le système de routage.
-\item Qualité de service : il est toujours incertain comment intégrer différents niveaux de qualité de service.
-\item Économique : en outre de tous questions techniques, il reste aussi la question de comment les opérateurs pourront continuer à tirer profit.
+\item La sécurité : la manque de sécurité est assez inquiétante à tout niveau : des utilisateurs, aux développeurs aux opérateurs de services.
+\item La mobilité : il existe très peu de supports aux applications et services mobiles.
+\item La fiabilité et la disponibilité : le nouvel usage de l'internet exige une plus haute fiabilité et une plus haute disponibilité.
+\item L'analyse de problèmes : les outils pour déboguer les failles réseau sont assez limités.
+
+%• Simple: The hardware should be inexpensive to build and operate.
+%• Vendor-neutral: Users should be able to easily switch between hardware vendors without forklift upgrades.
+%• Future-proof: The hardware should, as much as possible, accommodate future innovation, so users need not upgrade their hardware unnecessarily.
+
+\item Le hardware : la simplicité d'opération et l'indépendance de fabricant sont requises.
+
+\item L'évolution : certaines parties de l'architecture courante semblent être saturées, comme le système de routage.
+\item La qualité de service : il est toujours incertain le moyen d'intégrer différents niveaux de qualité de service.
+\item L'économique : outre toutes les questions techniques, il reste aussi la question de comment les opérateurs pourront continuer à tirer profit.
 \end{itemize}
 \cite{InernetCleanSlateDesignIntro}
 
 %In the past 30 years the Internet has been very successful using an incremental approach. However due to its success, the commu- nity has now reached a point where people are unwilling or unable to experiment on the current architecture. Therefore, it might be time to explore a clean-slate approach
-Dans les dernières 30 années, internet a été bien succédé à utiliser une approche incrémentielle pour répondre aux divers challenges rencontrés. Cependant, grâce à ce succès, la communauté a récemment atteint un point où les personnes sont peu disposées ou incapables d'expérimenter sur cette architecture.  Pour cette raison, il est peut être le moment de d'explorer une nouvelle approche. \cite{InernetCleanSlateDesignApproach}
+L'infrastructure réseau actuelle ne satisfait pas à aucun de ces objectives. \cite{fabricIntro}  Dans les dernières 30 années, internet a progressé en utilisant une approche incrémentielle pour répondre aux divers challenges rencontrés. Cependant, ce succès a récemment conduit la communauté à un point où les personnes sont peu disposées ou incapables d'innover sur cette architecture. Pour cette raison, il est peut être le moment d'explorer une nouvelle approche. \cite{InernetCleanSlateDesignApproach}
 
 %Re-partir de zéro. En le faisant, quels sont les caractéristique de l'architecture ?
 
-blabla...
+%blabla...
+%Today’s networking infrastructure does not satisfy any of these goals, which is the cause of significant pain for network operators. In fact, in terms of impact on user experience, the inadequacies in these infrastructural aspects are probably more problematic than the Internet’s architectural deficiencies.
 
-Les chercheurs travaillent sur une nouvelle approche pour répondre à ces challenges. Une nouvelle architecture à concevoir dans l'infrastructure existante. Ce qui permettra internet de continuer à évoluer et supporter les applications à répondre aux nouveaux besoins des utilisateurs.
+Les chercheurs travaillent sur la proposition de cette nouvelle approche pour répondre aux divers challenges rencontrés actuellement. 
+%Cette nouvelle architecture à concevoir dans l'infrastructure existante. 
+Cette approche doit proposer la conception d'une nouvelle architecture qui permettra internet et les réseaux en général de continuer à évoluer et supporter les applications qui répondent aux nouveaux besoins des utilisateurs. 
+Basée sur diverses propositions qui émergent depuis quelques années d'études et recherches, \gls{sdn} semble avoir été choisi par la communauté s'appuyant sur le support des grands leaders du marché.  \cite{SurveySDNIntro}
 
 
 %\section{Les requis d'un réseau idéalement adapté aux besoins courants}
