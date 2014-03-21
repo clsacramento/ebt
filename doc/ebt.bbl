@@ -661,6 +661,47 @@
       \field{title}{ONF, Open Networking Foundation}
       \field{year}{2013}
     \endentry
+    \entry{42Vendors}{misc}{}
+      \field{sortinit}{0}
+      \field{labeltitle}{Thinking about SDN? Here are 42 vendors that offer SDN products}
+      \field{howpublished}{http://searchsdn.techtarget.com/news/2240212374/Thinking-about-SDN-Here-are-42-vendors-that-offer-SDN-products}
+      \field{month}{01}
+      \field{note}{Ethan Banks}
+      \field{title}{Thinking about SDN? Here are 42 vendors that offer SDN products}
+      \field{year}{2014}
+    \endentry
+    \entry{ProductDirectory}{misc}{}
+      \field{sortinit}{0}
+      \field{labeltitle}{SDN Product Directory}
+      \field{howpublished}{https://www.opennetworking.org/sdn-resources/onf-products-listing}
+      \field{note}{ONF}
+      \field{title}{SDN Product Directory}
+      \field{year}{2014}
+    \endentry
+    \entry{2013GuideSDNNVEcosystem}{misc}{}
+      \list{publisher}{1}{%
+        {Webtorials}%
+      }
+      \field{sortinit}{0}
+      \field{labeltitle}{The 2013 Guide to Network Virtualization and SDN}
+      \field{howpublished}{White Paper}
+      \field{month}{12}
+      \field{note}{Chapitre 3: The NV and SDN Ecosystem}
+      \field{title}{The 2013 Guide to Network Virtualization and SDN}
+      \field{year}{2013}
+    \endentry
+    \entry{ExecutiveGuideToSDNLinux}{misc}{}
+      \list{publisher}{1}{%
+        {TechRepublic}%
+      }
+      \field{sortinit}{0}
+      \field{labeltitle}{Executive’s guide to software- defined networking}
+      \field{howpublished}{White Paper}
+      \field{month}{06}
+      \field{note}{Page 17 et 16, The Linux Foundation unifies software- defined networking powers}
+      \field{title}{Executive’s guide to software- defined networking}
+      \field{year}{2013}
+    \endentry
     \entry{sdnbook}{book}{}
       \name{labelname}{2}{}{%
         {{hash=463089525392bca7b4ee528c2c9ea4f6}{D.}{D\bibinitperiod}{Thomas\bibnamedelima Nadeau}{T\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
@@ -1033,6 +1074,30 @@
       \field{labeltitle}{Network Innovation through OpenFlow and SDN: Principles and Design}
       \field{title}{Network Innovation through OpenFlow and SDN: Principles and Design}
       \field{year}{2014}
+    \endentry
+    \entry{ExecutiveGuideToSDN}{misc}{}
+      \list{publisher}{1}{%
+        {TechRepublic}%
+      }
+      \field{sortinit}{0}
+      \field{labeltitle}{Executive’s guide to software- defined networking}
+      \field{howpublished}{White Paper}
+      \field{month}{06}
+      \field{note}{Page 17}
+      \field{title}{Executive’s guide to software- defined networking}
+      \field{year}{2013}
+    \endentry
+    \entry{2013GuideSDNNV}{misc}{}
+      \list{publisher}{1}{%
+        {Webtorials}%
+      }
+      \field{sortinit}{0}
+      \field{labeltitle}{The 2013 Guide to Network Virtualization and SDN}
+      \field{howpublished}{White Paper}
+      \field{month}{12}
+      \field{note}{Chapitre 3: The NV and SDN Ecosystem}
+      \field{title}{The 2013 Guide to Network Virtualization and SDN}
+      \field{year}{2013}
     \endentry
   \endsortlist
 \endrefsection

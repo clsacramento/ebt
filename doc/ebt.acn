@@ -16,11 +16,11 @@
 \glossaryentry{ONF?\glossaryentryfield{onf}{\glsnamefont{ONF}}{Open Networking Foundation}{\relax }|setentrycounter[]{page}\glsnumberformat}{13}
 \glossaryentry{ONF?\glossaryentryfield{onf}{\glsnamefont{ONF}}{Open Networking Foundation}{\relax }|setentrycounter[]{page}\glsnumberformat}{13}
 \glossaryentry{SDN?\glossaryentryfield{sdn}{\glsnamefont{SDN}}{Software-Defined Networking, Réseau Informatique Défini par Logiciel}{\relax }|setentrycounter[]{page}\glsnumberformat}{13}
-\glossaryentry{TI?\glossaryentryfield{ti}{\glsnamefont{TI}}{Technologie de l'Information}{\relax }|setentrycounter[]{page}\glsnumberformat}{18}
-\glossaryentry{RTFM?\glossaryentryfield{rtfm}{\glsnamefont{RTFM}}{Read the f\dots manual}{\relax }|setentrycounter[]{page}\glsnumberformat}{22}
-\glossaryentry{SDN?\glossaryentryfield{sdn}{\glsnamefont{SDN}}{Software-Defined Networking, Réseau Informatique Défini par Logiciel}{\relax }|setentrycounter[]{page}\glsnumberformat}{22}
-\glossaryentry{TI?\glossaryentryfield{ti}{\glsnamefont{TI}}{Technologie de l'Information}{\relax }|setentrycounter[]{page}\glsnumberformat}{22}
-\glossaryentry{SI?\glossaryentryfield{si}{\glsnamefont{SI}}{Système d'Information}{\relax }|setentrycounter[]{page}\glsnumberformat}{22}
-\glossaryentry{NFV?\glossaryentryfield{nfv}{\glsnamefont{NFV}}{Network Functions Virtualization, Virtualisations des fonctions réseau}{\relax }|setentrycounter[]{page}\glsnumberformat}{22}
-\glossaryentry{ONF?\glossaryentryfield{onf}{\glsnamefont{ONF}}{Open Networking Foundation}{\relax }|setentrycounter[]{page}\glsnumberformat}{22}
-\glossaryentry{NOS?\glossaryentryfield{nos}{\glsnamefont{NOS}}{Network Operating System}{\relax }|setentrycounter[]{page}\glsnumberformat}{22}
+\glossaryentry{TI?\glossaryentryfield{ti}{\glsnamefont{TI}}{Technologie de l'Information}{\relax }|setentrycounter[]{page}\glsnumberformat}{20}
+\glossaryentry{RTFM?\glossaryentryfield{rtfm}{\glsnamefont{RTFM}}{Read the f\dots manual}{\relax }|setentrycounter[]{page}\glsnumberformat}{24}
+\glossaryentry{SDN?\glossaryentryfield{sdn}{\glsnamefont{SDN}}{Software-Defined Networking, Réseau Informatique Défini par Logiciel}{\relax }|setentrycounter[]{page}\glsnumberformat}{24}
+\glossaryentry{TI?\glossaryentryfield{ti}{\glsnamefont{TI}}{Technologie de l'Information}{\relax }|setentrycounter[]{page}\glsnumberformat}{24}
+\glossaryentry{SI?\glossaryentryfield{si}{\glsnamefont{SI}}{Système d'Information}{\relax }|setentrycounter[]{page}\glsnumberformat}{24}
+\glossaryentry{NFV?\glossaryentryfield{nfv}{\glsnamefont{NFV}}{Network Functions Virtualization, Virtualisations des fonctions réseau}{\relax }|setentrycounter[]{page}\glsnumberformat}{24}
+\glossaryentry{ONF?\glossaryentryfield{onf}{\glsnamefont{ONF}}{Open Networking Foundation}{\relax }|setentrycounter[]{page}\glsnumberformat}{24}
+\glossaryentry{NOS?\glossaryentryfield{nos}{\glsnamefont{NOS}}{Network Operating System}{\relax }|setentrycounter[]{page}\glsnumberformat}{24}

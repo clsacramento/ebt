@@ -1,8 +1,11 @@
 \chapter{Solutions SDN disponibles}
 
 Le but de ce chapitre n'est pas de détailler chaque solution SDN émergeant, mais d'analyser les offres des principales constructeurs du marché et leur positionnement pour les tendances qu'on peut espérer de SDN prochainement.
-Mais d'abord il présente un point sur la situation de SDN, en précisant les standards et protocoles développés par des organisations supportant SDN.
-https://www.opennetworking.org/sdn-resources/onf-products-listing
+Mais d'abord il est proposé un point sur la situation de SDN, en présenté comment les organisations supportant SDN se sont positionnées pour le développement de standards et de protocoles.
+
+
+
+%https://www.opennetworking.org/sdn-resources/onf-products-listing
 
 \section{Un point sur la situation}
 %\subsection{ONF}
@@ -37,26 +40,60 @@ Le fort support de l'industrie, de la recherche et des académies que \gls{onf} 
 %Controllers. A controller adds and removes flow-entries from the Flow Table on behalf of experiments. For example, a static controller might be a simple application running on a PC to statically establish flows to interconnect a set of test computers for the duration of an experiment. In this case the flows resemble VLANs in current networks— providing a simple mechanism to isolate experimental traffic from the production network. Viewed this way, OpenFlow is a generalization of VLANs.
 
 
+%Many companies are offering a wide array of SDN products. However, each SDN product strategy can differ radically from company to company. While some base their products on the traditional view of SDN, others offer software overlays with hypervisors that control the virtual network.
+Diverses entreprises offrent une large gamme de produits SDN. Toutefois, les stratégies de chaque produit SDN peuvent différer radicalement parmi les organisations. Alors que certaines basent leurs produits dans le vu traditionnelle de SDN, d'autres proposent leurs propres visions et offrent des produits dans ce contexte. Un article sur SearchSDN \cite{42Vendors} propose une liste représentative des principaux vendeurs. ONF divulgue une liste de produits SDN soumis par ces membres \cite{ProductDirectory}.  
+
+Les catégories des produits varient aussi en fonction du segment des société qui les offrent. En général, es commerçants de chips/silicium proposent des processeurs optimisant la performance du hardware de commutation.  Les vendeurs de switchs offrent du matériel capable de communiquer avec un contrôleur SDN... [Expliquer les types des produits existents.] \cite{2013GuideSDNNVEcosystem}
+Ensuite ce document présente des principales solutions construites par des plus conséquents vendeurs du marché.
+
+
 
 \section{Solution logiciel open source OpenDaylight}
+%The Linux Foundation and—in its OpenDay- light Project—has introduced a community-led and industry-supported open source framework to accelerate SDN adoption, foster new innovation, and give it a more open and transparent approach.
+%OpenDaylight has the support it needs to transform SDN. Big Switch Networks, Brocade, Cisco, Citrix, Ericsson, IBM, Juniper Networks, Microsoft, NEC, Red Hat, and VMware are all founding Platinum and Gold members of the project. It will donate software and engineering resources for this open source framework, and help define the future of an open SDN platform. Yes, that’s right: Cisco and Juniper, Microsoft and Red Hat, and other major industry rivals are all joining forces.
+
+La fondation Linux avec son projet OpenDaylight a introduit une plateforme open source guidée par la communauté et supporté par l'industrie. Le but du projet est d'accélérer l'adoption de SDN, d'encourager l'innovation et de présenter une proche plus ouverte et transparente. OpenDaylight a le support dont il a besoin pour transformer SDN. Big Switch Networks, Brocade, Cisco, Citrix, Ericsson, IBM, Juniper Networks, Microsoft, NEC, Red Hat et VMware sont tous de fondateurs Platinum et membres Gold du projet. Ces acteurs vont donner de ressources d'ingénierie logiciel et il vont aider à définir le future de cette plateforme SDN ouverte. Le point important à noter est l'union de forces des rivales de l'industrie. \cite{ExecutiveGuideToSDNLinux}
 
 \section{Écosystème SDN HP, solution virtualisée}
 
+Hewlett-Packard executives outlined their software-defined networking (SDN) strategy and position in the market and made a few bets on when the technology will go mainstream. The bet: SDNs will be deployed enterprise-wide in 2015 and represent a \$2 billion market in 2016.
+HP’s argument is that its specialty in automating the data center, as well as a large footprint of customers, make it a leading SDN player.
+
 SDN Dev Center.
 SDN App Store.
-
 HP SDN Developer Kit
+
+Hewlett-Packard is stepping up its data center game with a recent announcement of a new suite of solutions for software-defined networking. Built on its FlexNetwork converged networking architecture, HP boasts that it can offer up to two times greater scalability with “75 percent less complexity” compared to other networking fabrics on the market. Furthermore, HP asserted that its data center fabric will reduce provisioning timeframes all the way down from months to mere minutes.
+HP’s portfolio of SDN services is quite substantial, with products aimed at addressing various issues, from dealing with legacy infrastructures to simplifying operations. For example, the HP Virtualized Services Router is designed to cut back data center footprints by delivering services on a virtual machine, which should eliminate “unnecessary hardware.”
+In addition, the HP HSR 6800 Router Series aims to simplify network service delivery by consolidating routing, firewall, switching, and security onto one device that supports thousands of users.
+
+HP’s suite of SDN offerings will be rolling out over the course of the year. Only the HSR 6800 Router Series is available worldwide now, and it holds a starting price of \$46,000.
+
 
 
 \section{Cisco ONE, hardware différentiel}
 
 Cisco Open Network Environment (ONE) is a comprehensive solution to help networks become more open, programmable, and application-aware. The broad capabilities of Cisco ONE help meet the needs of numerous market segments, including emerging concepts such as software-defined networking (SDN).
 
+Cisco believes a thorough understanding of the hardware layer is needed. In turn, this means the software and hardware should be developed by the same company and linked together. To that end, Cisco has so far sought to boost its SDN credibility by embedding more sophisticated software in its switches. While this doesn’t fit the exact definition of SDN—which moves control from switches up into a central management plane, probably using some form of commodity x86 server—it has roughly the same outcome. Switches become more manageable via a central interface.
+
+Cisco’s view, it suggests the company is keen to make sure a more software-focused approach does not threaten its longstanding networking hardware business. For one thing, it lets Cisco keep the prices high on its networking equipment: By using its Cisco ONE (Open Network Environment) technologies to put more software on its switches, it can give customers SDN features while encouraging them to keep on buying its “smart” equipment, which is priced at a premium.
+
+The approach means Cisco wants to embed information about the network at the hardware layer and have it flow up to a more flexible software control plane. This differs from the approach taken by SDN-like tech- nologies such as OpenFlow and Nicira, which see intelligence originate and reside in the control plane, with decisions pushed out to the hardware.
+
+Ultimately, Cisco’s approach is good for investors but potentially bad for innovation, as the company will likely seek to use its influence to make its particular view of SDN the industry standard. If this happens, businesses will have to keep spending large amounts of money on IT equipment that dovetails into proprietary software, which then has API compatibility or NIC-support for OpenFlow. Though this may make SDN slightly more ac- cessible to smaller businesses, it could lead to larger companies giving Cisco the cold shoulder and taking the Google route.
+
 \section{Brocade Ethernet Fabric, Fibre Channel support over Ethernet}
 Virtual Cluster Switching
 Pour les architectes du réseau et serveurs de data centre.
 
 \section{VMWare NSX, from physical to logical services}
+VMware made a splash with its acquisition of Nicira, and SDN acquisitions have become common.
+VMware has acquired network virtualisation company Nicira for \$1.3bn.
+
+VMware is expected to integrate Nicira’s technology with its virtualisation software to help move information around and between data centers. Crucially, Nicira’s approach does not care about the underlying hardware. This means that Nicira-based networks are not tied to any one supplier and are capable of an SDN-style central control plane.
+
+
 
 \section{Juniper MetaFabric Architecture}
 
