@@ -34,22 +34,22 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.1}Un point sur la situation}{13}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}\IeC {\'E}cosyst\IeC {\`e}me SDN HP, gamme de solutions virtualis\IeC {\'e}es Data Center}{14}{section.4.2}
+\contentsline {section}{\numberline {4.2}\IeC {\'E}cosyst\IeC {\`e}me SDN HP, gamme de solutions virtualis\IeC {\'e}es Data Center}{15}{section.4.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.3}Cisco ONE, hardware programmable}{15}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Brocade Ethernet Fabric, Fibre Channel support over Ethernet}{16}{section.4.4}
+\contentsline {section}{\numberline {4.4}Virtualisation : Big Switch Controller et VMWare NSX}{16}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}VMWare NSX, from physical to logical services}{16}{section.4.5}
+\contentsline {section}{\numberline {4.5}Brocade Ethernet Fabric, Fibre Channel support over Ethernet}{17}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}Juniper MetaFabric Architecture}{16}{section.4.6}
+\contentsline {section}{\numberline {4.6}Juniper MetaFabric Architecture}{17}{section.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion}{17}{chapter*.5}
+\contentsline {chapter}{Conclusion}{19}{chapter*.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Premi\IeC {\`e}re annexe}{19}{appendix.A}
+\contentsline {chapter}{\numberline {A}Premi\IeC {\`e}re annexe}{21}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliographie}{21}{appendix*.6}
+\contentsline {chapter}{Bibliographie}{23}{appendix*.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Glossaire}{27}{section*.7}
+\contentsline {chapter}{Glossaire}{29}{section*.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Acronyms}{29}{section*.9}
+\contentsline {chapter}{Acronyms}{31}{section*.9}

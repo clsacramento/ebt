@@ -819,6 +819,69 @@
       \field{title}{Executive’s guide to software- defined networking}
       \field{year}{2013}
     \endentry
+    \entry{startupsSDN}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=be7c81f4024e37684987e641f68c3f6a}{Banks}{B\bibinitperiod}{Ethan}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=be7c81f4024e37684987e641f68c3f6a}{Banks}{B\bibinitperiod}{Ethan}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{be7c81f4024e37684987e641f68c3f6a}
+      \strng{fullhash}{be7c81f4024e37684987e641f68c3f6a}
+      \field{sortinit}{0}
+      \field{labeltitle}{Don't overlook SDN startups when investing in programmable networks}
+      \field{howpublished}{Web Site}
+      \field{month}{01}
+      \field{note}{http://searchsdn.techtarget.com/tip/Dont-overlook-SDN-startups-when-investing-in-programmable-networks}
+      \field{title}{Don't overlook SDN startups when investing in programmable networks}
+      \field{year}{2014}
+    \endentry
+    \entry{ExecutiveGuideToSDNBigSwitch}{misc}{}
+      \list{publisher}{1}{%
+        {TechRepublic}%
+      }
+      \field{sortinit}{0}
+      \field{labeltitle}{Executive’s guide to software- defined networking}
+      \field{howpublished}{White Paper}
+      \field{month}{06}
+      \field{note}{Page 24, SDN gets a commercial boost from Big Switch Networks}
+      \field{title}{Executive’s guide to software- defined networking}
+      \field{year}{2013}
+    \endentry
+    \entry{BigSwitchLaunchesFirst}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=9fcfa67f6e40bedd9ce2998e59aa68ca}{Reuteurs}{R\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=9fcfa67f6e40bedd9ce2998e59aa68ca}{Reuteurs}{R\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{9fcfa67f6e40bedd9ce2998e59aa68ca}
+      \strng{fullhash}{9fcfa67f6e40bedd9ce2998e59aa68ca}
+      \field{sortinit}{0}
+      \field{labeltitle}{Big Switch Networks launches first commercial product}
+      \field{howpublished}{Web Site}
+      \field{month}{11}
+      \field{note}{http://www.reuters.com/article/2012/11/13/bigswitchnetworks-sdn-idUSL1E8MD05D20121113}
+      \field{title}{Big Switch Networks launches first commercial product}
+      \field{year}{2013}
+    \endentry
+    \entry{BigSwitchAnnouncement}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=fc24d4b3f25f41b8ce9b401c8e6c01a5}{Kerravala}{K\bibinitperiod}{Zeus}{Z\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=fc24d4b3f25f41b8ce9b401c8e6c01a5}{Kerravala}{K\bibinitperiod}{Zeus}{Z\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{fc24d4b3f25f41b8ce9b401c8e6c01a5}
+      \strng{fullhash}{fc24d4b3f25f41b8ce9b401c8e6c01a5}
+      \field{sortinit}{0}
+      \field{labeltitle}{Highlights of Big Switch's long-awaited SDN announcement}
+      \field{howpublished}{Web Site}
+      \field{month}{11}
+      \field{note}{http://www.networkworld.com/community/blog/highlights-big-switchs-long-awaited-sdn-announcement}
+      \field{title}{Highlights of Big Switch's long-awaited SDN announcement}
+      \field{year}{2013}
+    \endentry
     \entry{sdnbook}{book}{}
       \name{labelname}{2}{}{%
         {{hash=463089525392bca7b4ee528c2c9ea4f6}{D.}{D\bibinitperiod}{Thomas\bibnamedelima Nadeau}{T\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%

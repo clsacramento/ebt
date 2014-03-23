@@ -3,49 +3,50 @@
 \glsgroupheading{B}\relax \glsresetentrylist %
 \glossaryentryfield{bigdata}{\glsnamefont{Big Data}}{Big Data est un terme appliqué aux ensembles de données dont la taille est au-delà de la capacité des outils logiciels communs de les capturer, les gérer et les traiter. Une nouvelle classe de technologies et outils ont été développés pour surmonter le challenge de créer valeur commercial de la complexe analyse de ces données. Le terme est employé pour référer ce type de données ainsi que les technologies utilisées pour les stocker et les traiter. \cite {IMBigData} }{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{1}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{25}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{27}}}\glsgroupskip
 \glsgroupheading{C}\relax \glsresetentrylist %
 \glossaryentryfield{cloudcomputing}{\glsnamefont{Cloud Computing}}{ Le Cloud Computing est x }{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{1}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{25}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{27}}}\glsgroupskip
 \glsgroupheading{D}\relax \glsresetentrylist %
 \glossaryentryfield{datacenter}{\glsnamefont{Data Center}}{ Centre de données. }{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{14\delimN 15}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{25}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{27}}}\glsgroupskip
 \glsgroupheading{F}\relax \glsresetentrylist %
 \glossaryentryfield{fabric}{\glsnamefont{Fabric}}{ L'idée du design réseau autour d'un \textit {fabric} est bien entendu par la communauté. Sous ce modèle, un \textit {fabric} est un système composant qui représente 'grossièrement (roughly)' la commutation. En théorie, un \textit {fabric} devrait être capable de supporter un nombre de conceptions de pointe y compris des schémas d'adressage et des modèles de politique. \cite {fabricExtending}}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{25}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{17}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{27}}}\glsgroupskip
 \glsgroupheading{M}\relax \glsresetentrylist %
 \glossaryentryfield{middlebox}{\glsnamefont{Middlebox}}{Boîtier intermédiaire. Un middlebox est un serveur gardant des états au milieu de la communication entre deux hôtes. Ils se différencient des hôtes qui représentent les 'endpoints' de la communication. Ils sont encore différents des routeurs qui ne gardent pas d'états concernant les instances de communications. \cite {InternetEvolutionRoleSoftwareEngineeringRealInternet}}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{3}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{8}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{25}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{27}}}\glsgroupskip
 \glsgroupheading{O}\relax \glsresetentrylist %
 \glossaryentryfield{opendaylight}{\glsnamefont{Open Daylight}}{ Association provoquée par Linux Foundation pour l'union des géants du marché réseau dans le but de développer un contrôleur SDN open source, pour l'innover, l'encourager et pour permettre son adoption accélérée. \cite {OpenDaylight} }{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{13}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{25}}}%
+		\setentrycounter[]{page}\glsnumberformat{27}}}%
 \glossaryentryfield{opensource}{\glsnamefont{Open Source}}{ Logiciel avec code source ouvert, qui peut donc être utilisé librement, modifié et partagé par quelqu'un. Un logiciel open source est développé par plusieurs personnes et distribué sous des licences qui se conforment à la définition d'open source. \cite {OpenSource} }{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{13}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{25}}}%
+		\setentrycounter[]{page}\glsnumberformat{27}}}%
 \glossaryentryfield{openflow}{\glsnamefont{OpenFlow}}{ Le protocole OpenFlow focalise en standardiser 1) l'interface entre entre les applications et le contrôleur et 2) entre le contrôleur et les éléments de commutation. \cite {SurveySDNArchi} \cite {OpenFlowStanfordSwitch} }{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{13}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{25}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{27}}}\glsgroupskip
 \glsgroupheading{P}\relax \glsresetentrylist %
 \glossaryentryfield{paradigme}{\glsnamefont{Paradigme}}{Un paradigme dénote une collection de règles, standards et exemples de pratiques scientifiques, partagés par un groupe de scientifiques. Sa genèse et continuation de la tradition de recherche sont conditionnées à l'engagement et au consensus qui en découle. \cite {paradigmdef} D'après Dosi \cite {newparadigm}, quand un nouveau paradigme technologique apparaît, il représente une discontinuité ou un changement de la manière de penser. Ce changement apporté par le paradigme est souvent lié à une sorte d'innovation radicale qui applique une nouvelle technologie. Dans ce document, le terme paradigme sera employé dans ce sens d'innovation et application de nouvelle technologie. }{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{1}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{7}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{25}}}%
+		\setentrycounter[]{page}\glsnumberformat{27}}}%
 \glossaryentryfield{controlplane}{\glsnamefont{Plan de Contrôle}}{Intelligence du réseau, ensemble des données locales utilisées pour établir les entrées des tableaux de commutation, qui sont utilisés par le plan de données pour effectuer la transmission du trafic entre les ports d'entrée et de sortie du dispositif. \cite {sdnbookControlDataPlanes}}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{7\delimR 9}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{25}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{28}}}%
+		\setentrycounter[]{page}\glsnumberformat{27}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{30}}}%
 \glossaryentryfield{dataplane}{\glsnamefont{Plan de Données}}{Le plan de donnés traite les data-grammes entrants dans le média à travers une série d'opérations au niveau des liens qui collectent ces data-gramme et réalisent divers tests de cohérence basiques. Ensuite les data-grammes sont transférés en accord avec des tableaux pré-remplis par le \gls {controlplane}. \cite {sdnbookControlDataPlanes}}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{7\delimR 9}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{25}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{27}}}\glsgroupskip
 \glsgroupheading{V}\relax \glsresetentrylist %
 \glossaryentryfield{virtualisation}{\glsnamefont{Virtualisation}}{ La Virtualisation est y }{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{1}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{7}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{14}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{25}}}%
+		\setentrycounter[]{page}\glsnumberformat{27}}}%
 \end{theglossary}\glossarypostamble
