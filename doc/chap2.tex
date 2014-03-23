@@ -76,9 +76,14 @@ Avec le \gls{controlplane} et le \gls{dataplane} embarqués, les éléments acti
 
 %SDN technology can also help with the challenge of nebulous network perimeters. Vague boundaries make it impossible to determine where to deploy security devices such as firewalls. SDN technology can help by allowing administrators to route all (internal and perimeter) traffic through one central firewall. And there’s an additional benefit of network traffic flowing through a single point: It facilitates real-time capture and analysis of IDS and IPS data.
 
-La technologie SDN peut aussi aider avec le challenge les périmètres des réseaux floues. Les vagues frontières empêchent de déterminer où placer les dispositifs de sécurité, tels que firewall. SDN permet le routage de tout trafic à travers un firewall centralisé. Un avantage en plus d'avoir un trafic réseau qui passe par un point unique est de faciliter la capture et l'analyse en temps réel des données \gls{ids} et \gls{ips}.
+La technologie SDN peut aussi aider avec le challenge des périmètres réseaux floues. Les vagues frontières empêchent de déterminer où placer les dispositifs de sécurité, tels que firewall. SDN permet le routage de tout trafic à travers un firewall centralisé. Un avantage en plus d'avoir un trafic réseau qui passe par un point unique est de faciliter la capture et l'analyse en temps réel des données \gls{ids} et \gls{ips}. \cite{sdnbookControlDataPlanes}
 
-\section{Choix d'implémentation pour les challenges}
+\section{Choix d'implémentation pour des challenges}
 
 %Cette partie présente quels sont les enjeux pour déployer SDN, ayant pour but d'identifier les challenges lors de sa mise en place. Pour chaque enjeux, les approches pour les surmonter sont montrées tout en proposant les compromis de ces propositions.
 
+Le premier point à noter pour l'implémentation de SDN impose les notions de contrôle logiquement centralisé et de contrôle physiquement centralisé. Alors que la centralisation du contrôle est considérée comme un élément clé de la technologie, sa centralisation physique pose des sur la 'scalabilité' et la disponibilité. Un contrôle physiquement devient un point unique de failles pour tout le réseau et impose son remplacement lors d'une évolution. De cette manière, une topologie où le contrôle est logiquement centralisé mais physiquement distribué semble être plus logique. \cite{sdnbookControlDataPlanes}
+
+
+
+Un des objectifs de SDN est de développer des réseaux construits sur du matériel d'usage général. Avec une interface programmable sur du matériel standard, un réseau équipé avec des multiples fournisseurs devient une possibilité. Cependant, cette flexibilité impose un challenge quant à la performance. Avec un processeur d'usage général, les langages de programmation haut-niveau et divers outils de design fournissent une abstraction qui permet le développement rapide de sophistiquées fonctions de traitement de paquets. En contrepartie, des processeurs avec architecture optimisée pour le traitement réseau peuvent atteindre une performance plus élevée mais la flexibilité d'implémentation est réduite. Encore une fois, une architecture hybride semble être plus cohérente, satisfaisant le meilleur compromis entre performance et flexibilité. \cite{ImplementationKeyChallenges}

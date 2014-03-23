@@ -10,7 +10,7 @@
 		\setentrycounter[]{page}\glsnumberformat{25}}}\glsgroupskip
 \glsgroupheading{D}\relax \glsresetentrylist %
 \glossaryentryfield{datacenter}{\glsnamefont{Data Center}}{ Centre de données. }{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{14}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{14\delimN 15}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{25}}}\glsgroupskip
 \glsgroupheading{F}\relax \glsresetentrylist %
 \glossaryentryfield{fabric}{\glsnamefont{Fabric}}{ L'idée du design réseau autour d'un \textit {fabric} est bien entendu par la communauté. Sous ce modèle, un \textit {fabric} est un système composant qui représente 'grossièrement (roughly)' la commutation. En théorie, un \textit {fabric} devrait être capable de supporter un nombre de conceptions de pointe y compris des schémas d'adressage et des modèles de politique. \cite {fabricExtending}}{\relax }{\glossaryentrynumbers{\relax 
@@ -46,5 +46,6 @@
 \glossaryentryfield{virtualisation}{\glsnamefont{Virtualisation}}{ La Virtualisation est y }{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{1}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{7}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{14}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{25}}}%
 \end{theglossary}\glossarypostamble
