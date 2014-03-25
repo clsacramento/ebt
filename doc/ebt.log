@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.2.18)  25 MAR 2014 15:04
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.2.18)  25 MAR 2014 17:49
 entering extended mode
  %&-line parsing enabled.
 **ebt.tex
@@ -974,466 +974,9 @@ File: french.lbx 2011/11/13 v1.7 biblatex localization
 Package csquotes Info: Adjusting default style on input line 187.
 Package csquotes Info: Redefining alias 'default' -> 'french' on input line 187
 .
- (./ebt.aux
-! Undefined control sequence.
-l.3 \abx@aux@sortscheme
-                       {none}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 \abx@aux@sortscheme{n
-                         one}
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-(./intro.aux)
-! Undefined control sequence.
-l.40 \abx@aux@cite
-                  {OpenFlowStanford}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.41 \abx@aux@cite
-                  {InternetGlobalGrowthImpactDevelopingCountries}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.42 \abx@aux@cite
-                  {CiscoVNI2013}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.43 \abx@aux@cite
-                  {deuxAnsInstagram}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.44 \abx@aux@cite
-                  {InternetSustainGrowthIntro}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.45 \abx@aux@cite
-                  {IMBigData}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.46 \abx@aux@cite
-                  {CloudComputingIntelVision}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.47 \abx@aux@cite
-                  {InternetEvolutionRoleSoftwareEngineeringConclusion}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-(./chap1.aux)
-! Undefined control sequence.
-l.49 \abx@aux@cite
-                  {InternetEvolutionRoleSoftwareEngineeringRealInternet}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.50 \abx@aux@cite
-                  {OpenFlowStanfordOssification}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.51 \abx@aux@cite
-                  {SurveySDNIntro}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.52 \abx@aux@cite
-                  {ICANNIPv6Important}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.53 \abx@aux@cite
-                  {SurveySDNArchi}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.54 \abx@aux@cite
-                  {IBMManagingGrowingPainsNeed}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.55 \abx@aux@cite
-                  {CentralIssuesNetworkManagementConclusion}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.56 \abx@aux@cite
-                  {ImplementationChallengesForSDN}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.57 \abx@aux@cite
-                  {NGSIManagement}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.58 \abx@aux@cite
-                  {fabricIntro}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.59 \abx@aux@cite
-                  {InernetCleanSlateDesignIntro}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.60 \abx@aux@cite
-                  {InernetCleanSlateDesignApproach}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-(./chap2.aux)
-! Undefined control sequence.
-l.62 \abx@aux@cite
-                  {NETCONF}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.63 \abx@aux@cite
-                  {Ethane}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.64 \abx@aux@cite
-                  {GENI}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.65 \abx@aux@cite
-                  {SDNNewNormONFExecutiveSummary}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.66 \abx@aux@cite
-                  {ImplementationChallengesForSDNBackground}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.67 \abx@aux@cite
-                  {sdnbookControlDataPlanes}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.68 \abx@aux@cite
-                  {sndChineseBookConceptsApplications}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.69 \abx@aux@cite
-                  {WhySDN}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.70 \abx@aux@cite
-                  {ImplementationKeyChallenges}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-(./chap4.aux) (./chap5.aux)
-! Undefined control sequence.
-l.73 \abx@aux@cite
-                  {ONFOverview}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.74 \abx@aux@cite
-                  {ExecutiveGuideToSDNLinux}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.75 \abx@aux@cite
-                  {42Vendors}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.76 \abx@aux@cite
-                  {ProductDirectory}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.77 \abx@aux@cite
-                  {2013GuideSDNNVEcosystem}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.78 \abx@aux@cite
-                  {ExecutiveGuideToSDNHP}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.79 \abx@aux@cite
-                  {ExecutiveGuideToSDNHPFabric}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.80 \abx@aux@cite
-                  {CiscoSDNONE}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.81 \abx@aux@cite
-                  {ExecutiveGuideToSDNCisco}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.82 \abx@aux@cite
-                  {startupsSDN}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.83 \abx@aux@cite
-                  {ExecutiveGuideToSDNBigSwitch}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.84 \abx@aux@cite
-                  {BigSwitchLaunchesFirst}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.85 \abx@aux@cite
-                  {BigSwitchAnnouncement}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-(./concl.aux) (./ann1.aux)
-! Undefined control sequence.
-l.91 \abx@aux@cite
-                  {fabricExtending}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.92 \abx@aux@cite
-                  {OpenDaylight}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.93 \abx@aux@cite
-                  {OpenSource}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.94 \abx@aux@cite
-                  {OpenFlowStanfordSwitch}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.95 \abx@aux@cite
-                  {paradigmdef}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.96 \abx@aux@cite
-                  {newparadigm}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-)
+ (./ebt.aux (./intro.aux)
+(./chap1.aux) (./chap2.aux) (./chap4.aux) (./chap5.aux) (./concl.aux)
+(./ann1.aux))
 \openout1 = `ebt.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 187.
@@ -1455,29 +998,6 @@ LaTeX Font Info:    Try loading font information for T1+lmr on input line 187.
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
-Overfull \hbox (7.34937pt too wide) in paragraph at lines 3--13
-\T1/cmr/m/n/12 ter-ne-tE-vo-lu-tion-Ro-le-Soft-wa-reEn-gi-nee-rin-gRea-lIn-ter-
-net Open-FlowS-tan-for-dOs-si-fi-ca-tion Sur-
- []
-
-
-Overfull \hbox (1.11058pt too wide) in paragraph at lines 3--13
-\T1/cmr/m/n/12 veySD-NIn-tro ICAN-NIPv6Important Sur-veySD-NAr-chi IBM-Ma-na-gi
-ng-Gro-wing-Pains-Need
- []
-
-
-Overfull \hbox (0.2637pt too wide) in paragraph at lines 3--13
-\T1/cmr/m/n/12 Cen-tra-lIs-sues-Net-work-Ma-na-ge-ment-Con-clu-sion Im-ple-men-
-ta-tion-Chal-len-ges-ForSDN NG-SI-
- []
-
-
-Overfull \hbox (7.49806pt too wide) in paragraph at lines 3--13
-\T1/cmr/m/n/12 Ma-na-ge-ment fa-bri-cIn-tro Iner-net-CleanS-la-te-De-si-gnIn-tr
-o Iner-net-CleanS-la-te-De-si-gnAp-proach
- []
-
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count287
 \scratchdimen=\dimen141
@@ -1493,13 +1013,10 @@ o Iner-net-CleanS-la-te-De-si-gnAp-proach
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-
-
-Package biblatex Warning: File 'ebt.bcf' created by wrong version.
-
 \openout3 = `ebt.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
+
 
 Package biblatex Warning: File 'ebt.bbl' created by wrong version.
 
@@ -1619,7 +1136,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 pdfTeX warning: pdflatex (file ./couverture-ebt.pdf): PDF inclusion: found PDF 
 version <1.5>, but at most version <1.4> allowed
-<couverture-ebt.pdf, id=114, page=1, 597.50829pt x 845.0471pt>
+<couverture-ebt.pdf, id=113, page=1, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 1>
@@ -1636,7 +1153,7 @@ File: couverture-ebt.pdf Graphic file (type pdf)
 
 pdfTeX warning: pdflatex (file ./couverture-ebt.pdf): PDF inclusion: found PDF 
 version <1.5>, but at most version <1.4> allowed
-<couverture-ebt.pdf, id=139, page=2, 597.50829pt x 845.0471pt>
+<couverture-ebt.pdf, id=138, page=2, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 2>
@@ -1746,7 +1263,7 @@ l.41
 
 
 ]
-<images/IncreasingPressureOnNetworkInfra2.png, id=288, 437.38406pt x 441.14813p
+<images/IncreasingPressureOnNetworkInfra2.png, id=287, 437.38406pt x 441.14813p
 t>
 File: images/IncreasingPressureOnNetworkInfra2.png Graphic file (type png)
  <use images/IncreasingPressureOnNetworkInfra2.png>
@@ -1777,11 +1294,19 @@ Overfull \hbox (9.10292pt too wide) in paragraph at lines 24--25
 
 
 
-] <images/TraditionalVsSDN.png, id=357, 770.88pt x 578.16pt>
+] <images/TraditionalVsSDN.png, id=356, 770.88pt x 578.16pt>
 File: images/TraditionalVsSDN.png Graphic file (type png)
 
-<use images/TraditionalVsSDN.png> [8 <./images/TraditionalVsSDN.png>] [9])
-[10]
+<use images/TraditionalVsSDN.png> [8 <./images/TraditionalVsSDN.png>] [9]
+
+LaTeX Warning: Citation 'AdoptionResearchTrendsImplementationIssues' on page 10
+ undefined on input line 94.
+
+
+LaTeX Warning: Citation 'CiscoSDNWhyLike' on page 10 undefined on input line 10
+0.
+
+) [10]
 \openout2 = `chap4.aux'.
 
  (./chap4.tex
@@ -1801,7 +1326,7 @@ Chapitre 3.
 
 ]
 Chapitre 4.
-[13] <images/openflowArchi.png, id=438, 602.25pt x 402.50375pt>
+[13] <images/openflowArchi.png, id=439, 602.25pt x 402.50375pt>
 File: images/openflowArchi.png Graphic file (type png)
 
 <use images/openflowArchi.png> [14 <./images/openflowArchi.png (PNG copy)>]
@@ -1914,7 +1439,7 @@ version <1.5>, but at most version <1.4> allowed
 
 pdfTeX warning: pdflatex (file ./couverture-ebt.pdf): PDF inclusion: found PDF 
 version <1.5>, but at most version <1.4> allowed
-<couverture-ebt.pdf, id=640, page=3, 597.50829pt x 845.0471pt>
+<couverture-ebt.pdf, id=641, page=3, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 3>
@@ -1931,7 +1456,7 @@ File: couverture-ebt.pdf Graphic file (type pdf)
 
 pdfTeX warning: pdflatex (file ./couverture-ebt.pdf): PDF inclusion: found PDF 
 version <1.5>, but at most version <1.4> allowed
-<couverture-ebt.pdf, id=645, page=4, 597.50829pt x 845.0471pt>
+<couverture-ebt.pdf, id=646, page=4, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 4>
@@ -1946,9 +1471,6 @@ File: couverture-ebt.pdf Graphic file (type pdf)
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                ebt
 (biblatex)                and rerun LaTeX afterwards.
@@ -1958,26 +1480,25 @@ Package logreq Info: Writing requests to 'ebt.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 15847 strings out of 495028
- 248639 string characters out of 1181229
+ 15843 strings out of 495028
+ 248550 string characters out of 1181229
  544005 words of memory out of 3000000
- 18514 multiletter control sequences out of 15000+50000
+ 18510 multiletter control sequences out of 15000+50000
  46209 words of font info for 37 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  43i,16n,49p,1453b,1949s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/en
-c/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc
-}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/typ
-e1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></u
-sr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/pu
-blic/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/
-texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/
-lmro12.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/tex
-mf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmt
-t12.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on ebt.pdf (46 pages, 1058614 bytes).
+c/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/s
+hare/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/publi
+c/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/
+texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/l
+mr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmro12.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10
+.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts
+/type1/public/lm/lmtt12.pfb>
+Output written on ebt.pdf (46 pages, 1039513 bytes).
 PDF statistics:
- 731 PDF objects out of 1000 (max. 8388607)
+ 728 PDF objects out of 1000 (max. 8388607)
  162 named destinations out of 1000 (max. 500000)
  256 words of extra memory for PDF output out of 10000 (max. 10000000)
 
