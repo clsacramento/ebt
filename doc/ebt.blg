@@ -1,20 +1,25 @@
 [0] Config.pm:387> INFO - This is Biber 1.6
 [0] Config.pm:390> INFO - Logfile is 'ebt.blg'
-[81] biber-darwin:218> INFO - === Mon Mar 24, 2014, 09:19:08
-[82] Biber.pm:325> INFO - Reading 'ebt.bcf'
-[147] Biber.pm:600> INFO - Using all citekeys in bib section 0
-[159] Biber.pm:2995> INFO - Processing section 0
-[175] Biber.pm:3129> INFO - Looking for bibtex format file 'biblio.bib' for section 0
-[177] bibtex.pm:898> INFO - Decoding LaTeX character macros into UTF-8
-[186] bibtex.pm:775> INFO - Found BibTeX data source 'biblio.bib'
-[275] Utils.pm:169> WARN - BibTeX subsystem: /var/folders/kw/9pgq66hs78j4wprx437vd0pr0000gn/T/IQ9bPYCd5D/biblio.bib_2739.utf8, line 158, warning: undefined macro "August"
-[275] Utils.pm:169> WARN - BibTeX subsystem: /var/folders/kw/9pgq66hs78j4wprx437vd0pr0000gn/T/IQ9bPYCd5D/biblio.bib_2739.utf8, line 538, warning: 65 characters of junk seen at toplevel
-[275] Utils.pm:169> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
-[275] Utils.pm:169> WARN - BibTeX subsystem: author, warning: comma(s) at end of name (removing)
-[308] Utils.pm:169> WARN - The field 'month' in entry 'CloudComputingIntelVision' cannot be null, deleting it
-[496] Biber.pm:2881> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
-[497] Biber.pm:2887> INFO - Sorting 'entry' list 'none' keys
-[497] Biber.pm:2891> INFO - No sort tailoring available for locale 'en_US.UTF-8'
-[868] bbl.pm:472> INFO - Writing 'ebt.bbl' with encoding 'UTF-8'
-[876] bbl.pm:545> INFO - Output to ebt.bbl
-[876] Biber.pm:105> INFO - WARNINGS: 5
+[131] biber-darwin:218> INFO - === Tue Mar 25, 2014, 19:18:20
+[132] Biber.pm:325> INFO - Reading 'ebt.bcf'
+[254] Biber.pm:600> INFO - Using all citekeys in bib section 0
+[271] Biber.pm:2995> INFO - Processing section 0
+[293] Biber.pm:3129> INFO - Looking for bibtex format file 'biblio.bib' for section 0
+[296] bibtex.pm:898> INFO - Decoding LaTeX character macros into UTF-8
+[308] bibtex.pm:775> INFO - Found BibTeX data source 'biblio.bib'
+[320] Utils.pm:169> WARN - Name "Vishy Ganti, Verizon; Vince Lubsey, Virtustream; Mrigank Shekhar, Intel; Chris Swan, CohesiveFT" has too many commas: skipping name
+[386] Utils.pm:169> WARN - Name "Vishy Ganti, Verizon; Vince Lubsey, Virtustream; Mrigank Shekhar, Intel; Chris Swan, CohesiveFT" has too many commas: skipping name
+[401] Utils.pm:169> WARN - BibTeX subsystem: /var/folders/kw/9pgq66hs78j4wprx437vd0pr0000gn/T/fSwKvWKyR2/biblio.bib_4600.utf8, line 158, warning: undefined macro "August"
+[401] Utils.pm:169> WARN - BibTeX subsystem: /var/folders/kw/9pgq66hs78j4wprx437vd0pr0000gn/T/fSwKvWKyR2/biblio.bib_4600.utf8, line 538, warning: 65 characters of junk seen at toplevel
+[401] Utils.pm:169> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[401] Utils.pm:169> WARN - BibTeX subsystem: author, warning: comma(s) at end of name (removing)
+[434] Utils.pm:169> WARN - The field 'month' in entry 'CloudComputingIntelVision' cannot be null, deleting it
+[444] Utils.pm:169> WARN - The field 'author' in entry 'ODCA' cannot be null, deleting it
+[444] Utils.pm:169> WARN - The field 'note' in entry 'ODCA' cannot be null, deleting it
+[445] Utils.pm:169> WARN - The field 'author' in entry 'ODCAintro' cannot be null, deleting it
+[634] Biber.pm:2881> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[635] Biber.pm:2887> INFO - Sorting 'entry' list 'none' keys
+[635] Biber.pm:2891> INFO - No sort tailoring available for locale 'en_US.UTF-8'
+[1032] bbl.pm:472> INFO - Writing 'ebt.bbl' with encoding 'UTF-8'
+[1041] bbl.pm:545> INFO - Output to ebt.bbl
+[1041] Biber.pm:105> INFO - WARNINGS: 10
