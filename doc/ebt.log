@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.2.18)  26 MAR 2014 15:26
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.2.18)  26 MAR 2014 17:43
 entering extended mode
  %&-line parsing enabled.
 **ebt.tex
@@ -971,29 +971,29 @@ Package biblatex Info: ... file 'french.lbx' found.
 File: french.lbx 2011/11/13 v1.7 biblatex localization
 )
 \@quotereset=\count286
-Package csquotes Info: Adjusting default style on input line 189.
-Package csquotes Info: Redefining alias 'default' -> 'french' on input line 189
+Package csquotes Info: Adjusting default style on input line 190.
+Package csquotes Info: Redefining alias 'default' -> 'french' on input line 190
 .
  (./ebt.aux (./intro.aux)
 (./chap1.aux) (./chap2.aux) (./chap4.aux) (./chap5.aux) (./concl.aux)
 (./ann1.aux))
 \openout1 = `ebt.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 189.
-LaTeX Font Info:    ... okay on input line 189.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 189.
-LaTeX Font Info:    ... okay on input line 189.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 189.
-LaTeX Font Info:    ... okay on input line 189.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 189.
-LaTeX Font Info:    ... okay on input line 189.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 189.
-LaTeX Font Info:    ... okay on input line 189.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 189.
-LaTeX Font Info:    ... okay on input line 189.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 189.
-LaTeX Font Info:    ... okay on input line 189.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 189.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 190.
  (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1055,10 +1055,10 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 )
-Package biblatex Info: Reference section=0 on input line 189.
-Package biblatex Info: Reference segment=0 on input line 189.
+Package biblatex Info: Reference section=0 on input line 190.
+Package biblatex Info: Reference segment=0 on input line 190.
  ABD: EveryShipout initializing macros
-Package hyperref Info: Link coloring OFF on input line 189.
+Package hyperref Info: Link coloring OFF on input line 190.
 
 (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
@@ -1088,22 +1088,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--33
 )
 \c@section@level=\count292
 )
-LaTeX Info: Redefining \ref on input line 189.
-LaTeX Info: Redefining \pageref on input line 189.
+LaTeX Info: Redefining \ref on input line 190.
+LaTeX Info: Redefining \pageref on input line 190.
  (./ebt.out) (./ebt.out)
 \@outlinefile=\write8
 \openout8 = `ebt.out'.
 
 \AtBeginShipoutBox=\box35
-LaTeX Info: Redefining \degres on input line 189.
+LaTeX Info: Redefining \degres on input line 190.
 
 
 Package frenchb.ldf Warning: The definition of \@makecaption has been changed,
 (frenchb.ldf)                frenchb will NOT customise it;
-(frenchb.ldf)                reported on input line 189.
+(frenchb.ldf)                reported on input line 190.
 
-LaTeX Info: Redefining \dots on input line 189.
-LaTeX Info: Redefining \up on input line 189.
+LaTeX Info: Redefining \dots on input line 190.
+LaTeX Info: Redefining \up on input line 190.
    defining Unicode char U+00AB (decimal 171)
    defining Unicode char U+00BB (decimal 187)
 
@@ -1114,35 +1114,35 @@ version <1.5>, but at most version <1.4> allowed
 
 pdfTeX warning: pdflatex (file ./couverture-ebt.pdf): PDF inclusion: found PDF 
 version <1.5>, but at most version <1.4> allowed
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 190.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 191.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 190.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 191.
 
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 190
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 191
 .
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 190
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 191
 .
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 190.
+(Font)              <12> on input line 191.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 190.
+(Font)              <8> on input line 191.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 190.
+(Font)              <6> on input line 191.
  [1
 
 \openout5 = `ebt.ist'.
@@ -1151,7 +1151,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 pdfTeX warning: pdflatex (file ./couverture-ebt.pdf): PDF inclusion: found PDF 
 version <1.5>, but at most version <1.4> allowed
-<couverture-ebt.pdf, id=121, page=1, 597.50829pt x 845.0471pt>
+<couverture-ebt.pdf, id=113, page=1, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 1>
@@ -1168,7 +1168,7 @@ File: couverture-ebt.pdf Graphic file (type pdf)
 
 pdfTeX warning: pdflatex (file ./couverture-ebt.pdf): PDF inclusion: found PDF 
 version <1.5>, but at most version <1.4> allowed
-<couverture-ebt.pdf, id=146, page=2, 597.50829pt x 845.0471pt>
+<couverture-ebt.pdf, id=138, page=2, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 2>
@@ -1183,7 +1183,7 @@ File: couverture-ebt.pdf Graphic file (type pdf)
 
 
 ]
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 198.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 199.
 
 
 (/usr/share/texmf/tex/latex/lm/t1lmss.fd
@@ -1203,7 +1203,13 @@ Class scrbook Info: You've told me to use the font selection of the element
 (scrbook)            on input line 25.
 Class scrbook Info: You've told me to use the font selection of the element
 (scrbook)           `sectioning' that is an alias of element `disposition'
-(scrbook)            on input line 37.
+(scrbook)            on input line 33.
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 47.
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 49.
 Class scrbook Info: You've told me to use the font selection of the element
 (scrbook)           `sectioning' that is an alias of element `disposition'
 (scrbook)            on input line 51.
@@ -1213,12 +1219,6 @@ Class scrbook Info: You've told me to use the font selection of the element
 Class scrbook Info: You've told me to use the font selection of the element
 (scrbook)           `sectioning' that is an alias of element `disposition'
 (scrbook)            on input line 55.
-Class scrbook Info: You've told me to use the font selection of the element
-(scrbook)           `sectioning' that is an alias of element `disposition'
-(scrbook)            on input line 57.
-Class scrbook Info: You've told me to use the font selection of the element
-(scrbook)           `sectioning' that is an alias of element `disposition'
-(scrbook)            on input line 59.
 )
 \tf@toc=\write9
 \openout9 = `ebt.toc'.
@@ -1262,7 +1262,7 @@ l.41 \par
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.204 \include{intro}
+l.205 \include{intro}
                       [2]
 \openout2 = `chap1.aux'.
 
@@ -1279,7 +1279,7 @@ l.41
 
 
 ]
-<images/IncreasingPressureOnNetworkInfra2.png, id=305, 437.38406pt x 441.14813p
+<images/IncreasingPressureOnNetworkInfra2.png, id=297, 437.38406pt x 441.14813p
 t>
 File: images/IncreasingPressureOnNetworkInfra2.png Graphic file (type png)
  <use images/IncreasingPressureOnNetworkInfra2.png>
@@ -1310,7 +1310,7 @@ Overfull \hbox (9.10292pt too wide) in paragraph at lines 24--25
 
 
 
-] <images/TraditionalVsSDN.png, id=374, 770.88pt x 578.16pt>
+] <images/TraditionalVsSDN.png, id=366, 770.88pt x 578.16pt>
 File: images/TraditionalVsSDN.png Graphic file (type png)
 
 <use images/TraditionalVsSDN.png> [8 <./images/TraditionalVsSDN.png>] [9])
@@ -1352,19 +1352,56 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--49
 LaTeX Warning: Citation '2013GuideSDNNVTable12' on page 12 undefined on input l
 ine 56.
 
+
+LaTeX Warning: Citation 'OpenFlowStanfordUsing' on page 12 undefined on input l
+ine 63.
+
+<images/DataCenterL2Bridging.png, id=425, 1035.87pt x 547.04375pt>
+File: images/DataCenterL2Bridging.png Graphic file (type png)
+
+<use images/DataCenterL2Bridging.png>
+
+LaTeX Warning: Citation 'ODCAusageScenarios' on page 12 undefined on input line
+ 78.
+
+
+LaTeX Warning: Citation 'ODCAusageScenarios' on page 12 undefined on input line
+ 78.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Citation 'FlowScale' on page 12 undefined on input line 82.
+
+
+LaTeX Warning: Citation 'ElasticTree' on page 12 undefined on input line 88.
+
+
+LaTeX Warning: Citation 'Honeyguide' on page 12 undefined on input line 88.
+
 [12
 
-]) [13]
+] [13 <./images/DataCenterL2Bridging.png (PNG copy)>]
+
+LaTeX Warning: Citation 'OpenFlowStanfordUsing' on page 14 undefined on input l
+ine 109.
+
+
+LaTeX Warning: Citation 'SurveySDNApplications' on page 14 undefined on input l
+ine 125.
+
+[14]) [15]
 \openout2 = `chap5.aux'.
 
- (./chap5.tex [14
+ (./chap5.tex [16
 
 
 
 
 ]
 Chapitre 4.
-[15] <images/openflowArchi.png, id=474, 602.25pt x 402.50375pt>
+[17] <images/openflowArchi.png, id=482, 602.25pt x 402.50375pt>
 File: images/openflowArchi.png Graphic file (type png)
 
 <use images/openflowArchi.png>
@@ -1407,10 +1444,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--84
 \T1/lmr/m/n/12 Day-light Consor-tium,
  []
 
-[16 <./images/openflowArchi.png (PNG copy)>] [17] [18]) [19] [20]
+[18 <./images/openflowArchi.png (PNG copy)>] [19] [20]) [21] [22]
 \openout2 = `concl.aux'.
 
- (./concl.tex) [21
+ (./concl.tex) [23
 
 
 
@@ -1418,90 +1455,90 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--84
 ]
 \openout2 = `ann1.aux'.
 
- (./ann1.tex [22
+ (./ann1.tex [24
 
 
 
 
 ]
 Annexe A.
-) [23] [24
+) [25] [26
 
 ]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 223.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 224.
 
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 223.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 224.
 
 
 (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 223.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 224.
 
-Overfull \hbox (22.63345pt too wide) in paragraph at lines 224--224
+Overfull \hbox (22.63345pt too wide) in paragraph at lines 225--225
 []\T1/lmr/m/it/12 Cisco Vi-sual Net-wor-king In-dex: Glo-bal Mo-bile Data Traf-
 fic Fo-re-cast Up-date, 2012^^U2017\T1/lmr/m/n/12 .
  []
 
 
-Overfull \hbox (0.85542pt too wide) in paragraph at lines 224--224
+Overfull \hbox (0.85542pt too wide) in paragraph at lines 225--225
 []\T1/lmr/m/it/12 Information Ma-na-ge-ment and Big Data A Re-fe-rence Ar-chi-t
 ec-ture\T1/lmr/m/n/12 . An Oracle White
  []
 
-[25
+[27
 
 
 
 
-] [26]
-Overfull \hbox (4.1795pt too wide) in paragraph at lines 224--224
+] [28]
+Overfull \hbox (4.1795pt too wide) in paragraph at lines 225--225
 \T1/lmr/m/n/12 Ethan Banks, http://searchsdn.techtarget.com/news/2240212374/Thi
 nking-about-
  []
 
 
-Overfull \hbox (24.04268pt too wide) in paragraph at lines 224--224
+Overfull \hbox (24.04268pt too wide) in paragraph at lines 225--225
 []\T1/lmr/m/it/12 SDN Pro-duct Di-rec-tory\T1/lmr/m/n/12 . https://www.opennetw
 orking.org/sdn-resources/onf-products-
  []
 
-[27]
-Overfull \hbox (9.3056pt too wide) in paragraph at lines 224--224
+[29]
+Overfull \hbox (9.3056pt too wide) in paragraph at lines 225--225
 \T1/lmr/m/it/12 works\T1/lmr/m/n/12 . Web Site. http://searchsdn.techtarget.com
 /tip/Dont-overlook-SDN-startups-
  []
 
 
-Overfull \hbox (77.27328pt too wide) in paragraph at lines 224--224
+Overfull \hbox (77.27328pt too wide) in paragraph at lines 225--225
 \T1/lmr/m/n/12 http://www.reuters.com/article/2012/11/13/bigswitchnetworks-sdn-
 idUSL1E8MD05D20121113.
  []
 
 
-Overfull \hbox (2.4868pt too wide) in paragraph at lines 224--224
+Overfull \hbox (2.4868pt too wide) in paragraph at lines 225--225
 \T1/lmr/m/n/12 Web Site. http://www.networkworld.com/community/blog/highlights-
 big-switchs-
  []
 
-[28]
+[30]
 No file ebt.ind.
-(./ebt.gls [29] [30
+(./ebt.gls [31] [32
 
 
-] [31
+] [33
 
 
-]) (./ebt.acr [32]) [33
+]) (./ebt.acr [34]) [35
 
 
 
 
-] [34
+] [36
 
 
 ]
@@ -1516,7 +1553,7 @@ version <1.5>, but at most version <1.4> allowed
 
 pdfTeX warning: pdflatex (file ./couverture-ebt.pdf): PDF inclusion: found PDF 
 version <1.5>, but at most version <1.4> allowed
-<couverture-ebt.pdf, id=678, page=3, 597.50829pt x 845.0471pt>
+<couverture-ebt.pdf, id=684, page=3, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 3>
@@ -1529,11 +1566,11 @@ File: couverture-ebt.pdf Graphic file (type pdf)
  <use couverture-ebt.pdf, page 3>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
-<use couverture-ebt.pdf, page 3> [35 <./couverture-ebt.pdf>]
+<use couverture-ebt.pdf, page 3> [37 <./couverture-ebt.pdf>]
 
 pdfTeX warning: pdflatex (file ./couverture-ebt.pdf): PDF inclusion: found PDF 
 version <1.5>, but at most version <1.4> allowed
-<couverture-ebt.pdf, id=683, page=4, 597.50829pt x 845.0471pt>
+<couverture-ebt.pdf, id=690, page=4, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 4>
@@ -1541,11 +1578,14 @@ File: couverture-ebt.pdf Graphic file (type pdf)
  <use couverture-ebt.pdf, page 4>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
-<use couverture-ebt.pdf, page 4> [36 <./couverture-ebt.pdf>] (./ebt.aux
+<use couverture-ebt.pdf, page 4> [38 <./couverture-ebt.pdf>] (./ebt.aux
 (./intro.aux) (./chap1.aux) (./chap2.aux) (./chap4.aux) (./chap5.aux)
 (./concl.aux) (./ann1.aux))
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package biblatex Warning: Please (re)run Biber on the file:
@@ -1557,25 +1597,28 @@ Package logreq Info: Writing requests to 'ebt.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 15879 strings out of 495028
- 249178 string characters out of 1181229
- 544673 words of memory out of 3000000
- 18535 multiletter control sequences out of 15000+50000
+ 15903 strings out of 495028
+ 249613 string characters out of 1181229
+ 545194 words of memory out of 3000000
+ 18556 multiletter control sequences out of 15000+50000
  46209 words of font info for 37 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  43i,16n,49p,1453b,1951s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/en
-c/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/s
-hare/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/publi
-c/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/
-texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/l
-mr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fo
-nts/type1/public/lm/lmro12.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10
-.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts
-/type1/public/lm/lmtt12.pfb>
-Output written on ebt.pdf (48 pages, 1054231 bytes).
+pdfTeX warning (dest): name{glo:iaas} has been referenced but does not exist,
+ replaced by a fixed one
+
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/
+dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/sha
+re/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/
+lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/te
+xmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr
+8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/font
+s/type1/public/lm/lmro12.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.p
+fb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/t
+ype1/public/lm/lmtt12.pfb>
+Output written on ebt.pdf (50 pages, 1214477 bytes).
 PDF statistics:
- 767 PDF objects out of 1000 (max. 8388607)
- 173 named destinations out of 1000 (max. 500000)
- 272 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 775 PDF objects out of 1000 (max. 8388607)
+ 175 named destinations out of 1000 (max. 500000)
+ 261 words of extra memory for PDF output out of 10000 (max. 10000000)
 
