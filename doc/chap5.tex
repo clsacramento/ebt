@@ -52,8 +52,7 @@ La fondation Linux avec son projet \gls{opendaylight} a introduit une plateforme
 %Many companies are offering a wide array of SDN products. However, each SDN product strategy can differ radically from company to company. While some base their products on the traditional view of SDN, others offer software overlays with hypervisors that control the virtual network.
 Diverses entreprises offrent une large gamme de produits SDN. Toutefois, les stratégies de chaque produit SDN peuvent différer radicalement parmi les organisations. Alors que certaines basent leurs produits dans le vu traditionnelle de SDN, d'autres proposent leurs propres visions et offrent des produits dans ce contexte. Un article sur SearchSDN \cite{42Vendors} propose une liste représentative des principaux vendeurs. ONF divulgue une liste de produits SDN soumis par ces membres \cite{ProductDirectory}.  
 
-Les catégories des produits varient aussi en fonction du segment des sociétés qui les offrent. En général, les commerçants de chips/silicium proposent des processeurs optimisant la performance du hardware de commutation.  Les vendeurs de switchs offrent du matériel capable de communiquer avec un contrôleur SDN. Les spécialistes de la \gls{virtualisation} offrent de solutions logiciel simulant de switchs ou routerus SDN virtualisés. Autres organisations vont investir sur le développement d'un contrôleur SDN. Une pratique adoptée par les géants de l'industrie est l'offre de tout l'écosystème SDN souvent accentuation des applications pour l'automatisation de \gls{datacenter}.
- \cite{2013GuideSDNNVEcosystem} L'image \ref{imgArchi} montre l'architecture de base SDN qui peut être très proche de certaines solutions ou assez différente selon la stratégie du vendeur.
+Les catégories des produits varient aussi en fonction du segment des sociétés qui les offrent. En général, les commerçants de chips/silicium proposent des processeurs optimisant la performance du hardware de commutation.  Les vendeurs de switchs offrent du matériel capable de communiquer avec un contrôleur SDN. Les spécialistes de la \gls{virtualisation} offrent de solutions logiciel simulant de switchs ou routeurs SDN virtualisés. Autres organisations vont investir sur le développement d'un contrôleur SDN. Une pratique adoptée par les géants de l'industrie est l'offre de tout l'écosystème SDN souvent accentuation des applications pour l'automatisation de \gls{datacenter}.\cite{2013GuideSDNNVEcosystem} L'image \ref{imgArchi} montre l'architecture de base SDN qui peut être très proche de certaines solutions ou assez différente selon la stratégie du vendeur.
  
 \begin{figure}[!h] %on ouvre l'environnement figure
 \includegraphics[width=15cm]{images/openflowArchi.png} %ou image.png, .jpeg etc.
@@ -61,6 +60,33 @@ Les catégories des produits varient aussi en fonction du segment des sociétés
 \label{imgArchi} %l'étiquette pour faire référence à cette image
 \end{figure} %on ferme l'environnement figure
  
+Le tableau ci-dessous identifie les principaux produits SDN et les organisations plus représentatives leurs fournissant.
+
+\begin{table}[!h]
+\centering
+\begin{tabular}{|p{8cm}|p{5cm}|}
+\hline 
+\bf Produit & \bf Vendeur \\ 
+\hline 
+Chips pour matériel réseau & Boradcom, Intel, Marvell, Mellanox \\ 
+\hline 
+Switches SDN & Alcatel-Lucent, Avaya, Cisco, Dell, Extreme Networks, HP, NEC, PICA-8, IBM \\ 
+\hline 
+Systèmes pour le management et automatisation du réseau & Packet Design, QualiSystems, EMC, NetScout, CA \\ 
+\hline 
+Services réseau avec SDN & Embrane, A10, Radware, HP, Riverbed, Citrix, Cisco,  Extreme Networks, NEC \\ 
+\hline 
+Outils pour la réalisation de tets, les propres résultats des tests & QualiSystems, inCNTRE, Ixia, Spirent \\ 
+\hline 
+Standards et protocoles & ONF, IEEE, IETF \\ 
+\hline 
+Controôleur SDN & Big Szitch Networks, NEC, Nuage Networks, Netsocket, HP, Cisco, Open Daylight Consortium, VMware/Nicira \\ 
+\hline 
+Switchs virtuels et APIs & Citrix, Microsoft, VMWare, Big Switch Networks, Cisco \\ 
+\hline 
+\end{tabular} 
+\caption{Produits SDN et les principaux fournisseurs \cite{2013GuideSDNNVEcosystem}}
+\end{table} 
  
 Ensuite ce document présente des principales solutions construites par des plus conséquents vendeurs du marché.
 

@@ -6,10 +6,10 @@
 Une infinité d'applications et de cas d'utilisation sont imaginables. Ce chapitre propose d'analyser les enjeux qu'on espère de répondre avec SDN et de présenter des applications plutôt ciblées sur ces expectatives. De cette analyse, les cas d'utilisation plus cohérents seront identifiés et ensuite détaillés.
 
  
-%\section{Identifications des applications espérées par les principaux utilisateurs}
+%\section{Identifications des applications espérées par les utilisateurs}
 
 %In August and September of 2013 a survey was given to the subscribers of Webtorials.
-Entre les mois d'août et septembre de 2013, Webtorials a réalisé un sondage auprès de ces abonnés. Une des enquêtes a été sur les challenges et opportunités qu'ils pensent pouvoir adresser avec SDN au sein des organisations de \gls{ti} typiques. Le tableau ci-dessous affiche la pourcentage de réponses positives pour chaque challenge. \cite{2013GuideSDNNVUseCases}
+Entre les mois d'août et septembre de 2013, Webtorials a réalisé un sondage auprès de ces abonnés. Une des enquêtes a été sur les challenges et opportunités qu'ils pensent pouvoir adresser avec SDN au sein des organisations de \gls{ti} typiques. Le tableau 3.1 affiche la pourcentage de réponses positives pour chaque challenge. \cite{2013GuideSDNNVUseCases}
 
 \begin{table}[!h]
 \centering
@@ -46,18 +46,85 @@ Réduction des dépenses d'investissement de capital & 25\% \\
 Absence de challenges/opportunités pouvant être adressés par SDN & 3\% \\ 
 \hline 
 \end{tabular}
-\caption{Opportunités et Challenges pouvant être adressés par SDN \cite{2013GuideSDNNVTable11}}
+\caption{Opportunités et Challenges adressés par SDN \cite{2013GuideSDNNVTable11}}
 \end{table} 
 
 \clearpage
 
+De ces résultats on peut conclure que le marché compte pouvoir se bénéficier de SDN sur une vaste gamme de challenges et opportunités, c'est qui démontre des expectatives tout à fait favorables pour la technologie. Cette variété de sujets est en général intéressant pour l'adoption du \gls{paradigme} mais peut causer des confusions au début ralentissant les actions à ce moment-là.
 
-\section{Management du Réseau et Contrôle d'Accès}
-Association des flux aux groupe d'utilisateur permettant de définir les politiques d'accès à différents services.
+Dans les même sondage les participants on répondu que si leurs organisations implémentent SDN dans les deux ans que suivent, il est plus probable que cela soit sur \gls{datacenter} (54\%), section et/ou campus (26\%), WAN (23\%) ou pas d'implémentation SDN (11\%) \cite{2013GuideSDNNVTable12}. Par conséquent, les applications présentées ci-après sont classées sur ces trois cibles de déploiement.
 
-\section{VLANs}
-Réseaux isolés définis par flux.
 
-\section{Clients mobiles sans fil VoIP}
+
+
+\section{Data Center}
+
+
+
+%VLANs. OpenFlow can easily provide users with their own isolated network, just as VLANs do. The simplest approach is to statically declare a set of flows which specify the ports accessible by traffic on a given VLAN ID. Traffic identified as coming from a single user (for example, originating from specific switch ports or MAC addresses) is tagged by the switches (via an action) with the appropriate VLAN ID. A more dynamic approach might use a controller to manage authentication of users and use the knowledge of the
+users’ locations for tagging traffic at runtime.
+
+
+
+Most networking vendors offer data center fabric solutions featuring some form of Layer 2 multi-pathing to improve the networks capacity to handle “east-west” traffic flow characteristic of server virtualization, converged storage networking, and cluster computing. SDN provides an effective solution to this problem because the network path is determined by a central controller and does not require the use of STP. Thus, all inter-switch links can be fully utilized and traffic can be directed between multiple LANs without the need for first routing the traffic to higher-level switches.
+
+Enable Data Center L2 Network Bridging. SDN enables bridging of Layer 2 networks across multiple data centers, providing a single overlay network. With this capability, application architects can place compute clusters closer to their point of usage and support effective disaster recovery.
+
+\begin{figure}[!h] %on ouvre l'environnement figure
+\includegraphics[width=15cm]{images/DataCenterL2Bridging.png} %ou image.png, .jpeg etc.
+\caption{ Raccordement réseau de deux Data Centers \cite{ODCAusageScenarios}} %la légende
+\label{imgDCL2B} %l'étiquette pour faire référence à cette image
+\end{figure} %on ferme l'environnement figure
+
+
+Indiana University has developed an OpenFlow-based, load-balancing application called FlowScale. According to the University 15, “FlowScale provides complex, distributed load balancing of network traffic using an OpenFlow-capable Top of Rack (ToR) switch. IU deployed the application into its Intrusion Detection System (IDS) to distribute traffic evenly to sensors. When fully deployed, the system will span the IU Bloomington and IUPUI networks and have the capability to distribute traffic at rates exceeding 500Gb/s.”
+
+
+Network Taps. With OpenFlow virtual ports, the functionality of a network tap can be programmed into the OpenFlow switch, allowing selected traffic to be monitored without deploying physical taps. Traffic can also be replicated and redirected to any monitoring device in the network. Big Switch networks has announced such a network monitoring application referred to as Big Tap 16.
+
+Economie d'énergie [79]. They proposed ElasticTree, a network-wide power manager that utilizes SDN to find the minimum-power network subset which satisfies current traffic conditions and turns off switches that are not needed. As a result, they show energy savings between 25-62\% under varying traffic conditions. One can imagine that these savings can be further increased if used in parallel with server management and virtualization; one possibility is the Honeyguide[80] approach to energy optimization which uses virtual machine migration to increase the number of machines and switches that can be shutdown.
+
+
+Applications sur \gls{cloudcomputing}. Offering Infrastructure as a Service (IaaS), users only get a logical view of the underlying network and have limited control. SDN technologies have the capabilities to facilitate delegation of network controls and provide some level of network abstractions to end-users to enable them to configure their slice of the network. Delegating more control to the end-users could raise security concerns for the providers [Azodolmolky13]. SDN-based clouds will allow enterprises to have multi-vendor networks to avoid vendor lock-in. They can access dynamic bandwidth for ad- hoc, timely inter-data center workload migration and processing; and eliminate the burden of underutilized, costly high-capacity fixed private leased lines. SDN-enabled bandwidth-on-demand services provide automated and intelligent service provisioning, driven by cloud service orchestration logic and customer requirements.
+
+
+
+\section{Campus}
+
+Enterprises often run large networks, while also having strict security and performance requirements. Furthermore, different
+enterprise environments can have very different requirements, characteristics, and user population, For example, University networks can be considered a special case of enterprise networks: in such an environment, many of the connecting devices are temporary and not controlled by the University, further challenging security and resource allocation. Additionally, Universities must often provide support for research testbeds and experimental protocols. Adequate management is critically important in Enterprise environments, and SDN can be used to programmatically enforce and adjust network policies as well as help monitor network activity and tune network performance.
+
+Network Management and Access Control. An implementation of a controller, suited for network management and control, that manages the admittance and routing of flows. The basic idea is to allow network managers to define a Controller network-wide policy in the central controller, which is enforced directly by making admission control decisions for each new flow. A controller checks a new flow against a set of rules, such as “Guests can communicate using HTTP, but only via a web proxy” or “VoIP phones are not allowed to communicate with laptops.” A controller associates packets with their senders by managing all the bindings between names and addresses — it essentially takes over DNS, DHCP and authenticates all users when they join, keeping track of which switch port (or access point) they are connected to.
+
+Infrastructure-based Wireless Access Networks. Several efforts have focused on ubiquitous connectivity in the context of infrastructure-based wireless access networks,such as cellular and WiFi.
+Mobile wireless VOIP clients. For this example consider an experiment of a new call-handoff mechanism for WiFi-enabled phones. In the experiment VOIP clients establish a new connection over the OpenFlow-enabled network. A controller is implemented to track the
+location of clients, re-routing connections — by reprogram-ming the Flow Tables — as users move through the network, allowing seamless handoff from one access point to another. \cite{OpenFlowStanfordUsing}
+
+
+\section{WAN}
+Centralization allows optimum routes to be calculated deterministically for each flow by leveraging a complete model of the end-to-end topology of the network. Bandwidth allocations can be controlled dynamically to provide bandwidth on demand with changing traffic patterns. The result can be much better utilization of the network without sacrificing service quality. Centralized route processing also allows the pre-computation of a set of fail-over routes for each possible link or node failure. Centralized processing also can take advantage of the virtually unlimited processing power of multi-core processors and cluster computing for calculating routes and processing new flows. As shown in Table 11, being able to do end-to-end traffic engineering is one of the top three opportunities that The Survey Respondents associate with SDN.
+
+
+WAN traffic can be dynamically rerouted to reduce/control latency for VoIP and other latency sensitive applications. Traffic can also be load balanced over parallel paths of differing costs.
+
+With OpenFlow V 1.3, per flow meters can be used for rate limiting or to provide real time visibility of application performance allowing the controller to modify forwarding behavior to maximize application performance. For example, the controller can configure an OpenFlow switch to modify the QoS markings to change the priority received over the remainder of the end-to-end path.
+
+With extensions in V1.3 and V1.4, OpenFlow can support circuit-switched paradigms, including CWDM, DWDM, and MPLS with specific path selection and requested levels of CBR and priority. Circuits can be provisioned on a dynamic, scheduled, or permanent basis. Recovery from failed circuits can be via predetermined backup paths or by dynamic path selection. Circuit provisioning can take into account performance metrics, port states, and endpoint utilization.
+
+A practical example of a real application of the SDN concept and architecture in the context of data centers was presented by Google in early 2012. The company presented at the Open Network Summit [81] a large scale implementation of an SDN-based network connecting its data centers. The work in [82] presents in more detail the design, implementation, and evaluation of B4, a WAN connecting Google’s data centers world wide. This work describes one of the first and largest SDN deployments. The motivation was the need for customized routing and traffic engineering and the fact that the level of scalability, fault tolerance, cost efficiency and control required, could not be achieved by means of a traditional WAN architecture. A customized solution was proposed and an OpenFlow-based SDN architecture was built to control individual switches. After three years in production, B4 is
+shown to be efficient in the sense that it drives many links at near 100\% utilization while splitting flows among multiple
+paths. Furthermore, the experience reported in the work shows that the bottleneck resulting from control-plane to data-plane
+communication and overhead in hardware programming are important issues to be considered in future work. \cite{SurveySDNApplications}
+
+
+
+%\section{Management du Réseau et Contrôle d'Accès}
+%Association des flux aux groupe d'utilisateur permettant de définir les politiques d'accès à différents services.
+
+%\section{VLANs}
+%Réseaux isolés définis par flux.
+
+%\section{Clients mobiles sans fil VoIP}
 
 

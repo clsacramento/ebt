@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.2.18)  26 MAR 2014 11:32
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.2.18)  26 MAR 2014 15:26
 entering extended mode
  %&-line parsing enabled.
 **ebt.tex
@@ -1151,7 +1151,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 pdfTeX warning: pdflatex (file ./couverture-ebt.pdf): PDF inclusion: found PDF 
 version <1.5>, but at most version <1.4> allowed
-<couverture-ebt.pdf, id=113, page=1, 597.50829pt x 845.0471pt>
+<couverture-ebt.pdf, id=121, page=1, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 1>
@@ -1168,7 +1168,7 @@ File: couverture-ebt.pdf Graphic file (type pdf)
 
 pdfTeX warning: pdflatex (file ./couverture-ebt.pdf): PDF inclusion: found PDF 
 version <1.5>, but at most version <1.4> allowed
-<couverture-ebt.pdf, id=138, page=2, 597.50829pt x 845.0471pt>
+<couverture-ebt.pdf, id=146, page=2, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 2>
@@ -1203,13 +1203,7 @@ Class scrbook Info: You've told me to use the font selection of the element
 (scrbook)            on input line 25.
 Class scrbook Info: You've told me to use the font selection of the element
 (scrbook)           `sectioning' that is an alias of element `disposition'
-(scrbook)            on input line 33.
-Class scrbook Info: You've told me to use the font selection of the element
-(scrbook)           `sectioning' that is an alias of element `disposition'
-(scrbook)            on input line 47.
-Class scrbook Info: You've told me to use the font selection of the element
-(scrbook)           `sectioning' that is an alias of element `disposition'
-(scrbook)            on input line 49.
+(scrbook)            on input line 37.
 Class scrbook Info: You've told me to use the font selection of the element
 (scrbook)           `sectioning' that is an alias of element `disposition'
 (scrbook)            on input line 51.
@@ -1219,6 +1213,12 @@ Class scrbook Info: You've told me to use the font selection of the element
 Class scrbook Info: You've told me to use the font selection of the element
 (scrbook)           `sectioning' that is an alias of element `disposition'
 (scrbook)            on input line 55.
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 57.
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 59.
 )
 \tf@toc=\write9
 \openout9 = `ebt.toc'.
@@ -1227,9 +1227,9 @@ Class scrbook Info: You've told me to use the font selection of the element
 
 
 ] (./ebt.lot
-Overfull \hbox (76.16235pt too wide) in paragraph at lines 15--15
- [][] [][]\T1/lmr/m/n/12 Opportunités et Chal-lenges pou-vant être adres-sés pa
-r SDN [[]][] [][]  
+Overfull \hbox (9.90564pt too wide) in paragraph at lines 15--15
+ [][] [][]\T1/lmr/m/n/12 Opportunités et Chal-lenges adres-sés par SDN [[]][] [
+][]  
  []
 
 )
@@ -1279,7 +1279,7 @@ l.41
 
 
 ]
-<images/IncreasingPressureOnNetworkInfra2.png, id=291, 437.38406pt x 441.14813p
+<images/IncreasingPressureOnNetworkInfra2.png, id=305, 437.38406pt x 441.14813p
 t>
 File: images/IncreasingPressureOnNetworkInfra2.png Graphic file (type png)
  <use images/IncreasingPressureOnNetworkInfra2.png>
@@ -1310,7 +1310,7 @@ Overfull \hbox (9.10292pt too wide) in paragraph at lines 24--25
 
 
 
-] <images/TraditionalVsSDN.png, id=360, 770.88pt x 578.16pt>
+] <images/TraditionalVsSDN.png, id=374, 770.88pt x 578.16pt>
 File: images/TraditionalVsSDN.png Graphic file (type png)
 
 <use images/TraditionalVsSDN.png> [8 <./images/TraditionalVsSDN.png>] [9])
@@ -1324,6 +1324,12 @@ LaTeX Warning: Citation '2013GuideSDNNVUseCases' on page 11 undefined on input
 line 12.
 
 
+Overfull \hbox (13.84741pt too wide) in paragraph at lines 12--13
+\T1/lmr/m/n/12 pour-cen-tage de ré-ponses po-si-tives pour chaque chal-lenge. [
+[]] 
+ []
+
+
 LaTeX Warning: Citation '2013GuideSDNNVTable11' on page 11 undefined on input l
 ine 49.
 
@@ -1333,7 +1339,7 @@ ine 49.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 49--49
-[][]\T1/lmr/m/n/12 Opportunités et Chal-lenges pou-vant être adres-sés par SDN
+[][]\T1/lmr/m/n/12 Opportunités et Chal-lenges adres-sés par SDN
  []
 
 [11
@@ -1341,41 +1347,85 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--49
 
 
 
-]) [12
-
 ]
+
+LaTeX Warning: Citation '2013GuideSDNNVTable12' on page 12 undefined on input l
+ine 56.
+
+[12
+
+]) [13]
 \openout2 = `chap5.aux'.
 
- (./chap5.tex
+ (./chap5.tex [14
+
+
+
+
+]
 Chapitre 4.
-[13
-
-
-
-
-] <images/openflowArchi.png, id=448, 602.25pt x 402.50375pt>
+[15] <images/openflowArchi.png, id=474, 602.25pt x 402.50375pt>
 File: images/openflowArchi.png Graphic file (type png)
 
-<use images/openflowArchi.png> [14 <./images/openflowArchi.png (PNG copy)>]
-[15] [16]) [17]
+<use images/openflowArchi.png>
+Underfull \hbox (badness 1783) in paragraph at lines 71--72
+[]|\T1/lmr/m/n/12 Boradcom, In-tel, Mar-vell,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+[]|\T1/lmr/m/n/12 Alcatel-Lucent, Avaya,
+ []
+
+
+Underfull \hbox (badness 3826) in paragraph at lines 75--76
+[]|\T1/lmr/m/n/12 Packet De-sign, Qua-li-Sys-
+ []
+
+
+Underfull \hbox (badness 3657) in paragraph at lines 77--78
+[]|\T1/lmr/m/n/12 Embrane, A10, Rad-ware,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+[]|\T1/lmr/m/n/12 QualiSystems, inCNTRE,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+\T1/lmr/m/n/12 Nuage Net-works, Net-so-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+\T1/lmr/m/n/12 cket, HP, Cisco, Open
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+\T1/lmr/m/n/12 Day-light Consor-tium,
+ []
+
+[16 <./images/openflowArchi.png (PNG copy)>] [17] [18]) [19] [20]
 \openout2 = `concl.aux'.
 
- (./concl.tex [18
+ (./concl.tex) [21
 
 
 
 
-]) [19]
+]
 \openout2 = `ann1.aux'.
 
- (./ann1.tex [20
+ (./ann1.tex [22
 
 
 
 
 ]
 Annexe A.
-) [21] [22
+) [23] [24
 
 ]
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 223.
@@ -1403,12 +1453,12 @@ Overfull \hbox (0.85542pt too wide) in paragraph at lines 224--224
 ec-ture\T1/lmr/m/n/12 . An Oracle White
  []
 
-[23
+[25
 
 
 
 
-] [24]
+] [26]
 Overfull \hbox (4.1795pt too wide) in paragraph at lines 224--224
 \T1/lmr/m/n/12 Ethan Banks, http://searchsdn.techtarget.com/news/2240212374/Thi
 nking-about-
@@ -1420,7 +1470,7 @@ Overfull \hbox (24.04268pt too wide) in paragraph at lines 224--224
 orking.org/sdn-resources/onf-products-
  []
 
-[25]
+[27]
 Overfull \hbox (9.3056pt too wide) in paragraph at lines 224--224
 \T1/lmr/m/it/12 works\T1/lmr/m/n/12 . Web Site. http://searchsdn.techtarget.com
 /tip/Dont-overlook-SDN-startups-
@@ -1438,20 +1488,20 @@ Overfull \hbox (2.4868pt too wide) in paragraph at lines 224--224
 big-switchs-
  []
 
-[26]
+[28]
 No file ebt.ind.
-(./ebt.gls [27] [28
+(./ebt.gls [29] [30
 
 
-] [29
+] [31
 
 
-]) (./ebt.acr [30]) [31
+]) (./ebt.acr [32]) [33
 
 
 
 
-] [32
+] [34
 
 
 ]
@@ -1466,7 +1516,7 @@ version <1.5>, but at most version <1.4> allowed
 
 pdfTeX warning: pdflatex (file ./couverture-ebt.pdf): PDF inclusion: found PDF 
 version <1.5>, but at most version <1.4> allowed
-<couverture-ebt.pdf, id=652, page=3, 597.50829pt x 845.0471pt>
+<couverture-ebt.pdf, id=678, page=3, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 3>
@@ -1479,11 +1529,11 @@ File: couverture-ebt.pdf Graphic file (type pdf)
  <use couverture-ebt.pdf, page 3>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
-<use couverture-ebt.pdf, page 3> [33 <./couverture-ebt.pdf>]
+<use couverture-ebt.pdf, page 3> [35 <./couverture-ebt.pdf>]
 
 pdfTeX warning: pdflatex (file ./couverture-ebt.pdf): PDF inclusion: found PDF 
 version <1.5>, but at most version <1.4> allowed
-<couverture-ebt.pdf, id=657, page=4, 597.50829pt x 845.0471pt>
+<couverture-ebt.pdf, id=683, page=4, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 4>
@@ -1491,7 +1541,7 @@ File: couverture-ebt.pdf Graphic file (type pdf)
  <use couverture-ebt.pdf, page 4>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
-<use couverture-ebt.pdf, page 4> [34 <./couverture-ebt.pdf>] (./ebt.aux
+<use couverture-ebt.pdf, page 4> [36 <./couverture-ebt.pdf>] (./ebt.aux
 (./intro.aux) (./chap1.aux) (./chap2.aux) (./chap4.aux) (./chap5.aux)
 (./concl.aux) (./ann1.aux))
 
@@ -1507,10 +1557,10 @@ Package logreq Info: Writing requests to 'ebt.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 15872 strings out of 495028
- 249107 string characters out of 1181229
+ 15879 strings out of 495028
+ 249178 string characters out of 1181229
  544673 words of memory out of 3000000
- 18533 multiletter control sequences out of 15000+50000
+ 18535 multiletter control sequences out of 15000+50000
  46209 words of font info for 37 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  43i,16n,49p,1453b,1951s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1523,9 +1573,9 @@ mr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fo
 nts/type1/public/lm/lmro12.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10
 .pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts
 /type1/public/lm/lmtt12.pfb>
-Output written on ebt.pdf (46 pages, 1045247 bytes).
+Output written on ebt.pdf (48 pages, 1054231 bytes).
 PDF statistics:
- 740 PDF objects out of 1000 (max. 8388607)
- 168 named destinations out of 1000 (max. 500000)
- 256 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 767 PDF objects out of 1000 (max. 8388607)
+ 173 named destinations out of 1000 (max. 500000)
+ 272 words of extra memory for PDF output out of 10000 (max. 10000000)
 
