@@ -2,59 +2,80 @@
 \begin{theglossary}\glossaryheader
 \glsgroupheading{A}\relax \glsresetentrylist %
 \glossaryentryfield{api}{\glsnamefont{API}}{Application Programming Interface, Interface de Programmation}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{16}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{27}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{20}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{32}}}%
+\glossaryentryfield{asic}{\glsnamefont{ASIC}}{Application Specific Integrated Circuit, Circuit intégré pour application spécifique}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{32}}}\glsgroupskip
+\glsgroupheading{D}\relax \glsresetentrylist %
+\glossaryentryfield{dhcp}{\glsnamefont{DHCP}}{Dynamic Host Control Protocol, Protocole pour la configuration automatique d'hôte}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{32}}}%
+\glossaryentryfield{dns}{\glsnamefont{DNS}}{Domain Name System, Système de noms de domaine}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{32}}}\glsgroupskip
 \glsgroupheading{I}\relax \glsresetentrylist %
+\glossaryentryfield{iaas}{\glsnamefont{IaaS}}{Infrastructure as a Service, Infrastructure en tant que service}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{12}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{32}}}%
 \glossaryentryfield{ids}{\glsnamefont{IDS}}{Intrusion Detection System, Système de Détection d'Intrusion}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{6}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{9}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{27}}}%
+		\setentrycounter[]{page}\glsnumberformat{12}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{32}}}%
 \glossaryentryfield{ip}{\glsnamefont{IP}}{Internet Protocol, Protocole d'Internet}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{8}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{27}}}%
+		\setentrycounter[]{page}\glsnumberformat{32}}}%
 \glossaryentryfield{ips}{\glsnamefont{IPS}}{Intrusion Prevention System, Système de Prévention d'Intrusion}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{6}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{9}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{27}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{32}}}\glsgroupskip
+\glsgroupheading{L}\relax \glsresetentrylist %
+\glossaryentryfield{lan}{\glsnamefont{LAN}}{Local Area Network, Réseau local}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{32}}}\glsgroupskip
 \glsgroupheading{M}\relax \glsresetentrylist %
 \glossaryentryfield{mpls}{\glsnamefont{MPLS}}{MultiProtocol Label Switching, Commutation multi-protocoles par étiquettes}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{8}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{27}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{32}}}\glsgroupskip
 \glsgroupheading{N}\relax \glsresetentrylist %
+\glossaryentryfield{nat}{\glsnamefont{NAT}}{Network Address Translation, Traduction d'adresse réseau}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{3}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{32}}}%
 \glossaryentryfield{nfv}{\glsnamefont{NFV}}{Network Functions Virtualization, Virtualisation des fonctions réseau}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{27}}}%
+		\setentrycounter[]{page}\glsnumberformat{32}}}%
 \glossaryentryfield{nos}{\glsnamefont{NOS}}{Network Operating System, Système d'exploitation réseau}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{9}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{27}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{32}}}\glsgroupskip
 \glsgroupheading{O}\relax \glsresetentrylist %
 \glossaryentryfield{one}{\glsnamefont{ONE}}{Open Network Environment, Envrionnement Réseau Ouvert}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{15}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{27}}}%
+		\setentrycounter[]{page}\glsnumberformat{20}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{32}}}%
 \glossaryentryfield{onf}{\glsnamefont{ONF}}{Open Networking Foundation}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{7}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{13}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{15\delimN 16}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{27}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{17}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{20}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{32}}}\glsgroupskip
 \glsgroupheading{R}\relax \glsresetentrylist %
 \glossaryentryfield{rtfm}{\glsnamefont{RTFM}}{Read the f\dots manual}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{27}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{32}}}\glsgroupskip
 \glsgroupheading{S}\relax \glsresetentrylist %
 \glossaryentryfield{sdn}{\glsnamefont{SDN}}{Software-Defined Networking, Réseau Informatique Défini par Logiciel}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{1\delimN 2}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{6\delimN 7}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{9}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{13}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{27}}}%
+		\setentrycounter[]{page}\glsnumberformat{17}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{32}}}%
 \glossaryentryfield{si}{\glsnamefont{SI}}{Système d'Information}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{4}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{27}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{32}}}\glsgroupskip
 \glsgroupheading{T}\relax \glsresetentrylist %
 \glossaryentryfield{ti}{\glsnamefont{TI}}{Technologie de l'Information}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{1}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{22}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{27}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{11}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{26}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{32}}}\glsgroupskip
 \glsgroupheading{V}\relax \glsresetentrylist %
+\glossaryentryfield{vlan}{\glsnamefont{VLAN}}{Virtual Local Area Network, Virtual LAN}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{32}}}%
 \glossaryentryfield{vm}{\glsnamefont{VM}}{Virtual Machine, Machine Virtuelle}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{15}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{27}}}%
+		\setentrycounter[]{page}\glsnumberformat{12}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{19}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{32}}}%
 \end{theglossary}\glossarypostamble

@@ -759,6 +759,183 @@
       \field{title}{Software-Defined Networking: Why We Like It and How We Are Building On It}
       \field{year}{2013}
     \endentry
+    \entry{2013GuideSDNNVUseCases}{misc}{}
+      \list{publisher}{1}{%
+        {Webtorials}%
+      }
+      \field{sortinit}{0}
+      \field{labeltitle}{The 2013 Guide to Network Virtualization and SDN}
+      \field{howpublished}{White Paper}
+      \field{month}{12}
+      \field{note}{Section Potential SDN Use Cases}
+      \field{title}{The 2013 Guide to Network Virtualization and SDN}
+      \field{year}{2013}
+    \endentry
+    \entry{2013GuideSDNNVTable11}{misc}{}
+      \list{publisher}{1}{%
+        {Webtorials}%
+      }
+      \field{sortinit}{0}
+      \field{labeltitle}{The 2013 Guide to Network Virtualization and SDN}
+      \field{howpublished}{White Paper}
+      \field{month}{12}
+      \field{note}{Table 11: Opportunities and Challenges that SDN Can Address}
+      \field{title}{The 2013 Guide to Network Virtualization and SDN}
+      \field{year}{2013}
+    \endentry
+    \entry{2013GuideSDNNVTable12}{misc}{}
+      \list{publisher}{1}{%
+        {Webtorials}%
+      }
+      \field{sortinit}{0}
+      \field{labeltitle}{The 2013 Guide to Network Virtualization and SDN}
+      \field{howpublished}{White Paper}
+      \field{month}{12}
+      \field{note}{Table 12: Focus of SDN Deployment}
+      \field{title}{The 2013 Guide to Network Virtualization and SDN}
+      \field{year}{2013}
+    \endentry
+    \entry{OpenFlowStanfordUsing}{article}{}
+      \name{labelname}{8}{}{%
+        {{hash=de88a212b707ac15b1fde53c8cb71017}{McKeown}{M\bibinitperiod}{Nick}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=ed0d7310b4cdeb1e22acbd4775f2dfe8}{Anderson}{A\bibinitperiod}{Tom}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=ec394c5150bcaf5dac455aa9e3221f4e}{Balakrishnan}{B\bibinitperiod}{Hari}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=a565f54c21ae66e7423228b8676a61b6}{Parulkar}{P\bibinitperiod}{Guru}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=3f3af29945f3176e9dd1a4ed829664ce}{Peterson}{P\bibinitperiod}{Larry}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=6a657c57b5943bdc829427bef740483f}{Rexford}{R\bibinitperiod}{Jennifer}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=8d2fd528d2484047352789c731e250a5}{Shenker}{S\bibinitperiod}{Scott}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=b2d099aa0eb055883af0c116987070a9}{Turner}{T\bibinitperiod}{Jonathan}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{8}{}{%
+        {{hash=de88a212b707ac15b1fde53c8cb71017}{McKeown}{M\bibinitperiod}{Nick}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=ed0d7310b4cdeb1e22acbd4775f2dfe8}{Anderson}{A\bibinitperiod}{Tom}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=ec394c5150bcaf5dac455aa9e3221f4e}{Balakrishnan}{B\bibinitperiod}{Hari}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=a565f54c21ae66e7423228b8676a61b6}{Parulkar}{P\bibinitperiod}{Guru}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=3f3af29945f3176e9dd1a4ed829664ce}{Peterson}{P\bibinitperiod}{Larry}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=6a657c57b5943bdc829427bef740483f}{Rexford}{R\bibinitperiod}{Jennifer}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=8d2fd528d2484047352789c731e250a5}{Shenker}{S\bibinitperiod}{Scott}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=b2d099aa0eb055883af0c116987070a9}{Turner}{T\bibinitperiod}{Jonathan}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{1f89effe15693b59fe7e6d580c1d7d98}
+      \strng{fullhash}{a94c43bbce4938a2285255f72b21faf4}
+      \field{sortinit}{0}
+      \field{labeltitle}{OpenFlow: Enabling Innovation in Campus Networks}
+      \field{issn}{0146-4833}
+      \field{journaltitle}{SIGCOMM Comput. Commun. Rev.}
+      \field{month}{03}
+      \field{note}{3. USING OPENFLOW}
+      \field{number}{2}
+      \field{title}{OpenFlow: Enabling Innovation in Campus Networks}
+      \field{volume}{38}
+      \field{year}{2008}
+      \field{pages}{69\bibrangedash 74}
+      \verb{doi}
+      \verb 10.1145/1355734.1355746
+      \endverb
+      \verb{url}
+      \verb http://doi.acm.org/10.1145/1355734.1355746
+      \endverb
+      \keyw{ethernet switch, flow-based, virtualization}
+    \endentry
+    \entry{ODCAusageScenarios}{misc}{}
+      \field{sortinit}{0}
+      \field{labeltitle}{OPEN DATA CENTER ALLIANCE Master USAGE MODEL: Software-Defined Networking Rev. 1.0}
+      \field{howpublished}{White Paper}
+      \field{note}{Section Usage Scenarios}
+      \field{title}{OPEN DATA CENTER ALLIANCE Master USAGE MODEL: Software-Defined Networking Rev. 1.0}
+      \field{year}{2013}
+      \warn{\item Name "Vishy Ganti Verizon, Vince Lubsey Virtustream, Mrigank Shekhar Intel, Chris Swan, CohesiveFT" has too many commas: skipping name}
+    \endentry
+    \entry{FlowScale}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=6669a4748e0dc875c394a0650845d5ec}{Keith\bibnamedelima Lehigh}{K\bibinitperiod\bibinitdelim L\bibinitperiod}{InCNTRE\bibnamedelimb Indiana\bibnamedelima University}{I\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim U\bibinitperiod}{}{}{Information\bibnamedelimb Security\bibnamedelimb Office\bibnamedelimb Indiana\bibnamedelimb University;\bibnamedelimb Ali\bibnamedelima Khalfan}{I\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim O\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim U\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim K\bibinitperiod}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=6669a4748e0dc875c394a0650845d5ec}{Keith\bibnamedelima Lehigh}{K\bibinitperiod\bibinitdelim L\bibinitperiod}{InCNTRE\bibnamedelimb Indiana\bibnamedelima University}{I\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim U\bibinitperiod}{}{}{Information\bibnamedelimb Security\bibnamedelimb Office\bibnamedelimb Indiana\bibnamedelimb University;\bibnamedelimb Ali\bibnamedelima Khalfan}{I\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim O\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim U\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim K\bibinitperiod}}%
+      }
+      \strng{namehash}{6669a4748e0dc875c394a0650845d5ec}
+      \strng{fullhash}{6669a4748e0dc875c394a0650845d5ec}
+      \field{sortinit}{0}
+      \field{labeltitle}{Multi-Gigabit Intrusion Detection with OpenFlow and Commodity Clusters}
+      \field{howpublished}{Project}
+      \field{title}{Multi-Gigabit Intrusion Detection with OpenFlow and Commodity Clusters}
+      \field{year}{2012}
+    \endentry
+    \entry{Honeyguide}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=b1eed6cfb8d6d5d0e11153f8cda2d287}{H.\bibnamedelimi Shirayanagi}{H\bibinitperiod\bibinitdelim S\bibinitperiod}{H.\bibnamedelimi Yamada}{H\bibinitperiod\bibinitdelim Y\bibinitperiod}{}{}{}{}}%
+        {{hash=a45ca8a1a0506e023e9d6ce8046381c5}{Kono}{K\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=b1eed6cfb8d6d5d0e11153f8cda2d287}{H.\bibnamedelimi Shirayanagi}{H\bibinitperiod\bibinitdelim S\bibinitperiod}{H.\bibnamedelimi Yamada}{H\bibinitperiod\bibinitdelim Y\bibinitperiod}{}{}{}{}}%
+        {{hash=a45ca8a1a0506e023e9d6ce8046381c5}{Kono}{K\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{2d109fccc9ec7f5a26637735cf8c9fbc}
+      \strng{fullhash}{2d109fccc9ec7f5a26637735cf8c9fbc}
+      \field{sortinit}{0}
+      \field{labeltitle}{Honeyguide: A vm migration-aware network topology for saving energy consumption in data center networks}
+      \field{journaltitle}{Computers and Communications (ISCC), 2012 IEEE Symposium}
+      \field{title}{Honeyguide: A vm migration-aware network topology for saving energy consumption in data center networks}
+      \field{year}{2012}
+      \field{pages}{460\bibrangedash 467}
+    \endentry
+    \entry{AdoptionResearchTrendsCloud}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=56feb3ff32cce683162564e5097d4248}{Gupta}{G\bibinitperiod}{Lav}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=56feb3ff32cce683162564e5097d4248}{Gupta}{G\bibinitperiod}{Lav}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{56feb3ff32cce683162564e5097d4248}
+      \strng{fullhash}{56feb3ff32cce683162564e5097d4248}
+      \field{sortinit}{0}
+      \field{labeltitle}{SDN: Development, Adoption and Research Trends : A Survey of Research Issues in SDN}
+      \field{howpublished}{Paper}
+      \field{month}{12}
+      \field{note}{Section 3 SDN and cloud computing}
+      \field{title}{SDN: Development, Adoption and Research Trends : A Survey of Research Issues in SDN}
+      \field{year}{2013}
+    \endentry
+    \entry{SurveySDNApplications}{misc}{}
+      \name{labelname}{5}{}{%
+        {{hash=a8f753998bb69afcd3eafd651df9762f}{Astuto}{A\bibinitperiod}{Bruno\bibnamedelima Nunes}{B\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=1717b0d02e88e1a3514167a894aa8f39}{Mendonça}{M\bibinitperiod}{Marc}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=c0f9e5641a2135649c8019a5b9a1149f}{Nguyen}{N\bibinitperiod}{Xuan\bibnamedelima Nam}{X\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=fb64084065efc78474c0bcea76f8416b}{Obraczka}{O\bibinitperiod}{Katia}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=9387aafb8050ad590125dd423f60a2f5}{Turletti}{T\bibinitperiod}{Thierry}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=a8f753998bb69afcd3eafd651df9762f}{Astuto}{A\bibinitperiod}{Bruno\bibnamedelima Nunes}{B\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=1717b0d02e88e1a3514167a894aa8f39}{Mendonça}{M\bibinitperiod}{Marc}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=c0f9e5641a2135649c8019a5b9a1149f}{Nguyen}{N\bibinitperiod}{Xuan\bibnamedelima Nam}{X\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=fb64084065efc78474c0bcea76f8416b}{Obraczka}{O\bibinitperiod}{Katia}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=9387aafb8050ad590125dd423f60a2f5}{Turletti}{T\bibinitperiod}{Thierry}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {Anglais}%
+      }
+      \strng{namehash}{10760f02b82bff52a683ffca5569f8b8}
+      \strng{fullhash}{f90573fac01829071a39782c7a32d495}
+      \field{sortinit}{0}
+      \field{labeltitle}{A Survey of Software-Defined Networking: Past, Present, and Future of Programmable Networks}
+      \field{month}{01}
+      \field{note}{Section 5. SDN A PPLICATIONS}
+      \field{title}{A Survey of Software-Defined Networking: Past, Present, and Future of Programmable Networks}
+      \field{year}{2014}
+      \verb{file}
+      \verb http://hal.inria.fr/hal-00825087/PDF/hal\_final.pdf
+      \endverb
+      \keyw{Programmable Networks, Software Defined Networking (SDN).}
+    \endentry
     \entry{ONFOverview}{misc}{}
       \field{sortinit}{0}
       \field{labeltitle}{ONF, Open Networking Foundation}
@@ -1294,6 +1471,26 @@
       \verb http://doi.acm.org/10.1145/1273445.1273453
       \endverb
       \keyw{clean-slate, internet, network architecture, post-ip}
+    \endentry
+    \entry{Elastictree}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=3a7cab2af478724012cda5b73168018a}{McKeown}{M\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=3a7cab2af478724012cda5b73168018a}{McKeown}{M\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {USENIX Association}%
+      }
+      \strng{namehash}{3a7cab2af478724012cda5b73168018a}
+      \strng{fullhash}{3a7cab2af478724012cda5b73168018a}
+      \field{sortinit}{0}
+      \field{labeltitle}{Elastictree: Saving energy in data center networks}
+      \field{journaltitle}{Proceedings of the 7th USENIX conference on Networked systems design and implementation}
+      \field{title}{Elastictree: Saving energy in data center networks}
+      \field{year}{2010}
+      \field{pages}{17\bibrangedash 27}
+      \warn{\item Name "B. Heller, S. Seetharaman, P. Mahadevan, Y. Yiakoumis, P. Sharma, S. Banerjee," has too many commas: skipping name}
     \endentry
     \entry{sndChineseBook}{book}{}
       \name{labelname}{1}{}{%
