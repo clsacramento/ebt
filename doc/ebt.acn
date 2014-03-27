@@ -27,6 +27,7 @@
 \glossaryentry{HTTP?\glossaryentryfield{http}{\glsnamefont{HTTP}}{HyperText Transfer Protcol : Protocole de transfert de hypertexte}{\relax }|setentrycounter[]{page}\glsnumberformat}{13}
 \glossaryentry{DNS?\glossaryentryfield{dns}{\glsnamefont{DNS}}{Domain Name System, Système de noms de domaine}{\relax }|setentrycounter[]{page}\glsnumberformat}{14}
 \glossaryentry{DHCP?\glossaryentryfield{dhcp}{\glsnamefont{DHCP}}{Dynamic Host Control Protocol, Protocole pour la configuration automatique d'hôte}{\relax }|setentrycounter[]{page}\glsnumberformat}{14}
+\glossaryentry{WAN?\glossaryentryfield{wan}{\glsnamefont{WAN}}{Wide Area Network, Réseau étendu}{\relax }|setentrycounter[]{page}\glsnumberformat}{14}
 \glossaryentry{ONF?\glossaryentryfield{onf}{\glsnamefont{ONF}}{Open Networking Foundation}{\relax }|setentrycounter[]{page}\glsnumberformat}{17}
 \glossaryentry{ONF?\glossaryentryfield{onf}{\glsnamefont{ONF}}{Open Networking Foundation}{\relax }|setentrycounter[]{page}\glsnumberformat}{17}
 \glossaryentry{ONF?\glossaryentryfield{onf}{\glsnamefont{ONF}}{Open Networking Foundation}{\relax }|setentrycounter[]{page}\glsnumberformat}{17}
@@ -49,6 +50,7 @@
 \glossaryentry{IP?\glossaryentryfield{ip}{\glsnamefont{IP}}{Internet Protocol, Protocole d'Internet}{\relax }|setentrycounter[]{page}\glsnumberformat}{32}
 \glossaryentry{VLAN?\glossaryentryfield{vlan}{\glsnamefont{VLAN}}{Virtual Local Area Network, Virtual LAN}{\relax }|setentrycounter[]{page}\glsnumberformat}{32}
 \glossaryentry{LAN?\glossaryentryfield{lan}{\glsnamefont{LAN}}{Local Area Network, Réseau local}{\relax }|setentrycounter[]{page}\glsnumberformat}{32}
+\glossaryentry{WAN?\glossaryentryfield{wan}{\glsnamefont{WAN}}{Wide Area Network, Réseau étendu}{\relax }|setentrycounter[]{page}\glsnumberformat}{32}
 \glossaryentry{NAT?\glossaryentryfield{nat}{\glsnamefont{NAT}}{Network Address Translation, Traduction d'adresse réseau}{\relax }|setentrycounter[]{page}\glsnumberformat}{32}
 \glossaryentry{DHCP?\glossaryentryfield{dhcp}{\glsnamefont{DHCP}}{Dynamic Host Control Protocol, Protocole pour la configuration automatique d'hôte}{\relax }|setentrycounter[]{page}\glsnumberformat}{32}
 \glossaryentry{DNS?\glossaryentryfield{dns}{\glsnamefont{DNS}}{Domain Name System, Système de noms de domaine}{\relax }|setentrycounter[]{page}\glsnumberformat}{32}

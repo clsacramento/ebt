@@ -84,5 +84,9 @@
 \glossaryentryfield{vm}{\glsnamefont{VM}}{Virtual Machine, Machine Virtuelle}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{12}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{19}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{32}}}\glsgroupskip
+\glsgroupheading{W}\relax \glsresetentrylist %
+\glossaryentryfield{wan}{\glsnamefont{WAN}}{Wide Area Network, Réseau étendu}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{14}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{32}}}%
 \end{theglossary}\glossarypostamble
