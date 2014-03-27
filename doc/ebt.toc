@@ -10,7 +10,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Ossification d'internet face au besoin d'expansion}{3}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Management R\IeC {\'e}seau : P\IeC {\'e}nible et Complexe}{4}{section.1.2}
+\contentsline {section}{\numberline {1.2}Management R\IeC {\'e}seau : Contraignant et Complexe}{4}{section.1.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.3}Un nouveau mod\IeC {\`e}le r\IeC {\'e}seau pour supporter ces \IeC {\'e}volutions}{6}{section.1.3}
 \defcounter {refsection}{0}\relax 
@@ -20,7 +20,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Contr\IeC {\^o}le centralis\IeC {\'e} et hardware simplifi\IeC {\'e} : l'int\IeC {\'e}r\IeC {\^e}t de SDN}{9}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Choix d'impl\IeC {\'e}mentation pour des challenges}{10}{section.2.3}
+\contentsline {section}{\numberline {2.3}Choix d'impl\IeC {\'e}mentation pour des challenges (d\IeC {\'e}fis?)}{10}{section.2.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Des Applications de SDN et leurs possibilit\IeC {\'e}s}{11}{chapter.3}
 \defcounter {refsection}{0}\relax 

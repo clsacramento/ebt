@@ -3,13 +3,13 @@
 
 %Ce chapitre a pour but de présenter ce qui apporte SDN, quelles sont les applications pratiques de ce nouvel paradigme. Ce ne sera pas exhaustive, mais c'est pour exemplifier. Cela permettra aussi d'avoir une idée de l'exploitation future de SDN.
 
-Une infinité d'applications et de cas d'utilisation sont imaginables. Ce chapitre propose d'analyser les enjeux qu'on espère de répondre avec SDN et de présenter des applications plutôt ciblées sur ces expectatives. De cette analyse, les cas d'utilisation plus cohérents seront identifiés et ensuite détaillés.
+Une infinité d'applications et de cas d'utilisation sont imaginables. Ce chapitre propose d'analyser les enjeux auxquels on espère pouvoir répondre avec SDN et de présenter des applications plutôt ciblées sur ces expectatives. De cette analyse, les cas d'utilisation plus cohérents seront identifiés et ensuite détaillés.
 
  
 %\section{Identifications des applications espérées par les utilisateurs}
 
 %In August and September of 2013 a survey was given to the subscribers of Webtorials.
-Entre les mois d'août et septembre de 2013, Webtorials a réalisé un sondage auprès de ces abonnés. Une des enquêtes a été sur les challenges et opportunités qu'ils pensent pouvoir adresser avec SDN au sein des organisations de \gls{ti} typiques. Le tableau 3.1 affiche la pourcentage de réponses positives pour chaque challenge. \cite{2013GuideSDNNVUseCases}
+Entre les mois d'août et septembre de 2013, Webtorials a réalisé un sondage auprès de ses abonnés. Une des enquêtes a été sur les challenges et opportunités qu'ils pensent pouvoir adresser avec SDN au sein des organisations de \gls{ti} typiques. Le tableau 3.1 affiche le pourcentage de réponses positives pour chaque challenge. \cite{2013GuideSDNNVUseCases}
 
 \begin{table}[!h]
 \centering
@@ -27,19 +27,19 @@ Réaliser l'ingénierie du trafic avec vision point-à-point du réseau & 44\% \
 \hline 
 Support dynamique au management de ressources virtuelles  & 38\% \\ 
 \hline 
-Établissement des réseaux Ethernet virtuels sans les limitations du fardeau de configuration des VLANs & 35\% \\ 
+Établissement des réseaux Ethernet virtuels sans les contraintes du fardeau de configuration des VLANs & 35\% \\ 
 \hline 
 Réduction de la complexité & 34\% \\ 
 \hline 
 Permettre les demandes dynamiques de services au réseau & 32\% \\ 
 \hline 
-Réduction les dépenses d'exploitation & 30\% \\ 
+Réduction des dépenses d'exploitation & 30\% \\ 
 \hline 
-Faire évoluer les fonctionnalités réseau plus rapidement s'appuyant sur les cycles de vie du développement logiciel & 27\% \\ 
+Faire évoluer les fonctionnalités réseau plus rapidement en s'appuyant sur les cycles de vie du développement logiciel & 27\% \\ 
 \hline 
 Implémentation plus facile de la QoS & 27\% \\ 
 \hline 
-Implémentation des fonctionnalités de sécurité plus effectives & 26\% \\ 
+Implémentation des fonctionnalités de sécurité plus efficaces & 26\% \\ 
 \hline 
 Réduction des dépenses d'investissement de capital & 25\% \\ 
 \hline 
@@ -60,7 +60,7 @@ Dans les même sondage les participants on répondu que si leurs organisations i
 
 \section{Data Center}
 
-\textbf{VLANs}. SDN peut facilement fournir aux utilisateurs leurs propre réseaux isolés, comme les VLANs. L'approche la plus simple est de déclarer les ensembles de flux statiquement qui spécifient les ports accessibles par un VLAN ID donné. Le trafic identifié venant d'un type d'utilisateur (à l'origine d'un port du switch ou d'une adresse MAC spécifiés) est marqué dans le VLAND ID approprié. Une approche plus dynamique pourrait utiliser le contrôleur pour gérer l'authentification des utilisateurs et d'utiliser les informations sur leurs localisation pour marquer le trafic à la volée. \cite{OpenFlowStanfordUsing} 
+\textbf{\glspl{vlan}}. SDN peut facilement fournir aux utilisateurs leurs propre réseaux isolés, comme les VLANs. L'approche la plus simple est de déclarer les ensembles de flux statiquement qui spécifient les ports accessibles par un VLAN ID donné. Le trafic identifié venant d'un type d'utilisateur (à l'origine d'un port du switch ou d'une adresse MAC spécifiés) est marqué dans le VLAND ID approprié. Une approche plus dynamique pourrait utiliser le contrôleur pour gérer l'authentification des utilisateurs et d'utiliser les informations sur leurs localisation pour marquer le trafic à la volée. \cite{OpenFlowStanfordUsing} 
 
 %VLANs. OpenFlow can easily provide users with their own isolated network, just as VLANs do. The simplest approach is to statically declare a set of flows which specify the ports accessible by traffic on a given VLAN ID. Traffic identified as coming from a single user (for example, originating from specific switch ports or MAC addresses) is tagged by the switches (via an action) with the appropriate VLAN ID. A more dynamic approach might use a controller to manage authentication of users and use the knowledge of the users’ locations for tagging traffic at runtime.
 
@@ -99,11 +99,14 @@ Dans les même sondage les participants on répondu que si leurs organisations i
 
 \section{Campus et grands réseaux}
 
-Souvent les entreprises exécuter des grands réseaux ayant des requis strictes de performance et sécurité qui peuvent varier largement selon divers facteurs. Par exemple, les réseaux des universités sont considéré comme en cas spécial des réseaux d'entreprises : dans cet environnement, plusieurs dispositifs connectés sont temporaires et ne sont pas contrôlés par l'institution, en outre mettant en question la sécurité et l'allocation de ressources. L'adéquation du management est critique dans ces conditions et SDN peut être utilisé pour imposer et ajuster les politiques réseaux par programmation ainsi qu'aider à surveiller l'activité et régler la performance.
+Souvent les entreprises opérant des grands réseaux ont des requis strictes de performance et sécurité qui peuvent varier largement selon divers facteurs. Par exemple, les réseaux des universités sont considéré comme en cas spécial des réseaux d'entreprises : dans cet environnement, plusieurs dispositifs connectés sont temporaires et ne sont pas contrôlés par l'institution, en outre mettant en question la sécurité et l'allocation de ressources. L'adéquation du management est critique dans ces conditions et SDN peut être utilisé pour imposer et ajuster les politiques réseaux par programmation ainsi qu'aider à surveiller l'activité et régler la performance.
 
 %Enterprises often run large networks, while also having strict security and performance requirements. Furthermore, different enterprise environments can have very different requirements, characteristics, and user population, For example, University networks can be considered a special case of enterprise networks: in such an environment, many of the connecting devices are temporary and not controlled by the University, further challenging security and resource allocation. Additionally, Universities must often provide support for research testbeds and experimental protocols. Adequate management is critically important in Enterprise environments, and SDN can be used to programmatically enforce and adjust network policies as well as help monitor network activity and tune network performance.
 
-Network Management and Access Control. An implementation of a controller, suited for network management and control, that manages the admittance and routing of flows. The basic idea is to allow network managers to define a Controller network-wide policy in the central controller, which is enforced directly by making admission control decisions for each new flow. A controller checks a new flow against a set of rules, such as “Guests can communicate using HTTP, but only via a web proxy” or “VoIP phones are not allowed to communicate with laptops.” A controller associates packets with their senders by managing all the bindings between names and addresses — it essentially takes over DNS, DHCP and authenticates all users when they join, keeping track of which switch port (or access point) they are connected to. \cite{OpenFlowStanfordUsing}
+\textbf{Management du réseau et contrôle d'accès}.
+Un implémentation d'un contrôleur, adaptée pour le management et contrôle du réseau, qui gère l'admission et le routage des flux. L'idée de base est de permettre aux administrateurs réseaux de définir des politiques applicables à tout le réseau dans un contrôleur central. Ces politiques seront renforcés directement par la réalisation du contrôle d'admission sur le traitement de chaque nouveau flux. Le contrôleur vérifie que le nouveau est en conformité avec un ensemble de règles, tels que "les hôtes peuvent communiquer via \gls{http} seulement passant par un proxy" ou "téléphones VoIP ne sont pas autorisés à communique avec les laptops". Un contrôleur associe des paquets avec leur émetteurs avec la liaison entre noms et adresses, basique-ment il prend le contrôle du \gls{dns} et du \gls{dhcp} et authentifie tous les utilisateurs qui se rejoignent, gardant trace des ports de switches ou point d'accès utilisé pour la connexion.
+
+%Network Management and Access Control. An implementation of a controller, suited for network management and control, that manages the admittance and routing of flows. The basic idea is to allow network managers to define a Controller network-wide policy in the central controller, which is enforced directly by making admission control decisions for each new flow. A controller checks a new flow against a set of rules, such as “Guests can communicate using HTTP, but only via a web proxy” or “VoIP phones are not allowed to communicate with laptops.” A controller associates packets with their senders by managing all the bindings between names and addresses — it essentially takes over DNS, DHCP and authenticates all users when they join, keeping track of which switch port (or access point) they are connected to. \cite{OpenFlowStanfordUsing}
 
 Infrastructure-based Wireless Access Networks. Several efforts have focused on ubiquitous connectivity in the context of infrastructure-based wireless access networks,such as cellular and WiFi.
 Mobile wireless VOIP clients. For this example consider an experiment of a new call-handoff mechanism for WiFi-enabled phones. In the experiment VOIP clients establish a new connection over the OpenFlow-enabled network. A controller is implemented to track the

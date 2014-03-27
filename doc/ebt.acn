@@ -1,41 +1,45 @@
-\glossaryentry{SDN?\glossaryentryfield{sdn}{\glsnamefont{SDN}}{Software-Defined Networking, Réseau Informatique Défini par Logiciel}{\relax }|setentrycounter[]{page}\glsnumberformat}{1}
-\glossaryentry{SDN?\glossaryentryfield{sdn}{\glsnamefont{SDN}}{Software-Defined Networking, Réseau Informatique Défini par Logiciel}{\relax }|setentrycounter[]{page}\glsnumberformat}{1}
+\glossaryentry{SDN?\glossaryentryfield{sdn}{\glsnamefont{SDN}}{Software-Defined Networking : Réseau Informatique Défini par Logiciel}{\relax }|setentrycounter[]{page}\glsnumberformat}{1}
+\glossaryentry{SDN?\glossaryentryfield{sdn}{\glsnamefont{SDN}}{Software-Defined Networking : Réseau Informatique Défini par Logiciel}{\relax }|setentrycounter[]{page}\glsnumberformat}{1}
 \glossaryentry{TI?\glossaryentryfield{ti}{\glsnamefont{TI}}{Technologie de l'Information}{\relax }|setentrycounter[]{page}\glsnumberformat}{1}
-\glossaryentry{SDN?\glossaryentryfield{sdn}{\glsnamefont{SDN}}{Software-Defined Networking, Réseau Informatique Défini par Logiciel}{\relax }|setentrycounter[]{page}\glsnumberformat}{2}
-\glossaryentry{SDN?\glossaryentryfield{sdn}{\glsnamefont{SDN}}{Software-Defined Networking, Réseau Informatique Défini par Logiciel}{\relax }|setentrycounter[]{page}\glsnumberformat}{2}
+\glossaryentry{SDN?\glossaryentryfield{sdn}{\glsnamefont{SDN}}{Software-Defined Networking : Réseau Informatique Défini par Logiciel}{\relax }|setentrycounter[]{page}\glsnumberformat}{2}
+\glossaryentry{SDN?\glossaryentryfield{sdn}{\glsnamefont{SDN}}{Software-Defined Networking : Réseau Informatique Défini par Logiciel}{\relax }|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{NAT?\glossaryentryfield{nat}{\glsnamefont{NAT}}{Network Address Translation, Traduction d'adresse réseau}{\relax }|setentrycounter[]{page}\glsnumberformat}{3}
 \glossaryentry{SI?\glossaryentryfield{si}{\glsnamefont{SI}}{Système d'Information}{\relax }|setentrycounter[]{page}\glsnumberformat}{4}
-\glossaryentry{IDS?\glossaryentryfield{ids}{\glsnamefont{IDS}}{Intrusion Detection System, Système de Détection d'Intrusion}{\relax }|setentrycounter[]{page}\glsnumberformat}{6}
-\glossaryentry{IPS?\glossaryentryfield{ips}{\glsnamefont{IPS}}{Intrusion Prevention System, Système de Prévention d'Intrusion}{\relax }|setentrycounter[]{page}\glsnumberformat}{6}
-\glossaryentry{SDN?\glossaryentryfield{sdn}{\glsnamefont{SDN}}{Software-Defined Networking, Réseau Informatique Défini par Logiciel}{\relax }|setentrycounter[]{page}\glsnumberformat}{6}
-\glossaryentry{SDN?\glossaryentryfield{sdn}{\glsnamefont{SDN}}{Software-Defined Networking, Réseau Informatique Défini par Logiciel}{\relax }|setentrycounter[]{page}\glsnumberformat}{7}
-\glossaryentry{SDN?\glossaryentryfield{sdn}{\glsnamefont{SDN}}{Software-Defined Networking, Réseau Informatique Défini par Logiciel}{\relax }|setentrycounter[]{page}\glsnumberformat}{7}
+\glossaryentry{IDS?\glossaryentryfield{ids}{\glsnamefont{IDS}}{Intrusion Detection System : Système de Détection d'Intrusion}{\relax }|setentrycounter[]{page}\glsnumberformat}{6}
+\glossaryentry{IPS?\glossaryentryfield{ips}{\glsnamefont{IPS}}{Intrusion Prevention System : Système de Prévention d'Intrusion}{\relax }|setentrycounter[]{page}\glsnumberformat}{6}
+\glossaryentry{SDN?\glossaryentryfield{sdn}{\glsnamefont{SDN}}{Software-Defined Networking : Réseau Informatique Défini par Logiciel}{\relax }|setentrycounter[]{page}\glsnumberformat}{6}
+\glossaryentry{SDN?\glossaryentryfield{sdn}{\glsnamefont{SDN}}{Software-Defined Networking : Réseau Informatique Défini par Logiciel}{\relax }|setentrycounter[]{page}\glsnumberformat}{7}
+\glossaryentry{SDN?\glossaryentryfield{sdn}{\glsnamefont{SDN}}{Software-Defined Networking : Réseau Informatique Défini par Logiciel}{\relax }|setentrycounter[]{page}\glsnumberformat}{7}
 \glossaryentry{ONF?\glossaryentryfield{onf}{\glsnamefont{ONF}}{Open Networking Foundation}{\relax }|setentrycounter[]{page}\glsnumberformat}{7}
 \glossaryentry{IP?\glossaryentryfield{ip}{\glsnamefont{IP}}{Internet Protocol, Protocole d'Internet}{\relax }|setentrycounter[]{page}\glsnumberformat}{8}
 \glossaryentry{MPLS?\glossaryentryfield{mpls}{\glsnamefont{MPLS}}{MultiProtocol Label Switching, Commutation multi-protocoles par étiquettes}{\relax }|setentrycounter[]{page}\glsnumberformat}{8}
-\glossaryentry{SDN?\glossaryentryfield{sdn}{\glsnamefont{SDN}}{Software-Defined Networking, Réseau Informatique Défini par Logiciel}{\relax }|setentrycounter[]{page}\glsnumberformat}{9}
+\glossaryentry{SDN?\glossaryentryfield{sdn}{\glsnamefont{SDN}}{Software-Defined Networking : Réseau Informatique Défini par Logiciel}{\relax }|setentrycounter[]{page}\glsnumberformat}{9}
 \glossaryentry{NOS?\glossaryentryfield{nos}{\glsnamefont{NOS}}{Network Operating System, Système d'exploitation réseau}{\relax }|setentrycounter[]{page}\glsnumberformat}{9}
-\glossaryentry{SDN?\glossaryentryfield{sdn}{\glsnamefont{SDN}}{Software-Defined Networking, Réseau Informatique Défini par Logiciel}{\relax }|setentrycounter[]{page}\glsnumberformat}{9}
-\glossaryentry{IDS?\glossaryentryfield{ids}{\glsnamefont{IDS}}{Intrusion Detection System, Système de Détection d'Intrusion}{\relax }|setentrycounter[]{page}\glsnumberformat}{9}
-\glossaryentry{IPS?\glossaryentryfield{ips}{\glsnamefont{IPS}}{Intrusion Prevention System, Système de Prévention d'Intrusion}{\relax }|setentrycounter[]{page}\glsnumberformat}{9}
+\glossaryentry{SDN?\glossaryentryfield{sdn}{\glsnamefont{SDN}}{Software-Defined Networking : Réseau Informatique Défini par Logiciel}{\relax }|setentrycounter[]{page}\glsnumberformat}{9}
+\glossaryentry{IDS?\glossaryentryfield{ids}{\glsnamefont{IDS}}{Intrusion Detection System : Système de Détection d'Intrusion}{\relax }|setentrycounter[]{page}\glsnumberformat}{9}
+\glossaryentry{IPS?\glossaryentryfield{ips}{\glsnamefont{IPS}}{Intrusion Prevention System : Système de Prévention d'Intrusion}{\relax }|setentrycounter[]{page}\glsnumberformat}{9}
 \glossaryentry{TI?\glossaryentryfield{ti}{\glsnamefont{TI}}{Technologie de l'Information}{\relax }|setentrycounter[]{page}\glsnumberformat}{11}
-\glossaryentry{IDS?\glossaryentryfield{ids}{\glsnamefont{IDS}}{Intrusion Detection System, Système de Détection d'Intrusion}{\relax }|setentrycounter[]{page}\glsnumberformat}{12}
+\glossaryentry{VLAN?\glossaryentryfield{vlan}{\glsnamefont{VLAN}}{Virtual Local Area Network, Virtual LAN}{\relax }|setentrycounter[]{page}\glsnumberformat}{12}
+\glossaryentry{IDS?\glossaryentryfield{ids}{\glsnamefont{IDS}}{Intrusion Detection System : Système de Détection d'Intrusion}{\relax }|setentrycounter[]{page}\glsnumberformat}{12}
 \glossaryentry{VM?\glossaryentryfield{vm}{\glsnamefont{VM}}{Virtual Machine, Machine Virtuelle}{\relax }|setentrycounter[]{page}\glsnumberformat}{12}
 \glossaryentry{VM?\glossaryentryfield{vm}{\glsnamefont{VM}}{Virtual Machine, Machine Virtuelle}{\relax }|setentrycounter[]{page}\glsnumberformat}{12}
 \glossaryentry{IaaS?\glossaryentryfield{iaas}{\glsnamefont{IaaS}}{Infrastructure as a Service, Infrastructure en tant que service}{\relax }|setentrycounter[]{page}\glsnumberformat}{12}
+\glossaryentry{HTTP?\glossaryentryfield{http}{\glsnamefont{HTTP}}{HyperText Transfer Protcol : Protocole de transfert de hypertexte}{\relax }|setentrycounter[]{page}\glsnumberformat}{13}
+\glossaryentry{DNS?\glossaryentryfield{dns}{\glsnamefont{DNS}}{Domain Name System, Système de noms de domaine}{\relax }|setentrycounter[]{page}\glsnumberformat}{14}
+\glossaryentry{DHCP?\glossaryentryfield{dhcp}{\glsnamefont{DHCP}}{Dynamic Host Control Protocol, Protocole pour la configuration automatique d'hôte}{\relax }|setentrycounter[]{page}\glsnumberformat}{14}
 \glossaryentry{ONF?\glossaryentryfield{onf}{\glsnamefont{ONF}}{Open Networking Foundation}{\relax }|setentrycounter[]{page}\glsnumberformat}{17}
 \glossaryentry{ONF?\glossaryentryfield{onf}{\glsnamefont{ONF}}{Open Networking Foundation}{\relax }|setentrycounter[]{page}\glsnumberformat}{17}
 \glossaryentry{ONF?\glossaryentryfield{onf}{\glsnamefont{ONF}}{Open Networking Foundation}{\relax }|setentrycounter[]{page}\glsnumberformat}{17}
 \glossaryentry{ONF?\glossaryentryfield{onf}{\glsnamefont{ONF}}{Open Networking Foundation}{\relax }|setentrycounter[]{page}\glsnumberformat}{17}
-\glossaryentry{SDN?\glossaryentryfield{sdn}{\glsnamefont{SDN}}{Software-Defined Networking, Réseau Informatique Défini par Logiciel}{\relax }|setentrycounter[]{page}\glsnumberformat}{17}
+\glossaryentry{SDN?\glossaryentryfield{sdn}{\glsnamefont{SDN}}{Software-Defined Networking : Réseau Informatique Défini par Logiciel}{\relax }|setentrycounter[]{page}\glsnumberformat}{17}
 \glossaryentry{VM?\glossaryentryfield{vm}{\glsnamefont{VM}}{Virtual Machine, Machine Virtuelle}{\relax }|setentrycounter[]{page}\glsnumberformat}{19}
-\glossaryentry{ONE?\glossaryentryfield{one}{\glsnamefont{ONE}}{Open Network Environment, Envrionnement Réseau Ouvert}{\relax }|setentrycounter[]{page}\glsnumberformat}{20}
+\glossaryentry{ONE?\glossaryentryfield{one}{\glsnamefont{ONE}}{Open Network Environment, Environnement Réseau Ouvert}{\relax }|setentrycounter[]{page}\glsnumberformat}{20}
 \glossaryentry{ONF?\glossaryentryfield{onf}{\glsnamefont{ONF}}{Open Networking Foundation}{\relax }|setentrycounter[]{page}\glsnumberformat}{20}
 \glossaryentry{API?\glossaryentryfield{api}{\glsnamefont{API}}{Application Programming Interface, Interface de Programmation}{\relax }|setentrycounter[]{page}\glsnumberformat}{20}
 \glossaryentry{ONF?\glossaryentryfield{onf}{\glsnamefont{ONF}}{Open Networking Foundation}{\relax }|setentrycounter[]{page}\glsnumberformat}{20}
 \glossaryentry{TI?\glossaryentryfield{ti}{\glsnamefont{TI}}{Technologie de l'Information}{\relax }|setentrycounter[]{page}\glsnumberformat}{26}
 \glossaryentry{RTFM?\glossaryentryfield{rtfm}{\glsnamefont{RTFM}}{Read the f\dots manual}{\relax }|setentrycounter[]{page}\glsnumberformat}{32}
-\glossaryentry{SDN?\glossaryentryfield{sdn}{\glsnamefont{SDN}}{Software-Defined Networking, Réseau Informatique Défini par Logiciel}{\relax }|setentrycounter[]{page}\glsnumberformat}{32}
+\glossaryentry{SDN?\glossaryentryfield{sdn}{\glsnamefont{SDN}}{Software-Defined Networking : Réseau Informatique Défini par Logiciel}{\relax }|setentrycounter[]{page}\glsnumberformat}{32}
 \glossaryentry{TI?\glossaryentryfield{ti}{\glsnamefont{TI}}{Technologie de l'Information}{\relax }|setentrycounter[]{page}\glsnumberformat}{32}
 \glossaryentry{SI?\glossaryentryfield{si}{\glsnamefont{SI}}{Système d'Information}{\relax }|setentrycounter[]{page}\glsnumberformat}{32}
 \glossaryentry{NFV?\glossaryentryfield{nfv}{\glsnamefont{NFV}}{Network Functions Virtualization, Virtualisation des fonctions réseau}{\relax }|setentrycounter[]{page}\glsnumberformat}{32}
@@ -49,9 +53,10 @@
 \glossaryentry{DHCP?\glossaryentryfield{dhcp}{\glsnamefont{DHCP}}{Dynamic Host Control Protocol, Protocole pour la configuration automatique d'hôte}{\relax }|setentrycounter[]{page}\glsnumberformat}{32}
 \glossaryentry{DNS?\glossaryentryfield{dns}{\glsnamefont{DNS}}{Domain Name System, Système de noms de domaine}{\relax }|setentrycounter[]{page}\glsnumberformat}{32}
 \glossaryentry{MPLS?\glossaryentryfield{mpls}{\glsnamefont{MPLS}}{MultiProtocol Label Switching, Commutation multi-protocoles par étiquettes}{\relax }|setentrycounter[]{page}\glsnumberformat}{32}
-\glossaryentry{IDS?\glossaryentryfield{ids}{\glsnamefont{IDS}}{Intrusion Detection System, Système de Détection d'Intrusion}{\relax }|setentrycounter[]{page}\glsnumberformat}{32}
-\glossaryentry{IPS?\glossaryentryfield{ips}{\glsnamefont{IPS}}{Intrusion Prevention System, Système de Prévention d'Intrusion}{\relax }|setentrycounter[]{page}\glsnumberformat}{32}
-\glossaryentry{ONE?\glossaryentryfield{one}{\glsnamefont{ONE}}{Open Network Environment, Envrionnement Réseau Ouvert}{\relax }|setentrycounter[]{page}\glsnumberformat}{32}
+\glossaryentry{IDS?\glossaryentryfield{ids}{\glsnamefont{IDS}}{Intrusion Detection System : Système de Détection d'Intrusion}{\relax }|setentrycounter[]{page}\glsnumberformat}{32}
+\glossaryentry{IPS?\glossaryentryfield{ips}{\glsnamefont{IPS}}{Intrusion Prevention System : Système de Prévention d'Intrusion}{\relax }|setentrycounter[]{page}\glsnumberformat}{32}
+\glossaryentry{ONE?\glossaryentryfield{one}{\glsnamefont{ONE}}{Open Network Environment, Environnement Réseau Ouvert}{\relax }|setentrycounter[]{page}\glsnumberformat}{32}
 \glossaryentry{API?\glossaryentryfield{api}{\glsnamefont{API}}{Application Programming Interface, Interface de Programmation}{\relax }|setentrycounter[]{page}\glsnumberformat}{32}
 \glossaryentry{ASIC?\glossaryentryfield{asic}{\glsnamefont{ASIC}}{Application Specific Integrated Circuit, Circuit intégré pour application spécifique}{\relax }|setentrycounter[]{page}\glsnumberformat}{32}
 \glossaryentry{IaaS?\glossaryentryfield{iaas}{\glsnamefont{IaaS}}{Infrastructure as a Service, Infrastructure en tant que service}{\relax }|setentrycounter[]{page}\glsnumberformat}{32}
+\glossaryentry{HTTP?\glossaryentryfield{http}{\glsnamefont{HTTP}}{HyperText Transfer Protcol : Protocole de transfert de hypertexte}{\relax }|setentrycounter[]{page}\glsnumberformat}{32}
