@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.24)  28 MAR 2014 19:10
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.24)  28 MAR 2014 23:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1633,11 +1633,11 @@ Package logreq Info: Writing requests to 'ebt.run.xml'.
 Here is how much of TeX's memory you used:
  20498 strings out of 493315
  324439 string characters out of 6137904
- 857509 words of memory out of 5000000
+ 856509 words of memory out of 5000000
  23330 multiletter control sequences out of 15000+600000
  46209 words of font info for 37 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 57i,18n,51p,1453b,2414s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,18n,51p,1453b,2416s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{glo:cluster} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -1653,7 +1653,7 @@ e/2013/texmf-dist/fonts/type1/public/lm/lmro12.pfb></usr/local/texlive/2013/tex
 mf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2013/texmf-dist/
 fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type
 1/public/lm/lmtt12.pfb>
-Output written on ebt.pdf (48 pages, 1094658 bytes).
+Output written on ebt.pdf (48 pages, 1096849 bytes).
 PDF statistics:
  829 PDF objects out of 1000 (max. 8388607)
  738 compressed objects within 8 object streams
