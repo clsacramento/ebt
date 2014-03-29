@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.24)  28 MAR 2014 23:26
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.24)  29 MAR 2014 14:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1132,7 +1132,7 @@ Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'french'.
 
 (./ebt.aux (./intro.aux) (./chap1.aux) (./chap2.aux) (./chap4.aux) (./chap5.aux
-) (./concl.aux) (./ann1.aux))
+) (./concl.aux))
 \openout1 = `ebt.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 212.
@@ -1150,8 +1150,7 @@ LaTeX Font Info:    ... okay on input line 212.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 212.
 LaTeX Font Info:    ... okay on input line 212.
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 212.
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/lm/t1lmr.fd
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 (/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -1245,7 +1244,7 @@ LaTeX Info: Redefining \up on input line 212.
    defining Unicode char U+00AB (decimal 171)
    defining Unicode char U+00BB (decimal 187)
 
-<couverture-ebt.pdf, id=106, page=1, 597.50829pt x 845.0471pt>
+<couverture-ebt.pdf, id=94, page=1, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 1>
@@ -1275,7 +1274,7 @@ Package pdftex.def Info: couverture-ebt.pdf, page1 used on input line 213.
 
  <./couverture-ebt.pdf{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updma
 p/pdftex.map}>]
-<couverture-ebt.pdf, id=132, page=2, 597.50829pt x 845.0471pt>
+<couverture-ebt.pdf, id=120, page=2, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 2>
@@ -1383,7 +1382,7 @@ Chapitre 1.
 
 
 ]
-<images/IncreasingPressureOnNetworkInfra2.png, id=299, 437.38406pt x 441.14813p
+<images/IncreasingPressureOnNetworkInfra2.png, id=284, 437.38406pt x 441.14813p
 t>
 File: images/IncreasingPressureOnNetworkInfra2.png Graphic file (type png)
  <use images/IncreasingPressureOnNetworkInfra2.png>
@@ -1412,14 +1411,18 @@ Overfull \hbox (9.10292pt too wide) in paragraph at lines 24--25
 
 
 
-] <images/TraditionalVsSDN.png, id=369, 770.88pt x 578.16pt>
+] <images/TraditionalVsSDN.png, id=354, 691.83469pt x 471.26062pt>
 File: images/TraditionalVsSDN.png Graphic file (type png)
 
 <use images/TraditionalVsSDN.png>
 Package pdftex.def Info: images/TraditionalVsSDN.png used on input line 44.
-(pdftex.def)             Requested size: 426.79134pt x 320.08861pt.
- [8 <./images/TraditionalVsSDN.png>] [9])
-[10]
+(pdftex.def)             Requested size: 426.79134pt x 290.72601pt.
+
+Underfull \vbox (badness 2538) has occurred while \output is active []
+
+ [8 <./images/TraditionalVsSDN.png>] [9]) [10
+
+]
 \openout2 = `chap4.aux'.
 
  (./chap4.tex
@@ -1429,7 +1432,7 @@ Chapitre 3.
 
 
 
-] <images/DataCenterL2Bridging.png, id=437, 1035.87pt x 547.04375pt>
+] <images/DataCenterL2Bridging.png, id=422, 1035.87pt x 547.04375pt>
 File: images/DataCenterL2Bridging.png Graphic file (type png)
 
 <use images/DataCenterL2Bridging.png>
@@ -1455,7 +1458,7 @@ LaTeX Warning: Citation 'ElasticTree' on page 12 undefined on input line 88.
 
 ]
 Chapitre 4.
-[17] <images/openflowArchi.png, id=524, 602.25pt x 402.50375pt>
+[17] <images/openflowArchi.png, id=515, 602.25pt x 402.50375pt>
 File: images/openflowArchi.png Graphic file (type png)
 
 <use images/openflowArchi.png>
@@ -1478,22 +1481,15 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-]) [23]
-\openout2 = `ann1.aux'.
-
- (./ann1.tex [24
+]) [23] [24
 
 
-
-
-]
-Annexe A.
-) [25] [26
 
 ]
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 246.
 
- (/usr/local/texlive/2013/texmf-dist/tex/latex/lm/t1lmtt.fd
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 246.
@@ -1516,12 +1512,10 @@ Overfull \hbox (0.85542pt too wide) in paragraph at lines 247--247
 ec-ture\T1/lmr/m/n/12 . An Oracle White
  []
 
-[27
+[25
 
 
-
-
-] [28] [29]
+] [26] [27]
 Overfull \hbox (4.1795pt too wide) in paragraph at lines 247--247
 \T1/lmr/m/n/12 Ethan Banks, http://searchsdn.techtarget.com/news/2240212374/Thi
 nking-about-
@@ -1539,35 +1533,35 @@ Overfull \hbox (9.3056pt too wide) in paragraph at lines 247--247
 /tip/Dont-overlook-SDN-startups-
  []
 
-
+[28]
 Overfull \hbox (77.27328pt too wide) in paragraph at lines 247--247
 \T1/lmr/m/n/12 http://www.reuters.com/article/2012/11/13/bigswitchnetworks-sdn-
 idUSL1E8MD05D20121113.
  []
 
-[30]
+
 Overfull \hbox (2.4868pt too wide) in paragraph at lines 247--247
 \T1/lmr/m/n/12 Web Site. http://www.networkworld.com/community/blog/highlights-
 big-switchs-
  []
 
-[31]
+[29]
 No file ebt.ind.
-(./ebt.gls [32] [33
+(./ebt.gls [30] [31
 
 
 
 
-]) (./ebt.acr [34]) [35
+]) (./ebt.acr [32]) [33
 
 
 
 
-] [36
+] [34
 
 
 ]
-<couverture-ebt.pdf, id=733, page=3, 597.50829pt x 845.0471pt>
+<couverture-ebt.pdf, id=714, page=3, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 3>
@@ -1591,8 +1585,8 @@ File: couverture-ebt.pdf Graphic file (type pdf)
 <use couverture-ebt.pdf, page 3>
 Package pdftex.def Info: couverture-ebt.pdf, page3 used on input line 253.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [37 <./couverture-ebt.pdf>]
-<couverture-ebt.pdf, id=738, page=4, 597.50829pt x 845.0471pt>
+ [35 <./couverture-ebt.pdf>]
+<couverture-ebt.pdf, id=720, page=4, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 4>
@@ -1607,16 +1601,16 @@ File: couverture-ebt.pdf Graphic file (type pdf)
 <use couverture-ebt.pdf, page 4>
 Package pdftex.def Info: couverture-ebt.pdf, page4 used on input line 253.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [38 <./couverture-ebt.pdf>]
+ [36 <./couverture-ebt.pdf>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 254.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 254.
  (./ebt.aux
 (./intro.aux) (./chap1.aux) (./chap2.aux) (./chap4.aux) (./chap5.aux)
-(./concl.aux) (./ann1.aux))
+(./concl.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 254.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 254.
 Package rerunfilecheck Info: File `ebt.out' has not changed.
-(rerunfilecheck)             Checksum: C4EE511169C29D89A297869212AB6657;1966.
+(rerunfilecheck)             Checksum: 7AA23F15825B264C079BB4D750F38C60;1711.
 
 
 LaTeX Warning: There were undefined references.
@@ -1631,32 +1625,29 @@ Package logreq Info: Writing requests to 'ebt.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20498 strings out of 493315
- 324439 string characters out of 6137904
- 856509 words of memory out of 5000000
- 23330 multiletter control sequences out of 15000+600000
+ 20484 strings out of 493315
+ 324352 string characters out of 6137904
+ 855069 words of memory out of 5000000
+ 23325 multiletter control sequences out of 15000+600000
  46209 words of font info for 37 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  57i,18n,51p,1453b,2416s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{glo:cluster} has been referenced but does not exi
-st, replaced by a fixed one
-
-{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/loca
-l/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2013
-/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2013/texmf-dis
-t/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
-pe1/public/lm/lmcsc10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/publi
-c/lm/lmr10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmr12.
-pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/lo
-cal/texlive/2013/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texliv
-e/2013/texmf-dist/fonts/type1/public/lm/lmro12.pfb></usr/local/texlive/2013/tex
-mf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2013/texmf-dist/
-fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type
-1/public/lm/lmtt12.pfb>
-Output written on ebt.pdf (48 pages, 1096849 bytes).
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
+cal/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/20
+13/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2013/texmf-d
+ist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2013/texmf-dist/fonts/
+type1/public/lm/lmcsc10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/pub
+lic/lm/lmr10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmr1
+2.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/
+local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texl
+ive/2013/texmf-dist/fonts/type1/public/lm/lmro12.pfb></usr/local/texlive/2013/t
+exmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2013/texmf-dis
+t/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
+pe1/public/lm/lmtt12.pfb>
+Output written on ebt.pdf (46 pages, 1091524 bytes).
 PDF statistics:
- 829 PDF objects out of 1000 (max. 8388607)
- 738 compressed objects within 8 object streams
- 194 named destinations out of 1000 (max. 500000)
- 261 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 810 PDF objects out of 1000 (max. 8388607)
+ 721 compressed objects within 8 object streams
+ 192 named destinations out of 1000 (max. 500000)
+ 237 words of extra memory for PDF output out of 10000 (max. 10000000)
 

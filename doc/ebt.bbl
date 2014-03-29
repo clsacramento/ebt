@@ -685,6 +685,22 @@
       \endverb
       \keyw{cloud computing;computer centres;computer network management;computer network performance evaluation;computer network security;open systems;quality of service;software radio;virtual private networks;virtualisation;SDN;carrier grade network;cloud service;data center;energy efficient networking;interoperability;network operator;network performance;network scalability;network security;quality of service;software defined network;virtualization technology;Cloud computing;Data centers;Network security;Quality of service;Routing;Switches}
     \endentry
+    \entry{IntelCloudEPC}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=0f618c9b24af45746e528711172cd96f}{Intel}{I\bibinitperiod}{Tieto}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=0f618c9b24af45746e528711172cd96f}{Intel}{I\bibinitperiod}{Tieto}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{0f618c9b24af45746e528711172cd96f}
+      \strng{fullhash}{0f618c9b24af45746e528711172cd96f}
+      \field{sortinit}{0}
+      \field{labeltitle}{Carrier Cloud Telecoms – Exploring the Challenges of Deploying Virtualisation and SDN in Telecoms Networks}
+      \field{howpublished}{White Paper}
+      \field{note}{Section Summary and Conclusions}
+      \field{title}{Carrier Cloud Telecoms – Exploring the Challenges of Deploying Virtualisation and SDN in Telecoms Networks}
+      \field{year}{2013}
+    \endentry
     \entry{ImplementationKeyChallenges}{article}{}
       \name{labelname}{9}{}{%
         {{hash=b6cea6bdc21430c2853492a6aa80ecee}{Sezer}{S\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
@@ -904,6 +920,62 @@
       \field{note}{Section 3 SDN and cloud computing}
       \field{title}{SDN: Development, Adoption and Research Trends : A Survey of Research Issues in SDN}
       \field{year}{2013}
+    \endentry
+    \entry{googleONS}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=56feb3ff32cce683162564e5097d4248}{Gupta}{G\bibinitperiod}{Lav}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=56feb3ff32cce683162564e5097d4248}{Gupta}{G\bibinitperiod}{Lav}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{56feb3ff32cce683162564e5097d4248}
+      \strng{fullhash}{56feb3ff32cce683162564e5097d4248}
+      \field{sortinit}{0}
+      \field{labeltitle}{Inter-datacenter wan with centralized te using sdn and openflow.}
+      \field{howpublished}{Conférence}
+      \field{journaltitle}{Open Networking Summit}
+      \field{month}{04}
+      \field{title}{Inter-datacenter wan with centralized te using sdn and openflow.}
+      \field{year}{2012}
+    \endentry
+    \entry{SDNWANB4}{inproceedings}{}
+      \true{morelabelname}
+      \name{labelname}{10}{}{%
+        {{hash=8a0ebcef55ced5c75a0e8eaf94736d80}{Jain}{J\bibinitperiod}{Sushant}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=b19336abf3112fa7200ffcb96642109a}{Kumar}{K\bibinitperiod}{Alok}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=195e985552958e071f96af4e6ae8b150}{Mandal}{M\bibinitperiod}{Subhasree}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=1b96aa01dca73a4da2785bcd88f66240}{Ong}{O\bibinitperiod}{Joon}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=9d3d4bb451bf70073db1b3ade96a4b56}{Poutievski}{P\bibinitperiod}{Leon}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=2d4fe94d9c3711fda65765e2f0bdcfe5}{Singh}{S\bibinitperiod}{Arjun}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=6a794bb4bea5e640a3f8c92f568c93f5}{Venkata}{V\bibinitperiod}{Subbaiah}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=750a970181dae2aa95d3d568b4c570b5}{Wanderer}{W\bibinitperiod}{Jim}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=bc418dc018d8fffae795373f6bee9c5e}{Zhou}{Z\bibinitperiod}{Junlan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=471faf15c70338fe50cbe7bf59d274fb}{Zhu}{Z\bibinitperiod}{Min}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{10}{}{%
+        {{hash=8a0ebcef55ced5c75a0e8eaf94736d80}{Jain}{J\bibinitperiod}{Sushant}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=b19336abf3112fa7200ffcb96642109a}{Kumar}{K\bibinitperiod}{Alok}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=195e985552958e071f96af4e6ae8b150}{Mandal}{M\bibinitperiod}{Subhasree}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=1b96aa01dca73a4da2785bcd88f66240}{Ong}{O\bibinitperiod}{Joon}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=9d3d4bb451bf70073db1b3ade96a4b56}{Poutievski}{P\bibinitperiod}{Leon}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=2d4fe94d9c3711fda65765e2f0bdcfe5}{Singh}{S\bibinitperiod}{Arjun}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=6a794bb4bea5e640a3f8c92f568c93f5}{Venkata}{V\bibinitperiod}{Subbaiah}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=750a970181dae2aa95d3d568b4c570b5}{Wanderer}{W\bibinitperiod}{Jim}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=bc418dc018d8fffae795373f6bee9c5e}{Zhou}{Z\bibinitperiod}{Junlan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=471faf15c70338fe50cbe7bf59d274fb}{Zhu}{Z\bibinitperiod}{Min}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{4144e3faeb0f84608388103e8129be90}
+      \strng{fullhash}{34a224823cbcf4262d264cfa009dc8a6}
+      \field{sortinit}{0}
+      \field{labeltitle}{B4: Experience with a globally-deployed software defined WAN}
+      \field{booktitle}{Proceedings of the ACM SIGCOMM 2013 conference on SIGCOMM}
+      \field{title}{B4: Experience with a globally-deployed software defined WAN}
+      \field{year}{2013}
+      \field{pages}{3\bibrangedash 14}
     \endentry
     \entry{SurveySDNApplications}{misc}{}
       \name{labelname}{5}{}{%
