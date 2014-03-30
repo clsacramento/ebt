@@ -1102,6 +1102,23 @@
       \field{title}{Executive’s guide to software- defined networking}
       \field{year}{2013}
     \endentry
+    \entry{CiscoInsiemeLast}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=a767256374f2937764a323e0fd0a9344}{Little}{L\bibinitperiod}{Rivka\bibnamedelima Gewirtz}{R\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=a767256374f2937764a323e0fd0a9344}{Little}{L\bibinitperiod}{Rivka\bibnamedelima Gewirtz}{R\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{a767256374f2937764a323e0fd0a9344}
+      \strng{fullhash}{a767256374f2937764a323e0fd0a9344}
+      \field{sortinit}{0}
+      \field{labeltitle}{Insieme at last! SDN fabric with Cisco ACI and Nexus 9000 switches}
+      \field{howpublished}{Web Site}
+      \field{month}{11}
+      \field{note}{http://searchsdn.techtarget.com/news/2240208657/Insieme-at-last-SDN-fabric-with-Cisco-ACI-and-Nexus-9000-switches}
+      \field{title}{Insieme at last! SDN fabric with Cisco ACI and Nexus 9000 switches}
+      \field{year}{2013}
+    \endentry
     \entry{CiscoSDNONE}{misc}{}
       \name{labelname}{1}{}{%
         {{hash=0d22ca1353ba2ac84ab0d31ae4a0ead7}{Mark\bibnamedelimb Mitchiner\bibnamedelimb -\bibnamedelimb Solutions\bibnamedelima Architect}{M\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim \bibinithyphendelim \bibinithyphendelim \bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim A\bibinitperiod}{Reema\bibnamedelimb Prasad\bibnamedelimb -\bibnamedelimb Solutions\bibnamedelima Architect}{R\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim \bibinithyphendelim \bibinithyphendelim \bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
@@ -1647,6 +1664,23 @@
       \field{note}{Section 2 Implementation issues in SDN}
       \field{title}{SDN: Development, Adoption and Research Trends : A Survey of Research Issues in SDN}
       \field{year}{2013}
+    \endentry
+    \entry{CiscoACI}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=7b1d1185b835814de783483f686e9825}{Cisco}{C\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=7b1d1185b835814de783483f686e9825}{Cisco}{C\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{7b1d1185b835814de783483f686e9825}
+      \strng{fullhash}{7b1d1185b835814de783483f686e9825}
+      \field{sortinit}{0}
+      \field{labeltitle}{Cisco Application Centric Infrastructure}
+      \field{howpublished}{Web Site}
+      \field{month}{03}
+      \field{note}{http://www.cisco.com/c/en/us/solutions/data-center-virtualization/application-centric-infrastructure/index.html}
+      \field{title}{Cisco Application Centric Infrastructure}
+      \field{year}{2014}
     \endentry
   \endsortlist
 \endrefsection

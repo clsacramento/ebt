@@ -1,6 +1,9 @@
 \glossarysection[\glossarytoctitle]{\glossarytitle}\glossarypreamble
 \begin{theglossary}\glossaryheader
 \glsgroupheading{A}\relax \glsresetentrylist %
+\glossaryentryfield{aci}{\glsnamefont{ACI}}{Application Centric Infrastructure, Infrastructure centrée sur les applications}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{20}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{30}}}%
 \glossaryentryfield{api}{\glsnamefont{API}}{Application Programming Interface, Interface de Programmation}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{20}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{30}}}%
@@ -15,7 +18,7 @@
 		\setentrycounter[]{page}\glsnumberformat{30}}}\glsgroupskip
 \glsgroupheading{H}\relax \glsresetentrylist %
 \glossaryentryfield{http}{\glsnamefont{HTTP}}{HyperText Transfer Protcol : Protocole de transfert de hypertexte}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{13}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{14}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{30}}}\glsgroupskip
 \glsgroupheading{I}\relax \glsresetentrylist %
 \glossaryentryfield{iaas}{\glsnamefont{IaaS}}{Infrastructure as a Service, Infrastructure en tant que service}{\relax }{\glossaryentrynumbers{\relax 
