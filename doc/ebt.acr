@@ -22,7 +22,7 @@
 		\setentrycounter[]{page}\glsnumberformat{31}}}\glsgroupskip
 \glsgroupheading{I}\relax \glsresetentrylist %
 \glossaryentryfield{iaas}{\glsnamefont{IaaS}}{Infrastructure as a Service, Infrastructure en tant que service}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{12}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{13}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{31}}}%
 \glossaryentryfield{ids}{\glsnamefont{IDS}}{Intrusion Detection System : Système de Détection d'Intrusion}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{6}\delimN 
@@ -65,9 +65,6 @@
 \glossaryentryfield{qos}{\glsnamefont{QoS}}{Quality of Service, Qualité de service}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{6}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{14}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{31}}}\glsgroupskip
-\glsgroupheading{R}\relax \glsresetentrylist %
-\glossaryentryfield{rtfm}{\glsnamefont{RTFM}}{Read the f\dots manual}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{31}}}\glsgroupskip
 \glsgroupheading{S}\relax \glsresetentrylist %
 \glossaryentryfield{sdn}{\glsnamefont{SDN}}{Software-Defined Networking : Réseau Informatique Défini par Logiciel}{\relax }{\glossaryentrynumbers{\relax 

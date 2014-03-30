@@ -1,6 +1,6 @@
 \chapter{Réseaux programmables avec SDN}
 
-L'objectif est de concevoir une architecture plus adaptée aux enjeux de la communication actuelle discutés dans le chapitre 1. Cette problématique a amené scientifiques et ingénieurs impliqués à élaborer \gls{sdn}. \gls{sdn} est un nouveau \glslink{paradigme}{paradigme} réseau actuellement en cours de développement pour adapter l'infrastructure existante à ce nouveau scénario.
+L'objectif est de concevoir une architecture plus adaptée aux enjeux de la communication actuelle présentés dans le chapitre 1. Cette problématique a amené scientifiques et ingénieurs à élaborer \gls{sdn}. \gls{sdn} est un nouveau \glslink{paradigme}{paradigme} réseau actuellement en cours de développement pour adapter l'infrastructure existante à ce nouveau scénario.
 Le but de ce chapitre est de (re)définir SDN et de présenter en quoi SDN répond aux besoins explicités dans le chapitre 1.
 %Ce chapitre répond aux questions : Qu'est-ce que SDN ? Qu'est-ce que cela propose ?
 
@@ -8,11 +8,11 @@ Le but de ce chapitre est de (re)définir SDN et de présenter en quoi SDN répo
 \section{Séparation de l'intelligence (contrôle) de la commutation (flux de données)}
 
 %Having recognized the problem, the networking commu- nity is hard at work developing programmable networks, such as GENI [1] a proposed nationwide research facility for experimenting with new network architectures and dis- tributed systems. These programmable networks call for programmable switches and routers that (using virtualiza- tion) can process packets for multiple isolated experimen- tal networks simultaneously.
-Cette problématique posée, la communauté réseau montre une forte mobilisation pour le développement des réseaux programmables. Ces réseaux utilisent des switches et des routeurs programmables qui peuvent traiter des paquets pour des multiples réseaux expérimentaux  à la fois, grâce à la \gls{virtualisation}. \cite{OpenFlowStanfordOssification} Divers projets pour les réseaux programmables, comme NETCONF \cite{NETCONF}, Ethane \cite{Ethane}, GENI \cite{GENI} etc. ont été réalisés et en ont servi de base pour ce paradigme qu'on développe et supporte aujourd'hui : SDN. 
+Cette problématique posée, la communauté réseau montre une forte mobilisation pour le développement des réseaux programmables. Ces réseaux utilisent des switches et des routeurs programmables qui peuvent traiter des paquets pour de multiples réseaux expérimentaux  à la fois, grâce à la \gls{virtualisation}. \cite{OpenFlowStanfordOssification} Divers projets pour les réseaux programmables, comme NETCONF \cite{NETCONF}, Ethane \cite{Ethane}, GENI \cite{GENI} etc. ont été réalisés et ont servi de base pour ce paradigme qu'on développe et supporte aujourd'hui : SDN. 
 
 %SDN is described in this article with the Open Networking Foundation (ONF) [1] definition: “In the SDN architecture, the control and data planes are decoupled, network intelli- gence and state are logically centralized, and the underlying network infrastructure is abstracted from the applications.”
 
-Au cours de cette étude, SDN est défini selon \gls{onf} : Dans l'architecture SDN, les plans de contrôle et de données sont découpés, l'intelligence et l'état du réseau sont logiquement centralisés, et l'infrastructure du réseau est donc abstraite des applications. \cite{SDNNewNormONFExecutiveSummary}
+Au cours de cette étude, SDN est défini selon \gls{onf} : dans l'architecture SDN, les plans de contrôle et de données sont découpés, l'intelligence et l'état du réseau sont logiquement centralisés, et l'infrastructure du réseau est donc abstraite des applications. \cite{SDNNewNormONFExecutiveSummary}
 
 
 %The control plane is responsible for configuration of the node and programming the paths that will be used for data flows. Once these paths have been determined they are pushed down to the data plane. Data forwarding at the hardware level is based on this control information.
@@ -21,13 +21,13 @@ Le \gls{controlplane} est responsable de la configuration d'un nœud et de la pr
 
 
 
-Dans l'architecture réseau traditionnellement déployée, chaque équipement actif contient un plan de contrôle et un plan de données à l'intérieur du même matériel. L'ossification d'internet discutée dans le chapitre 1 est largement attribuée à ce fort couplage entre les deux plans, impliquant que toutes les décisions sur les flux de donnés soient embarquées dans chaque élément réseau. Le manque d'une interface de contrôle commune à tous les dispositifs complique toute évolution que cela soit un simple changement de configuration ou le développement d'une nouvelle application. \cite{SurveySDNArchi}
+Dans l'architecture réseau traditionnellement déployée, chaque équipement actif contient un plan de contrôle et un plan de données à l'intérieur du même matériel. L'ossification d'internet discutée dans le chapitre 1 est largement attribuée à ce fort couplage entre les deux plans, impliquant que toutes les décisions sur les flux de donnés soient embarquées dans chaque élément réseau. L'absence d'une interface de contrôle commune à tous les dispositifs complique toute évolution, que cela soit un simple changement de configuration ou le développement d'une nouvelle application. \cite{SurveySDNArchi}
 
 
 
 %As mentioned previously, the so-called Internet “ossifica- tion” [2] is largely attributed to the tight coupling between the data– and control planes which means that decisions about data flowing through the network are made on-board each network element. In this type of environment, the deployment of new network applications or functionality is decidedly non- trivial, as they would need to be implemented directly into the infrastructure. Even straightforward tasks such as config- uration or policy enforcement may require a good amount of effort due to the lack of a common control interface to the various network devices.
 
-Avec SDN, on propose la séparation de ces deux éléments. Le \gls{controlplane} est implémenté par un contrôleur centralisé et commun à tous les équipements qui finissent par contenir seulement le \gls{dataplane} en plus d'un module de communication.  La séparation de la fonction de commutation de la logique de contrôle permet un déploiement plus facile de nouveaux protocoles et applications. La virtualisation et le management du réseau deviennent plus simples et les nombreux \glspl{middlebox} sont consolidées dans le logiciel de contrôle. \cite{SurveySDNArchi} \cite{SDNNewNormONFExecutiveSummary}
+Avec SDN, on propose la séparation de ces deux éléments. Le \gls{controlplane} est implémenté par un contrôleur centralisé et commun à tous les équipements qui finissent par contenir seulement le \gls{dataplane} en plus d'un module de communication.  La séparation de la fonction de commutation de la logique de contrôle permet un déploiement plus facile de nouveaux protocoles et applications. La virtualisation et le management du réseau deviennent plus simples et les nombreuses \glspl{middlebox} sont consolidées dans le logiciel de contrôle. \cite{SurveySDNArchi} \cite{SDNNewNormONFExecutiveSummary}
 %the separation of the forwarding hardware from the control logic allows easier deployment of new protocols and applications, straightforward network visualization and management, and consolidation of various middleboxes into software control.
 
 Dans l'image ci-dessous on voit un schéma illustrant l'ensemble de l'architecture dans les deux cas.
@@ -51,7 +51,7 @@ Comme visualisé dans l'image, chaque dispositif actif de l'infrastructure conti
 %  \gls{ip} et \gls{mpls} sont des exemples de ce modèle avec contrôle distribué. Ces systèmes comptent avec l'échange de routes et d'informations sur l'état de raccordement qui résultent en \glspl{dataplane} programmés pour réaliser ces chemins. La haute disponibilité est fournie grâce à la redondance, avec la duplication de chaque nœud permettant des chemins alternatifs lors de la faille d'un lien ou d'un élément. \cite{sdnbookControlDataPlanes}
 
 
-Dans le cas de SDN, le contrôle est centralisé et chaque dispositif réalise seulement la fonction de commutation. L'avantage de ce modèle est la possibilité d'avoir une vue du réseau permettant de simplifier la programmation du contrôle. SDN n'est pas la seule solution de contrôle centralisé et de réseau programmable existante. Indépendamment, dans tous les cas, cette approche permet aux applications de ne plus se soucier de l'état de chaque nœud, mais d'interagir avec un contrôle unique intégrant ces détails. \cite{sdnbookControlDataPlanes}
+Dans le cas de SDN, le contrôle est centralisé et chaque dispositif réalise seulement la fonction de commutation. L'avantage de ce modèle est la possibilité d'avoir une vue du réseau permettant de simplifier la programmation du contrôle. SDN n'est pas la seule solution de contrôle centralisé et de réseau programmable existante. Cette approche permet aux applications de ne plus se soucier de l'état de chaque nœud, mais d'interagir avec un contrôle unique intégrant ces détails. \cite{sdnbookControlDataPlanes}
 
 %%%%%%%%%%%%%%%%%intégrant ces détails.
 
@@ -74,7 +74,7 @@ Le principal avantage d'un contrôle centralisé est la vue globale du réseau q
 
 Avec le \gls{controlplane} et le \gls{dataplane} embarqués, les éléments actifs échangent leurs paramètres avec les éléments voisins pour acquérir des informations pertinentes sur le réseau et prendre les décisions de commutation des paquets entrants. \gls{ip} et \gls{mpls} sont des exemples de ce modèle avec contrôle distribué. 
 %Dans ce modèle les changements d'états du réseau sont transférés à travers des protocoles de routage (comme RIP, BGP, OSPF etc.), et le temps pour qu'ils deviennent cohérents est appelé "temps de convergence'. 
-Ce système implique l'utilisation de complexes algorithmes de calcul de route qui doivent s'exécuter dans chaque nœud à chaque changement d'état et également le traitement des bouclages de diffusion entre les voisins. 
+Ce système implique l'utilisation de complexes algorithmes de calcul de route qui doivent s'exécuter dans chaque nœud à chaque changement d'état et implique également le traitement des bouclages de diffusion entre les voisins. 
 % La haute disponibilité est fournie grâce à la redondance, avec la duplication de chaque nœud permettant des chemins alternatifs lors de la faille d'un lien ou d'un élément. 
 Tandis qu'avec SDN, la prise de décision est centralisée, ce qui évite donc la gestion de ces échanges et l'exécution multiple de ces algorithmes qui n'est réalisée qu'une fois dans le contrôleur. 
 %\cite{sdnbookControlDataPlanes}
@@ -89,8 +89,8 @@ La technologie SDN permet aussi de traiter les enjeux des périmètres réseaux 
 
 
 
-Divers avantages et possibilités dérivent de ce changement architectural, comme la simplification du matériel qui apporte une  meilleure utilisation de ressources réseau. Les technologies SDN offrent la capacité de faire évoluer l'architecture du réseau pour répondre à l'explosion des données mobiles et pour fournir un environnement supportant la création de nouveaux services et  de nouvelles sources des revenues. Cela représente une opportunité pour profiter des phénoménales consommations et dynamiques sociales qui affectent l'industrie aujourd'hui. \cite{IntelCloudEPC}
-Le chapitre 3 discute les opportunités les plus espérées et les applications associées.  
+Divers avantages et possibilités dérivent de ce changement architectural, comme la simplification du matériel qui apporte une  meilleure utilisation de ressources réseau. Les technologies SDN offrent la capacité de faire évoluer l'architecture du réseau pour répondre à l'explosion des données mobiles et pour fournir un environnement supportant la création de nouveaux services et  de nouvelles sources des revenus. Cela représente une opportunité pour profiter des consommations phénoménales et des dynamiques sociales qui affectent l'industrie aujourd'hui. \cite{IntelCloudEPC}
+Le chapitre 3 examine les opportunités les plus espérées et les applications associées.  
 Pourtant, l'implémentation comprend des enjeux dont le traitement impose des choix discutés ensuite. 
 
 \clearpage
