@@ -883,6 +883,26 @@
       \field{title}{Multi-Gigabit Intrusion Detection with OpenFlow and Commodity Clusters}
       \field{year}{2012}
     \endentry
+    \entry{Elastictree}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=3a7cab2af478724012cda5b73168018a}{McKeown}{M\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=3a7cab2af478724012cda5b73168018a}{McKeown}{M\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {USENIX Association}%
+      }
+      \strng{namehash}{3a7cab2af478724012cda5b73168018a}
+      \strng{fullhash}{3a7cab2af478724012cda5b73168018a}
+      \field{sortinit}{0}
+      \field{labeltitle}{Elastictree: Saving energy in data center networks}
+      \field{journaltitle}{Proceedings of the 7th USENIX conference on Networked systems design and implementation}
+      \field{title}{Elastictree: Saving energy in data center networks}
+      \field{year}{2010}
+      \field{pages}{17\bibrangedash 27}
+      \warn{\item Name "B. Heller, S. Seetharaman, P. Mahadevan, Y. Yiakoumis, P. Sharma, S. Banerjee," has too many commas: skipping name}
+    \endentry
     \entry{Honeyguide}{article}{}
       \name{labelname}{2}{}{%
         {{hash=b1eed6cfb8d6d5d0e11153f8cda2d287}{H.\bibnamedelimi Shirayanagi}{H\bibinitperiod\bibinitdelim S\bibinitperiod}{H.\bibnamedelimi Yamada}{H\bibinitperiod\bibinitdelim Y\bibinitperiod}{}{}{}{}}%
@@ -1543,26 +1563,6 @@
       \verb http://doi.acm.org/10.1145/1273445.1273453
       \endverb
       \keyw{clean-slate, internet, network architecture, post-ip}
-    \endentry
-    \entry{Elastictree}{article}{}
-      \name{labelname}{1}{}{%
-        {{hash=3a7cab2af478724012cda5b73168018a}{McKeown}{M\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=3a7cab2af478724012cda5b73168018a}{McKeown}{M\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
-      }
-      \list{publisher}{1}{%
-        {USENIX Association}%
-      }
-      \strng{namehash}{3a7cab2af478724012cda5b73168018a}
-      \strng{fullhash}{3a7cab2af478724012cda5b73168018a}
-      \field{sortinit}{0}
-      \field{labeltitle}{Elastictree: Saving energy in data center networks}
-      \field{journaltitle}{Proceedings of the 7th USENIX conference on Networked systems design and implementation}
-      \field{title}{Elastictree: Saving energy in data center networks}
-      \field{year}{2010}
-      \field{pages}{17\bibrangedash 27}
-      \warn{\item Name "B. Heller, S. Seetharaman, P. Mahadevan, Y. Yiakoumis, P. Sharma, S. Banerjee," has too many commas: skipping name}
     \endentry
     \entry{sndChineseBook}{book}{}
       \name{labelname}{1}{}{%

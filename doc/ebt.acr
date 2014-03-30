@@ -58,6 +58,11 @@
 		\setentrycounter[]{page}\glsnumberformat{17}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{20}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{30}}}\glsgroupskip
+\glsgroupheading{Q}\relax \glsresetentrylist %
+\glossaryentryfield{qos}{\glsnamefont{QoS}}{Quality of Service, Qualité de service}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{6}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{14}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{30}}}\glsgroupskip
 \glsgroupheading{R}\relax \glsresetentrylist %
 \glossaryentryfield{rtfm}{\glsnamefont{RTFM}}{Read the f\dots manual}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{30}}}\glsgroupskip
