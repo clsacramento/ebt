@@ -48,15 +48,15 @@
 
 % Création de la nouvelle commande \gls
 \renewcommand{\gls}[1]{%
-\textbf{ \Oldgls{#1}} 
+\textbf{\Oldgls{#1}}
 }
 % Création de la nouvelle commande \gls
 \renewcommand{\glslink}[2]{%
-\textbf{ \Oldglslink{#1}{#2}} 
+\textbf{\Oldglslink{#1}{#2}}
 }
 % Création de la nouvelle commande \gls
 \renewcommand{\glspl}[1]{%
-\textbf{ \Oldglspl{#1}} 
+\textbf{\Oldglspl{#1}}
 }
 
 \newacronym{rtfm}{RTFM}{Read the f\dots manual}
@@ -119,6 +119,27 @@
   D'après Dosi \cite{newparadigm}, quand un nouveau paradigme technologique apparaît, il représente une discontinuité ou un changement de la manière de penser. Ce changement apporté par le paradigme est souvent lié à une sorte d'innovation radicale qui applique une nouvelle technologie. Dans ce document, le terme paradigme sera employé dans ce sens d'innovation et application de nouvelle technologie.   }
 }
 
+\newglossaryentry{scalability}
+{
+  name=Scalabilité,
+  text=scalabilité,
+  description={ Terme provenant de l'anglicisme \textit{scalability}qui exprime la capacité d'être mis à échelle. En informatique cela désigne la capacité d'un système, d'un réseau ou un processus de gérer l'augmentation ou la réduction de la charge de manière à pouvoir l'accommoder. \cite{scalability}. Le terme est souvent employé tant que extensibilité, évolutivité ou passage à l'échelle, mais il n'y <<a pas d'équivalent communément admis en français >>. \cite{chevance2001serveurs}  }
+}
+
+%n'a pas d'équivalent communément admis en français
+
+
+\newglossaryentry{abstraction}
+{
+  name=Abstraction,
+  text=abstraction,
+  description={  Dans l'informatique, l'abstraction est un terme souvent employé pour désigner le mécanisme et la pratique qui réduit et factorise les détails négligeables de l'idée exprimée pour que l'on puisse focaliser sur moins de concepts à la fois.
+     On voit aussi l'idée de couches d'abstraction utilisée comme un moyen pour gérer la complexité des systèmes informatiques où les couches correspondent à des niveaux de détails appliqués. \cite{AbstractionCS}
+  }
+}
+
+
+%Scalability is the ability of a system, network, or process to handle a growing amount of work in a capable manner or its ability to be enlarged to accommodate that growth.
 
 \newglossaryentry{bigdata}
 {

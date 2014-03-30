@@ -1682,6 +1682,74 @@
       \field{title}{Cisco Application Centric Infrastructure}
       \field{year}{2014}
     \endentry
+    \entry{scalability}{inproceedings}{}
+      \name{labelname}{1}{}{%
+        {{hash=7050168bf92df675e289983578c51928}{Bondi}{B\bibinitperiod}{André\bibnamedelima B.}{A\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=7050168bf92df675e289983578c51928}{Bondi}{B\bibinitperiod}{André\bibnamedelima B.}{A\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Ottawa, Ontario, Canada}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{7050168bf92df675e289983578c51928}
+      \strng{fullhash}{7050168bf92df675e289983578c51928}
+      \field{sortinit}{0}
+      \field{labeltitle}{Characteristics of Scalability and Their Impact on Performance}
+      \field{booktitle}{Proceedings of the 2Nd International Workshop on Software and Performance}
+      \field{isbn}{1-58113-195-X}
+      \field{series}{WOSP '00}
+      \field{title}{Characteristics of Scalability and Their Impact on Performance}
+      \field{year}{2000}
+      \field{pages}{195\bibrangedash 203}
+      \verb{doi}
+      \verb 10.1145/350391.350432
+      \endverb
+      \verb{url}
+      \verb http://doi.acm.org/10.1145/350391.350432
+      \endverb
+      \keyw{load scalability, performance, structural and space scalability}
+    \endentry
+    \entry{chevance2001serveurs}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=112f477dd9197a3f546a06039b68053d}{CHEVANCE}{C\bibinitperiod}{René\bibnamedelima J}{R\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=112f477dd9197a3f546a06039b68053d}{CHEVANCE}{C\bibinitperiod}{René\bibnamedelima J}{R\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Techniques de l'ingénieur}%
+      }
+      \strng{namehash}{112f477dd9197a3f546a06039b68053d}
+      \strng{fullhash}{112f477dd9197a3f546a06039b68053d}
+      \field{sortinit}{0}
+      \field{labeltitle}{Serveurs multiprocesseurs et SGBD parallélisés}
+      \field{journaltitle}{Techniques de l'ingénieur. Informatique}
+      \field{number}{H2068}
+      \field{title}{Serveurs multiprocesseurs et SGBD parallélisés}
+      \field{year}{2001}
+      \field{pages}{H2068\bibrangedash 1}
+    \endentry
+    \entry{AbstractionCS}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=a51045d320f623866a9c2a67cbf1ee82}{Keller}{K\bibinitperiod}{Robert\bibnamedelima M.}{R\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=a51045d320f623866a9c2a67cbf1ee82}{Keller}{K\bibinitperiod}{Robert\bibnamedelima M.}{R\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{a51045d320f623866a9c2a67cbf1ee82}
+      \strng{fullhash}{a51045d320f623866a9c2a67cbf1ee82}
+      \field{sortinit}{0}
+      \field{labeltitle}{Computer Science: Abstraction to Implementation, Section 1.1 The Purpose of Abstraction}
+      \field{howpublished}{Article}
+      \field{month}{09}
+      \field{note}{Harvey Mudd College}
+      \field{title}{Computer Science: Abstraction to Implementation, Section 1.1 The Purpose of Abstraction}
+      \field{year}{2001}
+    \endentry
   \endsortlist
 \endrefsection
 \endinput

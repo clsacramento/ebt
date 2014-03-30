@@ -2019,17 +2019,20 @@
     <bcf:citekey order="92">BigSwitchLaunchesFirst</bcf:citekey>
     <bcf:citekey order="93">BigSwitchAnnouncement</bcf:citekey>
     <bcf:citekey order="0">*</bcf:citekey>
-    <bcf:citekey order="94">IMBigData</bcf:citekey>
-    <bcf:citekey order="95">fabricExtending</bcf:citekey>
-    <bcf:citekey order="96">InternetEvolutionRoleSoftwareEngineeringRealInternet</bcf:citekey>
-    <bcf:citekey order="97">OpenDaylight</bcf:citekey>
-    <bcf:citekey order="98">OpenSource</bcf:citekey>
-    <bcf:citekey order="99">SurveySDNArchi</bcf:citekey>
-    <bcf:citekey order="100">OpenFlowStanfordSwitch</bcf:citekey>
-    <bcf:citekey order="101">paradigmdef</bcf:citekey>
-    <bcf:citekey order="102">newparadigm</bcf:citekey>
-    <bcf:citekey order="103">sdnbookControlDataPlanes</bcf:citekey>
+    <bcf:citekey order="94">AbstractionCS</bcf:citekey>
+    <bcf:citekey order="95">IMBigData</bcf:citekey>
+    <bcf:citekey order="96">fabricExtending</bcf:citekey>
+    <bcf:citekey order="97">InternetEvolutionRoleSoftwareEngineeringRealInternet</bcf:citekey>
+    <bcf:citekey order="98">OpenDaylight</bcf:citekey>
+    <bcf:citekey order="99">OpenSource</bcf:citekey>
+    <bcf:citekey order="100">SurveySDNArchi</bcf:citekey>
+    <bcf:citekey order="101">OpenFlowStanfordSwitch</bcf:citekey>
+    <bcf:citekey order="102">paradigmdef</bcf:citekey>
+    <bcf:citekey order="103">newparadigm</bcf:citekey>
     <bcf:citekey order="104">sdnbookControlDataPlanes</bcf:citekey>
+    <bcf:citekey order="105">sdnbookControlDataPlanes</bcf:citekey>
+    <bcf:citekey order="106">scalability</bcf:citekey>
+    <bcf:citekey order="107">chevance2001serveurs</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" type="entry" label="none">
   <bcf:sorting>

@@ -1,7 +1,7 @@
 This is makeindex, version 2.15 [TeX Live 2013] (kpathsea + Thai support).
 Scanning style file ./ebt.ist.............................done (29 attributes redefined, 0 ignored).
-Scanning input file ebt.glo....done (48 entries accepted, 0 rejected).
-Sorting entries....done (283 comparisons).
-Generating output file ebt.gls....done (61 lines written, 0 warnings).
+Scanning input file ebt.glo....done (53 entries accepted, 0 rejected).
+Sorting entries....done (329 comparisons).
+Generating output file ebt.gls....done (70 lines written, 0 warnings).
 Output written in ebt.gls.
 Transcript written in ebt.glg.
