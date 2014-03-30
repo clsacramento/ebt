@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.24)  30 MAR 2014 10:12
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.24)  30 MAR 2014 12:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1445,7 +1445,13 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [12
 
-] [13 <./images/DataCenterL2Bridging.png>] [14]) [15]
+] [13 <./images/DataCenterL2Bridging.png>]
+Overfull \hbox (8.42497pt too wide) in paragraph at lines 126--132
+[]\T1/lmr/m/n/12 Avec SDN, le tra-fic WAN peut être aussi dy-na-mi-que-ment re-
+routé pour ré-duire/contrôler
+ []
+
+[14]) [15]
 \openout2 = `chap5.aux'.
 
  (./chap5.tex [16
@@ -1632,7 +1638,7 @@ ive/2013/texmf-dist/fonts/type1/public/lm/lmro12.pfb></usr/local/texlive/2013/t
 exmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2013/texmf-dis
 t/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
 pe1/public/lm/lmtt12.pfb>
-Output written on ebt.pdf (46 pages, 1092305 bytes).
+Output written on ebt.pdf (46 pages, 1092319 bytes).
 PDF statistics:
  815 PDF objects out of 1000 (max. 8388607)
  726 compressed objects within 8 object streams
