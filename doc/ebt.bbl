@@ -799,6 +799,27 @@
       \field{title}{The 2013 Guide to Network Virtualization and SDN}
       \field{year}{2013}
     \endentry
+    \entry{SDNNFVWAN}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=094cfa10fce5f8648b4056c307794315}{Sterling\bibnamedelima Perrin}{S\bibinitperiod\bibinitdelim P\bibinitperiod}{Stan\bibnamedelima Hubbard}{S\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=094cfa10fce5f8648b4056c307794315}{Sterling\bibnamedelima Perrin}{S\bibinitperiod\bibinitdelim P\bibinitperiod}{Stan\bibnamedelima Hubbard}{S\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{2}{%
+        {Heavy Reading on behalf of HP, Intel}%
+        {Wind River}%
+      }
+      \strng{namehash}{094cfa10fce5f8648b4056c307794315}
+      \strng{fullhash}{094cfa10fce5f8648b4056c307794315}
+      \field{sortinit}{0}
+      \field{labeltitle}{Practical Implementation of SDN & NFV in the WAN}
+      \field{howpublished}{White Paper}
+      \field{month}{10}
+      \field{note}{Section SDN & NFV Use Cases for the WAN}
+      \field{title}{Practical Implementation of SDN & NFV in the WAN}
+      \field{year}{2013}
+    \endentry
     \entry{2013GuideSDNNVTable12}{misc}{}
       \list{publisher}{1}{%
         {Webtorials}%
@@ -1350,6 +1371,14 @@
       \field{booktitle}{Technological paradigms and technological trajectories, Research Policy}
       \field{title}{Technological paradigms and technological trajectories, Research Policy}
       \field{year}{1982}
+    \endentry
+    \entry{CloudComputingIntelVisionSpeeding}{misc}{}
+      \field{sortinit}{0}
+      \field{labeltitle}{Intel's Vision of Open Cloud Computing, section Speeding Agility, Reducing Costs, and Accelerating Innovation via Cloud}
+      \field{howpublished}{White Paper}
+      \field{note}{Intel IT Center}
+      \field{title}{Intel's Vision of Open Cloud Computing, section Speeding Agility, Reducing Costs, and Accelerating Innovation via Cloud}
+      \field{year}{2013}
     \endentry
     \entry{ComposingSDN}{inproceedings}{}
       \name{labelname}{5}{}{%
