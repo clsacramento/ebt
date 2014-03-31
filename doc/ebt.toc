@@ -26,7 +26,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.1}Data Center}{12}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Campus et grands r\IeC {\'e}seaux}{13}{section.3.2}
+\contentsline {section}{\numberline {3.2}R\IeC {\'e}seaux d'entreprise et campus}{13}{section.3.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.3}WAN}{14}{section.3.3}
 \defcounter {refsection}{0}\relax 
@@ -42,8 +42,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Conclusion}{23}{chapter*.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliographie}{25}{chapter*.6}
+\contentsline {chapter}{Acronymes}{25}{section*.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Glossaire}{33}{section*.7}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Acronyms}{35}{section*.9}
+\contentsline {chapter}{Glossaire}{27}{section*.8}

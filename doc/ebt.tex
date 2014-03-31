@@ -245,7 +245,7 @@
 
 \frontmatter
 \begin{flushright}
-It is harder to crack a prejudice than an atom.\\
+It is a sad age when it is more difficult to break a prejudice than an atom.\\
 Albert \bsc{Einstein}\\
 \end{flushright}
 
@@ -274,11 +274,15 @@ Albert \bsc{Einstein}\\
 
 \backmatter
 \nocite{*}
-\printbibliography
+%\printbibliography
+
 \printindex
 
 \glsaddall
-\printglossaries
+
+\printglossary[type=acronym,title=Acronymes,toctitle=Acronymes]
+\printglossary[type=main,title=Glossaire,toctitle=Glossaire]
+%\printglossaries
 
 \cleardoublepage
 \includepdf[pages={3-4}]{couverture-ebt.pdf}
