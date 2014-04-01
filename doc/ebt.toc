@@ -8,7 +8,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Probl\IeC {\'e}matique R\IeC {\'e}seau et SDN}{3}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Ossification d'internet face au besoin d'expansion}{3}{section.1.1}
+\contentsline {section}{\numberline {1.1}Ossification d'internet face aux besoins d'expansion}{3}{section.1.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.2}Management R\IeC {\'e}seau : Contraignant et Complexe}{4}{section.1.2}
 \defcounter {refsection}{0}\relax 
