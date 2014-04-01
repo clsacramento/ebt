@@ -5,13 +5,13 @@
 
 %\section{Deuxième section}\label{sec-1-2}
 
-Ce chapitre reprend les problèmes réseaux rencontrés afin de définir les besoins actuels dans le domaine. 
-Une liste de requis pour une architecture réseau idéalement adaptée aux applications actuelles est proposée.
+Ce chapitre reprend le contexte des problèmes réseaux rencontrés afin de définir les besoins actuels dans le domaine. 
+Une liste de pré-requis pour une architecture réseau idéalement adaptée aux applications actuelles est proposée.
 %En connaissant les problèmes de l'architecture en place, la question que se pose est : si on repartait de zéro, comment on le ferrait ?
 
 %\section{Pression pour l'expansion de l'architecture réseau }
 
-\section{Ossification d'internet face aux besoins d'expansion}
+\section{ Internet face aux besoins d'expansion}
 
 
 
@@ -24,20 +24,22 @@ Une liste de requis pour une architecture réseau idéalement adaptée aux appli
 
 À vouloir autoriser et même encourager les utilisateurs à innover sur son architecture, internet s'est fait dépasser par son propre succès. La croissance explosive des utilisateurs, du trafic et des applications a apporté toute une série de problèmes, 
 %L'internet a été créé à une époque où les choses étaient plus simples, avec peu d'intervenants en coopération. Dès qu'il est devenu partie intégrante en plusieurs aspects de la société, diverses réclamations et défaillances sont apparues, 
-tant la saturation des adresses IPv4 disponibles que les menaces aux réseaux locaux privés. 
+comme par exemple la saturation des adresses IPv4 disponibles et les menaces liées à la sécurité des réseaux. 
 
 %One of the main reasons for these security vulnerabilities is that the Internet architecture and its supporting protocols were primarily designed for a benign and trustworthy environment, with little or no consideration for security issues. This assumption is clearly no longer valid for today’s Internet, which connects millions of people, computers, and corporations in a complex web that spans the entire globe.
 \par
-En réponse à ces questions, des \glspl{middlebox} ont été introduites dans l'architecture, par exemple les \glspl{nat} et les Firewalls, mais avec une contrainte : la complexité. Dans ces systèmes, le logiciel est capable d'atteindre n'importe quel objectif sous réserve de devenir excessivement complexe, fragile, incompréhensible et mal jugé. Parce que les coûts de la complexité ont été négligés lors de l'évolution d'internet, les applications en réseau ont été rendues difficiles à concevoir, à mettre en place et à maintenir. \cite{InternetEvolutionRoleSoftwareEngineeringRealInternet}
+En réponse à ces questions, des composants \glspl{middlebox} ont été introduits dans l'architecture, par exemple les \glslink{nat}{NATs} et les pare-feu, en ajoutant ainsi une nouvelle contrainte : la complexité. Dans ces systèmes, le logiciel 
+%est capable d'atteindre n'importe quel objectif sous réserve 
+risque de devenir excessivement complexe, fragile, incompréhensible et mal interprété. Parce que les coûts de la complexité ont été négligés lors de l'évolution d'internet, les applications en réseau ont été rendues difficiles à concevoir, à mettre en place et à maintenir. \cite{InternetEvolutionRoleSoftwareEngineeringRealInternet}
 
-Internet est vu aujourd'hui comme une infrastructure critique de la société, tels que le transport et l'électricité.  Cela provoque une résistance face aux tentatives de nouvelles applications en parallèle à celles en mode de production. 
+Internet est vu aujourd'hui comme une infrastructure critique de la société, tels que le transport et l'électricité.  Cela provoque une résistance face aux tentatives de déploiement de nouvelles applications en parallèle à celles en mode de production. 
 Cette prise de conscience a convaincu la communauté de chercheurs réseau qu'un travail n'est utile que si ses résultats peuvent être facilement adoptés dans l'architecture existante. 
 En essayant de travailler avec cette contrainte, les concepteurs ont réalisé que l'architecture courante rend la résolution de certains problèmes impossible. \cite{OpenFlowStanfordOssification} \cite{SurveySDNIntro}
 
 Actuellement internet doit prendre en compte une énorme base d'équipements et de protocoles installée. Avec le système d'adressage IPv4 ce réseau peut interconnecter jusqu'à quatre milliards d'équipements. Capacité dont la limite est déjà atteinte, fait confirmé par le développement du protocole IPv6 qui a été conçu pour permettre d'augmenter l'espace d'adressage par centaines de milliards de fois. \cite{ICANNIPv6Important} 
 
 
-Les réseaux de communication des données consistent typiquement à des dispositifs utilisateurs finaux, d'hôtes inter-connectés à travers l'infrastructure du réseau. Cette infrastructure est partagée par ces hôtes et elle emploie des éléments de commutation comme switches et routeurs ainsi que des liens de communication pour porter des données entre les hôtes. Les routeurs et les switches sont souvent des systèmes "fermés", avec des limitations et des interfaces de contrôle spécifiques à leurs vendeurs. 
+Les réseaux de communication des données consistent typiquement en des dispositifs utilisateurs finaux, d'hôtes inter-connectés à travers l'infrastructure du réseau. Cette infrastructure est partagée par ces hôtes et elle emploie des éléments de commutation comme switches et routeurs ainsi que des liens de communication pour porter des données entre les hôtes. Les routeurs et les switches sont souvent des systèmes "fermés", avec des limitations et des interfaces de contrôle spécifiques à leurs vendeurs. 
 En raison de ces restrictions, il est assez difficile dans cette infrastructure courante de faire évoluer les protocoles et services existants (déployés en production) et encore plus difficile d'en mettre en place des nouveaux.
 %Par conséquent, une fois déployés et en production, il est assez difficile dans cette infrastructure courante de faire évoluer les protocoles et services existants et encore plus difficiles d'en mettre en place des nouveaux. 
 Internet étant un réseau de réseaux est particulièrement concerné par ce point. \cite{SurveySDNArchi}
@@ -53,11 +55,11 @@ Internet étant un réseau de réseaux est particulièrement concerné par ce po
 
 %The routing table in a typical router now has 300,000 entries, and these must be stored in the fastest, most expensive types of memory to maintain routing speed.
 
-On se rend compte que l'adoption de nouvelles idées dans le domaine des réseaux reste complexe.  Finalement, les ingénieurs comptent sur peu de moyens concrets pour tester de nouveaux protocoles réseau dans une configuration assez réaliste pour assurer et distribuer leurs déploiements. Par conséquent, la majorité des nouvelles idées émises dans le cadre de la recherche en "réseaux informatiques" finissent sans essai et sans test. Ce frein à l'évolution face aux besoins d'expansion des utilisateurs actuels confirme la croyance répandue que l'infrastructure réseau "est en phase d'ossification". \cite{OpenFlowStanfordOssification} 
+L'adoption de nouvelles approches dans le domaine des réseaux reste complexe.  Finalement, les ingénieurs comptent sur peu de moyens concrets pour tester de nouveaux protocoles réseau dans une configuration assez réaliste pour assurer et distribuer leurs déploiements. Par conséquent, la majorité des nouvelles idées émises dans le cadre de la recherche en "réseaux informatiques" finissent sans essai et sans test. Ce frein à l'évolution face aux besoins d'expansion des utilisateurs actuels confirme la croyance répandue que l'infrastructure réseau "est en phase d'ossification". \cite{OpenFlowStanfordOssification} 
 
 %quantifier enorme.
 
-\section{Management Réseau : Contraignant et Complexe}
+\section{Gestion du Réseau : Contraignante et Complexe}
 
 %\subsection*{Brain storming *}
 
@@ -82,8 +84,8 @@ On se rend compte que l'adoption de nouvelles idées dans le domaine des réseau
 
 %\subsection*{Fin brain storming *}
 
-Cette résistance à l'innovation est contradictoire avec la rapide croissance d'internet qui impose une expansion de l'architecture réseau. 
-Le besoin pour des services réseau et pour haut-débit augmente à un taux plus rapide que la disponibilité ou les revenus, comme on peut le visualiser dans la figure \ref{imgPressure}.
+La résistance à l'innovation est contradictoire avec la rapide croissance d'internet qui impose une expansion de l'architecture réseau. 
+Le besoin  des services réseau et de haut-débit augmentent à un taux plus rapide que la disponibilité des moyens, comme on peut le visualiser dans la figure \ref{imgPressure}.
 
 
 \begin{figure}[!h] %on ouvre l'environnement figure

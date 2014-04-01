@@ -8,9 +8,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Probl\IeC {\'e}matique R\IeC {\'e}seau et SDN}{3}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Ossification d'internet face aux besoins d'expansion}{3}{section.1.1}
+\contentsline {section}{\numberline {1.1}Internet face aux besoins d'expansion}{3}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Management R\IeC {\'e}seau : Contraignant et Complexe}{4}{section.1.2}
+\contentsline {section}{\numberline {1.2}Gestion du R\IeC {\'e}seau : Contraignante et Complexe}{4}{section.1.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.3}Un nouveau mod\IeC {\`e}le r\IeC {\'e}seau pour supporter ces \IeC {\'e}volutions}{6}{section.1.3}
 \defcounter {refsection}{0}\relax 
@@ -42,6 +42,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Conclusion}{23}{chapter*.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Acronymes}{25}{section*.6}
+\contentsline {chapter}{Bibliographie}{25}{chapter*.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Glossaire}{27}{section*.8}
+\contentsline {chapter}{Acronymes}{33}{section*.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Glossaire}{35}{section*.9}
