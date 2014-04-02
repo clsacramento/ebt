@@ -813,11 +813,11 @@
       \strng{namehash}{094cfa10fce5f8648b4056c307794315}
       \strng{fullhash}{094cfa10fce5f8648b4056c307794315}
       \field{sortinit}{0}
-      \field{labeltitle}{Practical Implementation of SDN & NFV in the WAN}
+      \field{labeltitle}{Practical Implementation of SDN \& NFV in the WAN}
       \field{howpublished}{White Paper}
       \field{month}{10}
-      \field{note}{Section SDN & NFV Use Cases for the WAN}
-      \field{title}{Practical Implementation of SDN & NFV in the WAN}
+      \field{note}{Section SDN \& NFV Use Cases for the WAN}
+      \field{title}{Practical Implementation of SDN \& NFV in the WAN}
       \field{year}{2013}
     \endentry
     \entry{2013GuideSDNNVTable12}{misc}{}
