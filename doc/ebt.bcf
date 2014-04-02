@@ -2027,19 +2027,22 @@
     <bcf:citekey order="100">AbstractionCS</bcf:citekey>
     <bcf:citekey order="101">IMBigData</bcf:citekey>
     <bcf:citekey order="102">CloudComputingIntelVisionSpeeding</bcf:citekey>
-    <bcf:citekey order="103">fabricExtending</bcf:citekey>
-    <bcf:citekey order="104">InternetEvolutionRoleSoftwareEngineeringRealInternet</bcf:citekey>
-    <bcf:citekey order="105">OpenDaylight</bcf:citekey>
-    <bcf:citekey order="106">OpenSource</bcf:citekey>
-    <bcf:citekey order="107">SurveySDNArchi</bcf:citekey>
-    <bcf:citekey order="108">OpenFlowStanfordSwitch</bcf:citekey>
-    <bcf:citekey order="109">paradigmdef</bcf:citekey>
-    <bcf:citekey order="110">newparadigm</bcf:citekey>
-    <bcf:citekey order="111">sdnbookControlDataPlanes</bcf:citekey>
-    <bcf:citekey order="112">sdnbookControlDataPlanes</bcf:citekey>
-    <bcf:citekey order="113">scalability</bcf:citekey>
-    <bcf:citekey order="114">chevance2001serveurs</bcf:citekey>
-    <bcf:citekey order="115">CloudComputingIntelVisionSpeeding</bcf:citekey>
+    <bcf:citekey order="103">cluster</bcf:citekey>
+    <bcf:citekey order="104">dataCenterDef</bcf:citekey>
+    <bcf:citekey order="105">NetworkFabricSearchSDN</bcf:citekey>
+    <bcf:citekey order="106">fabricExtending</bcf:citekey>
+    <bcf:citekey order="107">InternetEvolutionRoleSoftwareEngineeringRealInternet</bcf:citekey>
+    <bcf:citekey order="108">OpenDaylight</bcf:citekey>
+    <bcf:citekey order="109">OpenSource</bcf:citekey>
+    <bcf:citekey order="110">SurveySDNArchi</bcf:citekey>
+    <bcf:citekey order="111">OpenFlowStanfordSwitch</bcf:citekey>
+    <bcf:citekey order="112">paradigmdef</bcf:citekey>
+    <bcf:citekey order="113">newparadigm</bcf:citekey>
+    <bcf:citekey order="114">sdnbookControlDataPlanes</bcf:citekey>
+    <bcf:citekey order="115">sdnbookControlDataPlanes</bcf:citekey>
+    <bcf:citekey order="116">scalability</bcf:citekey>
+    <bcf:citekey order="117">chevance2001serveurs</bcf:citekey>
+    <bcf:citekey order="118">CloudComputingIntelVisionSpeeding</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" type="entry" label="none">
   <bcf:sorting>

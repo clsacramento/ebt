@@ -1711,6 +1711,23 @@
       \field{title}{Cisco Application Centric Infrastructure}
       \field{year}{2014}
     \endentry
+    \entry{NetworkFabricSearchSDN}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=d6ebb0634de22e70618460d3fc936297}{Rouse}{R\bibinitperiod}{Margaret}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=d6ebb0634de22e70618460d3fc936297}{Rouse}{R\bibinitperiod}{Margaret}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{d6ebb0634de22e70618460d3fc936297}
+      \strng{fullhash}{d6ebb0634de22e70618460d3fc936297}
+      \field{sortinit}{0}
+      \field{labeltitle}{network fabric}
+      \field{howpublished}{Web Site}
+      \field{month}{03}
+      \field{note}{http://searchsdn.techtarget.com/definition/network-fabric}
+      \field{title}{network fabric}
+      \field{year}{2014}
+    \endentry
     \entry{scalability}{inproceedings}{}
       \name{labelname}{1}{}{%
         {{hash=7050168bf92df675e289983578c51928}{Bondi}{B\bibinitperiod}{André\bibnamedelima B.}{A\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
@@ -1778,6 +1795,47 @@
       \field{note}{Harvey Mudd College}
       \field{title}{Computer Science: Abstraction to Implementation, Section 1.1 The Purpose of Abstraction}
       \field{year}{2001}
+    \endentry
+    \entry{dataCenterDef}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=a5157184ed20f573711376452881ad84}{Tschudi}{T\bibinitperiod}{William}{W\bibinitperiod}{}{}{}{}}%
+        {{hash=62e0dc34ca0038adb0bfe9a5a2fb4ba8}{Xu}{X\bibinitperiod}{Tengfang}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=7d7d35f9ebc7a566b1b97db5ae6cc529}{Sartor}{S\bibinitperiod}{Dale}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=dd98cefc2783314a51378d498ec9774b}{Stein}{S\bibinitperiod}{Jay}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=a5157184ed20f573711376452881ad84}{Tschudi}{T\bibinitperiod}{William}{W\bibinitperiod}{}{}{}{}}%
+        {{hash=62e0dc34ca0038adb0bfe9a5a2fb4ba8}{Xu}{X\bibinitperiod}{Tengfang}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=7d7d35f9ebc7a566b1b97db5ae6cc529}{Sartor}{S\bibinitperiod}{Dale}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=dd98cefc2783314a51378d498ec9774b}{Stein}{S\bibinitperiod}{Jay}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{16e76e935eed163b416bf5741e130902}
+      \strng{fullhash}{f6460722626263321edfe30aa01345ac}
+      \field{sortinit}{0}
+      \field{labeltitle}{High-performance data centers: A research roadmap}
+      \field{title}{High-performance data centers: A research roadmap}
+      \field{year}{2004}
+    \endentry
+    \entry{cluster}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=429c23fbaca4dd26e3bee544b43e7397}{Chen}{C\bibinitperiod}{Qingkui}{Q\bibinitperiod}{}{}{}{}}%
+        {{hash=71e226050f533b77aad3b866c1b7ef0a}{Wang}{W\bibinitperiod}{Haifeng}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=f27ec46ccd272a021fd78bdac92dd490}{Wang}{W\bibinitperiod}{Wei}{W\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=429c23fbaca4dd26e3bee544b43e7397}{Chen}{C\bibinitperiod}{Qingkui}{Q\bibinitperiod}{}{}{}{}}%
+        {{hash=71e226050f533b77aad3b866c1b7ef0a}{Wang}{W\bibinitperiod}{Haifeng}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=f27ec46ccd272a021fd78bdac92dd490}{Wang}{W\bibinitperiod}{Wei}{W\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{8d6f29ca856fc52ee93262407e35a886}
+      \strng{fullhash}{8d6f29ca856fc52ee93262407e35a886}
+      \field{sortinit}{0}
+      \field{labeltitle}{Continuance Parallel Computation Grid Composed of Multi-Clusters.}
+      \field{journaltitle}{Journal of Networks}
+      \field{number}{1}
+      \field{title}{Continuance Parallel Computation Grid Composed of Multi-Clusters.}
+      \field{volume}{5}
+      \field{year}{2010}
     \endentry
   \endsortlist
 \endrefsection
