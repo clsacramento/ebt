@@ -5,7 +5,7 @@
 		\setentrycounter[]{page}\glsnumberformat{1}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{25}}}\glsgroupskip
 \glsgroupheading{B}\relax \glsresetentrylist %
-\glossaryentryfield{bigdata}{\glsnamefont{Big Data}}{Big Data est un terme appliqué aux ensembles de données dont la taille (ou le format) est au-delà de la capacité des outils logiciels communs, de les capturer, les gérer et les traiter. Une nouvelle classe de technologies et outils a été développée pour attribuer une valeur commerciale à ces données grâce à une analyse complexe. Le terme est employé en référence à ce type de données ainsi qu'aux technologies utilisées pour les stocker et les traiter. \cite {IMBigData} }{\relax }{\glossaryentrynumbers{\relax 
+\glossaryentryfield{bigdata}{\glsnamefont{Big Data}}{Big Data est un terme appliqué aux ensembles de données dont la taille (ou le format) est au-delà de la capacité des outils logiciels communs, qui ne peuvent plus les capturer, les gérer et les traiter. Une nouvelle classe de technologies et outils a été développée pour attribuer une valeur commerciale à ces données grâce à une analyse complexe. Le terme est employé en référence à ce type de données ainsi qu'aux technologies utilisées pour les stocker et les traiter. \cite {IMBigData} }{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{1}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{25}}}\glsgroupskip
 \glsgroupheading{C}\relax \glsresetentrylist %
@@ -24,7 +24,7 @@
 		\setentrycounter[]{page}\glsnumberformat{19\delimN 20}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{25}}}\glsgroupskip
 \glsgroupheading{F}\relax \glsresetentrylist %
-\glossaryentryfield{fabric}{\glsnamefont{Fabric}}{ En informatique, fabric (qui signifie tissu en anglais) est un synonyme de plate-forme ou structure. En général, le terme fabric décrit la façon dont différents composants travaillent ensemble pour former une entité unique. Dans ces systèmes la liaison entre les composants est tellement dense qu'un schéma représentant leurs relations rassemblerait à une pièce de tissu tricotée. Sous ce terme généralement admis par l'industrie réseau, un fabric est une topologie réseau dans laquelle les composants transmettent des données un à l'autre à travers les switches d’interconnexion. \cite {NetworkFabricSearchSDN} \cite {fabricExtending}}{\relax }{\glossaryentrynumbers{\relax 
+\glossaryentryfield{fabric}{\glsnamefont{Fabric}}{ En informatique, fabric (qui signifie tissu en anglais) est un synonyme de plate-forme ou structure. En général, le terme fabric décrit la façon dont différents composants travaillent ensemble pour former une entité unique. Dans ces systèmes la liaison entre les composants est tellement dense qu'un schéma représentant leurs relations rassemblerait à une pièce de tissu tricotée. Sous ce terme généralement admis par l'industrie réseau, un fabric est une topologie réseau dans laquelle les composants transmettent des données l'un à l'autre à travers les switches d’interconnexion. \cite {NetworkFabricSearchSDN} \cite {fabricExtending}}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{19}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{21}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{25}}}\glsgroupskip

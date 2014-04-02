@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.24)  2 APR 2014 15:28
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.24)  2 APR 2014 17:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1591,7 +1591,7 @@ inition/network-
 [37] [38
 
 
-] <couverture-ebt.pdf, id=782, page=3, 597.50829pt x 845.0471pt>
+] <couverture-ebt.pdf, id=783, page=3, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 3>
@@ -1616,7 +1616,7 @@ File: couverture-ebt.pdf Graphic file (type pdf)
 Package pdftex.def Info: couverture-ebt.pdf, page3 used on input line 296.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [39 <./couverture-ebt.pdf>]
-<couverture-ebt.pdf, id=788, page=4, 597.50829pt x 845.0471pt>
+<couverture-ebt.pdf, id=789, page=4, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 4>
@@ -1641,15 +1641,6 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 297.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 297.
 Package rerunfilecheck Info: File `ebt.out' has not changed.
 (rerunfilecheck)             Checksum: BE1ADAFC003FE199DD2B7715FF4FF542;1710.
-
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                ebt
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'ebt.run.xml'.
 \openout1 = `ebt.run.xml'.
 
@@ -1657,7 +1648,7 @@ Package logreq Info: Writing requests to 'ebt.run.xml'.
 Here is how much of TeX's memory you used:
  20668 strings out of 493315
  327725 string characters out of 6137904
- 866277 words of memory out of 5000000
+ 866381 words of memory out of 5000000
  23487 multiletter control sequences out of 15000+600000
  46209 words of font info for 37 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -1674,10 +1665,10 @@ ive/2013/texmf-dist/fonts/type1/public/lm/lmro12.pfb></usr/local/texlive/2013/t
 exmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2013/texmf-dis
 t/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
 pe1/public/lm/lmtt12.pfb>
-Output written on ebt.pdf (50 pages, 1320326 bytes).
+Output written on ebt.pdf (50 pages, 1320236 bytes).
 PDF statistics:
- 882 PDF objects out of 1000 (max. 8388607)
- 787 compressed objects within 8 object streams
+ 883 PDF objects out of 1000 (max. 8388607)
+ 788 compressed objects within 8 object streams
  212 named destinations out of 1000 (max. 500000)
  242 words of extra memory for PDF output out of 10000 (max. 10000000)
 
