@@ -60,6 +60,12 @@ Dans le sondage fait par Webtorials, d'autres question ont été posées. Par ex
 
 \section{Data Center}
 
+
+
+%Most networking vendors offer data center fabric solutions featuring some form of Layer 2 multi-pathing to improve the networks capacity to handle “east-west” traffic flow characteristic of server virtualization, converged storage networking, and cluster computing. SDN provides an effective solution to this problem because the network path is determined by a central controller and does not require the use of STP. Thus, all inter-switch links can be fully utilized and traffic can be directed between multiple LANs without the need for first routing the traffic to higher-level switches.
+
+
+
 \textbf{\glspl{vlan}} :
 
 SDN peut facilement fournir aux utilisateurs leurs propres réseaux isolés, comme les VLANs. L'approche la plus simple est de déclarer statiquement les ensembles de flux qui spécifient les ports accessibles par un VLAN ID donné. Le trafic identifié venant d'un type d'utilisateur (à l'origine d'un port du switch ou d'une adresse MAC spécifiés) est marqué dans le VLAN ID approprié. Une approche plus dynamique pourrait utiliser le contrôleur pour gérer l'authentification des utilisateurs et utiliser les informations sur leur localisation pour marquer le trafic à la volée. \cite{OpenFlowStanfordUsing} 
@@ -68,21 +74,6 @@ SDN peut facilement fournir aux utilisateurs leurs propres réseaux isolés, com
 
 
 
-%Most networking vendors offer data center fabric solutions featuring some form of Layer 2 multi-pathing to improve the networks capacity to handle “east-west” traffic flow characteristic of server virtualization, converged storage networking, and cluster computing. SDN provides an effective solution to this problem because the network path is determined by a central controller and does not require the use of STP. Thus, all inter-switch links can be fully utilized and traffic can be directed between multiple LANs without the need for first routing the traffic to higher-level switches.
-
-
-
-\textbf{Raccordement réseau de deux data centers} : 
-
-SDN permet de relier des réseaux au niveau de la couche 2 à travers de multiples data centers, les connectant comme s'ils étaient dans un seul réseau. Avec cette fonctionnalité, les architectes d'applications peuvent par exemple placer leurs "compute clusters" plus près de leur point d'usage et supporter une récupération efficace après incident. \cite{ODCAusageScenarios}
-%Data Center L2 Network Bridging. SDN enables bridging of Layer 2 networks across multiple data centers, providing a single overlay network. With this capability, application architects can place compute clusters closer to their point of usage and support effective disaster recovery.
-
-\begin{figure}[!h] %on ouvre l'environnement figure
-\includegraphics[width=15cm]{images/DataCenterL2Bridging.png} %ou image.png, .jpeg etc.
-\caption{ Raccordement réseau de deux Data Centers \cite{ODCAusageScenarios}} %la légende
-\label{imgDCL2B} %l'étiquette pour faire référence à cette image
-\end{figure} %on ferme l'environnement figure
-
 \textbf{Répartition de charge et sécurité} : 
 
 FlowScale est une application basée sur OpenFlow qui fournit la répartition de charge du trafic réseau en utilisant le switch OpenFlow. L'application a été utilisée dans un système \gls{ids} pour distribuer uniformément le trafic  aux capteurs. Lorsqu'il sera complètement déployé, le système sera capable de distribuer le trafic à de taux dépassant 500Gb/s.  \cite{FlowScale}
@@ -90,6 +81,8 @@ FlowScale est une application basée sur OpenFlow qui fournit la répartition de
 
 %\bf{Monitoring Réseau}. Avec SDN, la redirection de flux réseau peut être programmée, permettant de surveiller le trafic sélectionne sans le rediriger physiquement.  
 %Network Taps. With OpenFlow virtual ports, the functionality of a network tap can be programmed into the OpenFlow switch, allowing selected traffic to be monitored without deploying physical taps. Traffic can also be replicated and redirected to any monitoring device in the network. Big Switch networks has announced such a network monitoring application referred to as Big Tap 16.
+
+
 
 \textbf{Economie d'énergie} : 
 
@@ -104,6 +97,19 @@ ElasticTree est un gestionnaire d'énergie pour le réseau. Le projet utilise SD
 Dans les offres \gls{iaas}, les utilisateurs ont une vision et un contrôle du réseau  limités. Les technologies SDN peuvent faciliter la délégation du contrôle du réseau et fournir certains niveaux d'abstraction aux utilisateur finaux, leur permettant de configurer leur partie de réseau. De plus, les offres \gls{cloudcomputing} basées sur SDN pourront fournir des services de bande passante sous demande, avec un approvisionnement automatisé et intelligent, dirigés par une logique d'orchestration cloud et par les besoins des clients. \cite{AdoptionResearchTrendsCloud}
 
 %Offering Infrastructure as a Service (IaaS), users only get a logical view of the underlying network and have limited control. SDN technologies have the capabilities to facilitate delegation of network controls and provide some level of network abstractions to end-users to enable them to configure their slice of the network. Delegating more control to the end-users could raise security concerns for the providers [Azodolmolky13]. SDN-based clouds will allow enterprises to have multi-vendor networks to avoid vendor lock-in. They can access dynamic bandwidth for ad- hoc, timely inter-data center workload migration and processing; and eliminate the burden of underutilized, costly high-capacity fixed private leased lines. SDN-enabled bandwidth-on-demand services provide automated and intelligent service provisioning, driven by cloud service orchestration logic and customer requirements.
+
+
+
+\textbf{Raccordement réseau de deux data centers} : 
+
+SDN permet de relier des réseaux au niveau de la couche 2 à travers de multiples data centers, les connectant comme s'ils étaient dans un seul réseau. Avec cette fonctionnalité, les architectes d'applications peuvent par exemple placer leurs "compute clusters" plus près de leur point d'usage et supporter une récupération efficace après incident. \cite{ODCAusageScenarios} L'image \ref{imgDCL2B} illustre ce raccordement.
+%Data Center L2 Network Bridging. SDN enables bridging of Layer 2 networks across multiple data centers, providing a single overlay network. With this capability, application architects can place compute clusters closer to their point of usage and support effective disaster recovery.
+
+\begin{figure}[!h] %on ouvre l'environnement figure
+\includegraphics[width=15cm]{images/DataCenterL2Bridging.png} %ou image.png, .jpeg etc.
+\caption{ Raccordement réseau de deux Data Centers \cite{ODCAusageScenarios}} %la légende
+\label{imgDCL2B} %l'étiquette pour faire référence à cette image
+\end{figure} %on ferme l'environnement figure
 
 Les applications sur l'automatisation de services réseaux dans les data centers sont les plus attendues. Par conséquent,  elles seront les plus représentées sur le marché, ce qu'il sera développé dans le prochain chapitre.
 
@@ -149,7 +155,18 @@ La mesure des flux en temps réel permettrait de limiter le débit ou de modifie
 La récupération des liens échoués peut être atteinte avec la sélection dynamique de chemins, tenant compte des mesures de performance, des états de ports et des niveaux d'utilisations par les nœuds.
 %With extensions in V1.3 and V1.4, OpenFlow can support circuit-switched paradigms, including CWDM, DWDM, and MPLS with specific path selection and requested levels of CBR and priority. Circuits can be provisioned on a dynamic, scheduled, or permanent basis. Recovery from failed circuits can be via predetermined backup paths or by dynamic path selection. Circuit provisioning can take into account performance metrics, port states, and endpoint utilization.
 
-Un exemple pratique d'une application réelle de SDN a été présentée par Google. L'entreprise a présenté dans la conférence "Open Network Summit" \cite{googleONS} une implémentation à grande échelle d'un réseau SDN connectant des \glspl{datacenter} partout dans le monde. Le travail, intitulé B4 \cite{SDNWANB4}, présente en détails la conception, l'implémentation et l'évaluation de ce réseau connectant les \glspl{datacenter} Google géographiquement distribués. Le travail décrit un des premiers et plus grands déploiements SDN. Sa motivation a été le besoin pour des routes et l'ingénierie de trafic personnalisées ainsi que le haut niveau de \gls{scalability}, tolérance aux failles, rentabilité et contrôle requis et ne pouvant pas être accomplis avec l'architecture WAN traditionnelle. La solution a proposé une architecture SDN basée sur OpenFlow construite pour contrôler des switches particuliers. Après trois ans en production, B4 se montre efficace dans le sens qu'il dirige des nombreux liens avec une utilisation à près de 100\% et en même temps partageant les flux sur des multiples chemins. \cite{SurveySDNApplications}
+Un exemple pratique d'une application réelle de SDN a été présentée par Google. L'entreprise a présenté dans la conférence "Open Network Summit" \cite{googleONS} une implémentation à grande échelle d'un réseau SDN connectant des \glspl{datacenter} partout dans le monde. Le travail, intitulé B4 \cite{SDNWANB4}, présente en détails la conception, l'implémentation et l'évaluation de ce réseau connectant les \glspl{datacenter} Google géographiquement distribués. 
+%L'image \ref{GoogleOpenFlowWAN} visualise le déploiement modial de B4. 
+Le travail décrit un des premiers et plus grands déploiements SDN. Sa motivation a été le besoin pour des routes et l'ingénierie de trafic personnalisées ainsi que le haut niveau de \gls{scalability}, tolérance aux failles, rentabilité et contrôle requis et ne pouvant pas être accomplis avec l'architecture WAN traditionnelle. La solution a proposé une architecture SDN basée sur OpenFlow construite pour contrôler des switches particuliers. Après trois ans en production, B4 se montre efficace dans le sens qu'il dirige des nombreux liens avec une utilisation à près de 100\% et en même temps partageant les flux sur des multiples chemins. \cite{SurveySDNApplications}
+
+
+\begin{figure}[!h] %on ouvre l'environnement figure
+\centering
+\includegraphics[width=13cm]{images/GoogleOpenFlowWAN.jpg} %ou image.png, .jpeg etc.
+\caption{ Déploiement mondial de B4 en 2011 \cite{SDNWANB4}} %la légende
+\label{GoogleOpenFlowWAN} %l'étiquette pour faire référence à cette image
+\end{figure} %on ferme l'environnement figure
+
 
 
 Dans le cadre des réseaux WAN, les cas d'utilisations SDN se complètent avec ceux de \gls{nfv}. NFV, comme SDN, propose aussi une architecture réseau visant plutôt des opérateur/fournisseurs de services réseau. NFV a un rôle sur certaines applications SDN, et vice versa. \cite{SDNNFVWAN} L'approfondissement sur la problématique WAN pourrait donc être complété par un examen de l'architecture NFV, mais cet aspect ne sera pas traité dans cette étude.

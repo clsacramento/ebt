@@ -880,15 +880,6 @@
       \endverb
       \keyw{ethernet switch, flow-based, virtualization}
     \endentry
-    \entry{ODCAusageScenarios}{misc}{}
-      \field{sortinit}{0}
-      \field{labeltitle}{OPEN DATA CENTER ALLIANCE Master USAGE MODEL: Software-Defined Networking Rev. 1.0}
-      \field{howpublished}{White Paper}
-      \field{note}{Section Usage Scenarios}
-      \field{title}{OPEN DATA CENTER ALLIANCE Master USAGE MODEL: Software-Defined Networking Rev. 1.0}
-      \field{year}{2013}
-      \warn{\item Name "Vishy Ganti Verizon, Vince Lubsey Virtustream, Mrigank Shekhar Intel, Chris Swan, CohesiveFT" has too many commas: skipping name}
-    \endentry
     \entry{FlowScale}{misc}{}
       \name{labelname}{1}{}{%
         {{hash=6669a4748e0dc875c394a0650845d5ec}{Keith\bibnamedelima Lehigh}{K\bibinitperiod\bibinitdelim L\bibinitperiod}{InCNTRE\bibnamedelimb Indiana\bibnamedelima University}{I\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim U\bibinitperiod}{}{}{Information\bibnamedelimb Security\bibnamedelimb Office\bibnamedelimb Indiana\bibnamedelimb University;\bibnamedelimb Ali\bibnamedelima Khalfan}{I\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim O\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim U\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim K\bibinitperiod}}%
@@ -961,6 +952,15 @@
       \field{note}{Section 3 SDN and cloud computing}
       \field{title}{SDN: Development, Adoption and Research Trends : A Survey of Research Issues in SDN}
       \field{year}{2013}
+    \endentry
+    \entry{ODCAusageScenarios}{misc}{}
+      \field{sortinit}{0}
+      \field{labeltitle}{OPEN DATA CENTER ALLIANCE Master USAGE MODEL: Software-Defined Networking Rev. 1.0}
+      \field{howpublished}{White Paper}
+      \field{note}{Section Usage Scenarios}
+      \field{title}{OPEN DATA CENTER ALLIANCE Master USAGE MODEL: Software-Defined Networking Rev. 1.0}
+      \field{year}{2013}
+      \warn{\item Name "Vishy Ganti Verizon, Vince Lubsey Virtustream, Mrigank Shekhar Intel, Chris Swan, CohesiveFT" has too many commas: skipping name}
     \endentry
     \entry{googleONS}{misc}{}
       \name{labelname}{1}{}{%

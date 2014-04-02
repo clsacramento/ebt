@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.24)  2 APR 2014 02:21
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.24)  2 APR 2014 02:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1199,16 +1199,16 @@ ng name.
 
 
 Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Elastictree':
+(biblatex)                - Name "B. Heller, S. Seetharaman, P. Mahadevan, Y. Y
+iakoumis, P. Sharma, S. Banerjee," has too many commas: skipping name.
+
+
+Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'ODCAusageScenarios':
 (biblatex)                - Name "Vishy Ganti Verizon, Vince Lubsey Virtustream
 , Mrigank Shekhar Intel, Chris Swan, CohesiveFT" has too many commas: skipping 
 name.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'Elastictree':
-(biblatex)                - Name "B. Heller, S. Seetharaman, P. Mahadevan, Y. Y
-iakoumis, P. Sharma, S. Banerjee," has too many commas: skipping name.
 
 
 Package biblatex Warning: Biber reported the following issues
@@ -1387,7 +1387,7 @@ Chapitre 1.
 
 
 ]
-<images/IncreasingPressureOnNetworkInfra2.png, id=283, 437.38406pt x 441.14813p
+<images/IncreasingPressureOnNetworkInfra2.png, id=287, 437.38406pt x 441.14813p
 t>
 File: images/IncreasingPressureOnNetworkInfra2.png Graphic file (type png)
  <use images/IncreasingPressureOnNetworkInfra2.png>
@@ -1416,7 +1416,7 @@ Overfull \hbox (9.10292pt too wide) in paragraph at lines 24--25
 
 
 
-] <images/TraditionalVsSDN.png, id=355, 691.83469pt x 471.26062pt>
+] <images/TraditionalVsSDN.png, id=359, 691.83469pt x 471.26062pt>
 File: images/TraditionalVsSDN.png Graphic file (type png)
 
 <use images/TraditionalVsSDN.png>
@@ -1437,36 +1437,39 @@ Chapitre 3.
 
 
 
-] <images/DataCenterL2Bridging.png, id=426, 1035.87pt x 547.04375pt>
+] [12
+
+] <images/DataCenterL2Bridging.png, id=455, 1035.87pt x 547.04375pt>
 File: images/DataCenterL2Bridging.png Graphic file (type png)
 
 <use images/DataCenterL2Bridging.png>
-Package pdftex.def Info: images/DataCenterL2Bridging.png used on input line 81.
-
+Package pdftex.def Info: images/DataCenterL2Bridging.png used on input line 109
+.
 (pdftex.def)             Requested size: 426.79134pt x 225.3912pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[12
-
-] [13 <./images/DataCenterL2Bridging.png>]
-Overfull \hbox (8.42497pt too wide) in paragraph at lines 145--151
+ [13 <./images/DataCenterL2Bridging.png>]
+Overfull \hbox (8.42497pt too wide) in paragraph at lines 151--157
 []\T1/lmr/m/n/12 Avec SDN, le tra-fic WAN peut être aussi dy-na-mi-que-ment re-
 routé pour ré-duire/contrôler
  []
 
-[14]) [15]
+[14] <images/GoogleOpenFlowWAN.jpg, id=491, 639.38875pt x 286.06876pt>
+File: images/GoogleOpenFlowWAN.jpg Graphic file (type jpg)
+
+<use images/GoogleOpenFlowWAN.jpg>
+Package pdftex.def Info: images/GoogleOpenFlowWAN.jpg used on input line 165.
+(pdftex.def)             Requested size: 369.88582pt x 165.49222pt.
+) [15 <./images/GoogleOpenFlowWAN.jpg>]
 \openout2 = `chap5.aux'.
 
- (./chap5.tex [16
+
+(./chap5.tex [16
 
 
 
 
 ]
 Chapitre 4.
-[17] <images/openflowArchi.jpg, id=528, 602.25pt x 402.50375pt>
+[17] <images/openflowArchi.jpg, id=535, 602.25pt x 402.50375pt>
 File: images/openflowArchi.jpg Graphic file (type jpg)
 
 <use images/openflowArchi.jpg>
@@ -1576,7 +1579,7 @@ No file ebt.ind.
 
 
 ]) [36]
-<couverture-ebt.pdf, id=758, page=3, 597.50829pt x 845.0471pt>
+<couverture-ebt.pdf, id=765, page=3, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 3>
@@ -1604,7 +1607,7 @@ Package pdftex.def Info: couverture-ebt.pdf, page3 used on input line 289.
 
 
  <./couverture-ebt.pdf>]
-<couverture-ebt.pdf, id=763, page=4, 597.50829pt x 845.0471pt>
+<couverture-ebt.pdf, id=770, page=4, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 4>
@@ -1634,10 +1637,10 @@ Package logreq Info: Writing requests to 'ebt.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20593 strings out of 493315
- 326495 string characters out of 6137904
- 862417 words of memory out of 5000000
- 23421 multiletter control sequences out of 15000+600000
+ 20600 strings out of 493315
+ 326676 string characters out of 6137904
+ 862491 words of memory out of 5000000
+ 23426 multiletter control sequences out of 15000+600000
  46209 words of font info for 37 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  57i,18n,51p,1453b,2424s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1653,10 +1656,10 @@ ive/2013/texmf-dist/fonts/type1/public/lm/lmro12.pfb></usr/local/texlive/2013/t
 exmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2013/texmf-dis
 t/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
 pe1/public/lm/lmtt12.pfb>
-Output written on ebt.pdf (48 pages, 1154427 bytes).
+Output written on ebt.pdf (48 pages, 1317942 bytes).
 PDF statistics:
- 855 PDF objects out of 1000 (max. 8388607)
- 764 compressed objects within 8 object streams
- 204 named destinations out of 1000 (max. 500000)
- 237 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 863 PDF objects out of 1000 (max. 8388607)
+ 770 compressed objects within 8 object streams
+ 205 named destinations out of 1000 (max. 500000)
+ 242 words of extra memory for PDF output out of 10000 (max. 10000000)
 
