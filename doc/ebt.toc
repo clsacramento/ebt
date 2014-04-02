@@ -45,3 +45,5 @@
 \contentsline {chapter}{Acronymes}{25}{section*.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Glossaire}{27}{section*.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliographie}{29}{chapter*.10}
