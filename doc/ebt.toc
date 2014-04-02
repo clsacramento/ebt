@@ -36,14 +36,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.2}\IeC {\'E}cosyst\IeC {\`e}me SDN HP, gamme de solutions virtualis\IeC {\'e}es Data Center}{19}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Cisco ONE, hardware programmable}{20}{section.4.3}
+\contentsline {section}{\numberline {4.3}Cisco ONE, \IeC {\'e}quipement programmable}{20}{section.4.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.4}Virtualisation : Big Switch Controller et VMWare NSX}{21}{section.4.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Conclusion}{23}{chapter*.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliographie}{25}{chapter*.6}
+\contentsline {chapter}{Acronymes}{25}{section*.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Acronymes}{33}{section*.7}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Glossaire}{35}{section*.9}
+\contentsline {chapter}{Glossaire}{27}{section*.8}
