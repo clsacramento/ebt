@@ -58,6 +58,7 @@ Internet étant un réseau de réseaux est particulièrement concerné par ce po
 L'adoption de nouvelles approches dans le domaine des réseaux reste complexe.  Finalement, les ingénieurs comptent sur peu de moyens concrets pour tester de nouveaux protocoles réseau dans une configuration assez réaliste pour assurer et distribuer leurs déploiements. Par conséquent, la majorité des nouvelles idées émises dans le cadre de la recherche en "réseaux informatiques" finissent sans essai et sans test. Ce frein à l'évolution face aux besoins d'expansion des utilisateurs actuels confirme la croyance répandue que l'infrastructure réseau "est en phase d'ossification". \cite{OpenFlowStanfordOssification} 
 
 %quantifier enorme.
+%\clearpage
 
 \section{Administration du Réseau : Contraignante et Complexe}
 
@@ -89,10 +90,13 @@ Le besoin  des services réseau à haut-débit augmente à un taux plus rapide q
 
 
 \begin{figure}[!h] %on ouvre l'environnement figure
-\includegraphics[width=15cm]{images/IncreasingPressureOnNetworkInfra2.png} %ou image.png, .jpeg etc.
+\center
+\includegraphics[width=12cm]{images/IncreasingPressureOnNetworkInfra2.png} %ou image.png, .jpeg etc.
 \caption{ Pression croissante sur l'infrastructure réseau \cite{IBMManagingGrowingPainsNeed}} %la légende
 \label{imgPressure} %l'étiquette pour faire référence à cette image
 \end{figure} %on ferme l'environnement figure
+
+
 
 Plus une entreprise dépend d'un nombre croissant de dispositifs et gros volumes de données, plus importante est la demande de débit et d'expansion de l'infrastructure. La complexité de cette expansion des réseaux augmente la probabilité des interruptions de service dues à une faille humaine ou autre problème. Ce fait met en évidence l'importance de la disponibilité, la fiabilité, la performance et la sécurité. L'efficacité et la réduction des coûts deviennent cruciales pour aboutir à la mise en échelle de ces besoins, et c'est à la  gestion réseau d'assumer le rôle primordial dans ce contexte. \cite{IBMManagingGrowingPainsNeed}
  
@@ -109,7 +113,9 @@ La configuration et l'installation du réseau exigent des techniciens experts ha
 
 %\clearpage
 
-Les administrateurs des réseaux d'aujourd'hui rencontrent des problèmes critiques de configuration, d'ingénierie du trafic, de politique de routage et de diagnostic de failles. Leurs outils pour l'analyse du trafic sont faibles et leurs mécanismes pour contrôler les opérations réseau ne facilitent pas la prédictibilité entre les relations de cause-effet. On se rend que les opérations d'administration du réseau  représentent la source la plus importante de l'augmentation des coûts opérationnels, des failles d'interruptions. Un changement dans ce domaine est requis pour le design de l'architecture. \cite{NGSIManagement}
+Les administrateurs des réseaux d'aujourd'hui rencontrent des problèmes critiques de configuration, d'ingénierie du trafic, de politique de routage et de diagnostic de failles. Leurs outils pour l'analyse du trafic sont faibles et leurs mécanismes pour contrôler les opérations réseau ne facilitent pas la prédictibilité entre les relations de cause-effet. 
+
+On se rend  compte que les opérations d'administration du réseau  représentent la source la plus importante de l'augmentation des coûts opérationnels, des failles d'interruptions. Un changement dans ce domaine est requis pour le design de l'architecture. \cite{NGSIManagement}
 
 
 \clearpage
@@ -135,7 +141,7 @@ Même si globalement l'architecture réseau d'internet est un succès incontesta
 
 
 
-En résumé, l'infrastructure réseau est confrontée actuellement aux défis suivants :
+En résumé, l'infrastructure réseau est confrontée actuellement aux défis suivants \cite{InernetCleanSlateDesignIntro} :
 \begin{itemize}
 \item La sécurité : le manque de sécurité est assez inquiétant à tous les niveaux : utilisateurs, développeurs, opérateurs de services. Il manque un point central  de traitements des flux pour comme  \gls{ids} et \gls{ips}.
 \item La mobilité : il existe très peu de supports pour la diversité des applications et services mobiles.
@@ -152,7 +158,7 @@ En résumé, l'infrastructure réseau est confrontée actuellement aux défis su
 \item La qualité de service : le moyen d'intégrer différents niveaux de \gls{qos} reste toujours incertain.
 \item L'économique : outre toutes les questions techniques, il reste aussi la question pour les opérateurs de pouvoir continuer à tirer profit de leur activité.
 \end{itemize}
-\cite{InernetCleanSlateDesignIntro}
+
 
 %In the past 30 years the Internet has been very successful using an incremental approach. However due to its success, the commu- nity has now reached a point where people are unwilling or unable to experiment on the current architecture. Therefore, it might be time to explore a clean-slate approach
 L'infrastructure réseau actuelle ne satisfait aucun de ces objectifs. \cite{fabricIntro}  Dans les 30 dernières années, internet a progressé en utilisant une approche incrémentielle pour répondre aux divers challenges rencontrés. Cependant, ce succès a récemment conduit la communauté à un point où les personnes sont peu disposées ou incapables de faire évoluer cette architecture. C'est pour cette raison  qu'il est peut être temps d'explorer une nouvelle approche. \cite{InernetCleanSlateDesignApproach}

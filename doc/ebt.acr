@@ -52,7 +52,6 @@
 		\setentrycounter[]{page}\glsnumberformat{3}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{25}}}%
 \glossaryentryfield{nfv}{\glsnamefont{NFV}}{Network Functions Virtualization, Virtualisation des fonctions réseau}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{15}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{25}}}%
 \glossaryentryfield{nos}{\glsnamefont{NOS}}{Network Operating System, Système d'exploitation réseau}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{9}\delimN 
